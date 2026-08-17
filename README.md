@@ -22,7 +22,10 @@ Nothing is built yet. Some hardware is in hand — see [`electrical/bom.md`](ele
 | `docs/` | Requirements, test plan, build log, photos, demo videos |
 
 Planning documents: [`docs/requirements.md`](docs/requirements.md) ·
-[`docs/test-plan.md`](docs/test-plan.md) · [`HANDOFF.md`](HANDOFF.md)
+[`docs/test-plan.md`](docs/test-plan.md) ·
+[`docs/cycle-animation.html`](docs/cycle-animation.html) ·
+[`docs/concept-sketches.html`](docs/concept-sketches.html) ·
+[`HANDOFF.md`](HANDOFF.md)
 
 ## Project goals
 
@@ -50,15 +53,15 @@ measured results.
 
 | Phase | Goal | Demonstrable output | Status |
 |---|---|---|---|
-| 1 — Mechanical proof | One pick object, defined pickup and destination poses, one gripper/locating tool, one linear axis, repeatable hard stops | Manual cycle with basic repeatability data | Not started |
+| 1 — Mechanical proof | One pick object, defined pickup and destination poses, one gripper/locating tool, one gantry X axis + short EOAT Z stroke, repeatable hard stops | Manual cycle with basic repeatability data | Not started |
 | 2 — Motion and sensing | Motion controller, home switch, part-present sensor, end-position confirmation | Repeatable automatic pick-and-place cycle | Not started |
 | 3 — PLC supervisory control | PLC owns cycle start, permissives, state sequence, sensor validation, faults, reset, and the handshake; motion controller owns low-level movement | Fault injected, detected, reported, recovered | Not started |
 | 4 — Validation | Measure repeatability, pick rate, cycle time, fault recovery, tolerance sensitivity, payload, gripper retention, sensor robustness | Completed test report | Not started |
 
 ## Scope
 
-**In scope:** one pick object, one pickup pose and one destination pose, one gripper or
-locating tool, one linear axis, repeatable hard stops, home/part-present/end-position
+**In scope:** one pick object (**608ZZ bearing**), one pickup pose and one destination pose, one gripper or
+locating tool, one gantry (X) axis plus a short EOAT Z servo (≥ 15 mm) to clear locators, repeatable hard stops, home/part-present/end-position
 sensing, PLC supervisory control over a motion controller, and measured validation.
 
 **Explicitly out of scope:** multiple part types, a part feeder, vision, and any industrial

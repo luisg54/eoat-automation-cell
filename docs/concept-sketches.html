@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EOAT cell — 3D concept</title>
+  <style>
+    body {
+      margin: 0 auto;
+      max-width: 980px;
+      padding: 28px 20px 64px;
+      font: 16px/1.5 system-ui, sans-serif;
+      color: #1a1a1a;
+      background: #f4f4f2;
+    }
+    h1 { font-size: 1.6rem; margin: 0 0 8px; }
+    h2 { font-size: 1.15rem; margin: 36px 0 10px; }
+    p { color: #333; max-width: 62ch; }
+    figure { margin: 16px 0 8px; background: #fff; border: 1px solid #d8d8d4; }
+    figure img { width: 100%; display: block; }
+    figcaption { padding: 10px 12px 12px; font-size: 13px; color: #555; }
+    ol { padding-left: 1.2em; max-width: 62ch; }
+    li { margin: 6px 0; }
+    .muted { color: #666; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>EOAT cell — 3D concept</h1>
+  <p><a href="cycle-animation.html"><strong>Open the animated full-stack cycle</strong></a> (Play / Pause / scrub). Stills below.</p>
+  <p>The pick object is a <strong>608ZZ donut</strong>. Pickup locates it with a <strong>pin through the hole</strong> plus a rest. Destination locates it with a <strong>shallow cup on the outside</strong>. Jaws only hold. One gantry slides X. A short Z on the tool lifts off the pin before that slide.</p>
+
+  <figure>
+    <img src="eoat-cell-overview.png" alt="Isometric 3D of the bench cell: rail, EOAT, pin nest, pocket nest" />
+    <figcaption>Whole cell. Left nest = pin through the bearing. Right nest = OD pocket. Rail is the only gantry axis.</figcaption>
+  </figure>
+
+  <h2>Cycle</h2>
+  <ol>
+    <li><strong>Located</strong> — donut on the rest, pin through the hole. Nest locates. No gripper yet.</li>
+    <li><strong>Z down, jaws open</strong> — come straight down. Must miss the pin.</li>
+    <li><strong>Close</strong> — grab the outside. Pin still locates.</li>
+    <li><strong>Lift ≥ 15 mm</strong> — donut comes off the stick. Sideways is illegal until this is done.</li>
+    <li><strong>X transfer</strong> — one gantry axis. Bearing in the air.</li>
+    <li><strong>Set in pocket</strong> — lower into the OD cup. No pin.</li>
+    <li><strong>Open, lift, home</strong> — part stays in the cup.</li>
+  </ol>
+
+  <figure>
+    <img src="eoat-cycle-sequence.png" alt="Seven-frame 3D cycle from pin pickup to pocket place" />
+    <figcaption>Same camera, seven frames. If a frame still has the pin in the hole, you cannot slide X yet.</figcaption>
+  </figure>
+
+  <h2>Why the nests are different</h2>
+  <p>If destination were another pin, you would learn almost nothing new. Pickup = hole locating. Destination = outside locating. The part leaves one datum set and enters another.</p>
+
+  <figure>
+    <img src="eoat-nests-compare.png" alt="Close-up: ID pin nest versus OD pocket nest" />
+    <figcaption>Pickup: 1/4&quot; pin, standout ≤ 6 mm inside the 7 mm bearing width. Destination: ~3–4 mm OD pocket.</figcaption>
+  </figure>
+
+  <p class="muted">Locked 2026-08-13. Motion option A. See requirements.md F-08 through F-11.</p>
+</body>
+</html>
