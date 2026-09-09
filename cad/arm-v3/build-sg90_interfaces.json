@@ -1,0 +1,160 @@
+[
+  {
+    "name": "ARM-102_Forearm_and_fixed_jaw",
+    "solid_count": 1,
+    "volume_mm3": 9041.466588391977,
+    "approximate_box_mm": [
+      -13.0,
+      -16.0,
+      -1.6500000000000004,
+      78.0,
+      41.0,
+      8.0
+    ],
+    "features": [
+      "Elbow_horn_flange",
+      "Forearm_web",
+      "Gripper_mount_rib",
+      "Gripper_servo_mount",
+      "Grip_SG90_body_clearance",
+      "Moving_finger_sweep_relief",
+      "Grip_servo_tab_fasteners",
+      "Fixed_finger_spine",
+      "Fixed_finger_root",
+      "Elbow_center_screw_access",
+      "Elbow_dowel_support_hub",
+      "Captured_horn_key_boss",
+      "Key_pocket_Hub",
+      "Key_pocket_Horizontal",
+      "Key_pocket_Vertical",
+      "Key_pocket_Rounded_tips",
+      "Unmodified_horn_capture_M2",
+      "Hub_clearance_in_key_boss_only",
+      "Fixed_pad_keeper_fasteners"
+    ],
+    "files": [
+      "parts\\ARM-102_Forearm_and_fixed_jaw.SLDPRT",
+      "parts\\ARM-102_Forearm_and_fixed_jaw.step",
+      "parts\\ARM-102_Forearm_and_fixed_jaw.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-103_Grip_moving_finger",
+    "solid_count": 1,
+    "volume_mm3": 4124.697571822192,
+    "approximate_box_mm": [
+      -13.000000000000002,
+      -20.0,
+      0.0,
+      27.0,
+      13.000000000000002,
+      18.000000000000004
+    ],
+    "features": [
+      "Stock_horn_attachment",
+      "Finger_arm",
+      "Descending_contact_finger",
+      "Horn_center_access",
+      "Captured_horn_key_boss",
+      "Key_pocket_Hub",
+      "Key_pocket_Horizontal",
+      "Key_pocket_Vertical",
+      "Key_pocket_Rounded_tips",
+      "Unmodified_horn_capture_M2",
+      "Hub_clearance_in_key_boss_only",
+      "Contact_pad_keeper"
+    ],
+    "files": [
+      "parts\\ARM-103_Grip_moving_finger.SLDPRT",
+      "parts\\ARM-103_Grip_moving_finger.step",
+      "parts\\ARM-103_Grip_moving_finger.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-003_Yaw_D_drive_collar",
+    "solid_count": 1,
+    "volume_mm3": 2310.914754743598,
+    "approximate_box_mm": [
+      -13.0,
+      39.35,
+      -13.0,
+      13.0,
+      48.0,
+      13.0
+    ],
+    "features": [
+      "Stock_horn_drive_flange",
+      "D_coupling_ring",
+      "D_key_land",
+      "Captured_horn_key_boss",
+      "Key_pocket_Hub",
+      "Key_pocket_Horizontal",
+      "Key_pocket_Vertical",
+      "Key_pocket_Rounded_tips",
+      "Unmodified_horn_capture_M2",
+      "Hub_clearance_in_key_boss_only",
+      "Yaw_positive_retention_crossbolt",
+      "Crossbolt_flat_seat_cut_-12",
+      "Crossbolt_flat_seat_cut_6"
+    ],
+    "files": [
+      "parts\\ARM-003_Yaw_D_drive_collar.SLDPRT",
+      "parts\\ARM-003_Yaw_D_drive_collar.step",
+      "parts\\ARM-003_Yaw_D_drive_collar.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "HW-005_SG90_COMPACT_CROSS_REFERENCE",
+    "solid_count": 1,
+    "volume_mm3": 183.67868108200568,
+    "approximate_box_mm": [
+      -10.15,
+      -10.15,
+      -1.0,
+      10.15,
+      10.15,
+      1.5000000000000013
+    ],
+    "features": [
+      "Compact_horn_center_OD6p9",
+      "Horizontal_blades_assumed_width4",
+      "Vertical_blades_assumed_width4",
+      "Rounded_tips_span20p3",
+      "Hub_total_height2p5",
+      "Purchased_spline_internals_omitted",
+      "Unmodified_stock_pilot_holes"
+    ],
+    "files": [
+      "hardware-reference\\HW-005_SG90_COMPACT_CROSS_REFERENCE.SLDPRT",
+      "hardware-reference\\HW-005_SG90_COMPACT_CROSS_REFERENCE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-112_SG90_horn_capture_cap",
+    "solid_count": 1,
+    "volume_mm3": 914.5097674783549,
+    "approximate_box_mm": [
+      -13.0,
+      -13.0,
+      0.0,
+      13.0,
+      13.0,
+      2.0000000000000018
+    ],
+    "features": [
+      "Cap_OD26_ID8_thickness2",
+      "Four_M2_capture_holes",
+      "Head_recess_depth0p35"
+    ],
+    "files": [
+      "parts\\ARM-112_SG90_horn_capture_cap.SLDPRT",
+      "parts\\ARM-112_SG90_horn_capture_cap.step",
+      "parts\\ARM-112_SG90_horn_capture_cap.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

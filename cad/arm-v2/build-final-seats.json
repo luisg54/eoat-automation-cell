@@ -1,0 +1,126 @@
+[
+  {
+    "name": "ARM-101_Upper_link_60mm_MG996_SG90",
+    "solid_count": 1,
+    "volume_mm3": 9217.063582958866,
+    "approximate_box_mm": [
+      -16.0,
+      -16.0,
+      0.0,
+      90.0,
+      16.0,
+      8.0
+    ],
+    "features": [
+      "Main_web",
+      "Shoulder_horn_flange",
+      "Elbow_servo_mount",
+      "SG90_body_clearance",
+      "Elbow_tab_fasteners",
+      "Shoulder_center_screw_access",
+      "Shoulder_horn_bolt_pattern",
+      "Cable_tie_holes",
+      "Passive_lower_mount_boss",
+      "Passive_upper_mount_boss",
+      "Passive_cheek_standoffs",
+      "Shoulder_dowel_support_hub",
+      "Shoulder_horn_washer_hub_relief"
+    ],
+    "files": [
+      "parts\\ARM-101_Upper_link_60mm_MG996_SG90.SLDPRT",
+      "parts\\ARM-101_Upper_link_60mm_MG996_SG90.step",
+      "parts\\ARM-101_Upper_link_60mm_MG996_SG90.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-109_Bearing_and_dowel_keeper",
+    "solid_count": 1,
+    "volume_mm3": 3052.767262902194,
+    "approximate_box_mm": [
+      -17.0,
+      -17.0,
+      -0.2000000000000005,
+      17.0,
+      17.0,
+      12.0
+    ],
+    "features": [
+      "Outer_race_keeper_flange",
+      "Housing_contact_rim_preserves_bearing_float",
+      "Pin_end_cover",
+      "Dowel_end_float_pocket_depth9",
+      "Keeper_M2_fasteners"
+    ],
+    "files": [
+      "parts\\ARM-109_Bearing_and_dowel_keeper.SLDPRT",
+      "parts\\ARM-109_Bearing_and_dowel_keeper.step",
+      "parts\\ARM-109_Bearing_and_dowel_keeper.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "HW-S_M2.5x14_socket_ENVELOPE",
+    "solid_count": 1,
+    "volume_mm3": 108.48312131927254,
+    "approximate_box_mm": [
+      -2.25,
+      -2.25,
+      -14.0,
+      2.25,
+      2.25,
+      2.5000000000000004
+    ],
+    "features": [
+      "Shank_nominal_thread_envelope",
+      "Socket_head_envelope"
+    ],
+    "files": [
+      "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
+      "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "HW-W_M2.5_washer_0p5_ENVELOPE",
+    "solid_count": 1,
+    "volume_mm3": 6.954700736884406,
+    "approximate_box_mm": [
+      -2.5,
+      -2.5,
+      0.0,
+      2.5,
+      2.5,
+      0.5
+    ],
+    "features": [
+      "Washer"
+    ],
+    "files": [
+      "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "HW-N_M2.5_nyloc_ENVELOPE",
+    "solid_count": 1,
+    "volume_mm3": 58.59663800681922,
+    "approximate_box_mm": [
+      -2.886751345948129,
+      -2.5000000000000004,
+      0.0,
+      2.886751345948129,
+      2.5000000000000004,
+      3.5
+    ],
+    "features": [
+      "Nut_thread_envelope_height_3.5"
+    ],
+    "files": [
+      "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
+      "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

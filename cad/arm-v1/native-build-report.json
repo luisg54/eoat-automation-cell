@@ -1,0 +1,44 @@
+[
+  {
+    "name": "HW-001_608ZZ_22x8x7_ENVELOPE",
+    "solid_count": 1,
+    "volume_mm3": 2309.0706003884975,
+    "approximate_box_mm": [
+      -11.0,
+      -11.0,
+      0.0,
+      11.0,
+      11.0,
+      7.0
+    ],
+    "features": [
+      "Bearing_width_7mm_simplified"
+    ],
+    "files": [
+      "hardware-reference\\HW-001_608ZZ_22x8x7_ENVELOPE.SLDPRT",
+      "hardware-reference\\HW-001_608ZZ_22x8x7_ENVELOPE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "HW-002_Dowel_6p35x25p4",
+    "solid_count": 1,
+    "volume_mm3": 804.3981230672777,
+    "approximate_box_mm": [
+      -3.175,
+      -3.175,
+      0.0,
+      3.175,
+      3.175,
+      25.4
+    ],
+    "features": [
+      "Dowel_length_25p4mm"
+    ],
+    "files": [
+      "hardware-reference\\HW-002_Dowel_6p35x25p4.SLDPRT",
+      "hardware-reference\\HW-002_Dowel_6p35x25p4.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

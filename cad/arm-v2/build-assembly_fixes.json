@@ -1,0 +1,141 @@
+[
+  {
+    "name": "ARM-102_Forearm_and_fixed_jaw",
+    "solid_count": 1,
+    "volume_mm3": 8275.274793644461,
+    "approximate_box_mm": [
+      -13.0,
+      -16.0,
+      0.0,
+      78.0,
+      41.0,
+      8.0
+    ],
+    "features": [
+      "Elbow_horn_flange",
+      "Forearm_web",
+      "Gripper_mount_rib",
+      "Gripper_servo_mount",
+      "Grip_SG90_body_clearance",
+      "Moving_finger_sweep_relief",
+      "Grip_servo_tab_fasteners",
+      "Fixed_finger_spine",
+      "Fixed_finger_root",
+      "Elbow_center_screw_access",
+      "Elbow_dowel_support_hub",
+      "Elbow_horn_fasteners",
+      "M2x8_washer_and_hub_clearance",
+      "Fixed_pad_keeper_fasteners"
+    ],
+    "files": [
+      "parts\\ARM-102_Forearm_and_fixed_jaw.SLDPRT",
+      "parts\\ARM-102_Forearm_and_fixed_jaw.step",
+      "parts\\ARM-102_Forearm_and_fixed_jaw.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-003_Yaw_D_drive_collar",
+    "solid_count": 1,
+    "volume_mm3": 1443.1964018691299,
+    "approximate_box_mm": [
+      -12.0,
+      40.99999999999999,
+      -12.0,
+      12.0,
+      48.0,
+      12.0
+    ],
+    "features": [
+      "Stock_horn_drive_flange",
+      "D_coupling_ring",
+      "D_key_land",
+      "Stock_horn_screws",
+      "Two_horn_washer_clearances",
+      "Yaw_positive_retention_crossbolt",
+      "Crossbolt_flat_seat_cut_-12",
+      "Crossbolt_flat_seat_cut_6"
+    ],
+    "files": [
+      "parts\\ARM-003_Yaw_D_drive_collar.SLDPRT",
+      "parts\\ARM-003_Yaw_D_drive_collar.step",
+      "parts\\ARM-003_Yaw_D_drive_collar.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-103_Grip_moving_finger",
+    "solid_count": 1,
+    "volume_mm3": 2812.253239889645,
+    "approximate_box_mm": [
+      -11.0,
+      -19.0,
+      0.0,
+      27.0,
+      11.0,
+      18.000000000000004
+    ],
+    "features": [
+      "Stock_horn_attachment",
+      "Finger_arm",
+      "Descending_contact_finger",
+      "Horn_center_access",
+      "Horn_screws",
+      "Contact_pad_keeper"
+    ],
+    "files": [
+      "parts\\ARM-103_Grip_moving_finger.SLDPRT",
+      "parts\\ARM-103_Grip_moving_finger.step",
+      "parts\\ARM-103_Grip_moving_finger.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-110_Fixed_jaw_TPU_sock",
+    "solid_count": 1,
+    "volume_mm3": 429.8352224009628,
+    "approximate_box_mm": [
+      54.0,
+      -17.0,
+      -1.0,
+      76.0,
+      -10.0,
+      5.0
+    ],
+    "features": [
+      "Soft_contact_and_wrap",
+      "Slip_pocket",
+      "Pad_capture_M2"
+    ],
+    "files": [
+      "parts\\ARM-110_Fixed_jaw_TPU_sock.SLDPRT",
+      "parts\\ARM-110_Fixed_jaw_TPU_sock.step",
+      "parts\\ARM-110_Fixed_jaw_TPU_sock.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-111_Moving_jaw_TPU_sock",
+    "solid_count": 1,
+    "volume_mm3": 248.15734577831282,
+    "approximate_box_mm": [
+      14.0,
+      -20.000000000000004,
+      -1.0,
+      28.0,
+      -15.0,
+      6.0
+    ],
+    "features": [
+      "Soft_contact_and_wrap",
+      "Open_top_slip_pocket",
+      "Pad_capture_M2"
+    ],
+    "files": [
+      "parts\\ARM-111_Moving_jaw_TPU_sock.SLDPRT",
+      "parts\\ARM-111_Moving_jaw_TPU_sock.step",
+      "parts\\ARM-111_Moving_jaw_TPU_sock.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

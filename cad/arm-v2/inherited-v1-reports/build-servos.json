@@ -1,0 +1,50 @@
+[
+  {
+    "name": "HW-003_SG90_NOMINAL_VERIFY",
+    "solid_count": 1,
+    "volume_mm3": 6780.769461981306,
+    "approximate_box_mm": [
+      -11.000000000000002,
+      -6.1,
+      -19.0,
+      22.0,
+      6.1,
+      9.000000000000002
+    ],
+    "features": [
+      "Case_23x12p2x23",
+      "Mounting_ears_33x12p2",
+      "Output_envelope_not_spline",
+      "Mounting_holes_nominal"
+    ],
+    "files": [
+      "hardware-reference\\HW-003_SG90_NOMINAL_VERIFY.SLDPRT",
+      "hardware-reference\\HW-003_SG90_NOMINAL_VERIFY.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "HW-004_MG996R_NOMINAL_VERIFY",
+    "solid_count": 1,
+    "volume_mm3": 30485.895039886196,
+    "approximate_box_mm": [
+      -16.5,
+      -9.85,
+      -30.0,
+      37.2,
+      9.85,
+      12.900000000000002
+    ],
+    "features": [
+      "Case_40p7x19p7",
+      "Mounting_flange_nominal",
+      "Output_envelope_not_spline",
+      "Tab_holes_nominal"
+    ],
+    "files": [
+      "hardware-reference\\HW-004_MG996R_NOMINAL_VERIFY.SLDPRT",
+      "hardware-reference\\HW-004_MG996R_NOMINAL_VERIFY.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

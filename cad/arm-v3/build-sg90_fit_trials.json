@@ -1,0 +1,89 @@
+[
+  {
+    "name": "FIT-002_SG90_horn_pocket_clearance_0p05",
+    "solid_count": 1,
+    "volume_mm3": 2461.0397313422395,
+    "approximate_box_mm": [
+      -13.0,
+      -13.0,
+      -1.6500000000000004,
+      13.0,
+      13.0,
+      4.0000000000000036
+    ],
+    "features": [
+      "Trial_load_plate",
+      "Captured_horn_key_boss",
+      "Key_pocket_Hub",
+      "Key_pocket_Horizontal",
+      "Key_pocket_Vertical",
+      "Key_pocket_Rounded_tips",
+      "Unmodified_horn_capture_M2",
+      "Hub_clearance_in_key_boss_only"
+    ],
+    "files": [
+      "parts\\FIT-002_SG90_horn_pocket_clearance_0p05.SLDPRT",
+      "parts\\FIT-002_SG90_horn_pocket_clearance_0p05.step",
+      "parts\\FIT-002_SG90_horn_pocket_clearance_0p05.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "FIT-002_SG90_horn_pocket_clearance_0p10",
+    "solid_count": 1,
+    "volume_mm3": 2455.7665028628885,
+    "approximate_box_mm": [
+      -13.0,
+      -13.0,
+      -1.6500000000000004,
+      13.0,
+      13.0,
+      4.0000000000000036
+    ],
+    "features": [
+      "Trial_load_plate",
+      "Captured_horn_key_boss",
+      "Key_pocket_Hub",
+      "Key_pocket_Horizontal",
+      "Key_pocket_Vertical",
+      "Key_pocket_Rounded_tips",
+      "Unmodified_horn_capture_M2",
+      "Hub_clearance_in_key_boss_only"
+    ],
+    "files": [
+      "parts\\FIT-002_SG90_horn_pocket_clearance_0p10.SLDPRT",
+      "parts\\FIT-002_SG90_horn_pocket_clearance_0p10.step",
+      "parts\\FIT-002_SG90_horn_pocket_clearance_0p10.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "FIT-002_SG90_horn_pocket_clearance_0p15",
+    "solid_count": 1,
+    "volume_mm3": 2450.42108063244,
+    "approximate_box_mm": [
+      -13.0,
+      -13.0,
+      -1.6500000000000004,
+      13.0,
+      13.0,
+      4.0000000000000036
+    ],
+    "features": [
+      "Trial_load_plate",
+      "Captured_horn_key_boss",
+      "Key_pocket_Hub",
+      "Key_pocket_Horizontal",
+      "Key_pocket_Vertical",
+      "Key_pocket_Rounded_tips",
+      "Unmodified_horn_capture_M2",
+      "Hub_clearance_in_key_boss_only"
+    ],
+    "files": [
+      "parts\\FIT-002_SG90_horn_pocket_clearance_0p15.SLDPRT",
+      "parts\\FIT-002_SG90_horn_pocket_clearance_0p15.step",
+      "parts\\FIT-002_SG90_horn_pocket_clearance_0p15.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

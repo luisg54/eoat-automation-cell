@@ -1,0 +1,51 @@
+[
+  {
+    "name": "ARM-111_Moving_jaw_TPU_sock",
+    "solid_count": 1,
+    "volume_mm3": 265.6813457783129,
+    "approximate_box_mm": [
+      13.999999999999998,
+      -21.000000000000004,
+      -1.0,
+      28.000000000000004,
+      -14.0,
+      6.0
+    ],
+    "features": [
+      "Soft_contact_and_wrap",
+      "Open_top_slip_pocket",
+      "Servo_ear_sweep_relief",
+      "Pad_capture_M2"
+    ],
+    "files": [
+      "parts\\ARM-111_Moving_jaw_TPU_sock.SLDPRT",
+      "parts\\ARM-111_Moving_jaw_TPU_sock.step",
+      "parts\\ARM-111_Moving_jaw_TPU_sock.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "FIT-001_Dowel_and_bearing_trial",
+    "solid_count": 1,
+    "volume_mm3": 19246.825031069075,
+    "approximate_box_mm": [
+      -60.0,
+      -17.0,
+      0.0,
+      60.0,
+      17.0,
+      8.0
+    ],
+    "features": [
+      "Coupon_plate",
+      "Bearing_fit_trial_through",
+      "Dowel_fit_trial_through"
+    ],
+    "files": [
+      "parts\\FIT-001_Dowel_and_bearing_trial.SLDPRT",
+      "parts\\FIT-001_Dowel_and_bearing_trial.step",
+      "parts\\FIT-001_Dowel_and_bearing_trial.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

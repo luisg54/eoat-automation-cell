@@ -1,0 +1,53 @@
+[
+  {
+    "name": "ARM-103_Grip_moving_finger",
+    "solid_count": 1,
+    "volume_mm3": 3208.2532398896456,
+    "approximate_box_mm": [
+      -11.0,
+      -20.0,
+      0.0,
+      27.0,
+      11.0,
+      18.000000000000004
+    ],
+    "features": [
+      "Stock_horn_attachment",
+      "Finger_arm",
+      "Descending_contact_finger",
+      "Horn_center_access",
+      "Horn_screws",
+      "Contact_pad_keeper"
+    ],
+    "files": [
+      "parts\\ARM-103_Grip_moving_finger.SLDPRT",
+      "parts\\ARM-103_Grip_moving_finger.step",
+      "parts\\ARM-103_Grip_moving_finger.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-111_Moving_jaw_TPU_sock",
+    "solid_count": 1,
+    "volume_mm3": 297.7573457783128,
+    "approximate_box_mm": [
+      14.0,
+      -21.000000000000004,
+      -1.0,
+      28.0,
+      -14.0,
+      6.0
+    ],
+    "features": [
+      "Soft_contact_and_wrap",
+      "Open_top_slip_pocket",
+      "Pad_capture_M2"
+    ],
+    "files": [
+      "parts\\ARM-111_Moving_jaw_TPU_sock.SLDPRT",
+      "parts\\ARM-111_Moving_jaw_TPU_sock.step",
+      "parts\\ARM-111_Moving_jaw_TPU_sock.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

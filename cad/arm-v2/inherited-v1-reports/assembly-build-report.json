@@ -1,0 +1,191 @@
+{
+  "status": "DEVELOPMENT: motion and interference verification outstanding",
+  "components": [
+    {
+      "key": "base",
+      "file": "parts\\ARM-001_Base_pedestal.SLDPRT",
+      "position_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "yaw",
+      "file": "parts\\ARM-002_Yaw_platform_and_shoulder_mount.SLDPRT",
+      "position_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "collar",
+      "file": "parts\\ARM-003_Yaw_D_drive_collar.SLDPRT",
+      "position_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "yaw_servo",
+      "file": "hardware-reference\\HW-003_SG90_NOMINAL_VERIFY.SLDPRT",
+      "position_mm": [
+        0,
+        32,
+        0
+      ]
+    },
+    {
+      "key": "yaw_bearing_low",
+      "file": "hardware-reference\\HW-001_608ZZ_22x8x7_ENVELOPE.SLDPRT",
+      "position_mm": [
+        0,
+        48,
+        0
+      ]
+    },
+    {
+      "key": "yaw_bearing_high",
+      "file": "hardware-reference\\HW-001_608ZZ_22x8x7_ENVELOPE.SLDPRT",
+      "position_mm": [
+        0,
+        63,
+        0
+      ]
+    },
+    {
+      "key": "shoulder_servo",
+      "file": "hardware-reference\\HW-004_MG996R_NOMINAL_VERIFY.SLDPRT",
+      "position_mm": [
+        0,
+        122,
+        7
+      ]
+    },
+    {
+      "key": "upper",
+      "file": "parts\\ARM-101_Upper_link_60mm_MG996_SG90.SLDPRT",
+      "position_mm": [
+        0,
+        122,
+        23
+      ]
+    },
+    {
+      "key": "elbow_servo",
+      "file": "hardware-reference\\HW-003_SG90_NOMINAL_VERIFY.SLDPRT",
+      "position_mm": [
+        42.42640687119285,
+        164.42640687119285,
+        27
+      ]
+    },
+    {
+      "key": "forearm",
+      "file": "parts\\ARM-102_Forearm_and_fixed_jaw.SLDPRT",
+      "position_mm": [
+        42.42640687119285,
+        164.42640687119285,
+        38
+      ]
+    },
+    {
+      "key": "grip_servo",
+      "file": "hardware-reference\\HW-003_SG90_NOMINAL_VERIFY.SLDPRT",
+      "position_mm": [
+        87.42640687119285,
+        182.42640687119285,
+        42
+      ]
+    },
+    {
+      "key": "jaw",
+      "file": "parts\\ARM-103_Grip_moving_finger.SLDPRT",
+      "position_mm": [
+        87.42640687119285,
+        182.42640687119285,
+        38
+      ]
+    }
+  ],
+  "mates": [
+    {
+      "name": "J1_yaw_axis",
+      "type": 1,
+      "error": 1
+    },
+    {
+      "name": "J1_yaw_height",
+      "type": 0,
+      "error": 1
+    },
+    {
+      "name": "Mount_collar",
+      "type": "lock",
+      "error": 1
+    },
+    {
+      "name": "Mount_yaw_servo",
+      "type": "lock",
+      "error": 1
+    },
+    {
+      "name": "Mount_yaw_bearing_low",
+      "type": "lock",
+      "error": 1
+    },
+    {
+      "name": "Mount_yaw_bearing_high",
+      "type": "lock",
+      "error": 1
+    },
+    {
+      "name": "Mount_shoulder_servo",
+      "type": "lock",
+      "error": 1
+    },
+    {
+      "name": "Mount_elbow_servo",
+      "type": "lock",
+      "error": 1
+    },
+    {
+      "name": "Mount_grip_servo",
+      "type": "lock",
+      "error": 1
+    },
+    {
+      "name": "J2_shoulder_axis",
+      "type": 1,
+      "error": 1
+    },
+    {
+      "name": "J2_shoulder_axial",
+      "type": 5,
+      "error": 1
+    },
+    {
+      "name": "J3_elbow_axis",
+      "type": 1,
+      "error": 1
+    },
+    {
+      "name": "J3_elbow_axial",
+      "type": 5,
+      "error": 1
+    },
+    {
+      "name": "J4_grip_axis",
+      "type": 1,
+      "error": 1
+    },
+    {
+      "name": "J4_grip_axial",
+      "type": 0,
+      "error": 1
+    }
+  ],
+  "assembly": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v1\\ARM-A_Articulated_prototype_DEVELOPMENT.SLDASM"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "PRELIMINARY ESTIMATE; masses and servo performance require verification",
+  "mass_allocations_g": {
+    "upper_link_g": 18,
+    "elbow_servo_and_support_g": 20,
+    "forearm_g": 12,
+    "gripper_including_servo_g": 28,
+    "payload_g": 20
+  },
+  "max_geometric_reach_mm": 125.0,
+  "servo_design_budget_Nm": 0.058839999994116,
+  "dynamic_allowance_factor": 1.25,
+  "shoulder_static_Nm": 0.0867888525,
+  "shoulder_design_Nm": 0.108486065625,
+  "shoulder_available_after_reduction_Nm": 0.1235639999876436,
+  "shoulder_margin_ratio": 1.138984986466031,
+  "elbow_static_Nm": 0.0344213415,
+  "elbow_design_Nm": 0.043026676875,
+  "elbow_margin_ratio": 1.3675236915241318,
+  "shoulder_travel_for_150deg_servo_deg": 50.0,
+  "gear_pinion_pitch_diameter_mm": 25.0,
+  "gear_output_pitch_diameter_mm": 75.0,
+  "gear_nominal_center_distance_mm": 50.0,
+  "gear_tangential_load_N": 2.89296175,
+  "gear_radial_load_N": 1.0529519658706628,
+  "gear_6mm_face_Lewis_bending_estimate_MPa": 1.2054007291666666,
+  "upper_link_nominal_bending_estimate_MPa": 1.13006318359375,
+  "dowel_in_608_radial_clearance_mm": 0.8250000000000002,
+  "two_jaw_normal_force_each_N_mu_0p3_SF2": 0.6537766666666667,
+  "must_verify": [
+    "Purchased SG90 dimensions, horn geometry and usable travel",
+    "Actual CAD solid volumes, slicing mass and weighed assembly mass",
+    "Gear geometry, backlash, mating and full travel collisions",
+    "Native assembly degrees of freedom and part fit",
+    "Quasi-static and dynamic servo capability at regulated supply voltage",
+    "Thermal duty cycle, printed creep, fatigue and pin retention",
+    "Grip friction, dropped-power behavior and 50-cycle retention test"
+  ]
+}

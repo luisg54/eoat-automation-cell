@@ -1,0 +1,137 @@
+{
+  "status": "sampled poses only; continuous swept clearance and physical travel not established",
+  "samples": [
+    {
+      "name": "lift_0",
+      "joint_angles_deg": [
+        0,
+        -30.0,
+        -60.0,
+        10
+      ],
+      "transform_residual": 6.661338147750939e-16,
+      "interferences": []
+    },
+    {
+      "name": "lift_1",
+      "joint_angles_deg": [
+        0,
+        -20.0,
+        -52.0,
+        10
+      ],
+      "transform_residual": 6.106226635438361e-16,
+      "interferences": []
+    },
+    {
+      "name": "lift_2",
+      "joint_angles_deg": [
+        0,
+        -10.0,
+        -44.0,
+        10
+      ],
+      "transform_residual": 6.38378239159465e-16,
+      "interferences": []
+    },
+    {
+      "name": "lift_3",
+      "joint_angles_deg": [
+        0,
+        0.0,
+        -36.0,
+        10
+      ],
+      "transform_residual": 4.440892098500626e-16,
+      "interferences": []
+    },
+    {
+      "name": "lift_4",
+      "joint_angles_deg": [
+        0,
+        10.0,
+        -28.0,
+        10
+      ],
+      "transform_residual": 5.551115123125783e-16,
+      "interferences": []
+    },
+    {
+      "name": "lift_5",
+      "joint_angles_deg": [
+        0,
+        20.0,
+        -20.0,
+        10
+      ],
+      "transform_residual": 8.881784197001252e-16,
+      "interferences": []
+    },
+    {
+      "name": "yaw_-60",
+      "joint_angles_deg": [
+        -60,
+        20,
+        -20,
+        10
+      ],
+      "transform_residual": 5.551115123125783e-16,
+      "interferences": []
+    },
+    {
+      "name": "yaw_-40",
+      "joint_angles_deg": [
+        -40,
+        20,
+        -20,
+        10
+      ],
+      "transform_residual": 6.661338147750939e-16,
+      "interferences": []
+    },
+    {
+      "name": "yaw_-20",
+      "joint_angles_deg": [
+        -20,
+        20,
+        -20,
+        10
+      ],
+      "transform_residual": 6.106226635438361e-16,
+      "interferences": []
+    },
+    {
+      "name": "yaw_20",
+      "joint_angles_deg": [
+        20,
+        20,
+        -20,
+        10
+      ],
+      "transform_residual": 4.996003610813204e-16,
+      "interferences": []
+    },
+    {
+      "name": "yaw_40",
+      "joint_angles_deg": [
+        40,
+        20,
+        -20,
+        10
+      ],
+      "transform_residual": 7.771561172376096e-16,
+      "interferences": []
+    },
+    {
+      "name": "yaw_60",
+      "joint_angles_deg": [
+        60,
+        20,
+        -20,
+        10
+      ],
+      "transform_residual": 8.326672684688674e-16,
+      "interferences": []
+    }
+  ]
+}

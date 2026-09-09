@@ -1,0 +1,3084 @@
+{
+  "status": "CAD sizing estimate, not verified servo continuous rating or physical load test",
+  "method": "100 percent solid printed mass bound; each joint uses sum of mass times maximum planar lever; 1.25 load multiplier; one third reference stall budget",
+  "components": [
+    {
+      "key": "base",
+      "part": "ARM-001_Base_pedestal.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 139504.04814614178,
+      "center_mm": [
+        -7.047808838459661,
+        18.943750565449893,
+        1.8901160276214642e-10
+      ],
+      "mass_g": 177.17014114560007,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw",
+      "part": "ARM-002_Yaw_platform_and_shoulder_mount.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 53004.5615546011,
+      "center_mm": [
+        -1.5261025145044829,
+        87.25273592938777,
+        0.6092232226896878
+      ],
+      "mass_g": 67.3157931743434,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "collar",
+      "part": "ARM-003_Yaw_D_drive_collar.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 1443.1964018691299,
+      "center_mm": [
+        0.023828576909759865,
+        43.270647474224354,
+        3.0608144805728615e-05
+      ],
+      "mass_g": 1.832859430373795,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_servo",
+      "part": "HW-003_SG90_NOMINAL_VERIFY.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 6780.769461981306,
+      "center_mm": [
+        5.420368736857488,
+        2.439783912993643e-16,
+        -7.077981186780025
+      ],
+      "mass_g": 9.0,
+      "basis": "TowerPro SG90 reference mass; confirm actual unit",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_bearing_low",
+      "part": "HW-001_608ZZ_22x8x7_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 2309.0706003884975,
+      "center_mm": [
+        4.0676020666284813e-16,
+        0.0,
+        3.5
+      ],
+      "mass_g": 12.0,
+      "basis": "assumed bearing mass; weigh actual 608ZZ",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_bearing_high",
+      "part": "HW-001_608ZZ_22x8x7_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 2309.0706003884975,
+      "center_mm": [
+        4.0676020666284813e-16,
+        0.0,
+        3.5
+      ],
+      "mass_g": 12.0,
+      "basis": "assumed bearing mass; weigh actual 608ZZ",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_servo",
+      "part": "HW-004_MG996R_NOMINAL_VERIFY.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 30485.895039886196,
+      "center_mm": [
+        10.292796817159394,
+        -4.366753203689106e-16,
+        -11.168478717418065
+      ],
+      "mass_g": 55.0,
+      "basis": "TowerPro MG996R reference mass",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "upper",
+      "part": "ARM-101_Upper_link_60mm_MG996_SG90.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 9217.063582958865,
+      "center_mm": [
+        35.38066408235881,
+        9.772412687472854e-18,
+        2.1767671145980394
+      ],
+      "mass_g": 11.705670750357758,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 35.38066408235882
+    },
+    {
+      "key": "elbow_servo",
+      "part": "HW-003_SG90_NOMINAL_VERIFY.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 6780.769461981306,
+      "center_mm": [
+        5.420368736857488,
+        2.439783912993643e-16,
+        -7.077981186780025
+      ],
+      "mass_g": 9.0,
+      "basis": "TowerPro SG90 reference mass; confirm actual unit",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 65.4203687368575
+    },
+    {
+      "key": "forearm",
+      "part": "ARM-102_Forearm_and_fixed_jaw.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 8275.274793644458,
+      "center_mm": [
+        28.974833514855668,
+        7.910337116291245,
+        2.3455831518946924
+      ],
+      "mass_g": 10.509598987928461,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 30.035219501561475,
+      "shoulder_lever_bound_mm": 90.03521950156147
+    },
+    {
+      "key": "grip_servo",
+      "part": "HW-003_SG90_NOMINAL_VERIFY.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 6780.769461981306,
+      "center_mm": [
+        5.420368736857488,
+        2.439783912993643e-16,
+        -7.077981186780025
+      ],
+      "mass_g": 9.0,
+      "basis": "TowerPro SG90 reference mass; confirm actual unit",
+      "elbow_lever_bound_mm": 58.67038080292879,
+      "shoulder_lever_bound_mm": 118.67038080292879
+    },
+    {
+      "key": "jaw",
+      "part": "ARM-103_Grip_moving_finger.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 3208.253239889645,
+      "center_mm": [
+        12.14903992601996,
+        -8.455650257130161,
+        14.295173525542662
+      ],
+      "mass_g": 4.074481614659849,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 68.8852011813557,
+      "shoulder_lever_bound_mm": 128.88520118135568
+    },
+    {
+      "key": "yaw_servo_cassette",
+      "part": "ARM-004_Removable_yaw_servo_mount.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 6103.330986618807,
+      "center_mm": [
+        -2.0516668594318657,
+        28.0,
+        -1.6602348006343602e-15
+      ],
+      "mass_g": 7.7512303530058855,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "fixed_pad",
+      "part": "ARM-110_Fixed_jaw_TPU_sock.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 429.8352224009629,
+      "center_mm": [
+        65.0,
+        -13.5,
+        2.0
+      ],
+      "mass_g": 0.5158022668811555,
+      "basis": "CAD solid volume; assumed density 1.2 g/cm3",
+      "elbow_lever_bound_mm": 66.38712224520656,
+      "shoulder_lever_bound_mm": 126.38712224520656
+    },
+    {
+      "key": "moving_pad",
+      "part": "ARM-111_Moving_jaw_TPU_sock.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 265.6813457783128,
+      "center_mm": [
+        20.999999999999996,
+        -17.85183426117541,
+        1.5797455627955652
+      ],
+      "mass_g": 0.3188176149339753,
+      "basis": "CAD solid volume; assumed density 1.2 g/cm3",
+      "elbow_lever_bound_mm": 81.6457070953998,
+      "shoulder_lever_bound_mm": 141.6457070953998
+    },
+    {
+      "key": "yaw_horn",
+      "part": "HW-005_SG90_stock_horn_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 557.0515013712745,
+      "center_mm": [
+        -6.264534249737572e-16,
+        0.0,
+        1.0000000000000002
+      ],
+      "mass_g": 1.0,
+      "basis": "assumed stock SG90 horn mass",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_horn",
+      "part": "HW-006_MG996_stock_horn_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 1546.1740943723864,
+      "center_mm": [
+        -6.520134926708981e-16,
+        0.0,
+        1.188588626723898
+      ],
+      "mass_g": 4.0,
+      "basis": "conservative horn allocation; verify selected horn",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 4.610431620927174e-16
+    },
+    {
+      "key": "elbow_horn",
+      "part": "HW-005_SG90_stock_horn_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 557.0515013712745,
+      "center_mm": [
+        -6.264534249737572e-16,
+        0.0,
+        1.0000000000000002
+      ],
+      "mass_g": 1.0,
+      "basis": "assumed stock SG90 horn mass",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 60.0
+    },
+    {
+      "key": "grip_horn",
+      "part": "HW-005_SG90_stock_horn_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 557.0515013712745,
+      "center_mm": [
+        -6.264534249737572e-16,
+        0.0,
+        1.0000000000000002
+      ],
+      "mass_g": 1.0,
+      "basis": "assumed stock SG90 horn mass",
+      "elbow_lever_bound_mm": 54.08326913195984,
+      "shoulder_lever_bound_mm": 114.08326913195984
+    },
+    {
+      "key": "shoulder_cheek",
+      "part": "ARM-105_Shoulder_bearing_cheek.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 9719.951572236572,
+      "center_mm": [
+        -14.428074134856317,
+        1.021215720764369e-15,
+        2.385188004801695
+      ],
+      "mass_g": 12.344338496740447,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_bearing",
+      "part": "HW-001_608ZZ_22x8x7_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 2309.0706003884975,
+      "center_mm": [
+        4.0676020666284813e-16,
+        0.0,
+        3.5
+      ],
+      "mass_g": 12.0,
+      "basis": "assumed bearing mass; weigh actual 608ZZ",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_keeper",
+      "part": "ARM-109_Bearing_and_dowel_keeper.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 3052.767262902195,
+      "center_mm": [
+        -0.03835237505222725,
+        1.8308977647744406e-34,
+        4.37679078258686
+      ],
+      "mass_g": 3.8770144238857873,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_pin",
+      "part": "HW-002_Dowel_6p35x25p4.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 804.3981230672777,
+      "center_mm": [
+        4.259407851471201e-17,
+        0.0,
+        12.7
+      ],
+      "mass_g": 6.314525266078129,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 4.259407851471201e-17
+    },
+    {
+      "key": "shoulder_sleeve_0",
+      "part": "ARM-107_Dowel_to_608_adapter.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 121.37959478170772,
+      "center_mm": [
+        -1.0586514858239069e-16,
+        0.0,
+        3.500000000000001
+      ],
+      "mass_g": 0.1541520853727688,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 1.0586514858239069e-16
+    },
+    {
+      "key": "shoulder_sleeve_1",
+      "part": "ARM-107_Dowel_to_608_adapter.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 121.37959478170772,
+      "center_mm": [
+        -1.0586514858239069e-16,
+        0.0,
+        3.500000000000001
+      ],
+      "mass_g": 0.1541520853727688,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 1.0586514858239069e-16
+    },
+    {
+      "key": "shoulder_standoff_0",
+      "part": "ARM-108_M3_standoff_32mm.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 1351.1361684558983,
+      "center_mm": [
+        2.265785594409878e-16,
+        0.0,
+        16.0
+      ],
+      "mass_g": 1.7159429339389909,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_standoff_1",
+      "part": "ARM-108_M3_standoff_32mm.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 1351.1361684558983,
+      "center_mm": [
+        2.265785594409878e-16,
+        0.0,
+        16.0
+      ],
+      "mass_g": 1.7159429339389909,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "elbow_cheek",
+      "part": "ARM-104_Elbow_bearing_cheek.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 5845.196394505744,
+      "center_mm": [
+        -6.277277509260789,
+        5.091571115577278e-34,
+        2.6405274519771704
+      ],
+      "mass_g": 7.423399421022295,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 53.722722490739216
+    },
+    {
+      "key": "elbow_bearing",
+      "part": "HW-001_608ZZ_22x8x7_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 2309.0706003884975,
+      "center_mm": [
+        4.0676020666284813e-16,
+        0.0,
+        3.5
+      ],
+      "mass_g": 12.0,
+      "basis": "assumed bearing mass; weigh actual 608ZZ",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 60.0
+    },
+    {
+      "key": "elbow_keeper",
+      "part": "ARM-109_Bearing_and_dowel_keeper.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 3052.767262902195,
+      "center_mm": [
+        -0.03835237505222725,
+        1.8308977647744406e-34,
+        4.37679078258686
+      ],
+      "mass_g": 3.8770144238857873,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 59.96164762494778
+    },
+    {
+      "key": "elbow_pin",
+      "part": "HW-002_Dowel_6p35x25p4.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 804.3981230672777,
+      "center_mm": [
+        4.259407851471201e-17,
+        0.0,
+        12.7
+      ],
+      "mass_g": 6.314525266078129,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 60.0
+    },
+    {
+      "key": "elbow_sleeve_0",
+      "part": "ARM-107_Dowel_to_608_adapter.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 121.37959478170772,
+      "center_mm": [
+        -1.0586514858239069e-16,
+        0.0,
+        3.500000000000001
+      ],
+      "mass_g": 0.1541520853727688,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 60.0
+    },
+    {
+      "key": "elbow_sleeve_1",
+      "part": "ARM-107_Dowel_to_608_adapter.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 121.37959478170772,
+      "center_mm": [
+        -1.0586514858239069e-16,
+        0.0,
+        3.500000000000001
+      ],
+      "mass_g": 0.1541520853727688,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 60.0
+    },
+    {
+      "key": "elbow_standoff_0",
+      "part": "ARM-106_M3_standoff_24mm.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 1013.3521263419236,
+      "center_mm": [
+        2.265785594409879e-16,
+        0.0,
+        11.999999999999998
+      ],
+      "mass_g": 1.286957200454243,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 36.13862199918531
+    },
+    {
+      "key": "elbow_standoff_1",
+      "part": "ARM-106_M3_standoff_24mm.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 1013.3521263419236,
+      "center_mm": [
+        2.265785594409879e-16,
+        0.0,
+        11.999999999999998
+      ],
+      "mass_g": 1.286957200454243,
+      "basis": "CAD solid volume; assumed density 1.27 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 36.1386219991853
+    },
+    {
+      "key": "yaw_servo_mount_0_screw",
+      "part": "HW-S_M2x10_socket_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 54.098225494816226,
+      "center_mm": [
+        5.725113350029537e-17,
+        9.846104547827007e-33,
+        -2.4843205574912886
+      ],
+      "mass_g": 0.4246710701343073,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_servo_mount_0_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_servo_mount_0_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_servo_mount_0_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_servo_mount_1_screw",
+      "part": "HW-S_M2x10_socket_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 54.098225494816226,
+      "center_mm": [
+        5.725113350029537e-17,
+        9.846104547827007e-33,
+        -2.4843205574912886
+      ],
+      "mass_g": 0.4246710701343073,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_servo_mount_1_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_servo_mount_1_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_servo_mount_1_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "elbow_servo_mount_0_screw",
+      "part": "HW-S_M2x10_socket_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 54.098225494816226,
+      "center_mm": [
+        5.725113350029537e-17,
+        9.846104547827007e-33,
+        -2.4843205574912886
+      ],
+      "mass_g": 0.4246710701343073,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 51.00000000000001
+    },
+    {
+      "key": "elbow_servo_mount_0_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 51.00000000000001
+    },
+    {
+      "key": "elbow_servo_mount_0_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 51.00000000000001
+    },
+    {
+      "key": "elbow_servo_mount_0_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 51.00000000000001
+    },
+    {
+      "key": "elbow_servo_mount_1_screw",
+      "part": "HW-S_M2x10_socket_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 54.098225494816226,
+      "center_mm": [
+        5.725113350029537e-17,
+        9.846104547827007e-33,
+        -2.4843205574912886
+      ],
+      "mass_g": 0.4246710701343073,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 80.0
+    },
+    {
+      "key": "elbow_servo_mount_1_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 80.0
+    },
+    {
+      "key": "elbow_servo_mount_1_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 80.0
+    },
+    {
+      "key": "elbow_servo_mount_1_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 80.0
+    },
+    {
+      "key": "grip_servo_mount_0_screw",
+      "part": "HW-S_M2x10_socket_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 54.098225494816226,
+      "center_mm": [
+        5.725113350029537e-17,
+        9.846104547827007e-33,
+        -2.4843205574912886
+      ],
+      "mass_g": 0.4246710701343073,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 46.861498055439924,
+      "shoulder_lever_bound_mm": 106.86149805543992
+    },
+    {
+      "key": "grip_servo_mount_0_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 46.861498055439924,
+      "shoulder_lever_bound_mm": 106.86149805543992
+    },
+    {
+      "key": "grip_servo_mount_0_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 46.861498055439924,
+      "shoulder_lever_bound_mm": 106.86149805543992
+    },
+    {
+      "key": "grip_servo_mount_0_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 46.861498055439924,
+      "shoulder_lever_bound_mm": 106.86149805543992
+    },
+    {
+      "key": "grip_servo_mount_1_screw",
+      "part": "HW-S_M2x10_socket_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 54.098225494816226,
+      "center_mm": [
+        5.725113350029537e-17,
+        9.846104547827007e-33,
+        -2.4843205574912886
+      ],
+      "mass_g": 0.4246710701343073,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 71.58910531638176,
+      "shoulder_lever_bound_mm": 131.58910531638176
+    },
+    {
+      "key": "grip_servo_mount_1_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 71.58910531638176,
+      "shoulder_lever_bound_mm": 131.58910531638176
+    },
+    {
+      "key": "grip_servo_mount_1_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 71.58910531638176,
+      "shoulder_lever_bound_mm": 131.58910531638176
+    },
+    {
+      "key": "grip_servo_mount_1_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 71.58910531638176,
+      "shoulder_lever_bound_mm": 131.58910531638176
+    },
+    {
+      "key": "shoulder_servo_mount_0_screw",
+      "part": "HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 108.48312131927254,
+      "center_mm": [
+        3.473464972433923e-17,
+        1.1442331646698605e-32,
+        -3.976244343891403
+      ],
+      "mass_g": 0.8515925023562894,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_servo_mount_0_head_washer",
+      "part": "HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 6.954700736884406,
+      "center_mm": [
+        -2.0662659929788437e-16,
+        0.0,
+        0.25000000000000006
+      ],
+      "mass_g": 0.054594400784542585,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_servo_mount_0_nut_washer",
+      "part": "HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 6.954700736884406,
+      "center_mm": [
+        -2.0662659929788437e-16,
+        0.0,
+        0.25000000000000006
+      ],
+      "mass_g": 0.054594400784542585,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_servo_mount_0_nut",
+      "part": "HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 58.59663800681922,
+      "center_mm": [
+        2.1227410220431e-16,
+        1.0655512197083498e-16,
+        1.75
+      ],
+      "mass_g": 0.4599836083535308,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_servo_mount_1_screw",
+      "part": "HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 108.48312131927254,
+      "center_mm": [
+        3.473464972433923e-17,
+        1.1442331646698605e-32,
+        -3.976244343891403
+      ],
+      "mass_g": 0.8515925023562894,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_servo_mount_1_head_washer",
+      "part": "HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 6.954700736884406,
+      "center_mm": [
+        -2.0662659929788437e-16,
+        0.0,
+        0.25000000000000006
+      ],
+      "mass_g": 0.054594400784542585,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_servo_mount_1_nut_washer",
+      "part": "HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 6.954700736884406,
+      "center_mm": [
+        -2.0662659929788437e-16,
+        0.0,
+        0.25000000000000006
+      ],
+      "mass_g": 0.054594400784542585,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_servo_mount_1_nut",
+      "part": "HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 58.59663800681922,
+      "center_mm": [
+        2.1227410220431e-16,
+        1.0655512197083498e-16,
+        1.75
+      ],
+      "mass_g": 0.4599836083535308,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_servo_mount_2_screw",
+      "part": "HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 108.48312131927254,
+      "center_mm": [
+        3.473464972433923e-17,
+        1.1442331646698605e-32,
+        -3.976244343891403
+      ],
+      "mass_g": 0.8515925023562894,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_servo_mount_2_head_washer",
+      "part": "HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 6.954700736884406,
+      "center_mm": [
+        -2.0662659929788437e-16,
+        0.0,
+        0.25000000000000006
+      ],
+      "mass_g": 0.054594400784542585,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_servo_mount_2_nut_washer",
+      "part": "HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 6.954700736884406,
+      "center_mm": [
+        -2.0662659929788437e-16,
+        0.0,
+        0.25000000000000006
+      ],
+      "mass_g": 0.054594400784542585,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_servo_mount_2_nut",
+      "part": "HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 58.59663800681922,
+      "center_mm": [
+        2.1227410220431e-16,
+        1.0655512197083498e-16,
+        1.75
+      ],
+      "mass_g": 0.4599836083535308,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_servo_mount_3_screw",
+      "part": "HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 108.48312131927254,
+      "center_mm": [
+        3.473464972433923e-17,
+        1.1442331646698605e-32,
+        -3.976244343891403
+      ],
+      "mass_g": 0.8515925023562894,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_servo_mount_3_head_washer",
+      "part": "HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 6.954700736884406,
+      "center_mm": [
+        -2.0662659929788437e-16,
+        0.0,
+        0.25000000000000006
+      ],
+      "mass_g": 0.054594400784542585,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_servo_mount_3_nut_washer",
+      "part": "HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 6.954700736884406,
+      "center_mm": [
+        -2.0662659929788437e-16,
+        0.0,
+        0.25000000000000006
+      ],
+      "mass_g": 0.054594400784542585,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_servo_mount_3_nut",
+      "part": "HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 58.59663800681922,
+      "center_mm": [
+        2.1227410220431e-16,
+        1.0655512197083498e-16,
+        1.75
+      ],
+      "mass_g": 0.4599836083535308,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_support_0_screw",
+      "part": "HW-S_M3x50_socket_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 424.70405685717014,
+      "center_mm": [
+        -9.95308123167682e-18,
+        1.9580422604716703e-32,
+        -20.552704576976424
+      ],
+      "mass_g": 3.333926846328785,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_support_0_head_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_support_0_nut_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_support_0_nut",
+      "part": "HW-N_M3_nyloc_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 76.51473997560895,
+      "center_mm": [
+        -4.22294353848067e-17,
+        6.903741065027744e-17,
+        2.0
+      ],
+      "mass_g": 0.6006407088085303,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_support_1_screw",
+      "part": "HW-S_M3x50_socket_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 424.70405685717014,
+      "center_mm": [
+        -9.95308123167682e-18,
+        1.9580422604716703e-32,
+        -20.552704576976424
+      ],
+      "mass_g": 3.333926846328785,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_support_1_head_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_support_1_nut_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_support_1_nut",
+      "part": "HW-N_M3_nyloc_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 76.51473997560895,
+      "center_mm": [
+        -4.22294353848067e-17,
+        6.903741065027744e-17,
+        2.0
+      ],
+      "mass_g": 0.6006407088085303,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "elbow_support_0_screw",
+      "part": "HW-S_M3x40_socket_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 354.01822215139975,
+      "center_mm": [
+        -6.1028567700025736e-18,
+        1.873049801314995e-32,
+        -15.671381031613981
+      ],
+      "mass_g": 2.7790430438884877,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 36.13862199918531
+    },
+    {
+      "key": "elbow_support_0_head_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 36.13862199918531
+    },
+    {
+      "key": "elbow_support_0_nut_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 36.13862199918531
+    },
+    {
+      "key": "elbow_support_0_nut",
+      "part": "HW-N_M3_nyloc_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 76.51473997560895,
+      "center_mm": [
+        -4.22294353848067e-17,
+        6.903741065027744e-17,
+        2.0
+      ],
+      "mass_g": 0.6006407088085303,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 36.13862199918531
+    },
+    {
+      "key": "elbow_support_1_screw",
+      "part": "HW-S_M3x40_socket_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 354.01822215139975,
+      "center_mm": [
+        -6.1028567700025736e-18,
+        1.873049801314995e-32,
+        -15.671381031613981
+      ],
+      "mass_g": 2.7790430438884877,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 36.1386219991853
+    },
+    {
+      "key": "elbow_support_1_head_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 36.1386219991853
+    },
+    {
+      "key": "elbow_support_1_nut_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 36.1386219991853
+    },
+    {
+      "key": "elbow_support_1_nut",
+      "part": "HW-N_M3_nyloc_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 76.51473997560895,
+      "center_mm": [
+        -4.22294353848067e-17,
+        6.903741065027744e-17,
+        2.0
+      ],
+      "mass_g": 0.6006407088085303,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 36.1386219991853
+    },
+    {
+      "key": "shoulder_keeper_0_screw",
+      "part": "HW-S_M2x14_socket_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 66.6645961091754,
+      "center_mm": [
+        4.898920667023069e-17,
+        1.131818884026654e-32,
+        -4.278039585296891
+      ],
+      "mass_g": 0.5233170794570269,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_keeper_0_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_keeper_0_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_keeper_0_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_keeper_1_screw",
+      "part": "HW-S_M2x14_socket_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 66.6645961091754,
+      "center_mm": [
+        4.898920667023069e-17,
+        1.131818884026654e-32,
+        -4.278039585296891
+      ],
+      "mass_g": 0.5233170794570269,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_keeper_1_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_keeper_1_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_keeper_1_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_keeper_2_screw",
+      "part": "HW-S_M2x14_socket_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 66.6645961091754,
+      "center_mm": [
+        4.898920667023069e-17,
+        1.131818884026654e-32,
+        -4.278039585296891
+      ],
+      "mass_g": 0.5233170794570269,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_keeper_2_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_keeper_2_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "shoulder_keeper_2_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "elbow_keeper_0_screw",
+      "part": "HW-S_M2x14_socket_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 66.6645961091754,
+      "center_mm": [
+        4.898920667023069e-17,
+        1.131818884026654e-32,
+        -4.278039585296891
+      ],
+      "mass_g": 0.5233170794570269,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 74.0
+    },
+    {
+      "key": "elbow_keeper_0_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 74.0
+    },
+    {
+      "key": "elbow_keeper_0_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 74.0
+    },
+    {
+      "key": "elbow_keeper_0_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 74.0
+    },
+    {
+      "key": "elbow_keeper_1_screw",
+      "part": "HW-S_M2x14_socket_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 66.6645961091754,
+      "center_mm": [
+        4.898920667023069e-17,
+        1.131818884026654e-32,
+        -4.278039585296891
+      ],
+      "mass_g": 0.5233170794570269,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 61.61168720299746
+    },
+    {
+      "key": "elbow_keeper_1_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 61.61168720299746
+    },
+    {
+      "key": "elbow_keeper_1_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 61.61168720299746
+    },
+    {
+      "key": "elbow_keeper_1_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 61.61168720299746
+    },
+    {
+      "key": "elbow_keeper_2_screw",
+      "part": "HW-S_M2x14_socket_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 66.6645961091754,
+      "center_mm": [
+        4.898920667023069e-17,
+        1.131818884026654e-32,
+        -4.278039585296891
+      ],
+      "mass_g": 0.5233170794570269,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 61.61168720299745
+    },
+    {
+      "key": "elbow_keeper_2_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 61.61168720299745
+    },
+    {
+      "key": "elbow_keeper_2_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 61.61168720299745
+    },
+    {
+      "key": "elbow_keeper_2_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 61.61168720299745
+    },
+    {
+      "key": "shoulder_horn_0_screw",
+      "part": "HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 156.09788497524283,
+      "center_mm": [
+        2.3228589053499197e-17,
+        1.2255676256716124e-32,
+        -2.5754716981132084
+      ],
+      "mass_g": 1.2253683970556564,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 10.0
+    },
+    {
+      "key": "shoulder_horn_0_head_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 10.0
+    },
+    {
+      "key": "shoulder_horn_0_nut_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 10.0
+    },
+    {
+      "key": "shoulder_horn_0_nut",
+      "part": "HW-N_M3_hex_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 45.908843985365365,
+      "center_mm": [
+        2.1220219476609935e-17,
+        1.0098090226212205e-16,
+        1.2
+      ],
+      "mass_g": 0.3603844252851181,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 10.0
+    },
+    {
+      "key": "shoulder_horn_1_screw",
+      "part": "HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 156.09788497524283,
+      "center_mm": [
+        2.3228589053499197e-17,
+        1.2255676256716124e-32,
+        -2.5754716981132084
+      ],
+      "mass_g": 1.2253683970556564,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 10.0
+    },
+    {
+      "key": "shoulder_horn_1_head_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 10.0
+    },
+    {
+      "key": "shoulder_horn_1_nut_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 10.0
+    },
+    {
+      "key": "shoulder_horn_1_nut",
+      "part": "HW-N_M3_hex_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 45.908843985365365,
+      "center_mm": [
+        2.1220219476609935e-17,
+        1.0098090226212205e-16,
+        1.2
+      ],
+      "mass_g": 0.3603844252851181,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 10.0
+    },
+    {
+      "key": "shoulder_horn_2_screw",
+      "part": "HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 156.09788497524283,
+      "center_mm": [
+        2.3228589053499197e-17,
+        1.2255676256716124e-32,
+        -2.5754716981132084
+      ],
+      "mass_g": 1.2253683970556564,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 10.0
+    },
+    {
+      "key": "shoulder_horn_2_head_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 10.0
+    },
+    {
+      "key": "shoulder_horn_2_nut_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 10.0
+    },
+    {
+      "key": "shoulder_horn_2_nut",
+      "part": "HW-N_M3_hex_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 45.908843985365365,
+      "center_mm": [
+        2.1220219476609935e-17,
+        1.0098090226212205e-16,
+        1.2
+      ],
+      "mass_g": 0.3603844252851181,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 10.0
+    },
+    {
+      "key": "shoulder_horn_3_screw",
+      "part": "HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 156.09788497524283,
+      "center_mm": [
+        2.3228589053499197e-17,
+        1.2255676256716124e-32,
+        -2.5754716981132084
+      ],
+      "mass_g": 1.2253683970556564,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 10.0
+    },
+    {
+      "key": "shoulder_horn_3_head_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 10.0
+    },
+    {
+      "key": "shoulder_horn_3_nut_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 10.0
+    },
+    {
+      "key": "shoulder_horn_3_nut",
+      "part": "HW-N_M3_hex_ENVELOPE.SLDPRT",
+      "motion_group": "upper",
+      "volume_mm3": 45.908843985365365,
+      "center_mm": [
+        2.1220219476609935e-17,
+        1.0098090226212205e-16,
+        1.2
+      ],
+      "mass_g": 0.3603844252851181,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 10.0
+    },
+    {
+      "key": "elbow_horn_0_screw",
+      "part": "HW-S_M2x8_socket_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 47.815040187636654,
+      "center_mm": [
+        6.301059760456513e-17,
+        8.819901240153977e-33,
+        -1.628120893561104
+      ],
+      "mass_g": 0.37534806547294775,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 8.0,
+      "shoulder_lever_bound_mm": 68.0
+    },
+    {
+      "key": "elbow_horn_0_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 8.0,
+      "shoulder_lever_bound_mm": 68.0
+    },
+    {
+      "key": "elbow_horn_0_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 8.0,
+      "shoulder_lever_bound_mm": 68.0
+    },
+    {
+      "key": "elbow_horn_0_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 8.0,
+      "shoulder_lever_bound_mm": 68.0
+    },
+    {
+      "key": "grip_horn_0_screw",
+      "part": "HW-S_M2x8_socket_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 47.815040187636654,
+      "center_mm": [
+        6.301059760456513e-17,
+        8.819901240153977e-33,
+        -1.628120893561104
+      ],
+      "mass_g": 0.37534806547294775,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 62.08326913195984,
+      "shoulder_lever_bound_mm": 122.08326913195984
+    },
+    {
+      "key": "grip_horn_0_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 62.08326913195984,
+      "shoulder_lever_bound_mm": 122.08326913195984
+    },
+    {
+      "key": "grip_horn_0_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 62.08326913195984,
+      "shoulder_lever_bound_mm": 122.08326913195984
+    },
+    {
+      "key": "grip_horn_0_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 62.08326913195984,
+      "shoulder_lever_bound_mm": 122.08326913195984
+    },
+    {
+      "key": "elbow_horn_1_screw",
+      "part": "HW-S_M2x8_socket_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 47.815040187636654,
+      "center_mm": [
+        6.301059760456513e-17,
+        8.819901240153977e-33,
+        -1.628120893561104
+      ],
+      "mass_g": 0.37534806547294775,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 8.0,
+      "shoulder_lever_bound_mm": 68.0
+    },
+    {
+      "key": "elbow_horn_1_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 8.0,
+      "shoulder_lever_bound_mm": 68.0
+    },
+    {
+      "key": "elbow_horn_1_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 8.0,
+      "shoulder_lever_bound_mm": 68.0
+    },
+    {
+      "key": "elbow_horn_1_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 8.0,
+      "shoulder_lever_bound_mm": 68.0
+    },
+    {
+      "key": "grip_horn_1_screw",
+      "part": "HW-S_M2x8_socket_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 47.815040187636654,
+      "center_mm": [
+        6.301059760456513e-17,
+        8.819901240153977e-33,
+        -1.628120893561104
+      ],
+      "mass_g": 0.37534806547294775,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 62.08326913195984,
+      "shoulder_lever_bound_mm": 122.08326913195984
+    },
+    {
+      "key": "grip_horn_1_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 62.08326913195984,
+      "shoulder_lever_bound_mm": 122.08326913195984
+    },
+    {
+      "key": "grip_horn_1_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 62.08326913195984,
+      "shoulder_lever_bound_mm": 122.08326913195984
+    },
+    {
+      "key": "grip_horn_1_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 62.08326913195984,
+      "shoulder_lever_bound_mm": 122.08326913195984
+    },
+    {
+      "key": "elbow_horn_2_screw",
+      "part": "HW-S_M2x8_socket_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 47.815040187636654,
+      "center_mm": [
+        6.301059760456513e-17,
+        8.819901240153977e-33,
+        -1.628120893561104
+      ],
+      "mass_g": 0.37534806547294775,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 8.0,
+      "shoulder_lever_bound_mm": 68.0
+    },
+    {
+      "key": "elbow_horn_2_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 8.0,
+      "shoulder_lever_bound_mm": 68.0
+    },
+    {
+      "key": "elbow_horn_2_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 8.0,
+      "shoulder_lever_bound_mm": 68.0
+    },
+    {
+      "key": "elbow_horn_2_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 8.0,
+      "shoulder_lever_bound_mm": 68.0
+    },
+    {
+      "key": "grip_horn_2_screw",
+      "part": "HW-S_M2x8_socket_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 47.815040187636654,
+      "center_mm": [
+        6.301059760456513e-17,
+        8.819901240153977e-33,
+        -1.628120893561104
+      ],
+      "mass_g": 0.37534806547294775,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 62.08326913195984,
+      "shoulder_lever_bound_mm": 122.08326913195984
+    },
+    {
+      "key": "grip_horn_2_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 62.08326913195984,
+      "shoulder_lever_bound_mm": 122.08326913195984
+    },
+    {
+      "key": "grip_horn_2_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 62.08326913195984,
+      "shoulder_lever_bound_mm": 122.08326913195984
+    },
+    {
+      "key": "grip_horn_2_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 62.08326913195984,
+      "shoulder_lever_bound_mm": 122.08326913195984
+    },
+    {
+      "key": "elbow_horn_3_screw",
+      "part": "HW-S_M2x8_socket_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 47.815040187636654,
+      "center_mm": [
+        6.301059760456513e-17,
+        8.819901240153977e-33,
+        -1.628120893561104
+      ],
+      "mass_g": 0.37534806547294775,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 8.0,
+      "shoulder_lever_bound_mm": 68.0
+    },
+    {
+      "key": "elbow_horn_3_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 8.0,
+      "shoulder_lever_bound_mm": 68.0
+    },
+    {
+      "key": "elbow_horn_3_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 8.0,
+      "shoulder_lever_bound_mm": 68.0
+    },
+    {
+      "key": "elbow_horn_3_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 8.0,
+      "shoulder_lever_bound_mm": 68.0
+    },
+    {
+      "key": "grip_horn_3_screw",
+      "part": "HW-S_M2x8_socket_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 47.815040187636654,
+      "center_mm": [
+        6.301059760456513e-17,
+        8.819901240153977e-33,
+        -1.628120893561104
+      ],
+      "mass_g": 0.37534806547294775,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 62.08326913195984,
+      "shoulder_lever_bound_mm": 122.08326913195984
+    },
+    {
+      "key": "grip_horn_3_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 62.08326913195984,
+      "shoulder_lever_bound_mm": 122.08326913195984
+    },
+    {
+      "key": "grip_horn_3_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 62.08326913195984,
+      "shoulder_lever_bound_mm": 122.08326913195984
+    },
+    {
+      "key": "grip_horn_3_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 62.08326913195984,
+      "shoulder_lever_bound_mm": 122.08326913195984
+    },
+    {
+      "key": "yaw_horn_0_screw",
+      "part": "HW-S_M2x8_socket_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 47.815040187636654,
+      "center_mm": [
+        6.301059760456513e-17,
+        8.819901240153977e-33,
+        -1.628120893561104
+      ],
+      "mass_g": 0.37534806547294775,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_horn_0_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_horn_0_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_horn_0_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_horn_1_screw",
+      "part": "HW-S_M2x8_socket_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 47.815040187636654,
+      "center_mm": [
+        6.301059760456513e-17,
+        8.819901240153977e-33,
+        -1.628120893561104
+      ],
+      "mass_g": 0.37534806547294775,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_horn_1_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_horn_1_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_horn_1_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_retention_crossbolt_screw",
+      "part": "HW-S_M2x20_socket_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 85.51415203071419,
+      "center_mm": [
+        4.1149178381451396e-17,
+        1.2715100569646158e-32,
+        -7.082292432035268
+      ],
+      "mass_g": 0.6712860934411063,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_retention_crossbolt_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_retention_crossbolt_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "yaw_retention_crossbolt_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "yaw",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "cassette_mount_0_screw",
+      "part": "HW-S_M3x30_socket_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 283.3323874456294,
+      "center_mm": [
+        -3.315223898214057e-19,
+        1.745649462329625e-32,
+        -10.84927234927235
+      ],
+      "mass_g": 2.2241592414481905,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "cassette_mount_0_head_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "cassette_mount_0_nut_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "cassette_mount_0_nut",
+      "part": "HW-N_M3_nyloc_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 76.51473997560895,
+      "center_mm": [
+        -4.22294353848067e-17,
+        6.903741065027744e-17,
+        2.0
+      ],
+      "mass_g": 0.6006407088085303,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "cassette_mount_1_screw",
+      "part": "HW-S_M3x30_socket_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 283.3323874456294,
+      "center_mm": [
+        -3.315223898214057e-19,
+        1.745649462329625e-32,
+        -10.84927234927235
+      ],
+      "mass_g": 2.2241592414481905,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "cassette_mount_1_head_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "cassette_mount_1_nut_washer",
+      "part": "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 10.115928344559133,
+      "center_mm": [
+        -1.9197483511889698e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.07941003750478919,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "cassette_mount_1_nut",
+      "part": "HW-N_M3_nyloc_ENVELOPE.SLDPRT",
+      "motion_group": "base",
+      "volume_mm3": 76.51473997560895,
+      "center_mm": [
+        -4.22294353848067e-17,
+        6.903741065027744e-17,
+        2.0
+      ],
+      "mass_g": 0.6006407088085303,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 0.0,
+      "shoulder_lever_bound_mm": 0.0
+    },
+    {
+      "key": "fixed_pad_capture_0_screw",
+      "part": "HW-S_M2x10_socket_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 54.098225494816226,
+      "center_mm": [
+        5.725113350029537e-17,
+        9.846104547827007e-33,
+        -2.4843205574912886
+      ],
+      "mass_g": 0.4246710701343073,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 58.57687256929991,
+      "shoulder_lever_bound_mm": 118.57687256929991
+    },
+    {
+      "key": "fixed_pad_capture_0_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 58.57687256929991,
+      "shoulder_lever_bound_mm": 118.57687256929991
+    },
+    {
+      "key": "fixed_pad_capture_0_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 58.57687256929991,
+      "shoulder_lever_bound_mm": 118.57687256929991
+    },
+    {
+      "key": "fixed_pad_capture_0_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 58.57687256929991,
+      "shoulder_lever_bound_mm": 118.57687256929991
+    },
+    {
+      "key": "fixed_pad_capture_1_screw",
+      "part": "HW-S_M2x10_socket_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 54.098225494816226,
+      "center_mm": [
+        5.725113350029537e-17,
+        9.846104547827007e-33,
+        -2.4843205574912886
+      ],
+      "mass_g": 0.4246710701343073,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 74.23779360945474,
+      "shoulder_lever_bound_mm": 134.23779360945474
+    },
+    {
+      "key": "fixed_pad_capture_1_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 74.23779360945474,
+      "shoulder_lever_bound_mm": 134.23779360945474
+    },
+    {
+      "key": "fixed_pad_capture_1_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 74.23779360945474,
+      "shoulder_lever_bound_mm": 134.23779360945474
+    },
+    {
+      "key": "fixed_pad_capture_1_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "forearm",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 74.23779360945474,
+      "shoulder_lever_bound_mm": 134.23779360945474
+    },
+    {
+      "key": "moving_pad_capture_0_screw",
+      "part": "HW-S_M2x25_socket_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 101.22211529866313,
+      "center_mm": [
+        3.6846328177440064e-17,
+        1.3481768966538245e-32,
+        -9.474860335195533
+      ],
+      "mass_g": 0.7945936050945055,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 79.18804955322622,
+      "shoulder_lever_bound_mm": 139.18804955322622
+    },
+    {
+      "key": "moving_pad_capture_0_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 79.18804955322622,
+      "shoulder_lever_bound_mm": 139.18804955322622
+    },
+    {
+      "key": "moving_pad_capture_0_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 79.18804955322622,
+      "shoulder_lever_bound_mm": 139.18804955322622
+    },
+    {
+      "key": "moving_pad_capture_0_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 79.18804955322622,
+      "shoulder_lever_bound_mm": 139.18804955322622
+    },
+    {
+      "key": "moving_pad_capture_1_screw",
+      "part": "HW-S_M2x25_socket_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 101.22211529866313,
+      "center_mm": [
+        3.6846328177440064e-17,
+        1.3481768966538245e-32,
+        -9.474860335195533
+      ],
+      "mass_g": 0.7945936050945055,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 83.78596261251813,
+      "shoulder_lever_bound_mm": 143.78596261251812
+    },
+    {
+      "key": "moving_pad_capture_1_head_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 83.78596261251813,
+      "shoulder_lever_bound_mm": 143.78596261251812
+    },
+    {
+      "key": "moving_pad_capture_1_nut_washer",
+      "part": "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 7.916813487046279,
+      "center_mm": [
+        -1.5976227661518744e-16,
+        0.0,
+        0.25
+      ],
+      "mass_g": 0.06214698587331329,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 83.78596261251813,
+      "shoulder_lever_bound_mm": 143.78596261251812
+    },
+    {
+      "key": "moving_pad_capture_1_nut",
+      "part": "HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "motion_group": "jaw",
+      "volume_mm3": 17.143702091137964,
+      "center_mm": [
+        -4.196965987817884e-17,
+        1.7028584842059482e-16,
+        0.8
+      ],
+      "mass_g": 0.13457806141543302,
+      "basis": "CAD solid volume; assumed density 7.85 g/cm3",
+      "elbow_lever_bound_mm": 83.78596261251813,
+      "shoulder_lever_bound_mm": 143.78596261251812
+    }
+  ],
+  "allowances": [
+    {
+      "name": "payload",
+      "mass_g": 20,
+      "elbow_lever_mm": 69.00724599634447,
+      "shoulder_lever_mm": 129.00724599634447
+    },
+    {
+      "name": "distal cable allowance",
+      "mass_g": 3,
+      "elbow_lever_mm": 65,
+      "shoulder_lever_mm": 125
+    },
+    {
+      "name": "upper cable allowance",
+      "mass_g": 3,
+      "elbow_lever_mm": 0,
+      "shoulder_lever_mm": 60
+    }
+  ],
+  "torques": {
+    "elbow": {
+      "static_upper_bound_Nm": 0.032706109063415485,
+      "design_Nm": 0.040882636329269355,
+      "assumed_budget_Nm": 0.05884,
+      "margin_ratio": 1.4392418220317735
+    },
+    "shoulder": {
+      "static_upper_bound_Nm": 0.1028625188448161,
+      "design_Nm": 0.12857814855602012,
+      "assumed_budget_Nm": 0.27654753,
+      "margin_ratio": 2.150812817774485
+    }
+  },
+  "total_modeled_mass_g": 518.400765342361,
+  "bom_counts": {
+    "ARM-001_Base_pedestal.SLDPRT": 1,
+    "ARM-002_Yaw_platform_and_shoulder_mount.SLDPRT": 1,
+    "ARM-003_Yaw_D_drive_collar.SLDPRT": 1,
+    "HW-003_SG90_NOMINAL_VERIFY.SLDPRT": 3,
+    "HW-001_608ZZ_22x8x7_ENVELOPE.SLDPRT": 4,
+    "HW-004_MG996R_NOMINAL_VERIFY.SLDPRT": 1,
+    "ARM-101_Upper_link_60mm_MG996_SG90.SLDPRT": 1,
+    "ARM-102_Forearm_and_fixed_jaw.SLDPRT": 1,
+    "ARM-103_Grip_moving_finger.SLDPRT": 1,
+    "ARM-004_Removable_yaw_servo_mount.SLDPRT": 1,
+    "ARM-110_Fixed_jaw_TPU_sock.SLDPRT": 1,
+    "ARM-111_Moving_jaw_TPU_sock.SLDPRT": 1,
+    "HW-005_SG90_stock_horn_ENVELOPE.SLDPRT": 3,
+    "HW-006_MG996_stock_horn_ENVELOPE.SLDPRT": 1,
+    "ARM-105_Shoulder_bearing_cheek.SLDPRT": 1,
+    "ARM-109_Bearing_and_dowel_keeper.SLDPRT": 2,
+    "HW-002_Dowel_6p35x25p4.SLDPRT": 2,
+    "ARM-107_Dowel_to_608_adapter.SLDPRT": 4,
+    "ARM-108_M3_standoff_32mm.SLDPRT": 2,
+    "ARM-104_Elbow_bearing_cheek.SLDPRT": 1,
+    "ARM-106_M3_standoff_24mm.SLDPRT": 2,
+    "HW-S_M2x10_socket_ENVELOPE.SLDPRT": 8,
+    "HW-W_M2_washer_0p5_ENVELOPE.SLDPRT": 54,
+    "HW-N_M2_hex_ENVELOPE.SLDPRT": 27,
+    "HW-S_M2.5x14_socket_ENVELOPE.SLDPRT": 4,
+    "HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT": 8,
+    "HW-N_M2.5_nyloc_ENVELOPE.SLDPRT": 4,
+    "HW-S_M3x50_socket_ENVELOPE.SLDPRT": 2,
+    "HW-W_M3_washer_0p5_ENVELOPE.SLDPRT": 20,
+    "HW-N_M3_nyloc_ENVELOPE.SLDPRT": 6,
+    "HW-S_M3x40_socket_ENVELOPE.SLDPRT": 2,
+    "HW-S_M2x14_socket_ENVELOPE.SLDPRT": 6,
+    "HW-S_M3x12_socket_ENVELOPE.SLDPRT": 4,
+    "HW-N_M3_hex_ENVELOPE.SLDPRT": 4,
+    "HW-S_M2x8_socket_ENVELOPE.SLDPRT": 10,
+    "HW-S_M2x20_socket_ENVELOPE.SLDPRT": 1,
+    "HW-S_M3x30_socket_ENVELOPE.SLDPRT": 2,
+    "HW-S_M2x25_socket_ENVELOPE.SLDPRT": 2
+  },
+  "grip_estimate": {
+    "payload_center_forearm_mm": [
+      69,
+      1,
+      3
+    ],
+    "payload_diameter_mm": 22,
+    "ideal_first_contact_angle_deg": 7.832178915138297,
+    "moving_pad_contact_local_x_mm": 19.82422760159901,
+    "pad_face_local_x_extent_mm": [
+      14,
+      28
+    ],
+    "assumed_friction_coefficient": 0.3,
+    "normal_force_each_N_with_wedge_allowance_and_weight_factor_2": 0.8490455722444539,
+    "grip_torque_estimate_Nm": 0.01683167266830393,
+    "status": "Ideal rigid geometry and assumed friction; actual soft-pad force and retention require testing"
+  }
+}

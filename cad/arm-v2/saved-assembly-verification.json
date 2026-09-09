@@ -1,0 +1,37 @@
+{
+  "status": "Native reopen QA; physical hardware fit and tests outstanding",
+  "configurations": [
+    {
+      "name": "01_Home",
+      "transform_residual": 8.881784197001252e-16,
+      "mate_errors": []
+    },
+    {
+      "name": "02_Grip_open",
+      "transform_residual": 8.881784197001252e-16,
+      "mate_errors": []
+    },
+    {
+      "name": "03_Pickup_trial",
+      "transform_residual": 1.1102230246251565e-15,
+      "mate_errors": []
+    },
+    {
+      "name": "04_Transfer",
+      "transform_residual": 1.2212453270876722e-15,
+      "mate_errors": []
+    },
+    {
+      "name": "05_Transfer_left",
+      "transform_residual": 1.1102230246251565e-15,
+      "mate_errors": []
+    },
+    {
+      "name": "06_Transfer_right",
+      "transform_residual": 1.1102230246251565e-15,
+      "mate_errors": []
+    }
+  ],
+  "free_motion_limits_verified": true,
+  "referenced_components_verified": 199
+}

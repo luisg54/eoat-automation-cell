@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-08",
+  "status": "Engineering recommendation only; no native CAD changed; actual supplied horn fit is unverified",
+  "supplier_reference": {
+    "url": "https://www.auselectronicsdirect.com.au/assets/brochures/TA0132.pdf",
+    "page": 5,
+    "verified_by": "Rendered page inspected visually",
+    "compact_equal_arm_cross_horn_2": {
+      "overall_span_mm": 20.3,
+      "blade_thickness_mm": 1.5,
+      "overall_hub_height_mm": 2.5,
+      "hub_diameter_mm": 6.9,
+      "pilot_diameter_mm": 1.0,
+      "pilot_radii_mm": [4.3, 6.3, 8.3]
+    },
+    "other_horn_spans_mm": {"double_arm_horn_1": 32.0, "unequal_cross_horn_3": 34.5},
+    "scope": "These dimensions describe this supplier drawing, not proof that the user's horns match. Arm flank width/outline is not fully dimensioned."
+  },
+  "recommended_interface": {
+    "type": "Printed outline-keyed pocket and rear retaining plate; M2 bolts pass through gaps between horn arms, never through stock pilot holes",
+    "torque_path": "Unmodified stock spline and horn blade edges bear against pocket walls; the cap retains the blade axially. Do not depend on clamp friction or a printed spline.",
+    "cap_outer_diameter_mm": 26,
+    "cap_center_clearance_diameter_mm": 7.5,
+    "cap_thickness_mm": 2.0,
+    "pocket_depth_behind_original_horn_front_face_mm": 1.65,
+    "bolt_centers_mm": [[6.7, 6.7], [-6.7, 6.7], [-6.7, -6.7], [6.7, -6.7]],
+    "bolt_clearance_diameter_mm": 2.3,
+    "head_recess_diameter_mm": 4.2,
+    "preferred_head_recess_depth_mm": 0.35,
+    "preferred_fastener": "Verified M2 low-profile socket head, head diameter <=4.0 mm and height <=1.1 mm. Heads face servo; omit rear washer. Front nuts and washers remain accessible before support-pin installation.",
+    "primary_fastener_reference": "https://www.nbk1560.com/en-US/products/specialscrew/nedzicom/lowsmallheadscrew/SSH/?SelectedLanguage=en-US",
+    "primary_fastener_reference_dimensions": "NBK SSH-M2: 4 mm head diameter, 1.1 mm head height, 1.3 mm hex drive. This is a dimensional reference, not a purchase selection or quote.",
+    "preferred_axial_stack_from_horn_front_mm": 4.4,
+    "nominal_case_clearance_if_front_to_case_gap_is_5_mm": 0.6,
+    "radial_hole_edge_ligament_mm": 2.375,
+    "radial_counterbore_edge_ligament_mm": 1.425,
+    "fastener_head_sweep_radius_mm": 11.575,
+    "fit_trials": "Pocket flank clearances 0.05, 0.10 and 0.15 mm per side; use the smallest snug sliding fit from an actual printed coupon. Fit horn tip/end clearance separately.",
+    "axial_shim": "A 1.65 mm pocket and 1.5 mm blade leave 0.15 mm axial float. Measured thin PET shims can remove rattle while the retaining plate seats on printed hard stops. Keep the stock horn at its fully seated spline position.",
+    "prototype_material": "PETG; cap flat on bed, locally solid at bolt holes and keyed bearing walls. Use light, even tightening; this thin cap is a trial part, not a rated bolted joint."
+  },
+  "ordinary_socket_head_variant": {
+    "head_mm": [3.8, 2.0],
+    "counterbore_diameter_mm": 4.2,
+    "counterbore_depth_mm": 1.0,
+    "cap_floor_under_head_mm": 1.0,
+    "total_axial_stack_mm": 4.65,
+    "nominal_case_clearance_mm": 0.35,
+    "assessment": "Geometrically plausible with the assumed 5 mm gap but marginal: less case clearance and thinner cap floor than preferred low-profile-head variant. Print and fit one coupon before adoption. At proposed radius10 bolt centers, outer counterbore ligament is only0.9 mm; radius9.48 is preferable."
+  },
+  "first_principles_checks": {
+    "design_torque_Nm": 0.05884,
+    "effective_blade_contact_radius_mm_assumed": 8,
+    "one_side_contact_force_at_design_torque_N": 7.355,
+    "one_side_contact_force_at_0p17652_Nm_reference_stall_N": 22.065,
+    "interpretation": "These are T/r forces, not material or fatigue certification. Carry load along blade flanks, not solely at the thin end beyond a pilot hole.",
+    "flank_play": "0.15 mm tangential clearance at8 mm radius corresponds to about1.07 degrees one-way play; reversal can roughly double it. Native fit and FDM dimensions must be measured."
+  },
+  "unavoidable_measurements": [
+    "Confirm the user actually has the compact equal-arm cross horn. Other common supplied horns are longer and cannot sweep in the existing28 mm yaw bridge unmodified.",
+    "Measure actual blade thickness, hub diameter/height, full blade outline/flank widths and arm spans; caliper dimensions and a square-on scaled image are useful.",
+    "Measure servo case-front to horn-front distance with stock horn fully seated, center screw fitted and original spline engagement preserved.",
+    "Check center-screw driver access through link, cap and later passive support axle stack; center and secure horn before inserting blocking dowel.",
+    "Verify final screw length separately for each3 or4 mm load plate: adequate nut engagement, no excessive tip protrusion, native sweep free from body, ear, bearing hub and pad collisions.",
+    "Confirm purchased low-profile screw head and tool dimensions rather than treating all M2 heads as interchangeable."
+  ],
+  "cad_implications": [
+    "Delete obsolete four cardinal M2-through-horn assumptions in the candidate revision only; preserve earlier development files.",
+    "Enlarge yaw collar and gripper attachment flange to26 mm if adopting this cap; forearm flange is already26 mm.",
+    "Keep existing horn front/seating datum and native joint axes, adding keyed walls rearward around the real blade rather than shifting the horn on its spline.",
+    "Revise all three horn bolt stacks, masses, quantities and component reports. Four cap bolts per horn means12 M2 clamp bolts instead of the existing10 nominal horn bolts.",
+    "Recheck complete range and assembly/tool path. A26 mm circular cap has1 mm radial nominal clearance in a28 mm bridge before tolerances.",
+    "This proposal does not resolve the separate MG996R shoulder-horn pattern mismatch."
+  ]
+}

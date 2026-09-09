@@ -1,0 +1,89 @@
+[
+  {
+    "name": "ARM-101_Upper_link_60mm_MG996_SG90",
+    "solid_count": 1,
+    "volume_mm3": 7156.301121156038,
+    "approximate_box_mm": [
+      -16.0,
+      -16.0,
+      0.0,
+      85.0,
+      16.0,
+      4.0000000000000036
+    ],
+    "features": [
+      "Main_web",
+      "Shoulder_horn_flange",
+      "Elbow_servo_mount",
+      "SG90_body_clearance",
+      "Elbow_tab_fasteners",
+      "Shoulder_center_screw_access",
+      "Shoulder_horn_bolt_pattern",
+      "Cable_tie_holes"
+    ],
+    "files": [
+      "parts\\ARM-101_Upper_link_60mm_MG996_SG90.SLDPRT",
+      "parts\\ARM-101_Upper_link_60mm_MG996_SG90.step",
+      "parts\\ARM-101_Upper_link_60mm_MG996_SG90.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-102_Forearm_and_fixed_jaw",
+    "solid_count": 1,
+    "volume_mm3": 8792.399957114145,
+    "approximate_box_mm": [
+      -13.0,
+      -16.0,
+      0.0,
+      78.0,
+      29.0,
+      7.0
+    ],
+    "features": [
+      "Elbow_horn_flange",
+      "Forearm_web",
+      "Gripper_servo_mount",
+      "Grip_SG90_body_clearance",
+      "Grip_servo_tab_fasteners",
+      "Fixed_finger_spine",
+      "Fixed_finger_root",
+      "Elbow_center_screw_access",
+      "Elbow_horn_fasteners",
+      "Fixed_pad_keeper_fasteners"
+    ],
+    "files": [
+      "parts\\ARM-102_Forearm_and_fixed_jaw.SLDPRT",
+      "parts\\ARM-102_Forearm_and_fixed_jaw.step",
+      "parts\\ARM-102_Forearm_and_fixed_jaw.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-103_Grip_moving_finger",
+    "solid_count": 1,
+    "volume_mm3": 2074.1981072013477,
+    "approximate_box_mm": [
+      -11.0,
+      -11.0,
+      0.0,
+      27.0,
+      11.0,
+      18.000000000000004
+    ],
+    "features": [
+      "Stock_horn_attachment",
+      "Finger_arm",
+      "Descending_contact_finger",
+      "Horn_center_access",
+      "Horn_screws",
+      "Contact_pad_keeper"
+    ],
+    "files": [
+      "parts\\ARM-103_Grip_moving_finger.SLDPRT",
+      "parts\\ARM-103_Grip_moving_finger.step",
+      "parts\\ARM-103_Grip_moving_finger.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

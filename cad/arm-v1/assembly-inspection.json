@@ -1,0 +1,351 @@
+{
+  "file": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v1\\ARM-A_Articulated_prototype_DEVELOPMENT.SLDASM",
+  "components": [
+    {
+      "name": "ARM-101_Upper_link_60mm_MG996_SG90-1",
+      "path": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v1\\parts\\ARM-101_Upper_link_60mm_MG996_SG90.SLDPRT",
+      "fixed": false,
+      "transform": [
+        0.7071067811865476,
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865476,
+        0.7071067811865476,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.122,
+        0.023,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraint_status": 2
+    },
+    {
+      "name": "ARM-103_Grip_moving_finger-1",
+      "path": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v1\\parts\\ARM-103_Grip_moving_finger.SLDPRT",
+      "fixed": false,
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.08742640687119285,
+        0.18242640687119285,
+        0.038,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraint_status": 2
+    },
+    {
+      "name": "ARM-102_Forearm_and_fixed_jaw-1",
+      "path": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v1\\parts\\ARM-102_Forearm_and_fixed_jaw.SLDPRT",
+      "fixed": false,
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.042426406871192854,
+        0.16442640687119287,
+        0.038,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraint_status": 2
+    },
+    {
+      "name": "HW-003_SG90_NOMINAL_VERIFY-3",
+      "path": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v1\\hardware-reference\\HW-003_SG90_NOMINAL_VERIFY.SLDPRT",
+      "fixed": false,
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.08742640687119285,
+        0.18242640687119285,
+        0.042,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraint_status": 2
+    },
+    {
+      "name": "HW-003_SG90_NOMINAL_VERIFY-2",
+      "path": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v1\\hardware-reference\\HW-003_SG90_NOMINAL_VERIFY.SLDPRT",
+      "fixed": false,
+      "transform": [
+        0.7071067811865476,
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865476,
+        0.7071067811865476,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.042426406871192854,
+        0.16442640687119287,
+        0.026999999999999996,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraint_status": 2
+    },
+    {
+      "name": "ARM-001_Base_pedestal-1",
+      "path": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v1\\parts\\ARM-001_Base_pedestal.SLDPRT",
+      "fixed": true,
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraint_status": 3
+    },
+    {
+      "name": "HW-003_SG90_NOMINAL_VERIFY-1",
+      "path": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v1\\hardware-reference\\HW-003_SG90_NOMINAL_VERIFY.SLDPRT",
+      "fixed": false,
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.032,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraint_status": 3
+    },
+    {
+      "name": "HW-001_608ZZ_22x8x7_ENVELOPE-2",
+      "path": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v1\\hardware-reference\\HW-001_608ZZ_22x8x7_ENVELOPE.SLDPRT",
+      "fixed": false,
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.063,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraint_status": 3
+    },
+    {
+      "name": "HW-001_608ZZ_22x8x7_ENVELOPE-1",
+      "path": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v1\\hardware-reference\\HW-001_608ZZ_22x8x7_ENVELOPE.SLDPRT",
+      "fixed": false,
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.048,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraint_status": 3
+    },
+    {
+      "name": "ARM-002_Yaw_platform_and_shoulder_mount-1",
+      "path": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v1\\parts\\ARM-002_Yaw_platform_and_shoulder_mount.SLDPRT",
+      "fixed": false,
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraint_status": 2
+    },
+    {
+      "name": "HW-004_MG996R_NOMINAL_VERIFY-1",
+      "path": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v1\\hardware-reference\\HW-004_MG996R_NOMINAL_VERIFY.SLDPRT",
+      "fixed": false,
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.122,
+        0.007,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraint_status": 2
+    },
+    {
+      "name": "ARM-003_Yaw_D_drive_collar-1",
+      "path": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v1\\parts\\ARM-003_Yaw_D_drive_collar.SLDPRT",
+      "fixed": false,
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraint_status": 2
+    }
+  ],
+  "interferences": [
+    {
+      "volume_mm3": 102.28593285231915,
+      "component_count": 2,
+      "components": [
+        "ARM-102_Forearm_and_fixed_jaw-1",
+        "HW-003_SG90_NOMINAL_VERIFY-3"
+      ]
+    },
+    {
+      "volume_mm3": 102.28593285231894,
+      "component_count": 2,
+      "components": [
+        "ARM-102_Forearm_and_fixed_jaw-1",
+        "HW-003_SG90_NOMINAL_VERIFY-3"
+      ]
+    },
+    {
+      "volume_mm3": 101.62141683086664,
+      "component_count": 2,
+      "components": [
+        "ARM-101_Upper_link_60mm_MG996_SG90-1",
+        "HW-003_SG90_NOMINAL_VERIFY-2"
+      ]
+    },
+    {
+      "volume_mm3": 101.62141683086652,
+      "component_count": 2,
+      "components": [
+        "ARM-101_Upper_link_60mm_MG996_SG90-1",
+        "HW-003_SG90_NOMINAL_VERIFY-2"
+      ]
+    },
+    {
+      "volume_mm3": 80.23054075548443,
+      "component_count": 2,
+      "components": [
+        "ARM-102_Forearm_and_fixed_jaw-1",
+        "ARM-103_Grip_moving_finger-1"
+      ]
+    },
+    {
+      "volume_mm3": 50.4753032919331,
+      "component_count": 2,
+      "components": [
+        "HW-003_SG90_NOMINAL_VERIFY-3",
+        "ARM-103_Grip_moving_finger-1"
+      ]
+    },
+    {
+      "volume_mm3": 10.013826583317478,
+      "component_count": 2,
+      "components": [
+        "ARM-003_Yaw_D_drive_collar-1",
+        "HW-003_SG90_NOMINAL_VERIFY-1"
+      ]
+    }
+  ]
+}

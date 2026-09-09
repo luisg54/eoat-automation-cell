@@ -1,0 +1,60 @@
+[
+  {
+    "name": "ARM-101_Upper_link_60mm_MG996_SG90",
+    "solid_count": 1,
+    "volume_mm3": 9436.506882410293,
+    "approximate_box_mm": [
+      -16.0,
+      -16.0,
+      0.0,
+      90.0,
+      16.0,
+      8.0
+    ],
+    "features": [
+      "Main_web",
+      "Shoulder_horn_flange",
+      "Elbow_servo_mount",
+      "SG90_body_clearance",
+      "Elbow_tab_fasteners",
+      "Shoulder_center_screw_access",
+      "Cable_tie_holes",
+      "Passive_lower_mount_boss",
+      "Passive_upper_mount_boss",
+      "Passive_cheek_standoffs",
+      "Shoulder_dowel_support_hub",
+      "Raised_M3_washer_seats_height8",
+      "Metal_horn_M3_clearance_PCD14",
+      "Restore_shoulder_sleeve_bore"
+    ],
+    "files": [
+      "parts\\ARM-101_Upper_link_60mm_MG996_SG90.SLDPRT",
+      "parts\\ARM-101_Upper_link_60mm_MG996_SG90.step",
+      "parts\\ARM-101_Upper_link_60mm_MG996_SG90.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "HW-006_MG996_25T_D20_PCD14_HORN",
+    "solid_count": 1,
+    "volume_mm3": 599.3019955712398,
+    "approximate_box_mm": [
+      -10.0,
+      -10.0,
+      -2.5000000000000004,
+      10.0,
+      10.0,
+      2.0000000000000018
+    ],
+    "features": [
+      "Metal_disc_OD20_thickness2",
+      "Purchased_25T_hub_envelope_OD9",
+      "Four_M3_tapped_hole_envelopes_PCD14"
+    ],
+    "files": [
+      "hardware-reference\\HW-006_MG996_25T_D20_PCD14_HORN.SLDPRT",
+      "hardware-reference\\HW-006_MG996_25T_D20_PCD14_HORN.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "name": "ARM-001_Base_pedestal",
+    "solid_count": 1,
+    "volume_mm3": 143362.94609991222,
+    "approximate_box_mm": [
+      -70.0,
+      0.0,
+      -60.0,
+      70.0,
+      68.0,
+      60.0
+    ],
+    "features": [
+      "Bench_footprint_140x120",
+      "Backbone",
+      "Servo_shelf",
+      "Servo_body_window",
+      "Yaw_servo_fasteners",
+      "Bearing_bridge",
+      "Bearing_tower",
+      "Bearing_separation_shoulder",
+      "Bridge_spindle_clearance",
+      "Bench_clamp_holes"
+    ],
+    "files": [
+      "parts\\ARM-001_Base_pedestal.SLDPRT",
+      "parts\\ARM-001_Base_pedestal.step",
+      "parts\\ARM-001_Base_pedestal.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

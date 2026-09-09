@@ -1,0 +1,2 @@
+[0907/154350.312:ERROR:cef\libcef\browser\context.cc:170] The cache_path directory (C:\Users\luisg\\swcefcache) could not be created.
+[0907/154350.315:ERROR:cef\libcef\browser\context.cc:185] The cache_path is invalid. Defaulting to in-memory storage.

@@ -1,0 +1,588 @@
+[
+  {
+    "file": "ARM-001_Base_pedestal.SLDPRT",
+    "sketches": [
+      {
+        "name": "Bench_footprint_140x120_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Backbone_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Removable_servo_mount_M3_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Bearing_bridge_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Bridge_horn_clearance_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Drive_collar_chamber_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Bearing_tower_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Bearing_separation_shoulder_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Bench_clamp_holes_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Yaw_crossbolt_access_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-002_Yaw_platform_and_shoulder_mount.SLDPRT",
+    "sketches": [
+      {
+        "name": "Yaw_platform_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Printed_hollow_yaw_spindle_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Inner_race_load_shoulder_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "D_flat_drive_key_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Shoulder_mount_plate_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "MG996_body_window_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "MG996_tab_mounts_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Passive_shoulder_standoffs_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Upright_rib_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Yaw_positive_retention_crossbolt_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-003_Yaw_D_drive_collar.SLDPRT",
+    "sketches": [
+      {
+        "name": "Stock_horn_drive_flange_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "D_coupling_ring_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "D_key_land_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Stock_horn_screws_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Two_horn_washer_clearances_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Yaw_positive_retention_crossbolt_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Crossbolt_flat_seat_-12",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Crossbolt_flat_seat_6",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-004_Removable_yaw_servo_mount.SLDPRT",
+    "sketches": [
+      {
+        "name": "Servo_shelf_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Rear_clamping_block_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Servo_body_window_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Yaw_servo_M2_fasteners_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Left_nut_access_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Right_nut_access_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Rear_clamping_M3_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-102_Forearm_and_fixed_jaw.SLDPRT",
+    "sketches": [
+      {
+        "name": "Elbow_horn_flange_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Forearm_web_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Gripper_mount_rib_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Gripper_servo_mount_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Grip_SG90_body_clearance_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Moving_finger_sweep_relief_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Grip_servo_tab_fasteners_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Fixed_finger_spine_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Fixed_finger_root_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Elbow_center_screw_access_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Elbow_dowel_support_hub_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Elbow_horn_fasteners_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Elbow_horn_washer_recess_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Fixed_pad_keeper_fasteners_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-104_Elbow_bearing_cheek.SLDPRT",
+    "sketches": [
+      {
+        "name": "Bearing_housing_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Mounting_web_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Bearing_seat_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Inner_outer_race_retaining_lip_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Standoff_fasteners_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Bearing_keeper_fasteners_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-105_Shoulder_bearing_cheek.SLDPRT",
+    "sketches": [
+      {
+        "name": "Bearing_housing_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Mounting_web_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Bearing_seat_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Inner_outer_race_retaining_lip_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Standoff_fasteners_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Bearing_keeper_fasteners_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-106_M3_standoff_24mm.SLDPRT",
+    "sketches": [
+      {
+        "name": "Standoff_OD8_ID3p2_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-107_Dowel_to_608_adapter.SLDPRT",
+    "sketches": [
+      {
+        "name": "Adapter_8OD_6p45ID_profile",
+        "before": 3,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-108_M3_standoff_32mm.SLDPRT",
+    "sketches": [
+      {
+        "name": "Standoff_OD8_ID3p2_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-109_Bearing_and_dowel_keeper.SLDPRT",
+    "sketches": [
+      {
+        "name": "Outer_race_keeper_flange_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Housing_contact_rim_preserves_bearing_float_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Pin_end_cover_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Dowel_end_float_pocket_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Keeper_M2_fasteners_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-110_Fixed_jaw_TPU_sock.SLDPRT",
+    "sketches": [
+      {
+        "name": "Soft_contact_and_wrap_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Fixed_bar_slip_pocket_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Pad_capture_M2_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-101_Upper_link_60mm_MG996_SG90.SLDPRT",
+    "sketches": [
+      {
+        "name": "Main_web_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Shoulder_horn_flange_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Elbow_servo_mount_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "SG90_body_clearance_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Elbow_tab_fasteners_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Shoulder_center_screw_access_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Shoulder_horn_bolt_pattern_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Cable_tie_holes_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Passive_lower_mount_boss_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Passive_upper_mount_boss_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Passive_cheek_standoffs_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Shoulder_dowel_support_hub_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Shoulder_horn_washer_hub_relief_profile",
+        "before": 3,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-103_Grip_moving_finger.SLDPRT",
+    "sketches": [
+      {
+        "name": "Stock_horn_attachment_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Finger_arm_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Descending_contact_finger_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Horn_center_access_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Horn_screws_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Contact_pad_keeper_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-111_Moving_jaw_TPU_sock.SLDPRT",
+    "sketches": [
+      {
+        "name": "Soft_contact_and_wrap_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Finger_slip_pocket_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Servo_ear_sweep_relief_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Pad_capture_M2_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "FIT-001_Dowel_and_bearing_trial.SLDPRT",
+    "sketches": [
+      {
+        "name": "Coupon_plate_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Bearing_seat_trial_22p0_22p1_22p2_22p3",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Dowel_trial_6p35_6p45_6p55_6p65",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "ARM-104_Elbow_bearing_cheek",
+    "solid_count": 1,
+    "volume_mm3": 4611.256521535856,
+    "approximate_box_mm": [
+      -16.0,
+      -16.0,
+      0.0,
+      30.0,
+      16.0,
+      7.0
+    ],
+    "features": [
+      "Bearing_housing",
+      "Mounting_web",
+      "Bearing_seat",
+      "Standoff_fasteners",
+      "Bearing_keeper_fasteners"
+    ],
+    "files": [
+      "parts\\ARM-104_Elbow_bearing_cheek.SLDPRT",
+      "parts\\ARM-104_Elbow_bearing_cheek.step",
+      "parts\\ARM-104_Elbow_bearing_cheek.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-105_Shoulder_bearing_cheek",
+    "solid_count": 1,
+    "volume_mm3": 9077.904281622426,
+    "approximate_box_mm": [
+      -17.0,
+      -22.0,
+      0.0,
+      42.0,
+      22.0,
+      7.0
+    ],
+    "features": [
+      "Bearing_housing",
+      "Mounting_web",
+      "Bearing_seat",
+      "Standoff_fasteners",
+      "Bearing_keeper_fasteners"
+    ],
+    "files": [
+      "parts\\ARM-105_Shoulder_bearing_cheek.SLDPRT",
+      "parts\\ARM-105_Shoulder_bearing_cheek.step",
+      "parts\\ARM-105_Shoulder_bearing_cheek.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-106_M3_standoff_24mm",
+    "solid_count": 1,
+    "volume_mm3": 1013.3521263419236,
+    "approximate_box_mm": [
+      -4.0,
+      -4.0,
+      0.0,
+      4.0,
+      4.0,
+      24.0
+    ],
+    "features": [
+      "Standoff_OD8_ID3p2"
+    ],
+    "files": [
+      "parts\\ARM-106_M3_standoff_24mm.SLDPRT",
+      "parts\\ARM-106_M3_standoff_24mm.step",
+      "parts\\ARM-106_M3_standoff_24mm.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-107_Dowel_to_608_adapter",
+    "solid_count": 1,
+    "volume_mm3": 121.37959478170772,
+    "approximate_box_mm": [
+      -3.9900000000000007,
+      -3.9900000000000007,
+      0.0,
+      3.9900000000000007,
+      3.9900000000000007,
+      7.0
+    ],
+    "features": [
+      "Adapter_8OD_6p45ID"
+    ],
+    "files": [
+      "parts\\ARM-107_Dowel_to_608_adapter.SLDPRT",
+      "parts\\ARM-107_Dowel_to_608_adapter.step",
+      "parts\\ARM-107_Dowel_to_608_adapter.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

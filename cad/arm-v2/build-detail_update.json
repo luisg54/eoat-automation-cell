@@ -1,0 +1,54 @@
+[
+  {
+    "name": "ARM-103_Grip_moving_finger",
+    "solid_count": 1,
+    "volume_mm3": 2867.388190960147,
+    "approximate_box_mm": [
+      -11.0,
+      -19.0,
+      0.0,
+      27.0,
+      11.0,
+      18.000000000000004
+    ],
+    "features": [
+      "Stock_horn_attachment",
+      "Finger_arm",
+      "Descending_contact_finger",
+      "Horn_center_access",
+      "Horn_screws",
+      "Contact_pad_keeper"
+    ],
+    "files": [
+      "parts\\ARM-103_Grip_moving_finger.SLDPRT",
+      "parts\\ARM-103_Grip_moving_finger.step",
+      "parts\\ARM-103_Grip_moving_finger.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-109_Bearing_and_dowel_keeper",
+    "solid_count": 1,
+    "volume_mm3": 2952.2802802844717,
+    "approximate_box_mm": [
+      -17.0,
+      -17.0,
+      0.0,
+      17.0,
+      17.0,
+      12.0
+    ],
+    "features": [
+      "Outer_race_keeper_flange",
+      "Pin_end_cover",
+      "Dowel_end_float_pocket_depth9",
+      "Keeper_M2_fasteners"
+    ],
+    "files": [
+      "parts\\ARM-109_Bearing_and_dowel_keeper.SLDPRT",
+      "parts\\ARM-109_Bearing_and_dowel_keeper.step",
+      "parts\\ARM-109_Bearing_and_dowel_keeper.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

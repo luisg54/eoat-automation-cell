@@ -1,0 +1,374 @@
+[
+  {
+    "name": "ARM-001_Base_pedestal",
+    "solid_count": 1,
+    "volume_mm3": 142865.16317487456,
+    "approximate_box_mm": [
+      -70.0,
+      0.0,
+      -60.0,
+      70.0,
+      71.00000000000001,
+      60.0
+    ],
+    "features": [
+      "Bench_footprint_140x120",
+      "Backbone",
+      "Servo_shelf",
+      "Servo_body_window",
+      "Yaw_servo_fasteners",
+      "Bearing_bridge",
+      "Bridge_horn_clearance",
+      "Drive_collar_chamber",
+      "Bearing_tower",
+      "Bearing_separation_shoulder",
+      "Bench_clamp_holes",
+      "Yaw_crossbolt_access"
+    ],
+    "files": [
+      "parts\\ARM-001_Base_pedestal.SLDPRT",
+      "parts\\ARM-001_Base_pedestal.step",
+      "parts\\ARM-001_Base_pedestal.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-002_Yaw_platform_and_shoulder_mount",
+    "solid_count": 1,
+    "volume_mm3": 53004.56155460111,
+    "approximate_box_mm": [
+      -44.0,
+      43.0,
+      -44.0,
+      44.0,
+      144.0,
+      44.0
+    ],
+    "features": [
+      "Yaw_platform",
+      "Printed_hollow_yaw_spindle",
+      "Inner_race_load_shoulder",
+      "D_flat_on_spindle_end",
+      "Shoulder_mount_plate",
+      "MG996_body_window",
+      "MG996_tab_mounts",
+      "Passive_shoulder_standoffs",
+      "Upright_rib",
+      "Yaw_positive_retention_crossbolt"
+    ],
+    "files": [
+      "parts\\ARM-002_Yaw_platform_and_shoulder_mount.SLDPRT",
+      "parts\\ARM-002_Yaw_platform_and_shoulder_mount.step",
+      "parts\\ARM-002_Yaw_platform_and_shoulder_mount.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-003_Yaw_D_drive_collar",
+    "solid_count": 1,
+    "volume_mm3": 1553.319378926702,
+    "approximate_box_mm": [
+      -12.0,
+      40.99999999999999,
+      -12.0,
+      12.0,
+      48.0,
+      12.0
+    ],
+    "features": [
+      "Stock_horn_drive_flange",
+      "D_coupling_ring",
+      "D_key_land",
+      "Stock_horn_screws",
+      "Yaw_positive_retention_crossbolt"
+    ],
+    "files": [
+      "parts\\ARM-003_Yaw_D_drive_collar.SLDPRT",
+      "parts\\ARM-003_Yaw_D_drive_collar.step",
+      "parts\\ARM-003_Yaw_D_drive_collar.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-101_Upper_link_60mm_MG996_SG90",
+    "solid_count": 1,
+    "volume_mm3": 9224.43537957614,
+    "approximate_box_mm": [
+      -16.0,
+      -16.0,
+      0.0,
+      90.0,
+      16.0,
+      8.0
+    ],
+    "features": [
+      "Main_web",
+      "Shoulder_horn_flange",
+      "Elbow_servo_mount",
+      "SG90_body_clearance",
+      "Elbow_tab_fasteners",
+      "Shoulder_center_screw_access",
+      "Shoulder_horn_bolt_pattern",
+      "Cable_tie_holes",
+      "Passive_lower_mount_boss",
+      "Passive_upper_mount_boss",
+      "Passive_cheek_standoffs",
+      "Shoulder_dowel_support_hub"
+    ],
+    "files": [
+      "parts\\ARM-101_Upper_link_60mm_MG996_SG90.SLDPRT",
+      "parts\\ARM-101_Upper_link_60mm_MG996_SG90.step",
+      "parts\\ARM-101_Upper_link_60mm_MG996_SG90.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-102_Forearm_and_fixed_jaw",
+    "solid_count": 1,
+    "volume_mm3": 8446.612994414292,
+    "approximate_box_mm": [
+      -13.0,
+      -16.0,
+      0.0,
+      78.0,
+      41.0,
+      8.0
+    ],
+    "features": [
+      "Elbow_horn_flange",
+      "Forearm_web",
+      "Gripper_mount_rib",
+      "Gripper_servo_mount",
+      "Grip_SG90_body_clearance",
+      "Moving_finger_sweep_relief",
+      "Grip_servo_tab_fasteners",
+      "Fixed_finger_spine",
+      "Fixed_finger_root",
+      "Elbow_center_screw_access",
+      "Elbow_dowel_support_hub",
+      "Elbow_horn_fasteners",
+      "Fixed_pad_keeper_fasteners"
+    ],
+    "files": [
+      "parts\\ARM-102_Forearm_and_fixed_jaw.SLDPRT",
+      "parts\\ARM-102_Forearm_and_fixed_jaw.step",
+      "parts\\ARM-102_Forearm_and_fixed_jaw.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-103_Grip_moving_finger",
+    "solid_count": 1,
+    "volume_mm3": 2867.3881909601464,
+    "approximate_box_mm": [
+      -11.0,
+      -19.0,
+      0.0,
+      27.0,
+      11.0,
+      18.000000000000004
+    ],
+    "features": [
+      "Stock_horn_attachment",
+      "Finger_arm",
+      "Descending_contact_finger",
+      "Horn_center_access",
+      "Horn_screws",
+      "Contact_pad_keeper"
+    ],
+    "files": [
+      "parts\\ARM-103_Grip_moving_finger.SLDPRT",
+      "parts\\ARM-103_Grip_moving_finger.step",
+      "parts\\ARM-103_Grip_moving_finger.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-104_Elbow_bearing_cheek",
+    "solid_count": 1,
+    "volume_mm3": 5203.149103891598,
+    "approximate_box_mm": [
+      -30.0,
+      -17.0,
+      0.0,
+      17.0,
+      17.0,
+      7.0
+    ],
+    "features": [
+      "Bearing_housing",
+      "Mounting_web",
+      "Bearing_seat",
+      "Standoff_fasteners",
+      "Bearing_keeper_fasteners"
+    ],
+    "files": [
+      "parts\\ARM-104_Elbow_bearing_cheek.SLDPRT",
+      "parts\\ARM-104_Elbow_bearing_cheek.step",
+      "parts\\ARM-104_Elbow_bearing_cheek.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-105_Shoulder_bearing_cheek",
+    "solid_count": 1,
+    "volume_mm3": 9077.904281622426,
+    "approximate_box_mm": [
+      -42.0,
+      -22.0,
+      0.0,
+      17.0,
+      22.0,
+      7.0
+    ],
+    "features": [
+      "Bearing_housing",
+      "Mounting_web",
+      "Bearing_seat",
+      "Standoff_fasteners",
+      "Bearing_keeper_fasteners"
+    ],
+    "files": [
+      "parts\\ARM-105_Shoulder_bearing_cheek.SLDPRT",
+      "parts\\ARM-105_Shoulder_bearing_cheek.step",
+      "parts\\ARM-105_Shoulder_bearing_cheek.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-106_M3_standoff_24mm",
+    "solid_count": 1,
+    "volume_mm3": 1013.3521263419236,
+    "approximate_box_mm": [
+      -4.0,
+      -4.0,
+      0.0,
+      4.0,
+      4.0,
+      24.0
+    ],
+    "features": [
+      "Standoff_OD8_ID3p2"
+    ],
+    "files": [
+      "parts\\ARM-106_M3_standoff_24mm.SLDPRT",
+      "parts\\ARM-106_M3_standoff_24mm.step",
+      "parts\\ARM-106_M3_standoff_24mm.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-107_Dowel_to_608_adapter",
+    "solid_count": 1,
+    "volume_mm3": 121.37959478170772,
+    "approximate_box_mm": [
+      -3.9900000000000007,
+      -3.9900000000000007,
+      0.0,
+      3.9900000000000007,
+      3.9900000000000007,
+      7.0
+    ],
+    "features": [
+      "Adapter_8OD_6p45ID"
+    ],
+    "files": [
+      "parts\\ARM-107_Dowel_to_608_adapter.SLDPRT",
+      "parts\\ARM-107_Dowel_to_608_adapter.step",
+      "parts\\ARM-107_Dowel_to_608_adapter.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-108_M3_standoff_32mm",
+    "solid_count": 1,
+    "volume_mm3": 1351.1361684558983,
+    "approximate_box_mm": [
+      -4.0,
+      -4.0,
+      0.0,
+      4.0,
+      4.0,
+      32.0
+    ],
+    "features": [
+      "Standoff_OD8_ID3p2"
+    ],
+    "files": [
+      "parts\\ARM-108_M3_standoff_32mm.SLDPRT",
+      "parts\\ARM-108_M3_standoff_32mm.step",
+      "parts\\ARM-108_M3_standoff_32mm.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-109_Bearing_and_dowel_keeper",
+    "solid_count": 1,
+    "volume_mm3": 2396.2183805990785,
+    "approximate_box_mm": [
+      -17.0,
+      -17.0,
+      0.0,
+      17.0,
+      17.0,
+      8.0
+    ],
+    "features": [
+      "Outer_race_keeper_flange",
+      "Pin_end_cover",
+      "Dowel_end_float_pocket_depth6",
+      "Keeper_M2_fasteners"
+    ],
+    "files": [
+      "parts\\ARM-109_Bearing_and_dowel_keeper.SLDPRT",
+      "parts\\ARM-109_Bearing_and_dowel_keeper.step",
+      "parts\\ARM-109_Bearing_and_dowel_keeper.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "HW-005_SG90_stock_horn_ENVELOPE",
+    "solid_count": 1,
+    "volume_mm3": 557.0515013712745,
+    "approximate_box_mm": [
+      -10.0,
+      -10.0,
+      0.0,
+      10.0,
+      10.0,
+      2.0000000000000018
+    ],
+    "features": [
+      "Horn_plate_envelope",
+      "Nominal_horn_attachment_holes"
+    ],
+    "files": [
+      "hardware-reference\\HW-005_SG90_stock_horn_ENVELOPE.SLDPRT",
+      "hardware-reference\\HW-005_SG90_stock_horn_ENVELOPE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "HW-006_MG996_stock_horn_ENVELOPE",
+    "solid_count": 1,
+    "volume_mm3": 1546.1740943723864,
+    "approximate_box_mm": [
+      -13.0,
+      -13.0,
+      -4.0,
+      13.0,
+      13.0,
+      3.0000000000000027
+    ],
+    "features": [
+      "Horn_plate_envelope",
+      "Spline_hub_envelope",
+      "Nominal_horn_attachment_holes"
+    ],
+    "files": [
+      "hardware-reference\\HW-006_MG996_stock_horn_ENVELOPE.SLDPRT",
+      "hardware-reference\\HW-006_MG996_stock_horn_ENVELOPE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

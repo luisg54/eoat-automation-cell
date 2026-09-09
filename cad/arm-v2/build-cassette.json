@@ -1,0 +1,61 @@
+[
+  {
+    "name": "ARM-001_Base_pedestal",
+    "solid_count": 1,
+    "volume_mm3": 139504.04814614178,
+    "approximate_box_mm": [
+      -70.0,
+      0.0,
+      -60.0,
+      70.0,
+      71.00000000000001,
+      60.0
+    ],
+    "features": [
+      "Bench_footprint_140x120",
+      "Backbone",
+      "Removable_servo_mount_M3",
+      "Bearing_bridge",
+      "Bridge_horn_clearance",
+      "Drive_collar_chamber",
+      "Bearing_tower",
+      "Bearing_separation_shoulder",
+      "Bench_clamp_holes",
+      "Yaw_crossbolt_access"
+    ],
+    "files": [
+      "parts\\ARM-001_Base_pedestal.SLDPRT",
+      "parts\\ARM-001_Base_pedestal.step",
+      "parts\\ARM-001_Base_pedestal.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-004_Removable_yaw_servo_mount",
+    "solid_count": 1,
+    "volume_mm3": 6103.330986618805,
+    "approximate_box_mm": [
+      -21.0,
+      23.0,
+      -18.0,
+      25.0,
+      33.0,
+      18.0
+    ],
+    "features": [
+      "Servo_shelf",
+      "Rear_clamping_block",
+      "Servo_body_window",
+      "Yaw_servo_M2_fasteners",
+      "Left_nut_access",
+      "Right_nut_access",
+      "Rear_clamping_M3_holes"
+    ],
+    "files": [
+      "parts\\ARM-004_Removable_yaw_servo_mount.SLDPRT",
+      "parts\\ARM-004_Removable_yaw_servo_mount.step",
+      "parts\\ARM-004_Removable_yaw_servo_mount.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "FIT-001_Dowel_and_bearing_trial",
+    "solid_count": 1,
+    "volume_mm3": 19246.825031069075,
+    "approximate_box_mm": [
+      -60.0,
+      -17.0,
+      0.0,
+      60.0,
+      17.0,
+      8.0
+    ],
+    "features": [
+      "Coupon_plate",
+      "Bearing_fit_trial_through",
+      "Dowel_fit_trial_through"
+    ],
+    "files": [
+      "parts\\FIT-001_Dowel_and_bearing_trial.SLDPRT",
+      "parts\\FIT-001_Dowel_and_bearing_trial.step",
+      "parts\\FIT-001_Dowel_and_bearing_trial.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "name": "ARM-102_Forearm_and_fixed_jaw",
+    "solid_count": 1,
+    "volume_mm3": 8366.785125086579,
+    "approximate_box_mm": [
+      -13.0,
+      -16.0,
+      0.0,
+      78.0,
+      41.0,
+      8.0
+    ],
+    "features": [
+      "Elbow_horn_flange",
+      "Forearm_web",
+      "Gripper_mount_rib",
+      "Gripper_servo_mount",
+      "Grip_SG90_body_clearance",
+      "Moving_finger_sweep_relief",
+      "Grip_servo_tab_fasteners",
+      "Fixed_finger_spine",
+      "Fixed_finger_root",
+      "Elbow_center_screw_access",
+      "Elbow_dowel_support_hub",
+      "Elbow_horn_fasteners",
+      "M2x8_washer_recess_depth1",
+      "Fixed_pad_keeper_fasteners"
+    ],
+    "files": [
+      "parts\\ARM-102_Forearm_and_fixed_jaw.SLDPRT",
+      "parts\\ARM-102_Forearm_and_fixed_jaw.step",
+      "parts\\ARM-102_Forearm_and_fixed_jaw.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-003_Yaw_D_drive_collar",
+    "solid_count": 1,
+    "volume_mm3": 1507.5642132056441,
+    "approximate_box_mm": [
+      -12.0,
+      40.99999999999999,
+      -12.0,
+      12.0,
+      48.0,
+      12.0
+    ],
+    "features": [
+      "Stock_horn_drive_flange",
+      "D_coupling_ring",
+      "D_key_land",
+      "Stock_horn_screws",
+      "Two_horn_washer_clearances",
+      "Yaw_positive_retention_crossbolt"
+    ],
+    "files": [
+      "parts\\ARM-003_Yaw_D_drive_collar.SLDPRT",
+      "parts\\ARM-003_Yaw_D_drive_collar.step",
+      "parts\\ARM-003_Yaw_D_drive_collar.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-104_Elbow_bearing_cheek",
+    "solid_count": 1,
+    "volume_mm3": 5845.196394505744,
+    "approximate_box_mm": [
+      -30.0,
+      -17.0,
+      -1.0000000000000009,
+      17.0,
+      17.0,
+      7.0
+    ],
+    "features": [
+      "Bearing_housing",
+      "Mounting_web",
+      "Bearing_seat",
+      "Inner_outer_race_retaining_lip",
+      "Standoff_fasteners",
+      "Bearing_keeper_fasteners"
+    ],
+    "files": [
+      "parts\\ARM-104_Elbow_bearing_cheek.SLDPRT",
+      "parts\\ARM-104_Elbow_bearing_cheek.step",
+      "parts\\ARM-104_Elbow_bearing_cheek.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-105_Shoulder_bearing_cheek",
+    "solid_count": 1,
+    "volume_mm3": 9719.951572236572,
+    "approximate_box_mm": [
+      -42.0,
+      -22.0,
+      -1.0000000000000009,
+      17.0,
+      22.0,
+      7.0
+    ],
+    "features": [
+      "Bearing_housing",
+      "Mounting_web",
+      "Bearing_seat",
+      "Inner_outer_race_retaining_lip",
+      "Standoff_fasteners",
+      "Bearing_keeper_fasteners"
+    ],
+    "files": [
+      "parts\\ARM-105_Shoulder_bearing_cheek.SLDPRT",
+      "parts\\ARM-105_Shoulder_bearing_cheek.step",
+      "parts\\ARM-105_Shoulder_bearing_cheek.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

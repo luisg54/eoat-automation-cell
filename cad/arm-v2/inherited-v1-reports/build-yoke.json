@@ -1,0 +1,57 @@
+[
+  {
+    "name": "ARM-002_Yaw_platform_and_shoulder_mount",
+    "solid_count": 1,
+    "volume_mm3": 47389.981246882606,
+    "approximate_box_mm": [
+      -44.0,
+      43.0,
+      -44.0,
+      44.0,
+      144.0,
+      44.0
+    ],
+    "features": [
+      "Yaw_platform",
+      "Printed_hollow_yaw_spindle",
+      "Inner_race_load_shoulder",
+      "D_flat_on_spindle_end",
+      "Shoulder_mount_plate",
+      "MG996_body_window",
+      "MG996_tab_mounts",
+      "Passive_shoulder_standoffs",
+      "Upright_rib"
+    ],
+    "files": [
+      "parts\\ARM-002_Yaw_platform_and_shoulder_mount.SLDPRT",
+      "parts\\ARM-002_Yaw_platform_and_shoulder_mount.step",
+      "parts\\ARM-002_Yaw_platform_and_shoulder_mount.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-003_Yaw_D_drive_collar",
+    "solid_count": 1,
+    "volume_mm3": 1810.344130744281,
+    "approximate_box_mm": [
+      -12.0,
+      40.0,
+      -12.0,
+      12.0,
+      47.99999999999999,
+      12.0
+    ],
+    "features": [
+      "Stock_horn_drive_flange",
+      "D_coupling_ring",
+      "D_key_land",
+      "Stock_horn_screws"
+    ],
+    "files": [
+      "parts\\ARM-003_Yaw_D_drive_collar.SLDPRT",
+      "parts\\ARM-003_Yaw_D_drive_collar.step",
+      "parts\\ARM-003_Yaw_D_drive_collar.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

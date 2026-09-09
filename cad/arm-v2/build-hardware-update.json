@@ -1,0 +1,45 @@
+[
+  {
+    "name": "HW-W_M3_washer_0p5_ENVELOPE",
+    "solid_count": 1,
+    "volume_mm3": 10.115928344559133,
+    "approximate_box_mm": [
+      -3.0,
+      -3.0,
+      0.0,
+      3.0,
+      3.0,
+      0.5
+    ],
+    "features": [
+      "Washer_M3_small_series_OD6"
+    ],
+    "files": [
+      "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "HW-S_M2x25_socket_ENVELOPE",
+    "solid_count": 1,
+    "volume_mm3": 101.22211529866313,
+    "approximate_box_mm": [
+      -1.9,
+      -1.9,
+      -25.0,
+      1.9,
+      1.9,
+      2.0
+    ],
+    "features": [
+      "Shank_nominal_thread_envelope",
+      "Socket_head_envelope"
+    ],
+    "files": [
+      "hardware-reference\\HW-S_M2x25_socket_ENVELOPE.SLDPRT",
+      "hardware-reference\\HW-S_M2x25_socket_ENVELOPE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

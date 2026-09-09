@@ -1,0 +1,177 @@
+[
+  {
+    "name": "ARM-001_Base_pedestal",
+    "solid_count": 1,
+    "volume_mm3": 143928.43277755837,
+    "approximate_box_mm": [
+      -70.0,
+      0.0,
+      -60.0,
+      70.0,
+      72.00000000000001,
+      60.0
+    ],
+    "features": [
+      "Bench_footprint_140x120",
+      "Backbone",
+      "Servo_shelf",
+      "Servo_body_window",
+      "Yaw_servo_fasteners",
+      "Bearing_bridge",
+      "Bridge_horn_clearance",
+      "Drive_collar_chamber",
+      "Bearing_tower",
+      "Bearing_separation_shoulder",
+      "Bench_clamp_holes"
+    ],
+    "files": [
+      "parts\\ARM-001_Base_pedestal.SLDPRT",
+      "parts\\ARM-001_Base_pedestal.step",
+      "parts\\ARM-001_Base_pedestal.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-002_Yaw_platform_and_shoulder_mount",
+    "solid_count": 1,
+    "volume_mm3": 47389.9812468826,
+    "approximate_box_mm": [
+      -44.0,
+      43.0,
+      -44.0,
+      44.0,
+      144.0,
+      44.0
+    ],
+    "features": [
+      "Yaw_platform",
+      "Printed_hollow_yaw_spindle",
+      "Inner_race_load_shoulder",
+      "D_flat_on_spindle_end",
+      "Shoulder_mount_plate",
+      "MG996_body_window",
+      "MG996_tab_mounts",
+      "Passive_shoulder_standoffs",
+      "Upright_rib"
+    ],
+    "files": [
+      "parts\\ARM-002_Yaw_platform_and_shoulder_mount.SLDPRT",
+      "parts\\ARM-002_Yaw_platform_and_shoulder_mount.step",
+      "parts\\ARM-002_Yaw_platform_and_shoulder_mount.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-003_Yaw_D_drive_collar",
+    "solid_count": 1,
+    "volume_mm3": 1810.3441307442808,
+    "approximate_box_mm": [
+      -12.0,
+      40.0,
+      -12.0,
+      12.0,
+      47.99999999999999,
+      12.0
+    ],
+    "features": [
+      "Stock_horn_drive_flange",
+      "D_coupling_ring",
+      "D_key_land",
+      "Stock_horn_screws"
+    ],
+    "files": [
+      "parts\\ARM-003_Yaw_D_drive_collar.SLDPRT",
+      "parts\\ARM-003_Yaw_D_drive_collar.step",
+      "parts\\ARM-003_Yaw_D_drive_collar.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-101_Upper_link_60mm_MG996_SG90",
+    "solid_count": 1,
+    "volume_mm3": 8339.961303610515,
+    "approximate_box_mm": [
+      -16.0,
+      -16.0,
+      0.0,
+      90.0,
+      16.0,
+      4.0000000000000036
+    ],
+    "features": [
+      "Main_web",
+      "Shoulder_horn_flange",
+      "Elbow_servo_mount",
+      "SG90_body_clearance",
+      "Elbow_tab_fasteners",
+      "Shoulder_center_screw_access",
+      "Shoulder_horn_bolt_pattern",
+      "Cable_tie_holes",
+      "Passive_cheek_standoffs"
+    ],
+    "files": [
+      "parts\\ARM-101_Upper_link_60mm_MG996_SG90.SLDPRT",
+      "parts\\ARM-101_Upper_link_60mm_MG996_SG90.step",
+      "parts\\ARM-101_Upper_link_60mm_MG996_SG90.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-102_Forearm_and_fixed_jaw",
+    "solid_count": 1,
+    "volume_mm3": 8792.399957114147,
+    "approximate_box_mm": [
+      -13.0,
+      -16.0,
+      0.0,
+      78.0,
+      29.0,
+      7.0
+    ],
+    "features": [
+      "Elbow_horn_flange",
+      "Forearm_web",
+      "Gripper_servo_mount",
+      "Grip_SG90_body_clearance",
+      "Grip_servo_tab_fasteners",
+      "Fixed_finger_spine",
+      "Fixed_finger_root",
+      "Elbow_center_screw_access",
+      "Elbow_horn_fasteners",
+      "Fixed_pad_keeper_fasteners"
+    ],
+    "files": [
+      "parts\\ARM-102_Forearm_and_fixed_jaw.SLDPRT",
+      "parts\\ARM-102_Forearm_and_fixed_jaw.step",
+      "parts\\ARM-102_Forearm_and_fixed_jaw.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-103_Grip_moving_finger",
+    "solid_count": 1,
+    "volume_mm3": 1966.1981072013477,
+    "approximate_box_mm": [
+      -11.0,
+      -11.0,
+      0.0,
+      27.0,
+      11.0,
+      18.000000000000004
+    ],
+    "features": [
+      "Stock_horn_attachment",
+      "Finger_arm",
+      "Descending_contact_finger",
+      "Horn_center_access",
+      "Horn_screws",
+      "Contact_pad_keeper"
+    ],
+    "files": [
+      "parts\\ARM-103_Grip_moving_finger.SLDPRT",
+      "parts\\ARM-103_Grip_moving_finger.step",
+      "parts\\ARM-103_Grip_moving_finger.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]
