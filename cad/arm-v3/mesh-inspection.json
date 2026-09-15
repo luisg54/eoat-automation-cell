@@ -1,0 +1,254 @@
+[
+  {
+    "file": "parts\\ARM-001_Base_pedestal.STL",
+    "triangles": 2204,
+    "dimensions_in_file_units": [
+      140.0,
+      71.0,
+      120.0
+    ],
+    "signed_volume_in_file_units_cubed": 139443.05400193928,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\ARM-002_Yaw_platform_and_shoulder_mount.STL",
+    "triangles": 2274,
+    "dimensions_in_file_units": [
+      87.9256,
+      101.0,
+      88.0
+    ],
+    "signed_volume_in_file_units_cubed": 52932.66733778074,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\ARM-003_Yaw_D_drive_collar.STL",
+    "triangles": 2264,
+    "dimensions_in_file_units": [
+      26.0,
+      8.65,
+      26.0
+    ],
+    "signed_volume_in_file_units_cubed": 2307.9980165863785,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\ARM-004_Removable_yaw_servo_mount.STL",
+    "triangles": 688,
+    "dimensions_in_file_units": [
+      46.0,
+      11.6,
+      36.0
+    ],
+    "signed_volume_in_file_units_cubed": 6507.317171446413,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\ARM-101_Upper_link_60mm_MG996_SG90.STL",
+    "triangles": 2728,
+    "dimensions_in_file_units": [
+      106.0,
+      31.9981,
+      8.0
+    ],
+    "signed_volume_in_file_units_cubed": 9424.873583562468,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\ARM-102_Forearm_and_fixed_jaw.STL",
+    "triangles": 2094,
+    "dimensions_in_file_units": [
+      91.0,
+      57.0,
+      9.65
+    ],
+    "signed_volume_in_file_units_cubed": 9029.38989132062,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\ARM-103_Grip_moving_finger.STL",
+    "triangles": 1682,
+    "dimensions_in_file_units": [
+      40.0,
+      33.0,
+      22.6
+    ],
+    "signed_volume_in_file_units_cubed": 4362.663203450757,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\ARM-104_Elbow_bearing_cheek.STL",
+    "triangles": 1428,
+    "dimensions_in_file_units": [
+      47.0,
+      33.9861,
+      8.0
+    ],
+    "signed_volume_in_file_units_cubed": 5842.698118208664,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\ARM-105_Shoulder_bearing_cheek.STL",
+    "triangles": 1412,
+    "dimensions_in_file_units": [
+      59.0,
+      44.0,
+      8.0
+    ],
+    "signed_volume_in_file_units_cubed": 9718.645381810882,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\ARM-106_M3_standoff_24mm.STL",
+    "triangles": 312,
+    "dimensions_in_file_units": [
+      8.0,
+      8.0,
+      24.0
+    ],
+    "signed_volume_in_file_units_cubed": 1009.3054730736001,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\ARM-106_M3_standoff_28p6mm.STL",
+    "triangles": 296,
+    "dimensions_in_file_units": [
+      8.0,
+      7.9727,
+      28.6
+    ],
+    "signed_volume_in_file_units_cubed": 1202.2028518299817,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\ARM-107_Dowel_to_608_adapter.STL",
+    "triangles": 424,
+    "dimensions_in_file_units": [
+      7.98,
+      7.98,
+      7.0
+    ],
+    "signed_volume_in_file_units_cubed": 121.24682289020028,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\ARM-108_M3_standoff_32mm.STL",
+    "triangles": 304,
+    "dimensions_in_file_units": [
+      8.0,
+      7.9928,
+      32.0
+    ],
+    "signed_volume_in_file_units_cubed": 1344.7829269055987,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\ARM-109_Bearing_and_dowel_keeper.STL",
+    "triangles": 1244,
+    "dimensions_in_file_units": [
+      34.0,
+      34.0,
+      12.2
+    ],
+    "signed_volume_in_file_units_cubed": 3046.68044216761,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\ARM-110_Fixed_jaw_TPU_sock.STL",
+    "triangles": 644,
+    "dimensions_in_file_units": [
+      22.0,
+      7.0,
+      6.0
+    ],
+    "signed_volume_in_file_units_cubed": 429.90044836956093,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\ARM-111_Moving_jaw_TPU_sock.STL",
+    "triangles": 348,
+    "dimensions_in_file_units": [
+      14.0,
+      7.0,
+      7.0
+    ],
+    "signed_volume_in_file_units_cubed": 265.7178329702,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\ARM-112_SG90_horn_capture_cap.STL",
+    "triangles": 1580,
+    "dimensions_in_file_units": [
+      26.0,
+      25.9666,
+      2.0
+    ],
+    "signed_volume_in_file_units_cubed": 905.7907899087585,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\FIT-001_Dowel_and_bearing_trial.STL",
+    "triangles": 1512,
+    "dimensions_in_file_units": [
+      120.0,
+      34.0,
+      8.0
+    ],
+    "signed_volume_in_file_units_cubed": 19310.23462605225,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\FIT-002_SG90_horn_pocket_clearance_0p05.STL",
+    "triangles": 1334,
+    "dimensions_in_file_units": [
+      26.0,
+      26.0,
+      5.65
+    ],
+    "signed_volume_in_file_units_cubed": 2457.918825140522,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\FIT-002_SG90_horn_pocket_clearance_0p10.STL",
+    "triangles": 1334,
+    "dimensions_in_file_units": [
+      26.0,
+      26.0,
+      5.65
+    ],
+    "signed_volume_in_file_units_cubed": 2452.6172388847126,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "file": "parts\\FIT-002_SG90_horn_pocket_clearance_0p15.STL",
+    "triangles": 1334,
+    "dimensions_in_file_units": [
+      26.0,
+      26.0,
+      5.65
+    ],
+    "signed_volume_in_file_units_cubed": 2447.2513955868803,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  }
+]

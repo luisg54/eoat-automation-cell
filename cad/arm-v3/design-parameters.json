@@ -1,6 +1,6 @@
 {
   "revision": "C-development",
-  "status": "Horn interface revision in progress; not released",
+  "status": "Revision C native assembly and six saved configurations verified; 21 discrete collision samples clear. Full fabrication pending actual horn fits, swept travel/access checks and physical tests.",
   "scope": "Articulated tabletop robot arm, supersedes the previous X-slide concept for this CAD task",
   "payload_target_g": 20,
   "upper_link_centres_mm": 60,
@@ -28,5 +28,14 @@
   "servo_body_height_envelope_mm": 29,
   "servo_fit_clearance_per_side_mm": 0.4,
   "fit_status": "Nominal bought hardware from BOM; caliper confirmation outstanding",
-  "shoulder_link_rear_z_mm": 20.5
+  "shoulder_link_rear_z_mm": 20.5,
+  "sg90_ear_thickness_mm": 2.4,
+  "sg90_gear_cover_height_above_ear_top_mm": 8.8,
+  "sg90_seated_horn_front_above_ear_top_assumed_mm": 13.2,
+  "sg90_horn_blade_mm": 1.5,
+  "sg90_horn_hub_projection_mm": 2.5,
+  "elbow_axial_offset_mm": 19.6,
+  "elbow_standoff_mm": 28.6,
+  "sg90_reference_source": "https://www.auselectronicsdirect.com.au/assets/brochures/TA0132.pdf",
+  "reference_scope": "Supplier drawing plus conservative envelopes; not measurement of owned motors. Generator constants currently drive geometry."
 }

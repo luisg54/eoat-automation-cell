@@ -7,6 +7,7 @@ import math
 import json
 from pathlib import Path
 from build_native import ROOT, connect, call, methods, nothing, integer_ref, pythoncom, win32com
+from build_arm_parts import SG_EAR_TOP, SG_LINK_OFFSET, SG_CAP_RECESS, YAW_EAR_TOP, ELBOW_BEARING_OFFSET
 
 TEMPLATE=r'C:\ProgramData\SolidWorks\SOLIDWORKS 2024\templates\Assembly.ASMDOT'
 
@@ -137,7 +138,7 @@ def main():
     a.add('base','ARM-001_Base_pedestal')
     a.add('yaw','ARM-002_Yaw_platform_and_shoulder_mount')
     a.add('collar','ARM-003_Yaw_D_drive_collar')
-    a.add('yaw_servo','HW-003_SG90_NOMINAL_VERIFY',(0,32,0),TOP,True)
+    a.add('yaw_servo','HW-003_SG90_NOMINAL_VERIFY',(0,YAW_EAR_TOP,0),TOP,True)
     a.add('yaw_bearing_low','HW-001_608ZZ_22x8x7_ENVELOPE',(0,48,0),TOP,True)
     a.add('yaw_bearing_high','HW-001_608ZZ_22x8x7_ENVELOPE',(0,63,0),TOP,True)
     a.add('shoulder_servo','HW-004_MG996R_NOMINAL_VERIFY',(0,122,7),I,True)
@@ -145,12 +146,12 @@ def main():
     upper_origin=(0,122,20.5)
     a.add('upper','ARM-101_Upper_link_60mm_MG996_SG90',upper_origin,shoulder)
     elbow=point(shoulder,(60,0,0),upper_origin)
-    elbow_servo=point(shoulder,(60,0,6),upper_origin)
+    elbow_servo=point(shoulder,(60,0,SG_EAR_TOP),upper_origin)
     a.add('elbow_servo','HW-003_SG90_NOMINAL_VERIFY',elbow_servo,shoulder,True)
     forearm_rotation=rotation_z(0)
-    forearm_origin=[elbow[0],elbow[1],elbow[2]+15]
+    forearm_origin=[elbow[0],elbow[1],elbow[2]+SG_LINK_OFFSET]
     a.add('forearm','ARM-102_Forearm_and_fixed_jaw',forearm_origin,forearm_rotation)
-    grip_servo=point(forearm_rotation,(45,30,6),forearm_origin)
+    grip_servo=point(forearm_rotation,(45,30,SG_EAR_TOP),forearm_origin)
     a.add('grip_servo','HW-003_SG90_NOMINAL_VERIFY',grip_servo,forearm_rotation,True)
     jaw_origin=point(forearm_rotation,(45,30,0),forearm_origin)
     a.add('jaw','ARM-103_Grip_moving_finger',jaw_origin,forearm_rotation)
@@ -166,12 +167,12 @@ def main():
     attached('elbow_horn','HW-005_SG90_COMPACT_CROSS_REFERENCE','forearm',
              [*forearm_origin[:2],forearm_origin[2]-1.5],forearm_rotation,True)
     attached('grip_horn','HW-005_SG90_COMPACT_CROSS_REFERENCE','jaw',
-             point(forearm_rotation,(45,30,13.5),forearm_origin),forearm_rotation,True)
+             point(forearm_rotation,(45,30,SG_LINK_OFFSET-1.5),forearm_origin),forearm_rotation,True)
     attached('yaw_horn_cap','ARM-112_SG90_horn_capture_cap','yaw',(0,37.35,0),TOP)
     attached('elbow_horn_cap','ARM-112_SG90_horn_capture_cap','forearm',
              point(forearm_rotation,(0,0,-3.65),forearm_origin),forearm_rotation)
     attached('grip_horn_cap','ARM-112_SG90_horn_capture_cap','jaw',
-             point(forearm_rotation,(45,30,11.35),forearm_origin),forearm_rotation)
+             point(forearm_rotation,(45,30,SG_LINK_OFFSET-3.65),forearm_origin),forearm_rotation)
     attached('shoulder_cheek','ARM-105_Shoulder_bearing_cheek','yaw',(0,122,36))
     attached('shoulder_bearing','HW-001_608ZZ_22x8x7_ENVELOPE','yaw',(0,122,36),I,True)
     attached('shoulder_keeper','ARM-109_Bearing_and_dowel_keeper','yaw',(0,122,43.2))
@@ -181,18 +182,18 @@ def main():
     for i,y in enumerate((104,140)):
         attached('shoulder_standoff_'+str(i),'ARM-108_M3_standoff_32mm','yaw',(-36,y,4))
     attached('elbow_cheek','ARM-104_Elbow_bearing_cheek','upper',
-             point(shoulder,(60,0,28),upper_origin),shoulder)
+             point(shoulder,(60,0,ELBOW_BEARING_OFFSET),upper_origin),shoulder)
     attached('elbow_bearing','HW-001_608ZZ_22x8x7_ENVELOPE','upper',
-             point(shoulder,(60,0,28),upper_origin),shoulder,True)
+             point(shoulder,(60,0,ELBOW_BEARING_OFFSET),upper_origin),shoulder,True)
     attached('elbow_keeper','ARM-109_Bearing_and_dowel_keeper','upper',
-             point(shoulder,(60,0,35.2),upper_origin),shoulder)
+             point(shoulder,(60,0,ELBOW_BEARING_OFFSET+7.2),upper_origin),shoulder)
     attached('elbow_pin','HW-002_Dowel_6p35x25p4','forearm',
              point(forearm_rotation,(0,0,3),forearm_origin),forearm_rotation,True)
-    for i,z in enumerate((15,28)):
+    for i,z in enumerate((SG_LINK_OFFSET,ELBOW_BEARING_OFFSET)):
         attached('elbow_sleeve_'+str(i),'ARM-107_Dowel_to_608_adapter','forearm',
                  point(shoulder,(60,0,z),upper_origin),shoulder)
     for i,y in enumerate((-9,9)):
-        attached('elbow_standoff_'+str(i),'ARM-106_M3_standoff_24mm','upper',
+        attached('elbow_standoff_'+str(i),'ARM-106_M3_standoff_28p6mm','upper',
                  point(shoulder,(35,y,4),upper_origin),shoulder)
     # Real screw/nut envelopes, grouped rigidly with the supported structure.
     # All stacks use local +Z for the head and local -Z for the screw shank.
@@ -210,20 +211,20 @@ def main():
         a.report['fastener_stacks'].append({'label':label,'parent':parent,'diameter_mm':d,
             'length_mm':length,'nut':nut_kind,'grip_mm':top-bottom,
             'thread_protrusion_mm':length-(top-bottom+1+nut_height)})
-    for label,parent,origin,rot in [('yaw_servo','base',(0,32,0),TOP),
+    for label,parent,origin,rot in [('yaw_servo','base',(0,YAW_EAR_TOP,0),TOP),
             ('elbow_servo','upper',elbow_servo,shoulder),
             ('grip_servo','forearm',grip_servo,forearm_rotation)]:
         for i,x in enumerate((-9,20)):
-            stack(label+'_mount_'+str(i),parent,origin,rot,(x,0),0,-6,2,10)
+            stack(label+'_mount_'+str(i),parent,origin,rot,(x,0),0,-SG_EAR_TOP,2,10)
     for i,xy in enumerate([(-13,-5),(-13,5),(34,-5),(34,5)]):
         stack('shoulder_servo_mount_'+str(i),'yaw',(0,122,7),I,xy,0,-7,2.5,14,True)
     for i,y in enumerate((-18,18)):
         stack('shoulder_support_'+str(i),'yaw',(0,122,36),I,(-36,y),4,-36,3,50,True)
     for i,y in enumerate((-9,9)):
-        stack('elbow_support_'+str(i),'upper',point(shoulder,(60,0,28),upper_origin),shoulder,
-              (-25,y),4,-28,3,40,True)
+        stack('elbow_support_'+str(i),'upper',point(shoulder,(60,0,ELBOW_BEARING_OFFSET),upper_origin),shoulder,
+              (-25,y),4,-ELBOW_BEARING_OFFSET,3,45,True)
     for label,parent,origin,rot in [('shoulder','yaw',(0,122,36),I),
-            ('elbow','upper',point(shoulder,(60,0,28),upper_origin),shoulder)]:
+            ('elbow','upper',point(shoulder,(60,0,ELBOW_BEARING_OFFSET),upper_origin),shoulder)]:
         for i,xy in enumerate([(14,0),(0,-14),(0,14)]):
             stack(label+'_keeper_'+str(i),parent,origin,rot,xy,9.2,-1,2,14)
     for i,xy in enumerate([(7,0),(-7,0),(0,7),(0,-7)]):
@@ -237,16 +238,18 @@ def main():
     reverse_z=[[1,0,0],[0,-1,0],[0,0,-1]]
     for role,parent,origin,rot,seat,front in [('yaw','yaw',(0,0,0),TOP,41,44),
             ('elbow','forearm',forearm_origin,forearm_rotation,0,4),
-            ('grip','jaw',jaw_origin,forearm_rotation,15,18)]:
+            ('grip','jaw',jaw_origin,forearm_rotation,SG_LINK_OFFSET,SG_LINK_OFFSET+3)]:
         for i,xy in enumerate([(7,7),(-7,7),(-7,-7),(7,-7)]):
             label=role+'_horn_capture_'+str(i)
             attached(label+'_screw','HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE',parent,
-                     point(rot,(*xy,seat-3.3),origin),compose(rot,reverse_z),True)
+                     point(rot,(*xy,seat-3.65+SG_CAP_RECESS),origin),compose(rot,reverse_z),True)
             attached(label+'_washer','HW-W_M2_washer_0p5_ENVELOPE',parent,point(rot,(*xy,front),origin),rot,True)
             attached(label+'_nut','HW-N_M2_hex_ENVELOPE',parent,point(rot,(*xy,front+.5),origin),rot,True)
             a.report['fastener_stacks'].append({'label':label,'parent':parent,'diameter_mm':2,'length_mm':10,
                 'head':'low profile D4 x1.1; rear side','nut':'M2 plain; front side','washer_count':1,
-                'thread_protrusion_mm':seat+6.7-(front+2.1),'nominal_case_clearance_mm':.6})
+                'thread_protrusion_mm':seat-3.65+SG_CAP_RECESS+10-(front+2.1),
+                'minimum_axial_cover_clearance_mm':13.2-3.65+SG_CAP_RECESS-1.1-8.8,
+                'status':'Seated-horn height is assumed; physical clearance required'})
     cross=[[0,0,-1],[0,1,0],[1,0,0]]
     stack('yaw_retention_crossbolt','yaw',(0,45.5,0),cross,(0,0),6,-6,2,20)
     for i,z in enumerate((-12,12)):
@@ -254,7 +257,7 @@ def main():
     for i,x in enumerate((57,73)):
         stack('fixed_pad_capture_'+str(i),'forearm',forearm_origin,forearm_rotation,(x,-13.5),5,-1,2,10)
     for i,x in enumerate((18,24)):
-        stack('moving_pad_capture_'+str(i),'jaw',jaw_origin,forearm_rotation,(x,-17.5),18,-1,2,25)
+        stack('moving_pad_capture_'+str(i),'jaw',jaw_origin,forearm_rotation,(x,-17.5),SG_LINK_OFFSET+3,-1,2,30)
     a.report['rigid_attachments']=attachments
     for key,parent in attachments:
         a.rigid('Mount_'+key,parent,key)
@@ -270,7 +273,7 @@ def main():
                         ('elbow_servo','upper'),('grip_servo','forearm')]:
         a.rigid('Mount_'+item,parent,item)
     a.joint('J2_shoulder','upper','shoulder_servo',4,3,'yaw',20.5)
-    a.joint('J3_elbow','forearm','elbow_servo',4,2.5,'upper',15)
+    a.joint('J3_elbow','forearm','elbow_servo',4,2.5,'upper',SG_LINK_OFFSET)
     a.joint('J4_grip','jaw','grip_servo',3,2.5,'forearm',0)
     a.save()
 

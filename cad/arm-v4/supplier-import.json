@@ -1,0 +1,126 @@
+{
+  "type": 2,
+  "file": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v4\\hardware-reference\\HW-201_Pololu3551_SUPPLIER.SLDASM",
+  "components_or_bodies": [
+    {
+      "name": "pololu-3551.step-1",
+      "path": "C:\\Users\\luisg\\AppData\\Local\\Temp\\swx27844\\IC~~\\pololu-3551.step.SLDASM",
+      "box_mm": [
+        -27.14800667260924,
+        -3.2194741075564566,
+        -25.522813312554288,
+        21.187188187331195,
+        59.14988688718768,
+        11.111824147116387
+      ],
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "pololu-3551.step-1/grp01c_for_model_1_1.step-2",
+      "path": "C:\\Users\\luisg\\AppData\\Local\\Temp\\swx27844\\IC~~\\grp01c_for_model_1_1.step.SLDPRT",
+      "box_mm": [
+        11.119576512318002,
+        25.780525892443,
+        -12.112112117409,
+        19.916172395775803,
+        59.14988688718768,
+        10.887937882591
+      ],
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.013019576512318,
+        0.059080525892443,
+        -0.000612087117409,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "pololu-3551.step-1/assembled_gripper_1_1.step-1",
+      "path": "C:\\Users\\luisg\\AppData\\Local\\Temp\\swx27844\\IC~~\\assembled_gripper_1_1.step.SLDPRT",
+      "box_mm": [
+        -27.14800667260924,
+        -3.2194741075564566,
+        -25.522813312554288,
+        21.187188187331195,
+        29.095234841280057,
+        11.111824147116387
+      ],
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -0.008029418030824,
+        -0.006016843542333,
+        -0.026100288808294,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "pololu-3551.step-1/grp01c_for_model_1_1.step-1",
+      "path": "C:\\Users\\luisg\\AppData\\Local\\Temp\\swx27844\\IC~~\\grp01c_for_model_1_1.step.SLDPRT",
+      "box_mm": [
+        -25.877019371139802,
+        25.780525892443,
+        -12.112112117409,
+        -17.080423487681998,
+        59.14988688718768,
+        10.887937882591
+      ],
+      "transform": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -0.018980423487682,
+        0.059080525892443,
+        -0.000612087117409,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

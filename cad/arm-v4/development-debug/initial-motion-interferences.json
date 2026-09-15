@@ -1,0 +1,405 @@
+{
+  "status": "sampled poses only; continuous swept clearance and physical travel not established",
+  "samples": [
+    {
+      "name": "home",
+      "joint_angles_deg": [
+        0,
+        45,
+        -45,
+        32
+      ],
+      "transform_residual": 2.2204460492503136e-16,
+      "interferences": [
+        {
+          "volume_mm3": 31.80862561759669,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-S_M3x20_socket_ENVELOPE-1"
+          ]
+        },
+        {
+          "volume_mm3": 31.80862561759669,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-S_M3x20_socket_ENVELOPE-2"
+          ]
+        },
+        {
+          "volume_mm3": 8.804623872887184,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-N_M3_nyloc_ENVELOPE-1"
+          ]
+        },
+        {
+          "volume_mm3": 8.80462387288713,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-N_M3_nyloc_ENVELOPE-2"
+          ]
+        },
+        {
+          "volume_mm3": 0.5396800379778274,
+          "components": [
+            "HW-004_MG996R_NOMINAL_VERIFY-2",
+            "HW-S_M3x16_socket_ENVELOPE-2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "grip_22mm",
+      "joint_angles_deg": [
+        0,
+        45,
+        -45,
+        22
+      ],
+      "transform_residual": 2.2204460492503136e-16,
+      "interferences": [
+        {
+          "volume_mm3": 31.80862561759669,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-S_M3x20_socket_ENVELOPE-2"
+          ]
+        },
+        {
+          "volume_mm3": 31.80862561759669,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-S_M3x20_socket_ENVELOPE-1"
+          ]
+        },
+        {
+          "volume_mm3": 8.804623872887184,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-N_M3_nyloc_ENVELOPE-1"
+          ]
+        },
+        {
+          "volume_mm3": 8.80462387288713,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-N_M3_nyloc_ENVELOPE-2"
+          ]
+        },
+        {
+          "volume_mm3": 0.5396800379778274,
+          "components": [
+            "HW-004_MG996R_NOMINAL_VERIFY-2",
+            "HW-S_M3x16_socket_ENVELOPE-2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "grip_2mm",
+      "joint_angles_deg": [
+        0,
+        45,
+        -45,
+        2
+      ],
+      "transform_residual": 2.2204460492503136e-16,
+      "interferences": [
+        {
+          "volume_mm3": 31.80862561759669,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-S_M3x20_socket_ENVELOPE-1"
+          ]
+        },
+        {
+          "volume_mm3": 31.80862561759669,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-S_M3x20_socket_ENVELOPE-2"
+          ]
+        },
+        {
+          "volume_mm3": 8.804623872887184,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-N_M3_nyloc_ENVELOPE-1"
+          ]
+        },
+        {
+          "volume_mm3": 8.80462387288713,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-N_M3_nyloc_ENVELOPE-2"
+          ]
+        },
+        {
+          "volume_mm3": 0.5396800379778274,
+          "components": [
+            "HW-004_MG996R_NOMINAL_VERIFY-2",
+            "HW-S_M3x16_socket_ENVELOPE-2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "low_pickup",
+      "joint_angles_deg": [
+        0,
+        -30,
+        -60,
+        22
+      ],
+      "transform_residual": 4.440892098500626e-16,
+      "interferences": [
+        {
+          "volume_mm3": 98.74480480435854,
+          "components": [
+            "HW-004_MG996R_NOMINAL_VERIFY-2",
+            "ARM-203_Bolted_shoulder_upright-1"
+          ]
+        },
+        {
+          "volume_mm3": 31.80862561759669,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-S_M3x20_socket_ENVELOPE-2"
+          ]
+        },
+        {
+          "volume_mm3": 31.80862561759669,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-S_M3x20_socket_ENVELOPE-1"
+          ]
+        },
+        {
+          "volume_mm3": 8.804623872887184,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-N_M3_nyloc_ENVELOPE-1"
+          ]
+        },
+        {
+          "volume_mm3": 8.80462387288713,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-N_M3_nyloc_ENVELOPE-2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "transfer",
+      "joint_angles_deg": [
+        0,
+        20,
+        -20,
+        22
+      ],
+      "transform_residual": 2.2204460492503136e-16,
+      "interferences": [
+        {
+          "volume_mm3": 31.80862561759669,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-S_M3x20_socket_ENVELOPE-2"
+          ]
+        },
+        {
+          "volume_mm3": 31.80862561759669,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-S_M3x20_socket_ENVELOPE-1"
+          ]
+        },
+        {
+          "volume_mm3": 8.804623872887184,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-N_M3_nyloc_ENVELOPE-1"
+          ]
+        },
+        {
+          "volume_mm3": 8.80462387288713,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-N_M3_nyloc_ENVELOPE-2"
+          ]
+        },
+        {
+          "volume_mm3": 6.990913447921655,
+          "components": [
+            "HW-004_MG996R_NOMINAL_VERIFY-2",
+            "HW-S_M3x16_socket_ENVELOPE-2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "upright",
+      "joint_angles_deg": [
+        0,
+        80,
+        -90,
+        32
+      ],
+      "transform_residual": 4.3734249688940693e-16,
+      "interferences": [
+        {
+          "volume_mm3": 31.80862561759669,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-S_M3x20_socket_ENVELOPE-2"
+          ]
+        },
+        {
+          "volume_mm3": 31.80862561759669,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-S_M3x20_socket_ENVELOPE-1"
+          ]
+        },
+        {
+          "volume_mm3": 8.804623872887184,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-N_M3_nyloc_ENVELOPE-1"
+          ]
+        },
+        {
+          "volume_mm3": 8.80462387288713,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-N_M3_nyloc_ENVELOPE-2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "elbow_fold",
+      "joint_angles_deg": [
+        0,
+        45,
+        -100,
+        32
+      ],
+      "transform_residual": 4.440892098500626e-16,
+      "interferences": [
+        {
+          "volume_mm3": 31.80862561759669,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-S_M3x20_socket_ENVELOPE-1"
+          ]
+        },
+        {
+          "volume_mm3": 31.80862561759669,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-S_M3x20_socket_ENVELOPE-2"
+          ]
+        },
+        {
+          "volume_mm3": 8.804623872887184,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-N_M3_nyloc_ENVELOPE-1"
+          ]
+        },
+        {
+          "volume_mm3": 8.80462387288713,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-N_M3_nyloc_ENVELOPE-2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "yaw_left",
+      "joint_angles_deg": [
+        -60,
+        20,
+        -20,
+        22
+      ],
+      "transform_residual": 3.3306690738754696e-16,
+      "interferences": [
+        {
+          "volume_mm3": 6.9909134479218205,
+          "components": [
+            "HW-004_MG996R_NOMINAL_VERIFY-2",
+            "HW-S_M3x16_socket_ENVELOPE-2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "yaw_right",
+      "joint_angles_deg": [
+        60,
+        20,
+        -20,
+        22
+      ],
+      "transform_residual": 4.440892098500626e-16,
+      "interferences": [
+        {
+          "volume_mm3": 6.990913447921441,
+          "components": [
+            "HW-004_MG996R_NOMINAL_VERIFY-2",
+            "HW-S_M3x16_socket_ENVELOPE-2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "extended",
+      "joint_angles_deg": [
+        0,
+        0,
+        -5,
+        32
+      ],
+      "transform_residual": 4.440892098500626e-16,
+      "interferences": [
+        {
+          "volume_mm3": 31.80862561759669,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-S_M3x20_socket_ENVELOPE-2"
+          ]
+        },
+        {
+          "volume_mm3": 31.80862561759669,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-S_M3x20_socket_ENVELOPE-1"
+          ]
+        },
+        {
+          "volume_mm3": 8.804623872887179,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-N_M3_nyloc_ENVELOPE-1"
+          ]
+        },
+        {
+          "volume_mm3": 8.804623872887133,
+          "components": [
+            "ARM-001_Base_pedestal-1",
+            "HW-N_M3_nyloc_ENVELOPE-2"
+          ]
+        },
+        {
+          "volume_mm3": 5.67877975934669,
+          "components": [
+            "HW-004_MG996R_NOMINAL_VERIFY-2",
+            "HW-S_M3x16_socket_ENVELOPE-2"
+          ]
+        }
+      ]
+    }
+  ]
+}

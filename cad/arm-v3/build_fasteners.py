@@ -35,12 +35,17 @@ def nut(sw,d,nyloc=False):
     return p.save(True)
 
 if __name__=='__main__':
+    import sys
     sw=connect()
     old=sw.GetUserPreferenceToggle(16)
     try:
         sw.SetUserPreferenceToggle(16,False)
         rows=[]
-        for d,L in [(2,8),(2,10),(2,14),(2,20),(2,25),(2.5,14),(3,12),(3,16),(3,30),(3,40),(3,50)]:
+        if '--revision-c-only' in sys.argv:
+            rows=[low_head_screw(sw,10),screw(sw,2,30),screw(sw,3,45)]
+            (ROOT/'build-fasteners-c.json').write_text(json.dumps(rows,indent=2))
+            sys.exit(0)
+        for d,L in [(2,8),(2,10),(2,14),(2,20),(2,25),(2,30),(2.5,14),(3,12),(3,16),(3,30),(3,40),(3,45),(3,50)]:
             rows.append(screw(sw,d,L))
         for d in (2,2.5,3):
             rows.append(washer(sw,d))

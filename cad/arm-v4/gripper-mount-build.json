@@ -1,0 +1,171 @@
+[
+  {
+    "name": "ARM-204_Modular_forearm_MG996R",
+    "solid_count": 1,
+    "volume_mm3": 8470.209760184109,
+    "approximate_box_mm": [
+      -16.0,
+      -16.0,
+      0.0,
+      62.0,
+      16.0,
+      8.0
+    ],
+    "features": [
+      "Metal_horn_flange",
+      "Straight_forearm_web",
+      "Replaceable_tool_mounting_deck",
+      "Dowel_support_hub",
+      "Washer_seats_clear_dowel_sleeve",
+      "Metal_horn_M3_pattern",
+      "Elbow_sleeve_bore",
+      "Modular_tool_four_M3_pattern"
+    ],
+    "files": [
+      "parts\\ARM-204_Modular_forearm_MG996R.SLDPRT",
+      "parts\\ARM-204_Modular_forearm_MG996R.step",
+      "parts\\ARM-204_Modular_forearm_MG996R.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-205_Parallel_gripper_fork_adapter",
+    "solid_count": 1,
+    "volume_mm3": 6326.925040800817,
+    "approximate_box_mm": [
+      22.999999999999993,
+      -15.0,
+      4.0,
+      62.0,
+      15.0,
+      26.0
+    ],
+    "features": [
+      "Removable_adapter_base",
+      "Left_pin0_support",
+      "Left_pin0_rounded_lug",
+      "Left_pin1_support",
+      "Left_pin1_rounded_lug",
+      "Right_pin0_support",
+      "Right_pin0_rounded_lug",
+      "Right_pin1_support",
+      "Right_pin1_rounded_lug",
+      "Both_M4_gripper_pin_axes",
+      "Four_M3_removable_deck_bolts"
+    ],
+    "files": [
+      "parts\\ARM-205_Parallel_gripper_fork_adapter.SLDPRT",
+      "parts\\ARM-205_Parallel_gripper_fork_adapter.step",
+      "parts\\ARM-205_Parallel_gripper_fork_adapter.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-206_Gripper_lug_crush_spacer_13mm",
+    "solid_count": 1,
+    "volume_mm3": 464.6651154108322,
+    "approximate_box_mm": [
+      -4.0,
+      -4.0,
+      0.0,
+      4.0,
+      4.0,
+      13.0
+    ],
+    "features": [
+      "Spacer_between_POM_mounting_ears"
+    ],
+    "files": [
+      "parts\\ARM-206_Gripper_lug_crush_spacer_13mm.SLDPRT",
+      "parts\\ARM-206_Gripper_lug_crush_spacer_13mm.step",
+      "parts\\ARM-206_Gripper_lug_crush_spacer_13mm.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "HW-S_M3x20_socket_ENVELOPE",
+    "solid_count": 1,
+    "volume_mm3": 212.64655273985912,
+    "approximate_box_mm": [
+      -2.75,
+      -2.75,
+      -20.0,
+      2.75,
+      2.75,
+      3.0
+    ],
+    "features": [
+      "Shank_nominal_thread_envelope",
+      "Socket_head_envelope"
+    ],
+    "files": [
+      "hardware-reference\\HW-S_M3x20_socket_ENVELOPE.SLDPRT",
+      "hardware-reference\\HW-S_M3x20_socket_ENVELOPE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "HW-S_M4x35_socket_ENVELOPE",
+    "solid_count": 1,
+    "volume_mm3": 593.7610115284709,
+    "approximate_box_mm": [
+      -3.5,
+      -3.5,
+      -35.0,
+      3.5,
+      3.5,
+      4.000000000000002
+    ],
+    "features": [
+      "Shank_nominal_thread_envelope",
+      "Socket_head_envelope"
+    ],
+    "files": [
+      "hardware-reference\\HW-S_M4x35_socket_ENVELOPE.SLDPRT",
+      "hardware-reference\\HW-S_M4x35_socket_ENVELOPE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "HW-W_M4_washer_0p5_ENVELOPE",
+    "solid_count": 1,
+    "volume_mm3": 18.20552942755285,
+    "approximate_box_mm": [
+      -4.0,
+      -4.0,
+      0.0,
+      4.0,
+      4.0,
+      0.5
+    ],
+    "features": [
+      "Washer"
+    ],
+    "files": [
+      "hardware-reference\\HW-W_M4_washer_0p5_ENVELOPE.SLDPRT",
+      "hardware-reference\\HW-W_M4_washer_0p5_ENVELOPE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "HW-N_M4_nyloc_ENVELOPE",
+    "solid_count": 1,
+    "volume_mm3": 149.34437085539162,
+    "approximate_box_mm": [
+      -4.041451884327381,
+      -3.5000000000000004,
+      0.0,
+      4.041451884327381,
+      3.5000000000000004,
+      5.0
+    ],
+    "features": [
+      "Nut_thread_envelope_height_5"
+    ],
+    "files": [
+      "hardware-reference\\HW-N_M4_nyloc_ENVELOPE.SLDPRT",
+      "hardware-reference\\HW-N_M4_nyloc_ENVELOPE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

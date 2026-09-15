@@ -1,0 +1,49 @@
+{
+  "revision": "D-development",
+  "status": "See saved native QA and fabrication manifest; physical fit and performance qualification remain",
+  "scope": "Articulated tabletop robot arm, supersedes the previous X-slide concept for this CAD task",
+  "payload_target_g": 20,
+  "upper_link_centres_mm": 60,
+  "forearm_link_centres_mm": 90,
+  "servo_count": 4,
+  "servo_roles": [
+    "SG90 yaw (owned)",
+    "MG996R shoulder (owned)",
+    "MG996R elbow (owned)",
+    "FS90-FB included in Pololu3551"
+  ],
+  "shoulder_servo_stall_reference_Nm": 0.9218251,
+  "servo_stall_reference_Nm": 0.17652,
+  "servo_design_fraction_of_reference_stall": 0.3333333333,
+  "servo_rating_status": "Manufacturer reference only; purchased units must be measured and load-tested",
+  "shoulder_reduction_ratio": 1,
+  "shoulder_transmission_efficiency_assumed": 0.9,
+  "bearing_OD_mm": 22,
+  "bearing_ID_mm": 8,
+  "bearing_width_mm": 7,
+  "dowel_diameter_mm": 6.35,
+  "dowel_length_mm": 25.4,
+  "servo_body_length_nominal_mm": 23,
+  "servo_body_width_nominal_mm": 12.2,
+  "servo_body_height_envelope_mm": 29,
+  "servo_fit_clearance_per_side_mm": 0.4,
+  "fit_status": "Nominal bought hardware from BOM; caliper confirmation outstanding",
+  "shoulder_link_rear_z_mm": 20.5,
+  "sg90_ear_thickness_mm": 2.4,
+  "sg90_gear_cover_height_above_ear_top_mm": 8.8,
+  "sg90_seated_horn_front_above_ear_top_assumed_mm": 13.2,
+  "sg90_horn_blade_mm": 1.5,
+  "sg90_horn_hub_projection_mm": 2.5,
+  "elbow_axial_offset_mm": 20.5,
+  "elbow_standoff_mm": 32,
+  "sg90_reference_source": "https://www.auselectronicsdirect.com.au/assets/brochures/TA0132.pdf",
+  "reference_scope": "Supplier drawing plus conservative envelopes; not measurement of owned motors. Generator constants currently drive geometry.",
+  "gripper_working_opening_mm": [
+    2,
+    32
+  ],
+  "shoulder_travel_deg": [
+    -15,
+    80
+  ]
+}

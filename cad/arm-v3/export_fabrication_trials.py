@@ -6,6 +6,8 @@ from check_print_meshes import inspect
 sw=connect(); build=json.loads((ROOT/'assembly-build-report.json').read_text())
 counts=Counter(r['file'].split('\\')[-1] for r in build['components'] if r['file'].startswith('parts'))
 counts['FIT-001_Dowel_and_bearing_trial.SLDPRT']=1
+for coupon in (ROOT/'parts').glob('FIT-002*.SLDPRT'):
+ counts[coupon.name]=1
 out=ROOT/'fabrication-trial'; out.mkdir(exist_ok=True)
 prior_i={i:sw.GetUserPreferenceIntegerValue(i) for i in (78,211)}
 prior_t={i:sw.GetUserPreferenceToggle(i) for i in (69,70,191)}

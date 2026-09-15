@@ -1,0 +1,362 @@
+[
+  {
+    "part": "ARM-001_Base_pedestal",
+    "quantity": 1,
+    "material": "PETG",
+    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "units": "mm",
+    "native_volume_mm3": 139504.0481461418,
+    "file": "fabrication-trial\\candidate-parts\\ARM-001_Base_pedestal.stl",
+    "triangles": 2294,
+    "dimensions_in_file_units": [
+      140.0,
+      71.0,
+      120.0
+    ],
+    "signed_volume_in_file_units_cubed": 139437.77375416117,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "ARM-002_Yaw_platform_and_shoulder_mount",
+    "quantity": 1,
+    "material": "PETG",
+    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "units": "mm",
+    "native_volume_mm3": 53004.56155460111,
+    "file": "fabrication-trial\\candidate-parts\\ARM-002_Yaw_platform_and_shoulder_mount.stl",
+    "triangles": 2262,
+    "dimensions_in_file_units": [
+      87.9821,
+      101.0,
+      88.0
+    ],
+    "signed_volume_in_file_units_cubed": 52935.263710242936,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "ARM-003_Yaw_D_drive_collar",
+    "quantity": 1,
+    "material": "PETG",
+    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "units": "mm",
+    "native_volume_mm3": 2310.9147547435973,
+    "file": "fabrication-trial\\candidate-parts\\ARM-003_Yaw_D_drive_collar.stl",
+    "triangles": 2264,
+    "dimensions_in_file_units": [
+      26.0,
+      8.65,
+      26.0
+    ],
+    "signed_volume_in_file_units_cubed": 2307.9980165863785,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "ARM-004_Removable_yaw_servo_mount",
+    "quantity": 1,
+    "material": "PETG",
+    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "units": "mm",
+    "native_volume_mm3": 6506.53098661881,
+    "file": "fabrication-trial\\candidate-parts\\ARM-004_Removable_yaw_servo_mount.stl",
+    "triangles": 688,
+    "dimensions_in_file_units": [
+      46.0,
+      11.6,
+      36.0
+    ],
+    "signed_volume_in_file_units_cubed": 6507.317171446413,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "ARM-101_Upper_link_60mm_MG996_SG90",
+    "quantity": 1,
+    "material": "PETG",
+    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "units": "mm",
+    "native_volume_mm3": 9436.506882410293,
+    "file": "fabrication-trial\\candidate-parts\\ARM-101_Upper_link_60mm_MG996_SG90.stl",
+    "triangles": 2728,
+    "dimensions_in_file_units": [
+      106.0,
+      31.9981,
+      8.0
+    ],
+    "signed_volume_in_file_units_cubed": 9424.873583562468,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "ARM-102_Forearm_and_fixed_jaw",
+    "quantity": 1,
+    "material": "PETG",
+    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "units": "mm",
+    "native_volume_mm3": 9041.466588391979,
+    "file": "fabrication-trial\\candidate-parts\\ARM-102_Forearm_and_fixed_jaw.stl",
+    "triangles": 2094,
+    "dimensions_in_file_units": [
+      91.0,
+      57.0,
+      9.65
+    ],
+    "signed_volume_in_file_units_cubed": 9029.38989132062,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "ARM-103_Grip_moving_finger",
+    "quantity": 1,
+    "material": "PETG",
+    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "units": "mm",
+    "native_volume_mm3": 4365.725362402432,
+    "file": "fabrication-trial\\candidate-parts\\ARM-103_Grip_moving_finger.stl",
+    "triangles": 1682,
+    "dimensions_in_file_units": [
+      40.0,
+      33.0,
+      22.6
+    ],
+    "signed_volume_in_file_units_cubed": 4362.663203450757,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "ARM-104_Elbow_bearing_cheek",
+    "quantity": 1,
+    "material": "PETG",
+    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "units": "mm",
+    "native_volume_mm3": 5845.196394505744,
+    "file": "fabrication-trial\\candidate-parts\\ARM-104_Elbow_bearing_cheek.stl",
+    "triangles": 1400,
+    "dimensions_in_file_units": [
+      47.0,
+      34.0,
+      8.0
+    ],
+    "signed_volume_in_file_units_cubed": 5842.678206125687,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "ARM-105_Shoulder_bearing_cheek",
+    "quantity": 1,
+    "material": "PETG",
+    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "units": "mm",
+    "native_volume_mm3": 9719.951572236572,
+    "file": "fabrication-trial\\candidate-parts\\ARM-105_Shoulder_bearing_cheek.stl",
+    "triangles": 1384,
+    "dimensions_in_file_units": [
+      59.0,
+      44.0,
+      8.0
+    ],
+    "signed_volume_in_file_units_cubed": 9718.296336588533,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "ARM-106_M3_standoff_28p6mm",
+    "quantity": 2,
+    "material": "PETG",
+    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "units": "mm",
+    "native_volume_mm3": 1207.5779505574592,
+    "file": "fabrication-trial\\candidate-parts\\ARM-106_M3_standoff_28p6mm.stl",
+    "triangles": 296,
+    "dimensions_in_file_units": [
+      8.0,
+      7.9727,
+      28.6
+    ],
+    "signed_volume_in_file_units_cubed": 1202.2028518299817,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "ARM-107_Dowel_to_608_adapter",
+    "quantity": 4,
+    "material": "PETG",
+    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "units": "mm",
+    "native_volume_mm3": 121.37959478170775,
+    "file": "fabrication-trial\\candidate-parts\\ARM-107_Dowel_to_608_adapter.stl",
+    "triangles": 440,
+    "dimensions_in_file_units": [
+      7.98,
+      7.977,
+      7.0
+    ],
+    "signed_volume_in_file_units_cubed": 121.23610784810015,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "ARM-108_M3_standoff_32mm",
+    "quantity": 2,
+    "material": "PETG",
+    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "units": "mm",
+    "native_volume_mm3": 1351.1361684558983,
+    "file": "fabrication-trial\\candidate-parts\\ARM-108_M3_standoff_32mm.stl",
+    "triangles": 288,
+    "dimensions_in_file_units": [
+      8.0,
+      8.0,
+      32.0
+    ],
+    "signed_volume_in_file_units_cubed": 1344.286750707201,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "ARM-109_Bearing_and_dowel_keeper",
+    "quantity": 2,
+    "material": "PETG",
+    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "units": "mm",
+    "native_volume_mm3": 3052.7672629021954,
+    "file": "fabrication-trial\\candidate-parts\\ARM-109_Bearing_and_dowel_keeper.stl",
+    "triangles": 1236,
+    "dimensions_in_file_units": [
+      34.0,
+      33.9887,
+      12.2
+    ],
+    "signed_volume_in_file_units_cubed": 3047.3631021821507,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "ARM-110_Fixed_jaw_TPU_sock",
+    "quantity": 1,
+    "material": "TPU",
+    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "units": "mm",
+    "native_volume_mm3": 429.83522240096295,
+    "file": "fabrication-trial\\candidate-parts\\ARM-110_Fixed_jaw_TPU_sock.stl",
+    "triangles": 624,
+    "dimensions_in_file_units": [
+      22.0,
+      7.0,
+      6.0
+    ],
+    "signed_volume_in_file_units_cubed": 429.90458079348036,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "ARM-111_Moving_jaw_TPU_sock",
+    "quantity": 1,
+    "material": "TPU",
+    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "units": "mm",
+    "native_volume_mm3": 265.68134577831285,
+    "file": "fabrication-trial\\candidate-parts\\ARM-111_Moving_jaw_TPU_sock.stl",
+    "triangles": 340,
+    "dimensions_in_file_units": [
+      14.0,
+      7.0,
+      7.0
+    ],
+    "signed_volume_in_file_units_cubed": 265.7198750279994,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "ARM-112_SG90_horn_capture_cap",
+    "quantity": 3,
+    "material": "PETG",
+    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "units": "mm",
+    "native_volume_mm3": 906.7500336239879,
+    "file": "fabrication-trial\\candidate-parts\\ARM-112_SG90_horn_capture_cap.stl",
+    "triangles": 1580,
+    "dimensions_in_file_units": [
+      26.0,
+      25.9666,
+      2.0
+    ],
+    "signed_volume_in_file_units_cubed": 905.7907899087585,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "FIT-001_Dowel_and_bearing_trial",
+    "quantity": 1,
+    "material": "PETG",
+    "status": "Print and measure coupon first",
+    "units": "mm",
+    "native_volume_mm3": 19246.825031069075,
+    "file": "fabrication-trial\\fit-coupon\\FIT-001_Dowel_and_bearing_trial.stl",
+    "triangles": 1464,
+    "dimensions_in_file_units": [
+      120.0,
+      34.0,
+      8.0
+    ],
+    "signed_volume_in_file_units_cubed": 19314.71815418476,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "FIT-002_SG90_horn_pocket_clearance_0p05",
+    "quantity": 1,
+    "material": "PETG",
+    "status": "Print and measure coupon first",
+    "units": "mm",
+    "native_volume_mm3": 2461.0397313422395,
+    "file": "fabrication-trial\\fit-coupon\\FIT-002_SG90_horn_pocket_clearance_0p05.stl",
+    "triangles": 1334,
+    "dimensions_in_file_units": [
+      26.0,
+      26.0,
+      5.65
+    ],
+    "signed_volume_in_file_units_cubed": 2457.918825140522,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "FIT-002_SG90_horn_pocket_clearance_0p10",
+    "quantity": 1,
+    "material": "PETG",
+    "status": "Print and measure coupon first",
+    "units": "mm",
+    "native_volume_mm3": 2455.766502862889,
+    "file": "fabrication-trial\\fit-coupon\\FIT-002_SG90_horn_pocket_clearance_0p10.stl",
+    "triangles": 1334,
+    "dimensions_in_file_units": [
+      26.0,
+      26.0,
+      5.65
+    ],
+    "signed_volume_in_file_units_cubed": 2452.6172388847126,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "FIT-002_SG90_horn_pocket_clearance_0p15",
+    "quantity": 1,
+    "material": "PETG",
+    "status": "Print and measure coupon first",
+    "units": "mm",
+    "native_volume_mm3": 2450.4210806324395,
+    "file": "fabrication-trial\\fit-coupon\\FIT-002_SG90_horn_pocket_clearance_0p15.stl",
+    "triangles": 1334,
+    "dimensions_in_file_units": [
+      26.0,
+      26.0,
+      5.65
+    ],
+    "signed_volume_in_file_units_cubed": 2447.2513955868803,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  }
+]

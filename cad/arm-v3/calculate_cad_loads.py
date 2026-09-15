@@ -6,6 +6,7 @@ sw=connect()
 doc=sw.OpenDoc6(str(ROOT/'ARM-C_Articulated_prototype_DEVELOPMENT.SLDASM'),2,1,'',integer_ref(),integer_ref())
 if doc is None: raise RuntimeError('Assembly did not open')
 build=json.loads((ROOT/'assembly-build-report.json').read_text())
+build_by_key={r['key']:r for r in build['components']}
 components={call(c,'Name2'):c for c in call(doc,'GetComponents',False)}
 parents={r['child']:r['parent'] for r in build['mates'] if r['type']=='lock'}
 def group(key):
@@ -35,9 +36,9 @@ for row in build['components']:
     # Jaw is at zero relative angle in the saved nominal pose.
     distal=g in ('forearm','jaw')
     if distal:
-        elbow=[42.42640687119285,164.42640687119285,38]
+        elbow=build_by_key['forearm']['position_mm']
         if g=='jaw':
-            grip=[87.42640687119285,194.42640687119285]
+            grip=build_by_key['jaw']['position_mm']
             elbow_r=math.hypot(45,30)+math.hypot(center[0]-grip[0],center[1]-grip[1])
         else:
             elbow_r=math.hypot(center[0]-elbow[0],center[1]-elbow[1])

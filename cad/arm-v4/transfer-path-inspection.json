@@ -1,0 +1,174 @@
+{
+  "status": "sampled poses only; continuous swept clearance and physical travel not established",
+  "samples": [
+    {
+      "name": "gripper_fully_closed",
+      "joint_angles_deg": [
+        0,
+        45,
+        -45,
+        0
+      ],
+      "transform_residual": 2.220446049250313e-16,
+      "interferences": [
+        {
+          "volume_mm3": 0.09243217237431389,
+          "components": [
+            "HW-203_Pololu3551_jaw-1",
+            "HW-202_Pololu3551_body-1"
+          ]
+        },
+        {
+          "volume_mm3": 0.09232518790880716,
+          "components": [
+            "HW-202_Pololu3551_body-1",
+            "HW-203_Pololu3551_jaw-2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gripper_reopened",
+      "joint_angles_deg": [
+        0,
+        45,
+        -45,
+        32
+      ],
+      "transform_residual": 2.220446049250313e-16,
+      "interferences": []
+    },
+    {
+      "name": "lift_0",
+      "joint_angles_deg": [
+        0,
+        -15.0,
+        -80.0,
+        22
+      ],
+      "transform_residual": 2.8772442884009803e-16,
+      "interferences": []
+    },
+    {
+      "name": "lift_1",
+      "joint_angles_deg": [
+        0,
+        -8.0,
+        -68.0,
+        22
+      ],
+      "transform_residual": 4.440892098500626e-16,
+      "interferences": []
+    },
+    {
+      "name": "lift_2",
+      "joint_angles_deg": [
+        0,
+        -1.0,
+        -56.0,
+        22
+      ],
+      "transform_residual": 3.3306690738754696e-16,
+      "interferences": []
+    },
+    {
+      "name": "lift_3",
+      "joint_angles_deg": [
+        0,
+        6.0,
+        -44.0,
+        22
+      ],
+      "transform_residual": 2.7755575615628914e-16,
+      "interferences": []
+    },
+    {
+      "name": "lift_4",
+      "joint_angles_deg": [
+        0,
+        13.0,
+        -32.0,
+        22
+      ],
+      "transform_residual": 6.38378239159465e-16,
+      "interferences": []
+    },
+    {
+      "name": "lift_5",
+      "joint_angles_deg": [
+        0,
+        20.0,
+        -20.0,
+        22
+      ],
+      "transform_residual": 3.3306690738754696e-16,
+      "interferences": []
+    },
+    {
+      "name": "yaw_-60",
+      "joint_angles_deg": [
+        -60,
+        20,
+        -20,
+        22
+      ],
+      "transform_residual": 3.3306690738754696e-16,
+      "interferences": []
+    },
+    {
+      "name": "yaw_-40",
+      "joint_angles_deg": [
+        -40,
+        20,
+        -20,
+        22
+      ],
+      "transform_residual": 3.885780586188048e-16,
+      "interferences": []
+    },
+    {
+      "name": "yaw_-20",
+      "joint_angles_deg": [
+        -20,
+        20,
+        -20,
+        22
+      ],
+      "transform_residual": 3.885780586188048e-16,
+      "interferences": []
+    },
+    {
+      "name": "yaw_20",
+      "joint_angles_deg": [
+        20,
+        20,
+        -20,
+        22
+      ],
+      "transform_residual": 4.996003610813204e-16,
+      "interferences": []
+    },
+    {
+      "name": "yaw_40",
+      "joint_angles_deg": [
+        40,
+        20,
+        -20,
+        22
+      ],
+      "transform_residual": 8.881784197001252e-16,
+      "interferences": []
+    },
+    {
+      "name": "yaw_60",
+      "joint_angles_deg": [
+        60,
+        20,
+        -20,
+        22
+      ],
+      "transform_residual": 5.551115123125783e-16,
+      "interferences": []
+    }
+  ]
+}

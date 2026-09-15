@@ -1,0 +1,4577 @@
+{
+  "source": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v3",
+  "parts": [
+    {
+      "file": "hardware-reference\\HW-003_SG90_NOMINAL_VERIFY.SLDPRT",
+      "sha256": "4d6d730d3beab62fded32c6af6a8230288464ce9cb471c2381d6a1f2294e28f1",
+      "volume_mm3": 7271.2262957284,
+      "box_mm": [
+        -11.000000000000002,
+        -6.1,
+        -18.3,
+        22.0,
+        6.1,
+        12.400000000000002
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Case_conservative_plan_23x12p2_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Case_conservative_plan_23x12p2",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Mounting_ears_33x12p2_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Mounting_ears_33x12p2",
+          "type": "ICE"
+        },
+        {
+          "name": "Raised_gear_cover_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Raised_gear_cover_envelope",
+          "type": "ICE"
+        },
+        {
+          "name": "Secondary_gear_cover_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Secondary_gear_cover_envelope",
+          "type": "ICE"
+        },
+        {
+          "name": "Output_envelope_not_spline_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Output_envelope_not_spline",
+          "type": "ICE"
+        },
+        {
+          "name": "Mounting_holes_nominal_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Mounting_holes_nominal",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "parts\\ARM-001_Base_pedestal.SLDPRT",
+      "sha256": "13799efee171b079708ce8ebfb6c9a72766694384a3cf27ad077cc878312b675",
+      "volume_mm3": 140707.91146325204,
+      "box_mm": [
+        -70.0,
+        0.0,
+        -60.0,
+        70.0,
+        71.00000000000001,
+        60.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Bench_footprint_140x120_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Bench_footprint_140x120",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Backbone_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Backbone",
+          "type": "ICE"
+        },
+        {
+          "name": "Removable_servo_mount_M3_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Removable_servo_mount_M3",
+          "type": "ICE"
+        },
+        {
+          "name": "Bearing_bridge_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Bearing_bridge",
+          "type": "ICE"
+        },
+        {
+          "name": "Bridge_horn_clearance_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Bridge_horn_clearance",
+          "type": "ICE"
+        },
+        {
+          "name": "Drive_collar_chamber_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Drive_collar_chamber",
+          "type": "ICE"
+        },
+        {
+          "name": "Bearing_tower_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Bearing_tower",
+          "type": "ICE"
+        },
+        {
+          "name": "Bearing_separation_shoulder_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Bearing_separation_shoulder",
+          "type": "ICE"
+        },
+        {
+          "name": "Bench_clamp_holes_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Bench_clamp_holes",
+          "type": "ICE"
+        },
+        {
+          "name": "Yaw_crossbolt_access_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Yaw_crossbolt_access",
+          "type": "ICE"
+        },
+        {
+          "name": "Fillet2",
+          "type": "Fillet"
+        },
+        {
+          "name": "Sketch1",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Boss-Extrude1",
+          "type": "ICE"
+        },
+        {
+          "name": "Fillet6",
+          "type": "Fillet"
+        },
+        {
+          "name": "Fillet7",
+          "type": "Fillet"
+        },
+        {
+          "name": "Chamfer1",
+          "type": "Chamfer"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-001_608ZZ_22x8x7_ENVELOPE.SLDPRT",
+      "sha256": "bf7fdd1a458d261ba8fc6bcc183aebb45701d42727379962007397eb9c9fd8ba",
+      "volume_mm3": 2309.0706003884975,
+      "box_mm": [
+        -11.0,
+        -11.0,
+        0.0,
+        11.0,
+        11.0,
+        7.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Bearing_OD22_ID8",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Bearing_width_7mm_simplified",
+          "type": "Extrusion"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "parts\\ARM-003_Yaw_D_drive_collar.SLDPRT",
+      "sha256": "c5f44e73a1c4b2d89e7cd48091d6994b10fc9c7d307355ff3d8ff5331fcf0333",
+      "volume_mm3": 2310.9147547435978,
+      "box_mm": [
+        -13.0,
+        39.35,
+        -13.0,
+        13.0,
+        48.0,
+        13.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Stock_horn_drive_flange_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Stock_horn_drive_flange",
+          "type": "Extrusion"
+        },
+        {
+          "name": "D_coupling_ring_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "D_coupling_ring",
+          "type": "ICE"
+        },
+        {
+          "name": "D_key_land_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "D_key_land",
+          "type": "ICE"
+        },
+        {
+          "name": "Captured_horn_key_boss_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Captured_horn_key_boss",
+          "type": "ICE"
+        },
+        {
+          "name": "Stock_horn_pocket_Hub",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Key_pocket_Hub",
+          "type": "ICE"
+        },
+        {
+          "name": "Stock_horn_pocket_Horizontal",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Key_pocket_Horizontal",
+          "type": "ICE"
+        },
+        {
+          "name": "Stock_horn_pocket_Vertical",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Key_pocket_Vertical",
+          "type": "ICE"
+        },
+        {
+          "name": "Stock_horn_pocket_Rounded_tips",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Key_pocket_Rounded_tips",
+          "type": "ICE"
+        },
+        {
+          "name": "Unmodified_horn_capture_M2_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Unmodified_horn_capture_M2",
+          "type": "ICE"
+        },
+        {
+          "name": "Horn_center_hub_clearance",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Hub_clearance_in_key_boss_only",
+          "type": "ICE"
+        },
+        {
+          "name": "Yaw_positive_retention_crossbolt_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Yaw_positive_retention_crossbolt",
+          "type": "ICE"
+        },
+        {
+          "name": "Crossbolt_flat_seat_-12",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Crossbolt_flat_seat_cut_-12",
+          "type": "ICE"
+        },
+        {
+          "name": "Crossbolt_flat_seat_6",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Crossbolt_flat_seat_cut_6",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "parts\\ARM-002_Yaw_platform_and_shoulder_mount.SLDPRT",
+      "sha256": "4915f18532b2e3db50196d310d3fe930f47d6e2dc093712fc4b82d5fa10de62c",
+      "volume_mm3": 53038.94802670706,
+      "box_mm": [
+        -44.06401607010846,
+        43.0,
+        -44.0,
+        44.051686615864114,
+        144.0,
+        44.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Yaw_platform_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Yaw_platform",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Printed_hollow_yaw_spindle_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Printed_hollow_yaw_spindle",
+          "type": "ICE"
+        },
+        {
+          "name": "Inner_race_load_shoulder_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Inner_race_load_shoulder",
+          "type": "ICE"
+        },
+        {
+          "name": "D_flat_drive_key_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "D_flat_on_spindle_end",
+          "type": "ICE"
+        },
+        {
+          "name": "Shoulder_mount_plate_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Shoulder_mount_plate",
+          "type": "ICE"
+        },
+        {
+          "name": "MG996_body_window_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "MG996_body_window",
+          "type": "ICE"
+        },
+        {
+          "name": "MG996_tab_mounts_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "MG996_tab_mounts",
+          "type": "ICE"
+        },
+        {
+          "name": "Passive_shoulder_standoffs_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Passive_shoulder_standoffs",
+          "type": "ICE"
+        },
+        {
+          "name": "Upright_rib_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Upright_rib",
+          "type": "ICE"
+        },
+        {
+          "name": "Yaw_positive_retention_crossbolt_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Yaw_positive_retention_crossbolt",
+          "type": "ICE"
+        },
+        {
+          "name": "Fillet1",
+          "type": "Fillet"
+        },
+        {
+          "name": "Chamfer1",
+          "type": "Chamfer"
+        },
+        {
+          "name": "Fillet2",
+          "type": "Fillet"
+        },
+        {
+          "name": "Chamfer2",
+          "type": "Chamfer"
+        },
+        {
+          "name": "Chamfer3",
+          "type": "Chamfer"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-004_MG996R_NOMINAL_VERIFY.SLDPRT",
+      "sha256": "dc0612ac8f47381ecf06d90697c9de80921eda3d26d4e0f020a6b82d6643ff21",
+      "volume_mm3": 30485.895039886203,
+      "box_mm": [
+        -16.5,
+        -9.85,
+        -30.0,
+        37.2,
+        9.85,
+        12.900000000000002
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Case_40p7x19p7_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Case_40p7x19p7",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Mounting_flange_nominal_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Mounting_flange_nominal",
+          "type": "ICE"
+        },
+        {
+          "name": "Output_envelope_not_spline_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Output_envelope_not_spline",
+          "type": "ICE"
+        },
+        {
+          "name": "Tab_holes_nominal_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Tab_holes_nominal",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "parts\\ARM-101_Upper_link_60mm_MG996_SG90.SLDPRT",
+      "sha256": "5f748e2b4597d560e5d901806bc40d258072ad9c608e00c0f3de0ebedcbbf846",
+      "volume_mm3": 9244.321839209922,
+      "box_mm": [
+        -16.0,
+        -16.0,
+        0.0,
+        90.0,
+        16.0,
+        8.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Main_web_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Main_web",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Shoulder_horn_flange_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Shoulder_horn_flange",
+          "type": "ICE"
+        },
+        {
+          "name": "Elbow_servo_mount_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Elbow_servo_mount",
+          "type": "ICE"
+        },
+        {
+          "name": "SG90_body_clearance_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "SG90_body_clearance",
+          "type": "ICE"
+        },
+        {
+          "name": "Elbow_tab_fasteners_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Elbow_tab_fasteners",
+          "type": "ICE"
+        },
+        {
+          "name": "Shoulder_center_screw_access_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Shoulder_center_screw_access",
+          "type": "ICE"
+        },
+        {
+          "name": "Cable_tie_holes_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Cable_tie_holes",
+          "type": "ICE"
+        },
+        {
+          "name": "Passive_lower_mount_boss_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Passive_lower_mount_boss",
+          "type": "ICE"
+        },
+        {
+          "name": "Passive_upper_mount_boss_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Passive_upper_mount_boss",
+          "type": "ICE"
+        },
+        {
+          "name": "Passive_cheek_standoffs_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Passive_cheek_standoffs",
+          "type": "ICE"
+        },
+        {
+          "name": "Shoulder_dowel_support_hub_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Shoulder_dowel_support_hub",
+          "type": "ICE"
+        },
+        {
+          "name": "Raised_M3_washer_seats_PCD14_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Raised_M3_washer_seats_height8",
+          "type": "ICE"
+        },
+        {
+          "name": "Metal_horn_M3_clearance_PCD14_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Metal_horn_M3_clearance_PCD14",
+          "type": "ICE"
+        },
+        {
+          "name": "Restore_shoulder_sleeve_bore_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Restore_shoulder_sleeve_bore",
+          "type": "ICE"
+        },
+        {
+          "name": "Fillet1",
+          "type": "Fillet"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "parts\\ARM-102_Forearm_and_fixed_jaw.SLDPRT",
+      "sha256": "731a3ae182ad831b291023d5f4238fef1fc854869b1eab2d5fb17134465728f4",
+      "volume_mm3": 9041.466588391979,
+      "box_mm": [
+        -13.0,
+        -16.0,
+        -1.6500000000000004,
+        78.0,
+        41.0,
+        8.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Elbow_horn_flange_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Elbow_horn_flange",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Forearm_web_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Forearm_web",
+          "type": "ICE"
+        },
+        {
+          "name": "Gripper_mount_rib_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Gripper_mount_rib",
+          "type": "ICE"
+        },
+        {
+          "name": "Gripper_servo_mount_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Gripper_servo_mount",
+          "type": "ICE"
+        },
+        {
+          "name": "Grip_SG90_body_clearance_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Grip_SG90_body_clearance",
+          "type": "ICE"
+        },
+        {
+          "name": "Moving_finger_sweep_relief_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Moving_finger_sweep_relief",
+          "type": "ICE"
+        },
+        {
+          "name": "Grip_servo_tab_fasteners_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Grip_servo_tab_fasteners",
+          "type": "ICE"
+        },
+        {
+          "name": "Fixed_finger_spine_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Fixed_finger_spine",
+          "type": "ICE"
+        },
+        {
+          "name": "Fixed_finger_root_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Fixed_finger_root",
+          "type": "ICE"
+        },
+        {
+          "name": "Elbow_center_screw_access_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Elbow_center_screw_access",
+          "type": "ICE"
+        },
+        {
+          "name": "Elbow_dowel_support_hub_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Elbow_dowel_support_hub",
+          "type": "ICE"
+        },
+        {
+          "name": "Captured_horn_key_boss_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Captured_horn_key_boss",
+          "type": "ICE"
+        },
+        {
+          "name": "Stock_horn_pocket_Hub",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Key_pocket_Hub",
+          "type": "ICE"
+        },
+        {
+          "name": "Stock_horn_pocket_Horizontal",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Key_pocket_Horizontal",
+          "type": "ICE"
+        },
+        {
+          "name": "Stock_horn_pocket_Vertical",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Key_pocket_Vertical",
+          "type": "ICE"
+        },
+        {
+          "name": "Stock_horn_pocket_Rounded_tips",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Key_pocket_Rounded_tips",
+          "type": "ICE"
+        },
+        {
+          "name": "Unmodified_horn_capture_M2_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Unmodified_horn_capture_M2",
+          "type": "ICE"
+        },
+        {
+          "name": "Horn_center_hub_clearance",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Hub_clearance_in_key_boss_only",
+          "type": "ICE"
+        },
+        {
+          "name": "Fixed_pad_keeper_fasteners_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Fixed_pad_keeper_fasteners",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-005_SG90_COMPACT_CROSS_REFERENCE.SLDPRT",
+      "sha256": "631c9e2a7ef84fc4900b6768301667e6cd1128f4689620e775843952096faeb3",
+      "volume_mm3": 209.12558157608305,
+      "box_mm": [
+        -10.15,
+        -10.15,
+        -2.5000000000000004,
+        10.15,
+        10.15,
+        1.5000000000000013
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Compact_horn_center_OD6p9_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Compact_horn_center_OD6p9",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Horizontal_blades_assumed_width4_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Horizontal_blades_assumed_width4",
+          "type": "ICE"
+        },
+        {
+          "name": "Vertical_blades_assumed_width4_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Vertical_blades_assumed_width4",
+          "type": "ICE"
+        },
+        {
+          "name": "Rounded_blade_tips",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Rounded_tips_span20p3",
+          "type": "ICE"
+        },
+        {
+          "name": "Hub_projection2p5_total_height4_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Hub_projection2p5_total_height4",
+          "type": "ICE"
+        },
+        {
+          "name": "Purchased_spline_internals_omitted_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Purchased_spline_internals_omitted",
+          "type": "ICE"
+        },
+        {
+          "name": "Unmodified_stock_pilot_holes_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Unmodified_stock_pilot_holes",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "parts\\ARM-103_Grip_moving_finger.SLDPRT",
+      "sha256": "8447ba53b0348a97d59137afd48d8d6a7aadf4ccb9f66913b7d38980c237b327",
+      "volume_mm3": 4430.105913383196,
+      "box_mm": [
+        -13.000000000000002,
+        -20.0,
+        0.0,
+        27.0,
+        13.000000000000002,
+        22.6
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Stock_horn_attachment_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Stock_horn_attachment",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Finger_arm_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Finger_arm",
+          "type": "ICE"
+        },
+        {
+          "name": "Descending_contact_finger_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Descending_contact_finger",
+          "type": "ICE"
+        },
+        {
+          "name": "Horn_center_access_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Horn_center_access",
+          "type": "ICE"
+        },
+        {
+          "name": "Captured_horn_key_boss_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Captured_horn_key_boss",
+          "type": "ICE"
+        },
+        {
+          "name": "Stock_horn_pocket_Hub",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Key_pocket_Hub",
+          "type": "ICE"
+        },
+        {
+          "name": "Stock_horn_pocket_Horizontal",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Key_pocket_Horizontal",
+          "type": "ICE"
+        },
+        {
+          "name": "Stock_horn_pocket_Vertical",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Key_pocket_Vertical",
+          "type": "ICE"
+        },
+        {
+          "name": "Stock_horn_pocket_Rounded_tips",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Key_pocket_Rounded_tips",
+          "type": "ICE"
+        },
+        {
+          "name": "Unmodified_horn_capture_M2_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Unmodified_horn_capture_M2",
+          "type": "ICE"
+        },
+        {
+          "name": "Horn_center_hub_clearance",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Hub_clearance_in_key_boss_only",
+          "type": "ICE"
+        },
+        {
+          "name": "Contact_pad_keeper_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Contact_pad_keeper",
+          "type": "ICE"
+        },
+        {
+          "name": "Fillet1",
+          "type": "Fillet"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-006_MG996_25T_D20_PCD14_HORN.SLDPRT",
+      "sha256": "f3d8369a4e959da8d532fb6c48541acd00bdfb5d6b9cfb0338eb37dbd2aa75d0",
+      "volume_mm3": 599.3019955712399,
+      "box_mm": [
+        -10.0,
+        -10.0,
+        -2.5000000000000004,
+        10.0,
+        10.0,
+        2.0000000000000018
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Metal_disc_OD20_thickness2_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Metal_disc_OD20_thickness2",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Purchased_25T_hub_envelope_OD9_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Purchased_25T_hub_envelope_OD9",
+          "type": "ICE"
+        },
+        {
+          "name": "Four_M3_tapped_hole_envelopes_PCD14_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Four_M3_tapped_hole_envelopes_PCD14",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "parts\\ARM-112_SG90_horn_capture_cap.SLDPRT",
+      "sha256": "d6fcee24495664e647f9520259cebbdf71fcecf56f6392707590ca931557d03e",
+      "volume_mm3": 906.7500336239879,
+      "box_mm": [
+        -13.0,
+        -13.0,
+        0.0,
+        13.0,
+        13.0,
+        2.0000000000000018
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Cap_OD26_ID8_thickness2_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Cap_OD26_ID8_thickness2",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Four_M2_capture_holes_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Four_M2_capture_holes",
+          "type": "ICE"
+        },
+        {
+          "name": "Low_profile_head_seats",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Head_recess_depth0p55",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "parts\\ARM-110_Fixed_jaw_TPU_sock.SLDPRT",
+      "sha256": "68603018d1be064515f9568551524f6a0f5847f8845cf1a300d9f9c793bb03d2",
+      "volume_mm3": 429.8352224009629,
+      "box_mm": [
+        54.0,
+        -17.0,
+        -1.0,
+        76.0,
+        -10.0,
+        5.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Soft_contact_and_wrap_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Soft_contact_and_wrap",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Fixed_bar_slip_pocket_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Slip_pocket",
+          "type": "ICE"
+        },
+        {
+          "name": "Pad_capture_M2_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Pad_capture_M2",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "parts\\ARM-004_Removable_yaw_servo_mount.SLDPRT",
+      "sha256": "6748c3aeabb69a164c52b52a6e8a1682f755a117309fd37fe5613c3ffe71ac70",
+      "volume_mm3": 7326.635844531563,
+      "box_mm": [
+        -21.0,
+        15.0,
+        -18.0,
+        25.0,
+        33.0,
+        18.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Servo_shelf_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Servo_shelf",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Rear_clamping_block_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Rear_clamping_block",
+          "type": "ICE"
+        },
+        {
+          "name": "Servo_body_window_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Servo_body_window",
+          "type": "ICE"
+        },
+        {
+          "name": "Yaw_servo_M2_fasteners_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Yaw_servo_M2_fasteners",
+          "type": "ICE"
+        },
+        {
+          "name": "Left_nut_access_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Left_nut_access",
+          "type": "ICE"
+        },
+        {
+          "name": "Right_nut_access_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Right_nut_access",
+          "type": "ICE"
+        },
+        {
+          "name": "Rear_clamping_M3_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Rear_clamping_M3_holes",
+          "type": "ICE"
+        },
+        {
+          "name": "Fillet1",
+          "type": "Fillet"
+        },
+        {
+          "name": "Fillet2",
+          "type": "Fillet"
+        },
+        {
+          "name": "Sketch1",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Boss-Extrude1",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "parts\\ARM-111_Moving_jaw_TPU_sock.SLDPRT",
+      "sha256": "7c51225e577086fa508c28302c82148dd837e33f1457a4b702fd30c025eee50e",
+      "volume_mm3": 265.6813457783128,
+      "box_mm": [
+        13.999999999999998,
+        -21.000000000000004,
+        -1.0,
+        28.000000000000004,
+        -14.0,
+        6.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Soft_contact_and_wrap_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Soft_contact_and_wrap",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Finger_slip_pocket_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Open_top_slip_pocket",
+          "type": "ICE"
+        },
+        {
+          "name": "Servo_ear_sweep_relief_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Servo_ear_sweep_relief",
+          "type": "ICE"
+        },
+        {
+          "name": "Pad_capture_M2_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Pad_capture_M2",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "sha256": "88e57468ef733552413d42bd8031a5b60ce9d3fbecc147f544945cc15ec09b02",
+      "volume_mm3": 17.143702091137968,
+      "box_mm": [
+        -2.3094010767585034,
+        -2.0,
+        0.0,
+        2.3094010767585034,
+        2.0000000000000004,
+        1.6
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Across_flats_4",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Nut_thread_envelope_height_1.6",
+          "type": "Extrusion"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE.SLDPRT",
+      "sha256": "cebf0aa8cbd1b02a43857615014cc7cb39f106cd08a233c550bff9d7516aa65b",
+      "volume_mm3": 45.23893421169303,
+      "box_mm": [
+        -2.0,
+        -2.0,
+        -10.0,
+        2.0,
+        2.0,
+        1.1000000000000003
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "M2_thread_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "M2_thread_envelope",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Verified_low_head_D4_H1p1_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Verified_low_head_D4_H1p1",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "sha256": "346babd95242c1ad7103e108d5b010f6874ce5c57c622fea90a5878bfec34218",
+      "volume_mm3": 7.916813487046279,
+      "box_mm": [
+        -2.5,
+        -2.5,
+        0.0,
+        2.5,
+        2.5,
+        0.5
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Washer_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Washer",
+          "type": "Extrusion"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-S_M2x20_socket_ENVELOPE.SLDPRT",
+      "sha256": "03a191f17056baddf5a657e66c3766f6146cb980e77b78e1967fb1938d3b70f0",
+      "volume_mm3": 85.51415203071419,
+      "box_mm": [
+        -1.9,
+        -1.9,
+        -20.000000000000004,
+        1.9,
+        1.9,
+        2.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Socket_head_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Socket_head_envelope",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-N_M3_nyloc_ENVELOPE.SLDPRT",
+      "sha256": "2886b4563b82b34bc7bcf77162c5794c89d452ffcf59fd8666ae7fe8cd07720d",
+      "volume_mm3": 76.51473997560895,
+      "box_mm": [
+        -3.1754264805429417,
+        -2.75,
+        0.0,
+        3.1754264805429417,
+        2.7500000000000004,
+        4.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Across_flats_5.5",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Nut_thread_envelope_height_4",
+          "type": "Extrusion"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "sha256": "1816ed9287390f7afaca7183bc826ad55badce047bcee5f5a4941f689aa1cd68",
+      "volume_mm3": 10.115928344559133,
+      "box_mm": [
+        -3.0,
+        -3.0,
+        0.0,
+        3.0,
+        3.0,
+        0.5
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Washer_M3_small_series_OD6_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Washer_M3_small_series_OD6",
+          "type": "Extrusion"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-S_M2x10_socket_ENVELOPE.SLDPRT",
+      "sha256": "b13b0d659f11ca06674e5ce2efd95eb7e92652993f6680f1bd95d57ad3e880c0",
+      "volume_mm3": 54.098225494816226,
+      "box_mm": [
+        -1.9,
+        -1.9,
+        -10.0,
+        1.9,
+        1.9,
+        2.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Socket_head_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Socket_head_envelope",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-S_M3x30_socket_ENVELOPE.SLDPRT",
+      "sha256": "48ef11466f6b32a2f010a6f82297450bf91c57187364656a16dd9ffa1152949a",
+      "volume_mm3": 283.3323874456294,
+      "box_mm": [
+        -2.75,
+        -2.75,
+        -30.0,
+        2.75,
+        2.75,
+        3.000000000000001
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Socket_head_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Socket_head_envelope",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-S_M2x30_socket_ENVELOPE.SLDPRT",
+      "sha256": "c6d82ad8dfaae538962738bee4581ad393cbc4cdc9f577de0763e7a05ae78458",
+      "volume_mm3": 116.93007856661207,
+      "box_mm": [
+        -1.9,
+        -1.9,
+        -30.0,
+        1.9,
+        1.9,
+        2.0000000000000018
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Socket_head_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Socket_head_envelope",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "sha256": "d34702abf0b9b62b06bae357a88eb134c66aa83e60014df400630184c3558c64",
+      "volume_mm3": 156.09788497524283,
+      "box_mm": [
+        -2.75,
+        -2.75,
+        -12.0,
+        2.75,
+        2.75,
+        3.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Socket_head_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Socket_head_envelope",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-S_M2x14_socket_ENVELOPE.SLDPRT",
+      "sha256": "223f1ed31d9fb211d1ed8479f34d256375dc1f05711749906ab04b509863f13a",
+      "volume_mm3": 66.6645961091754,
+      "box_mm": [
+        -1.9,
+        -1.9,
+        -14.0,
+        1.9,
+        1.9,
+        2.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Socket_head_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Socket_head_envelope",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "sha256": "3a05973e05c1e2199ae5c5ea0f8dac89c4282654ae2a8d6b1b4a62f144a32ca0",
+      "volume_mm3": 6.954700736884406,
+      "box_mm": [
+        -2.5,
+        -2.5,
+        0.0,
+        2.5,
+        2.5,
+        0.5
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Washer_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Washer",
+          "type": "Extrusion"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
+      "sha256": "8d24c68fad21c8e1aae42f84c5ec567a8ccfc47f847279e16b9a1334ea43b703",
+      "volume_mm3": 58.59663800681923,
+      "box_mm": [
+        -2.886751345948129,
+        -2.5000000000000004,
+        0.0,
+        2.886751345948129,
+        2.5000000000000004,
+        3.5
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Across_flats_5",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Nut_thread_envelope_height_3.5",
+          "type": "Extrusion"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
+      "sha256": "8e3b71b7df1f10878d13914439227549f4fc5fac8775d47caaed3af4b9a8f640",
+      "volume_mm3": 108.48312131927254,
+      "box_mm": [
+        -2.25,
+        -2.25,
+        -14.0,
+        2.25,
+        2.25,
+        2.5000000000000004
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Socket_head_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Socket_head_envelope",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "parts\\ARM-108_M3_standoff_32mm.SLDPRT",
+      "sha256": "ed5a2e3eba1f01ce4493f5071ed51133a20dbb32783c3e3db526e218b9932611",
+      "volume_mm3": 1351.1361684558983,
+      "box_mm": [
+        -4.0,
+        -4.0,
+        0.0,
+        4.0,
+        4.0,
+        32.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Standoff_OD8_ID3p2_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Standoff_OD8_ID3p2",
+          "type": "Extrusion"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "parts\\ARM-109_Bearing_and_dowel_keeper.SLDPRT",
+      "sha256": "da7b297304bdb3726b5f6ad40b08bcbf846beaa7185022306da504040ad52643",
+      "volume_mm3": 3052.767262902194,
+      "box_mm": [
+        -17.0,
+        -17.0,
+        -0.2000000000000005,
+        17.0,
+        17.0,
+        12.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Outer_race_keeper_flange_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Outer_race_keeper_flange",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Housing_contact_rim_preserves_bearing_float_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Housing_contact_rim_preserves_bearing_float",
+          "type": "ICE"
+        },
+        {
+          "name": "Pin_end_cover_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Pin_end_cover",
+          "type": "ICE"
+        },
+        {
+          "name": "Dowel_end_float_pocket_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Dowel_end_float_pocket_depth9",
+          "type": "ICE"
+        },
+        {
+          "name": "Keeper_M2_fasteners_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Keeper_M2_fasteners",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "parts\\ARM-107_Dowel_to_608_adapter.SLDPRT",
+      "sha256": "9d5bd6a1841122df020861a0f42d0b444b21322424a1b94009a2e769b9ddff64",
+      "volume_mm3": 121.37959478170772,
+      "box_mm": [
+        -3.9900000000000007,
+        -3.9900000000000007,
+        0.0,
+        3.9900000000000007,
+        3.9900000000000007,
+        7.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Adapter_8OD_6p45ID_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Adapter_8OD_6p45ID",
+          "type": "Extrusion"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "parts\\ARM-105_Shoulder_bearing_cheek.SLDPRT",
+      "sha256": "464e18bad6b63123dfa3e8eac4995d02371df74b75d8ac2d0dcdd83d4359064b",
+      "volume_mm3": 9634.110837595548,
+      "box_mm": [
+        -42.0,
+        -22.0,
+        -1.0000000000000009,
+        17.0,
+        22.0,
+        7.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Bearing_housing_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Bearing_housing",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Mounting_web_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Mounting_web",
+          "type": "ICE"
+        },
+        {
+          "name": "Bearing_seat_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Bearing_seat",
+          "type": "ICE"
+        },
+        {
+          "name": "Inner_outer_race_retaining_lip_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Inner_outer_race_retaining_lip",
+          "type": "ICE"
+        },
+        {
+          "name": "Standoff_fasteners_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Standoff_fasteners",
+          "type": "ICE"
+        },
+        {
+          "name": "Bearing_keeper_fasteners_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Bearing_keeper_fasteners",
+          "type": "ICE"
+        },
+        {
+          "name": "Fillet1",
+          "type": "Fillet"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-002_Dowel_6p35x25p4.SLDPRT",
+      "sha256": "b7a3869d3d9e35906d1da8857d760241886273cf26092a2e63c3efe57a4cff2d",
+      "volume_mm3": 804.3981230672777,
+      "box_mm": [
+        -3.175,
+        -3.175,
+        0.0,
+        3.175,
+        3.175,
+        25.4
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Dowel_diameter_6p35mm",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Dowel_length_25p4mm",
+          "type": "Extrusion"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "parts\\ARM-104_Elbow_bearing_cheek.SLDPRT",
+      "sha256": "4bd6b5a54cb6b2bac20a97f9ce5c0068576c3b9fc31d06aa0877cfe3624384b5",
+      "volume_mm3": 5829.745062270361,
+      "box_mm": [
+        -30.0,
+        -17.0,
+        -1.0000000000000009,
+        17.0,
+        17.0,
+        7.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Bearing_housing_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Bearing_housing",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Mounting_web_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Mounting_web",
+          "type": "ICE"
+        },
+        {
+          "name": "Bearing_seat_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Bearing_seat",
+          "type": "ICE"
+        },
+        {
+          "name": "Inner_outer_race_retaining_lip_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Inner_outer_race_retaining_lip",
+          "type": "ICE"
+        },
+        {
+          "name": "Standoff_fasteners_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Standoff_fasteners",
+          "type": "ICE"
+        },
+        {
+          "name": "Bearing_keeper_fasteners_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Bearing_keeper_fasteners",
+          "type": "ICE"
+        },
+        {
+          "name": "Fillet1",
+          "type": "Fillet"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "parts\\ARM-106_M3_standoff_28p6mm.SLDPRT",
+      "sha256": "f458e165def520d58f8a13a7b1bdd7c5fcadeb37f44a43ae94548e906e66d111",
+      "volume_mm3": 1207.577950557459,
+      "box_mm": [
+        -4.0,
+        -4.0,
+        0.0,
+        4.0,
+        4.0,
+        28.6
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Standoff_OD8_ID3p2_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Standoff_OD8_ID3p2",
+          "type": "Extrusion"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-S_M3x50_socket_ENVELOPE.SLDPRT",
+      "sha256": "3611099f1458cc939023791316446965876d2632836c722ce6f55882ba9f6696",
+      "volume_mm3": 424.70405685717014,
+      "box_mm": [
+        -2.75,
+        -2.75,
+        -50.0,
+        2.75,
+        2.75,
+        3.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Socket_head_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Socket_head_envelope",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    },
+    {
+      "file": "hardware-reference\\HW-S_M3x45_socket_ENVELOPE.SLDPRT",
+      "sha256": "b39dac3a890698ec879ac30b7b648fb80ac22dab96aca74383fb9532fa88350a",
+      "volume_mm3": 389.3611395042849,
+      "box_mm": [
+        -2.75,
+        -2.75,
+        -45.0,
+        2.75,
+        2.75,
+        3.0
+      ],
+      "features": [
+        {
+          "name": "Comments",
+          "type": "CommentsFolder"
+        },
+        {
+          "name": "Favorites",
+          "type": "FavoriteFolder"
+        },
+        {
+          "name": "History",
+          "type": "HistoryFolder"
+        },
+        {
+          "name": "Selection Sets",
+          "type": "SelectionSetFolder"
+        },
+        {
+          "name": "Sensors",
+          "type": "SensorFolder"
+        },
+        {
+          "name": "Design Binder",
+          "type": "DocsFolder"
+        },
+        {
+          "name": "Annotations",
+          "type": "DetailCabinet"
+        },
+        {
+          "name": "Surface Bodies",
+          "type": "SurfaceBodyFolder"
+        },
+        {
+          "name": "Solid Bodies",
+          "type": "SolidBodyFolder"
+        },
+        {
+          "name": "Lights and Cameras",
+          "type": "EnvFolder"
+        },
+        {
+          "name": "Markups",
+          "type": "InkMarkupFolder"
+        },
+        {
+          "name": "Equations",
+          "type": "EqnFolder"
+        },
+        {
+          "name": "Material <not specified>",
+          "type": "MaterialFolder"
+        },
+        {
+          "name": "Front Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Top Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Right Plane",
+          "type": "RefPlane"
+        },
+        {
+          "name": "Origin",
+          "type": "OriginProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Shank_nominal_thread_envelope",
+          "type": "Extrusion"
+        },
+        {
+          "name": "Socket_head_envelope_profile",
+          "type": "ProfileFeature"
+        },
+        {
+          "name": "Socket_head_envelope",
+          "type": "ICE"
+        }
+      ],
+      "feature_errors": []
+    }
+  ]
+}

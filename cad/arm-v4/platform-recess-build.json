@@ -1,0 +1,23 @@
+{
+  "name": "ARM-202_Yaw_platform",
+  "solid_count": 1,
+  "volume_mm3": 31230.84936983282,
+  "approximate_box_mm": [
+    -44.0,
+    43.0,
+    -44.0,
+    44.0,
+    77.0,
+    44.0
+  ],
+  "features": [
+    "Recess_nuts_3mm_above_platform_underside",
+    "Washer_seats_above_captive_nuts"
+  ],
+  "files": [
+    "parts\\ARM-202_Yaw_platform.SLDPRT",
+    "parts\\ARM-202_Yaw_platform.step",
+    "parts\\ARM-202_Yaw_platform.stl"
+  ],
+  "status": "native geometry saved; fits and physical function not yet validated"
+}

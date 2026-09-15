@@ -1,56 +1,71 @@
-# Articulated arm B — hardware and budget
+# Articulated arm D — hardware and budget
 
-Development BOM, 2026-09-07. Quantities below describe the current design; verify against the final native assembly report before ordering. Nothing has been purchased by the agent. The historical $250 cell budget is a planning target; Luis explicitly prioritized useful functional improvements over a rigid ceiling.
+Development BOM, 2026-09-12. Native assembly: **198 components, 45 fastener stacks, 23 printed pieces across 15 types**. Purchasing/fabrication remains conditional on actual hardware fit. No purchases were made by the agent. Revision C documents are preserved in `cad/arm-v4/development-debug`.
 
-**2026-09-08 verification:** native component counts match the fastener quantities below (199 total assembly components, including 41 modeled fastener stacks). **Horn attachment hardware remains on hold:** the current nominal MG shoulder pattern does not match the commonly sold 14 mm bolt-circle metal disc, and actual SG90 horn pilots/spacing must be measured. See the fabrication hold in [the assembly guide](arm-print-and-assembly-guide.md). A selected metal shoulder horn may need an additional $5–10 allowance and different attachment screws; the current counts are a development BOM, not an ordering release.
+## Owned hardware to reuse
 
-## Reuse the purchased hardware
+- **Two MG996R positional servos:** shoulder and elbow. Both are already owned; recorded purchase cost: **$10 total**. Do not buy another pair.
+- **One SG90:** yaw, using its small equal-arm cross horn. Retain the other SG90s as spares.
+- **Four 608ZZ bearings**, 8 × 22 × 7 mm. Reserve a fifth as a demonstration object.
+- **Two 6.35 × 25.4 mm dowel pins**, plus the existing Mega R3 and signal cables.
+- Keep the original horn-center screws belonging to each servo. They are not interchangeable generic screws.
 
-- **3 SG90 positional servos:** base yaw, elbow, and gripper. Retain the matching stock horns and three original horn center screws. The ordered four-pack plus the existing kit servo provides spares.
-- **4 × 608ZZ bearings, 8 × 22 × 7 mm:** two in the yaw tower, one in the shoulder support, one in the elbow support. Reserve a fifth bearing as the demonstration payload.
-- **2 × 6.35 × 25.4 mm steel dowels:** passive shoulder and elbow support pins. Printed adapters accommodate the 8 mm bearing bores. The earlier BOM records a 15-pack.
-- **1 ELEGOO Mega R3**, its USB cable, and low-current signal jumpers. Servo power requires separate distribution.
-- Historical order estimate: SG90 pack $6.99 + bearing pack $5.59 + dowel pack $7.59 = **$20.17 already allocated**. Existing Mega/kit cost is treated as sunk cost, not a new purchase.
+## Additions
 
-## Required additions
+- **One [Pololu 3551 micro parallel gripper](https://www.pololu.com/product/3551)**, including its feedback servo: **$29.95** checked 2026-09-12. Supplier showed backorders; confirm delivery before printing its adapter. Official CAD is saved locally. This replaces C's printed fixed/moving fingers and their SG90.
+- **Two compatible metal horns:** nominal 25T, OD20, four M3-tapped holes on PCD14, 2 mm plate with 2.5 mm rear hub. Allow **$10–20 total**. Confirm the actual horn drawing and seating on your MG996Rs; the provided plastic horns are not equivalent.
+- **One external regulated 5 V supply**, unless a suitable bench supply is available. [Adafruit 658, 5 V/10 A](https://www.adafruit.com/product/658): **$29.95**, shown in stock on 2026-09-12. Supply capacity alone does not rate the downstream connector or wiring.
+- Distribution, wire, fuse/protection and accessible DC disconnect: **$15–25** allowance.
+- Fastener packs/spares below: **$35–55** allowance; quote the low-profile M2 screws and M3×14 specifically.
+- PETG and fit prints: **$10–25**; optional small rubber gripping liners: **$1–5**; bench clamps: **$0–10**; ties/consumables: **$5–10**.
 
-- **1 MG996R positional shoulder servo**, with compatible horn and original center screw. Allow **$15–30**, pending the actual supplier quote. Measure the purchased unit before printing its mount. Reference dimensions and torque come from [TowerPro](https://towerpro.com.tw/product/mg996r/); this is not a promise that an unverified clone matches those values.
-- **1 regulated external 5 V supply.** Preferred planning option: [Adafruit 5 V 10 A supply, product 658](https://www.adafruit.com/product/658), **$29.95 listed on 2026-09-07**, excluding shipping/tax. Extra current capacity provides room for startup peaks; it does not establish the actual motor current or validate the wiring. An existing regulated bench supply can replace this purchase during commissioning.
-- **Power distribution, accessible DC disconnect, correctly rated connector, wire, and fuse holder/fuse:** allow **$15–25**. Match protection to the smallest wire/connector rating and confirm simultaneous current during tests. Keep the servo load off the Mega regulator and solderless breadboard rails. Connect signal ground to the servo supply ground.
-- **Machine screws, nuts, washers:** allow **$35–55** for purchasable packs and spares, rather than pricing only individual screws. Quantities and dimensions follow below. The M2.5 shoulder-ear hardware is intentional: larger nut corners can contact the servo case.
-- **PETG structural prints and fit coupons:** allow **$10–25** for material/print access, pending the makerspace quote. This is an allowance, not a slicer-derived cost.
-- **Two small TPU jaw pads:** allow **$5–15** for a shared-material print. A whole spool, if required, changes this estimate. The pads are captured with screws; adhesive is not the sole retention method.
-- **Bench fixture/clamps and catch surface:** allow **$0–10** if workshop clamps or scrap board are available. Base holes are 5.5 mm clearance; fixture bolt length depends on the actual board/bench thickness.
-- **Cable ties, sleeve-retention consumables and miscellaneous small parts:** allow **$5–10**. Keep any sleeve adhesive away from the bearing races; fit and retention must be checked first.
+## Fasteners — native assembly quantities
 
-## Exact arm fastener quantities
+All lengths are under the head. Models omit threads and sockets. Do not substitute longer screws without checking the assembly.
 
-All lengths are under-head lengths. Screw models omit threads and drive sockets. Use matching thread pitches and verify the supplied horn attachment holes. Original servo center screws are separate from these counts.
+- **8 × Nut M2.5 nyloc**
+- **13 × Nut M2 hex**
+- **14 × Nut M3 nyloc**
+- **2 × Nut M4 nyloc**
+- **8 × Screw M2.5x14 socket**
+- **4 × Screw M2x10 LOW HEAD D4 H1p1**
+- **2 × Screw M2x10 socket**
+- **6 × Screw M2x14 socket**
+- **1 × Screw M2x20 socket**
+- **8 × Screw M3x12 socket**
+- **8 × Screw M3x14 socket**
+- **2 × Screw M3x30 socket**
+- **4 × Screw M3x50 socket**
+- **2 × Screw M4x35 socket**
+- **16 × Washer M2.5 washer 0p5**
+- **22 × Washer M2 washer 0p5**
+- **36 × Washer M3 washer 0p5**
+- **4 × Washer M4 washer 0p5**
 
-- **M2 × 8 socket screws: 10** — four elbow horn, four gripper horn, two yaw horn.
-- **M2 × 10 socket screws: 8** — six SG90 mounting-ear screws and two fixed-pad capture screws.
-- **M2 × 14 socket screws: 6** — three per passive bearing keeper.
-- **M2 × 20 socket screw: 1** — yaw spindle/collar crossbolt.
-- **M2 × 25 socket screws: 2** — moving-pad capture through the tall finger.
-- **M2 plain hex nuts: 27**, nominal 4 mm across flats × 1.6 mm high.
-- **M2 washers: 54**, nominal 2.2 mm ID × 5 mm OD × 0.5 mm thick.
-- **M2.5 × 14 socket screws: 4** — shoulder servo ears.
-- **M2.5 nylon-insert nuts: 4**, maximum modeled 5 mm across flats × 3.5 mm high; verify the actual supplier dimensions. See [manufacturer dimension reference](https://www.jcfasteners.com/wp-content/uploads/DIN-985-Nylock-Nut-THIN-A2C34-MS-ZN.pdf).
-- **M2.5 small-series washers: 8**, 2.7 mm ID × 5 mm OD × 0.5 mm thick. See [manufacturer/supplier dimensions](https://www.vital-parts.co.uk/washers-for-cheese-heads-din-433/31341-w433-m25-a2).
-- **M3 × 12 socket screws: 4** — shoulder horn.
-- **M3 × 30 socket screws: 2** — removable yaw servo cassette.
-- **M3 × 40 socket screws: 2** — elbow support standoffs.
-- **M3 × 50 socket screws: 2** — shoulder support standoffs.
-- **M3 plain hex nuts: 4** for the shoulder horn; **M3 nylon-insert nuts: 6** for the structural standoffs and cassette.
-- **M3 small-series washers: 20**, 3.2 mm ID × 6 mm OD × 0.5 mm thick. Standard larger washers do not fit every modeled location. See [steel washer dimension reference](https://www.ettinger.de/en/product-datasheet/f891308e688fe98aa3fc3e33a869b97d/create).
-- **Original servo horn center screws: 4**, matched to each purchased servo; their thread and engagement are not guessed from the reference envelopes.
+M2 low-profile heads must be no larger than Ø4 × 1.1 mm; four are needed for the yaw horn cap. Ordinary socket heads do not fit that clearance. Washers are the modeled **0.5 mm small-series** types: M2 OD5/ID2.2, M2.5 OD5/ID2.7, M3 OD6/ID3.2, M4 OD8/ID4.2. Nyloc envelopes: M2.5 AF5/H3.5, M3 AF5.5/H4, M4 AF7/H5. Match these dimensions before ordering.
 
-## Budget position
+The eight M3×14 screws divide between the four recessed-nut upright mounts and four tool-adapter mounts. Eight M3×12 screws fasten the two metal horns. Four M3×50 screws support the shoulder/elbow cheeks. Two M3×30 mount the yaw cassette. Two M4×35 retain the gripper on its fork. Kit-internal gripper hardware and the original servo center screws are separate from these 45 modeled stacks.
 
-The additions above total **$114.95–199.95** before shipping/tax and contingency. Add **$20–25** for shipping/tax and **$20–30** contingency. Including the recorded $20.17 hardware order gives **$175.12–275.12 total**. Most lines are planning allowances; the supply is the only fixed live quote used here.
+## Printed pieces
 
-If a separate compatible metal shoulder horn is needed, reserve another **$5–10**, bringing the planning envelope to **$180.12–285.12**. This allowance does not resolve the current CAD horn-pattern mismatch; select the actual horn and revise its interface before ordering the attachment screws.
+- 1 × ARM-001_Base_pedestal
+- 1 × ARM-003_Yaw_D_drive_collar
+- 1 × ARM-004_Removable_yaw_servo_mount
+- 1 × ARM-104_Elbow_bearing_cheek
+- 1 × ARM-105_Shoulder_bearing_cheek
+- 4 × ARM-107_Dowel_to_608_adapter
+- 4 × ARM-108_M3_standoff_32mm
+- 2 × ARM-109_Bearing_and_dowel_keeper
+- 1 × ARM-112_SG90_horn_capture_cap
+- 1 × ARM-201_Upper_link_dual_MG996R
+- 1 × ARM-202_Yaw_platform
+- 1 × ARM-203_Bolted_shoulder_upright
+- 1 × ARM-204_Modular_forearm_MG996R
+- 1 × ARM-205_Parallel_gripper_fork_adapter
+- 2 × ARM-206_Gripper_lug_crush_spacer_13mm
 
-Aim near $230–250 by consolidating hardware orders and using the makerspace's small quantities of material. Keep useful power and joint-support improvements if their actual quotes push the project slightly over that target. Requote before buying: the final total depends heavily on fastener pack sizes, printing fees and shipping.
+## Budget and buying order
 
-The current arm does not require a gantry kit, stepper drivers, or a new PLC. A future PLC is outside this arm estimate, consistent with the earlier project budget. No new electronics board is required solely to generate four servo signals from the existing Mega.
+The additions total **$135.90–209.90**, before shipping/tax and contingency. Allowing $20–25 shipping/tax and $20–30 contingency gives **$175.90–264.90 remaining spend** if none of those additions is already available. Including the earlier recorded $20.17 SG90/bearing/dowel order and the $10 MG996R pair gives **$206.07–295.07 estimated all-in cost**. Existing Mega/kit costs are excluded as sunk costs. These are pack/printing allowances, not a checkout quote.
+
+Confirm gripper stock and metal-horn geometry first. Print small horn/bearing/dowel trials next. Then order the final fasteners and one structural set. Reuse workshop power/clamps when suitable to stay near the historical $250 target. The user allows worthwhile functional improvements beyond that target; avoid duplicate motors or a new controller.

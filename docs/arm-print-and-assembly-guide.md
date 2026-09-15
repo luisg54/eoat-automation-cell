@@ -1,139 +1,58 @@
-# Articulated arm — print and assembly guide
+# Arm D — printing, assembly and commissioning
 
-Revision B development, 2026-09-08. **The native arm articulates correctly: nine review poses and twelve transfer-path samples passed SolidWorks solid-interference checks. No physical arm has been tested.** These are discrete samples, not a continuous swept-clearance proof. The hardware list and planning costs are in [arm-bom.md](arm-bom.md).
+Open `cad/arm-v4/ARM-D_Modular_parallel_gripper_DEVELOPMENT.SLDASM`. This is the serviceable development revision, with preserved user C files. It is **not physically qualified for production**. The native model uses a modular parallel gripper, two owned MG996Rs, and separate yaw platform/upright parts.
 
-## Fabrication hold: match the actual horns
+## What changed and why
 
-Print the fit coupon first. Do not print the complete horn-connected links or buy their attachment screws from the current nominal pattern yet. The CAD hardware envelopes are not vendor-specific fitted parts. A [commercial MG996R-compatible 25T metal horn drawing](https://robu-prod-media.s3.ap-south-1.amazonaws.com/uploads/2017/06/watermarked_sku-30643.pdf) shows a 20 mm disc with four M3 threaded holes on a **14 mm bolt circle**; the current shoulder CAD uses a 26 mm nominal horn and **20 mm bolt circle**. They are incompatible. Selecting that metal horn requires changing the upper-link pattern, washer relief, screw engagement and axial stack, then repeating the joint-reference and clearance checks.
+- ARM-002's combined spindle/platform/upright becomes **ARM-202 platform** and **ARM-203 upright**. They can be printed and replaced separately. Captured nuts sit 3 mm into the platform so the hardware clears the base during yaw.
+- The asymmetric ARM-102/103 finger arrangement becomes a **straight ARM-204 forearm**, **ARM-205 removable fork**, and purchased synchronized parallel jaws. Opposed contact avoids the old finger's sweeping/wedging geometry. The supplier mechanism also removes two custom SG90 horn clamps.
+- **ARM-201** uses the second MG996R at the elbow. Both pitch joints now share the same metal-horn interface and 32 mm standoff length. The 60 mm upper-link centers are retained.
+- Your saved C fillets/chamfers remain in the derived platform/upright/upper-link histories and copied unchanged components. Old C fingers remain archived; do not print them for D.
 
-The SG90 horn models likewise use nominal 8 mm hole radii and M2 through hardware. One [supplier's SG90 horn drawing, page 5](https://www.auselectronicsdirect.com.au/assets/brochures/TA0132.pdf) instead shows 8.3 mm outer hole radii and approximately 1 mm pilot holes. Measure the horns supplied with your motors before adapting these interfaces. Do not force an M2 screw into a small pilot hole or assume a generic metal horn has the correct micro-servo spline.
+## Native controls and verified limits
 
-## Material choice
+Use the six named configurations for home, 22 mm grip, pickup and transfer. `07_Free_motion_CHECK_COLLISIONS` releases the three arm angles with provisional limits; it does not certify every combined pose.
 
-Use **PETG for working housings, bearing retainers, servo mounts and structural links**, subject to makerspace support. Its toughness and layer adhesion suit mechanical mounts. **PLA is suitable for initial fit coupons and low-duty indoor geometry trials**; it is easier to print but more brittle and less heat tolerant. Both materials can creep under sustained clamp loads: use washers and positive shaft retainers. Material characteristics: [Prusa PETG guide](https://help.prusa3d.com/article/petg_2059) and [PLA guide](https://help.prusa3d.com/article/pla_2062).
+- Physical yaw: −60 to +60°. Native D1@J1_Yaw_command = 90° + yaw.
+- Shoulder: −15 to +80°. D1@J2_Shoulder_command = 90° + shoulder.
+- Elbow: −100 to −5°. D1@J3_Elbow_command = −elbow.
+- Edit the native **Gripper_opening** global variable, provisionally **2–32 mm**. It drives both jaw positions symmetrically; do not edit one paddle independently.
 
-Use captured soft rubber or **TPU pads** at the gripper contacts. Pad friction remains a measured input, especially with oily bearings. Do not assume carbon-filled filament or nylon fixes weak geometry: they require controlled printing, drying and fit calibration. Start with an ordinary material supported by the shop and change it only in response to a measured problem.
+Pickup is now shoulder −15° / elbow −80°. The larger elbow case collided with the upright at the old −30° shoulder position. Ten intended poses and twelve lift/yaw samples were checked with independent component-transform comparisons and native solid interference detection. All were clear after the screw/nut corrections. Full closure at 0 mm produced two small supplier-internal overlaps (~0.092 mm³ each); 2 mm and reopening were clear. This is the reason for the provisional minimum. Continuous swept clearance, external fixtures, loose cables and a real payload are not covered by those checks.
 
-## Proposed starting print settings
+## Material and printing
 
-These are engineering starting points, not validated strength data or universal printer profiles.
+Use **PETG for the first structural set**. It is a practical technical-print material, with good toughness and relatively low warping; bridges and support removal need care. Follow the actual filament/printer profile rather than universal temperature settings. [Prusa PETG guidance](https://help.prusa3d.com/article/petg_2059)
 
-- 0.4 mm nozzle; 0.20 mm layers; manufacturer-approved filament temperatures and bed preparation.
-- Five perimeters, five to six top/bottom layers, and 35–40% infill on structural parts. Inspect sliced thin sections; they may be almost all perimeters.
-- Print links flat with their long axes in the bed plane. Keep primary bending loads along continuous extrusion paths, not peeling across layer boundaries.
-- Prefer vertical hole axes for bearing and pin seats. Avoid support scars on fits; split a housing and add a bolted keeper if needed.
-- Add local solid regions around holes if needed. More infill does not replace edge distance, fillets, washers or a sound load path.
-- Weigh the finished parts and update the torque calculation before fitting the payload. CAD solid volume is not the slicer's printed mass.
+Starting process proposal: 0.4 mm nozzle, 0.20 mm layers, 5–6 walls, 5 top/bottom layers, 35–50% infill on broad structures, and locally solid bearing seats/bolt regions. Small sleeves, horn cap and crush spacers should print solid. These are trial settings, not a validated strength specification. Check slicer mass and load-direction layer bonding. PLA is useful for quick dimensional mockups; avoid treating a PLA mockup as a sustained-load/thermal qualification. TPU/rubber is optional for gripping surfaces, not structural links. ASA/PC/nylon require a suitable printer and new fit/process validation; a more expensive filament does not automatically improve this arm.
 
-## Measure and print coupons first
+- **Base ARM-001:** foot flat on the bed. Support the elevated bridge as needed; keep support scars out of bearing seats.
+- **Platform ARM-202:** broad upper face on the bed, spindle pointing upward. The underside nut recesses then open upward. Inspect the D-flat/cross-hole and remaining walls.
+- **Upright ARM-203:** foot on the bed, with supports for the servo-window roof as needed. Inspect the rib/foot junction and keep bearing/servo mounting datums clean.
+- **Upper ARM-201 and forearm ARM-204:** broad rear face on the bed, hubs upward. This keeps the long link geometry in the layer plane.
+- **Fork ARM-205:** base flat. Clean the two horizontal 4.3 mm holes; confirm a sliding M4 fit without forcing the plastic ears.
+- **Cheeks/keepers/cassette:** orient their broad mounting faces for stable support. Remove support before trying bearings. Print sleeves and round standoffs with bores vertical.
 
-Measure two SG90 bodies, mounting tabs, shaft offsets, stock horns and fasteners. Keep the purchased horn/spline interfaces; a guessed printed spline is unacceptable. The MG996R shoulder is additional hardware, with a reference envelope pending confirmation of the actual purchased unit.
+Use only `cad/arm-v4/fabrication-trial/manifest.json` and its individual candidate/coupon files once that export is complete. The raw parts folder contains preserved superseded parts and development exports. Never print HW reference parts. Print FIT-001 bearing/dowel trials, FIT-002 horn-pocket trials and one ARM-112 cap first. Check the real seated yaw-horn height: the earlier 13.2 mm value is assumed and its minimum modeled cap/cover gap is only 0.2 mm.
 
-The BOM gives 608ZZ bearings at 22 mm OD × 8 mm ID × 7 mm wide and dowels at 6.35 × 25.4 mm. A bare dowel in that bearing has **0.825 mm radial clearance**. Use an engineered sleeve or a smooth 8 mm shaft at working bearing pivots. Do not run a bearing inner race directly on screw threads.
+## Assembly, tool to base
 
-Print trials for bearing seats at 22.0, 22.1, 22.2 and 22.3 mm and dowel fits at 6.35, 6.45, 6.55 and 6.65 mm. This is an experimental sweep, not a tolerance class. Measure cooled prints and choose the fit from insertion and rotation behavior. Seat the outer race without crushing the housing, and retain it with a removable keeper. During installation, apply force only to the race being seated. A washer must not bridge and clamp both races together.
+1. **Purchased gripper:** assemble the kit using the [supplier's Romi-arm guide](https://www.pololu.com/docs/0J76). Verify both paddles slide freely before installing it. Its servo is included; an SG90 substitution is not assumed compatible.
+2. **Fork and crush spacers:** insert the two ARM-206 spacers between the paired plastic mounting ears. Place the gripper between ARM-205's outer cheeks. Fit two M4×35 screws, two washers per screw and M4 nylocs through the matching axes. Tighten by hand only enough to remove play; the spacers resist squeezing the ears inward. Verify smooth jaw travel afterward.
+3. **Forearm tool deck:** fasten ARM-205 to ARM-204 with four M3×14, two small-series washers each and M3 nylocs. Assemble this module before attaching it to the elbow so the underside nuts are accessible. Longer screws can reach the elbow case.
+4. **Elbow drive:** center the actual MG996R electrically, then fit its matching metal horn and original center screw. Bolt the forearm flange to the horn with four M3×12 and small-series washers. The raised seats clear the dowel sleeve. Confirm thread engagement and that protruding screw tips clear the case through travel.
+5. **Elbow passive support:** install the dowel and two ARM-107 sleeves. The dowel starts 3 mm into the forearm-side stack and spans the passive support. Fit the 608 bearing in ARM-104, add its ARM-109 keeper using three M2×14 stacks, and mount the cheek on two 32 mm ARM-108 standoffs with M3×50 stacks. The keeper prevents pin escape while preserving the modeled end float; do not preload/bind the bearing. Elbow servo ears use four M2.5×14 stacks in ARM-201.
+6. **Shoulder:** repeat the metal-horn/center-screw arrangement using four M3×12 at ARM-201. Fit the shoulder dowel, two sleeves, 608 bearing, ARM-105 cheek and ARM-109 keeper. Use two 32 mm standoffs/M3×50 stacks and three M2×14 keeper stacks. Mount the shoulder servo to ARM-203 using four M2.5×14 stacks.
+7. **Upright to platform:** place the M3 nylocs in ARM-202's underside hex recesses and the small-series washers in the shallow circular seats above them. Bolt ARM-203 down with four M3×14 and top washers. The nut recesses retain orientation and keep all tips above the base backbone. Check the recess fit before final assembly.
+8. **Yaw bearing/drive:** fit two 608 bearings in ARM-001. Install the platform spindle and ARM-003 D-drive collar; retain the D interface with the M2×20 crossbolt stack. The spindle/inner-race shoulder must seat without binding. Capture the unmodified SG90 cross horn with ARM-112, four specified low-head M2×10 screws, front washers and nuts; retain the original horn center screw. Fit the SG90 in ARM-004 using two M2×10 stacks, then attach the removable cassette with two M3×30 stacks. Verify cap/gear-cover clearance throughout yaw by hand before power.
+9. **Bench and cables:** clamp the 140×120 mm base securely. Route strain-relieved service loops outside every joint sweep; use the existing cable-tie holes. Check screwdriver access and cable clearance in the real assembly. CAD does not model flexible wires.
 
-Print a servo mount and horn adapter next. Verify screw access, horn sweep and cable clearance before printing complete links. Hole spacing on horn models remains nominal until the actual horn is measured.
+## Loads, power and proof before repeated use
 
-## Hardware and power
+The solid-PETG/native-volume estimate is **636.9 g** for modeled hardware/prints, excluding supply/controller. With a 20 g payload at 90 mm, cable allowances and a 1.25 load multiplier, elbow design torque is **0.077 N·m**, shoulder **0.241 N·m**. Each uses an assumed **0.277 N·m** operating budget (one-third reference stall torque, further reduced 10%). Margins are **3.60 elbow / 1.15 shoulder**. The gripper's entire specified mass is conservatively allocated at 90 mm because its true mass distribution is unknown. These are sizing assumptions, not measured continuous servo ratings. The shoulder governs; do not increase payload or sustained duty from these numbers alone.
 
-The project lists purchased SG90s, 608ZZ bearings and 6.35 × 25.4 mm dowels, plus an ELEGOO Mega R3, breadboard and jumpers. The arm assigns three SG90s to yaw, elbow and grip. The proposed shoulder uses **one MG996R positional servo**, additional hardware. Do not buy a continuous-rotation variant.
+Power servos from the separate regulated supply and appropriately rated distribution, sharing signal ground with the Mega. Keep motor current off the Mega regulator and solderless breadboard rails. Use an accessible DC disconnect and support the arm when power is removed. Verify voltage at the servos during simultaneous starts and choose wiring/protection from measured current and component ratings.
 
-The [TowerPro SG90 reference](https://towerpro.com.tw/product/sg90-7/) gives 1.8 kgf·cm stall torque at 4.8 V for its digital variant and recommends external power. That is about 0.177 N·m at stall, not a continuous-duty rating for the user's actual motors. [TowerPro's MG996R reference](https://towerpro.com.tw/product/mg996r/) lists 9.4 kgf·cm at 4.8 V and nominal dimensions 40.7 × 19.7 × 42.9 mm. Both references require checking against the actual units.
+Calibrate one servo at a time with the arm supported, then try slow unloaded motion. The [gripper supplier](https://www.pololu.com/product/3551) specifies an unusually wide nominal pulse range; find actual usable endpoints gradually and stop before hard-stop loading. Feedback indicates position, not grip force. Do not hold a servo stalled to increase grip. Test retention over a catch surface, then increase payload through 5, 10 and 20 g. Record current, voltage, case temperature, drift, slips and fastener movement. If rubber liners are added, retain them mechanically and recalibrate the effective opening.
 
-The calculation budgets one-third of reference stall torque, applies a 1.25 load multiplier, and reserves 10% at the direct shoulder connection. These are design assumptions, not measured ratings. The earlier 3:1 SG90 shoulder candidate was abandoned because it restricted shoulder travel to about 50 degrees and had little estimated load margin.
-
-Additional hardware will include machine screws/nuts/washers for removable housings, actual horn-compatible screws, positive bearing/shaft retainers, soft pads and a catch tray. Exact screw lengths and quantities must come from the verified assembly stack. Keep each original servo center screw with its horn; verify engagement and avoid bottoming it out.
-
-Use a regulated external servo supply and proper power distribution. Select current capacity from simultaneous-load measurements and actual servo specifications. Do not power the loaded arm through the Mega USB supply, board regulator or breadboard power rails. Connect controller and servo grounds; size the wiring for the intended current and provide an accessible power disconnect.
-
-## Intended assembly and test sequence
-
-1. Inspect and deburr prints. Fit bearings and verify each axis moves freely before adding servos. Install positive axial retainers.
-2. Assemble the base; clamp it to the bench for first tests. Check the support polygon and overturning moment before relying on an unclamped base.
-3. Center each unloaded servo at a verified electrical position before fitting its stock horn. Keep center-screw access and allow small mounting adjustments.
-4. Assemble shoulder, upper link and elbow. Bearings/bushings should carry bending loads; the servo should primarily transmit torque. Check all clamping and retention stacks.
-5. Add forearm and gripper. Confirm pad contact, bearing clearance and full release. Servo stall must not be the normal closing stop.
-6. Route service loops with strain relief. Cables must never become motion stops.
-7. Support the arm and bring up one unloaded axis at a time. Establish actual travel limits before fitting a payload. Software limits stop short of physical and cable limits.
-8. Check the full swept volume and pickup/placement poses. This arm has no independent wrist orientation: reachable position alone is insufficient.
-9. Increase load in steps, such as 5, 10 and 20 g. Record voltage/current, sag, backlash and temperature over the proposed duty cycle. Investigate binding or sustained buzzing.
-10. Run 50-cycle retention and repeatability trials only after low-speed checks pass. Record measured results. On power loss the arm may back-drive or drop the payload; support it during assembly and keep the work above a catch tray.
-
-## Files and memory
-
-Current work lives in `cad/arm-v2`; revision A and the old demonstration remain preserved. Open `ARM-B_Articulated_prototype_DEVELOPMENT.SLDASM` from that folder. Native SLDPRT/SLDASM features are the editing masters; STEP is for exchange and STL for slicing. The 15 printed arm part types and fit coupon now contain 98 fully constrained sketches, with unchanged-solid checks. The JSON sizing parameters are a calculation record; they do not drive every dimension in the geometry generator. Preserve a revision before regenerating anything manually edited. After replacing a native part, refresh any mates that referenced its old faces; a cached mate position is not proof that its references still resolve.
-
-Build one part at a time, save it, then close its document. Purchased parts use simplified envelopes, without balls, threads or motor internals. Keep only the assembly and the part being edited open. Avoid FEA and render jobs during CAD construction on this 16 GB computer.
-
-## Review the articulation in SolidWorks
-
-Use the ConfigurationManager to select `01_Home`, `02_Grip_open`, `03_Pickup_trial`, `04_Transfer`, `05_Transfer_left` or `06_Transfer_right`. These store independent native mate dimensions. The first six configurations hold a pose; edit their angle mates to move them.
-
-`07_Free_motion_CHECK_COLLISIONS` suppresses the four fixed angle commands and enables native limit mates for dragging. Provisional bounds are yaw -60 to +60, shoulder -30 to +80, elbow -100 to -5 and grip 0 to 25 degrees. The native limits have been read back and their mate features report no errors. These bounds do not guarantee that every combination clears the rest of the arm; use collision detection while exploring and return to a named checked pose for review. They are not the actual servos' calibrated electrical limits.
-
-In the Mates folder, the four command dimensions are `D1@J1_Yaw_command`, `D1@J2_Shoulder_command`, `D1@J3_Elbow_command` and `D1@J4_Grip_command`. Their CAD values in degrees are respectively **90 + yaw**, **90 + shoulder elevation**, **minus elbow relative angle**, and **90 + grip opening**. Home is 90, 135, 45 and 90 degrees. These are CAD angles, not calibrated servo commands. Change dimensions for the current configuration and rebuild; keep backups before editing geometry.
-
-The revised pickup uses yaw 0, shoulder -30, elbow -60 and grip 10 degrees. The earlier shoulder -40/elbow -50 pose hit the yaw platform and is rejected. Transfer uses shoulder 20 and elbow -20; yaw samples cover -60 to +60 degrees. Grip 25 degrees clears the corrected pad relief. Arbitrary combinations, cables, tools, the payload and external fixtures require their own checks.
-
-## Current first-principles estimates
-
-`cad-load-and-bom-report.json` uses native volumes, 100% solid PETG mass, nominal purchased masses and explicit cable/payload allowances. Total modeled mass is about **518 g**, before unmodeled wiring and the payload. This overstates the printed infill mass but does not establish the true servo or bearing mass.
-
-The mass calculation is external to SolidWorks' default material assignments. Use this report for the stated assumptions; do not treat an unassigned native material's mass-property result as the arm's measured mass.
-
-With a 20 g payload, the calculated elbow design torque is **0.0409 N·m** against an assumed **0.0588 N·m** budget; the shoulder is **0.1286 N·m** against **0.2765 N·m**. Margins are approximately **1.44** and **2.15**. These include the 1.25 load multiplier and conservative lever bounds; the budgets are assumptions derived from reference stall torque, not continuous ratings. Retest with weighed parts and actual servos.
-
-For a 22 mm circular object centered at forearm coordinates (69, 1, 3) mm, ideal rigid pad contact occurs near **7.83 degrees grip opening**, inside the usable pad face. With assumed friction coefficient 0.3, a two-times-weight allowance and allowance for the jaw angle, the estimate is **0.85 N normal force per contact** and **0.0168 N·m grip torque**. Pad compression, friction, contact width and retention remain physical tests. The 10-degree CAD transfer pose is a clearance demonstration, not a validated holding command.
-
-## Part orientation and fabrication files
-
-Use the curated `cad/arm-v2/fabrication-trial` files and manifest. `fit-coupon` is the first print; `candidate-parts` remains subject to the horn and hardware-fit hold above. Individual exports use millimetres and fine STL resolution. Do not batch-print the raw `parts` directory, which preserves earlier mixed assembly exports alongside the native masters.
-
-- **ARM-001 base:** bench face on the bed; support the elevated bearing bridge. Keep support contact out of the finished bearing seats where possible.
-- **ARM-002 yaw upright:** its spindle, platform and upright prevent a simple support-free orientation. Review a side-on orientation with the makerspace and use removable supports beneath the platform/shaft. Verify the spindle and bearing-fit surfaces after support removal; this is a candidate that may benefit from splitting into bolted parts after the first fit trial.
-- **ARM-003 collar and ARM-004 cassette:** place a broad flat face down. Keep the collar axis vertical if possible; use local support only where the cassette geometry requires it.
-- **ARM-101 upper and ARM-102 forearm:** broad link web on the bed, bearing axes vertical. Keep supports away from horn seating faces and washer recesses.
-- **ARM-103 moving finger:** horn attachment plate on the bed, with the hanging finger extending upward. This avoids bridging the full horn plate above a narrow fingertip.
-- **ARM-104/105 bearing cheeks:** place the inner lip face down, open bearing pocket upward. Confirm the slicer preserves the retaining lip.
-- **ARM-106/108 standoffs and ARM-107 sleeves:** axes vertical; use enough perimeters to make the thin sleeve wall continuous. Print extra sleeves for fit selection.
-- **ARM-109 keepers:** cup end on the bed, open cavity upward, with supports under the outward flange if required. Inspect and deburr the internal pin clearance.
-- **ARM-110 fixed TPU sock:** the pocket runs along the finger; orient its open passage vertically where adhesion permits, with a brim. Avoid trapped support in the sleeve.
-- **ARM-111 moving TPU sock:** closed bottom on the bed, open pocket upward.
-- **FIT-001 coupon:** broad face on the bed, hole axes vertical. Bearing holes increase left to right from 22.0 to 22.3 mm; dowel holes increase from 6.35 to 6.65 mm. Mark the underside before removing it from the bed so orientation is unambiguous.
-
-## Part-by-part walkthrough: gripper down to the bench
-
-**Moving pad — ARM-111.** This is the soft TPU contact sleeve at the moving fingertip. Slide it over the bottom of ARM-103. Two M2 × 25 screws pass through the tall finger and pad; use a washer at each end and an M2 nut. Tighten only enough to retain the sleeve. Excess preload crushes the TPU and can split printed walls.
-
-**Moving finger — ARM-103.** Its upper plate bolts to the gripper's stock horn using four M2 × 8 screws, eight washers and four nuts. The hanging finger places the soft contact near the fixed jaw. The central opening gives access to the original horn center screw before final assembly. Closing rotates this finger; the two jaws do not remain parallel. Calibrate closing at actual object contact and do not use continuous servo stall to hold the bearing.
-
-**Fixed pad — ARM-110.** This TPU sleeve wraps the fixed finger built into the forearm. Slide it along the bar to align the two holes. Two M2 × 10 screws, four washers and two nuts capture it. It can be replaced independently when worn.
-
-**Forearm and fixed jaw — ARM-102.** This single PETG part carries the fixed contact, gripper servo and elbow horn connection. Mount the gripper SG90 through the body window with two M2 × 10 screws, four washers and two nuts. Its supplied horn and center screw drive ARM-103. At the elbow end, use four M2 × 8 screws, eight washers and four nuts to connect the stock elbow horn. The screw-head recesses also clear the central support hub; keep these features if editing the link.
-
-**Elbow support pin and sleeves — HW-002 and ARM-107.** One 6.35 × 25.4 mm dowel spans the forearm hub and passive-side bearing. Two printed sleeves adapt the pin to the 8 mm nominal seats, one in the link and one in the bearing. Check fits first; there must be no perceptible radial slop, binding or sleeve migration. The pin is a support axle, not a substitute for the servo horn's torque connection. Its inner end is offset to preserve center-screw clearance; its outer end is enclosed by the keeper.
-
-**Elbow bearing cheek — ARM-104.** This stationary support relative to the upper link carries one 608ZZ bearing. Insert the bearing from the open outer side until it meets the inner retaining lip. Two ARM-106 standoffs, each 24 mm long, connect the cheek to the upper link using two M3 × 40 screws, four small-series M3 washers and two M3 nylon-insert nuts. These screws clamp the printed standoffs, not the rotating link.
-
-**Elbow keeper — ARM-109.** Three M2 × 14 screws, six washers and three nuts attach this cap to ARM-104. Its thin outer contact rim seats against the housing while leaving nominal axial clearance at the bearing face. The central cup encloses the pin end. Check that the pin and inner race rotate freely after tightening; neither should rub the cap.
-
-**Upper link — ARM-101.** This PETG link places the elbow axis 60 mm from the shoulder. It holds the elbow SG90 with two M2 × 10 screws, four washers and two nuts. Four M3 × 12 screws, eight small-series M3 washers and four plain M3 nuts connect its shoulder flange to the shoulder horn. The original shoulder center screw is a separate part supplied with the servo. Install and secure that screw while access remains open, then fit the support pin.
-
-**Shoulder passive support — ARM-105, ARM-108, ARM-107, HW-002 and ARM-109.** This repeats the elbow's bearing-supported arrangement at the stronger joint. Use one 608ZZ, one dowel, two adapter sleeves and two 32 mm ARM-108 standoffs. Two M3 × 50 screws, four small-series M3 washers and two M3 nylon-insert nuts clamp the standoffs between the rotating base's upright and the cheek. Three M2 × 14 screws, six washers and three nuts secure the outer keeper. The cheek stays with the yaw upright while the upper link rotates.
-
-**Shoulder servo — MG996R reference.** Its case fits through the upright window in ARM-002. Four M2.5 × 14 screws, eight small-series M2.5 washers and four M2.5 nylon-insert nuts secure its ears. These smaller fasteners leave clearance beside the servo case; do not substitute larger nuts simply because they fit through the printed hole. The horn transmits torque, while the opposite dowel/bearing support reduces cantilever loading on the servo output.
-
-**Yaw platform and upright — ARM-002.** This part rotates the shoulder and the whole arm about the vertical base axis. Its hollow spindle runs through the two base bearings. The spindle's D-shaped end engages ARM-003. Preserve the spindle shoulders, flat and crosshole when editing: they define the support and retention stack.
-
-**Yaw drive collar — ARM-003.** Two M2 × 8 screws, four washers and two nuts connect the collar to the stock yaw horn using the two relieved positions. The other two nominal horn holes are unused. A single M2 × 20 crossbolt, two washers and one nut positively retain the collar and spindle. The recessed flat seats support the crossbolt hardware. This bolt is not a substitute for the D interface; the flat carries the driving torque.
-
-**Removable yaw-servo cassette — ARM-004.** Mount its SG90 with two M2 × 10 screws, four washers and two nuts. Center the servo and fit its stock horn/center screw before closing access. The cassette attaches to the pedestal backbone using two M3 × 30 screws, four small-series M3 washers and two M3 nylon-insert nuts. The side pockets allow nut access. The intended insertion is from the open side below the bearing bridge, then upward into the final position; verify this path with the actual horn and leads before loading the arm.
-
-**Base pedestal — ARM-001.** Two 608ZZ bearings support the yaw spindle above the servo. The spacer shoulder separates them. Fit the bearings, spindle and collar as one retained module; support loose bearings during assembly. The base includes tool access to the crossbolt and four 5.5 mm fixture holes. Clamp or bolt it to a rigid bench board. Choose fixture screw lengths from the actual board thickness rather than the CAD base alone.
-
-## Practical build order
-
-Read the walkthrough from gripper to base to understand the load path, but physically build the base first. Then prepare the three link/horn subassemblies on the bench, fit the shoulder and elbow supports, and add the pads and service loops. Keep each original servo center screw accessible until its horn has been centered and verified. Check free motion after every support or keeper is tightened.
-
-The arm has yaw, shoulder, elbow and grip actuation. It has **no independently controlled wrist orientation**. A pickup fixture and trajectory must accommodate the gripper's changing orientation. The old vertical locating-pin pickup is not automatically compatible with this new articulated architecture.
+For the next production-readiness gate, run 50 pick/place cycles with at least 49 successful cycles, record actual placement spread and failures, inspect printed joints/fasteners, and repeat after a sustained-duty trial. Shoulder heating/drift or insufficient repeatability is a reason to reduce load/duty or revise the drive. No cycle, thermal, grip-force or repeatability performance has yet been measured.

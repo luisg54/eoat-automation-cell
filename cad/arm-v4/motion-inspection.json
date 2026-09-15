@@ -1,0 +1,115 @@
+{
+  "status": "sampled poses only; continuous swept clearance and physical travel not established",
+  "samples": [
+    {
+      "name": "home",
+      "joint_angles_deg": [
+        0,
+        45,
+        -45,
+        32
+      ],
+      "transform_residual": 3.3306690738754696e-16,
+      "interferences": []
+    },
+    {
+      "name": "grip_22mm",
+      "joint_angles_deg": [
+        0,
+        45,
+        -45,
+        22
+      ],
+      "transform_residual": 3.3306690738754696e-16,
+      "interferences": []
+    },
+    {
+      "name": "grip_2mm",
+      "joint_angles_deg": [
+        0,
+        45,
+        -45,
+        2
+      ],
+      "transform_residual": 3.3306690738754696e-16,
+      "interferences": []
+    },
+    {
+      "name": "low_pickup",
+      "joint_angles_deg": [
+        0,
+        -15,
+        -80,
+        22
+      ],
+      "transform_residual": 2.7755575615628914e-16,
+      "interferences": []
+    },
+    {
+      "name": "transfer",
+      "joint_angles_deg": [
+        0,
+        20,
+        -20,
+        22
+      ],
+      "transform_residual": 3.885780586188048e-16,
+      "interferences": []
+    },
+    {
+      "name": "upright",
+      "joint_angles_deg": [
+        0,
+        80,
+        -90,
+        32
+      ],
+      "transform_residual": 5.828670879282072e-16,
+      "interferences": []
+    },
+    {
+      "name": "elbow_fold",
+      "joint_angles_deg": [
+        0,
+        45,
+        -100,
+        32
+      ],
+      "transform_residual": 3.3306690738754696e-16,
+      "interferences": []
+    },
+    {
+      "name": "yaw_left",
+      "joint_angles_deg": [
+        -60,
+        20,
+        -20,
+        22
+      ],
+      "transform_residual": 3.885780586188048e-16,
+      "interferences": []
+    },
+    {
+      "name": "yaw_right",
+      "joint_angles_deg": [
+        60,
+        20,
+        -20,
+        22
+      ],
+      "transform_residual": 4.996003610813204e-16,
+      "interferences": []
+    },
+    {
+      "name": "extended",
+      "joint_angles_deg": [
+        0,
+        0,
+        -5,
+        32
+      ],
+      "transform_residual": 5.551115123125783e-16,
+      "interferences": []
+    }
+  ]
+}

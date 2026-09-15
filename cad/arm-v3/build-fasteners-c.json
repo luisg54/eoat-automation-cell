@@ -1,0 +1,68 @@
+[
+  {
+    "name": "HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE",
+    "solid_count": 1,
+    "volume_mm3": 45.23893421169303,
+    "approximate_box_mm": [
+      -2.0,
+      -2.0,
+      -10.0,
+      2.0,
+      2.0,
+      1.1000000000000003
+    ],
+    "features": [
+      "M2_thread_envelope",
+      "Verified_low_head_D4_H1p1"
+    ],
+    "files": [
+      "hardware-reference\\HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE.SLDPRT",
+      "hardware-reference\\HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "HW-S_M2x30_socket_ENVELOPE",
+    "solid_count": 1,
+    "volume_mm3": 116.9300785666121,
+    "approximate_box_mm": [
+      -1.9,
+      -1.9,
+      -30.0,
+      1.9,
+      1.9,
+      2.0000000000000018
+    ],
+    "features": [
+      "Shank_nominal_thread_envelope",
+      "Socket_head_envelope"
+    ],
+    "files": [
+      "hardware-reference\\HW-S_M2x30_socket_ENVELOPE.SLDPRT",
+      "hardware-reference\\HW-S_M2x30_socket_ENVELOPE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "HW-S_M3x45_socket_ENVELOPE",
+    "solid_count": 1,
+    "volume_mm3": 389.3611395042849,
+    "approximate_box_mm": [
+      -2.75,
+      -2.75,
+      -45.0,
+      2.75,
+      2.75,
+      3.0
+    ],
+    "features": [
+      "Shank_nominal_thread_envelope",
+      "Socket_head_envelope"
+    ],
+    "files": [
+      "hardware-reference\\HW-S_M3x45_socket_ENVELOPE.SLDPRT",
+      "hardware-reference\\HW-S_M3x45_socket_ENVELOPE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

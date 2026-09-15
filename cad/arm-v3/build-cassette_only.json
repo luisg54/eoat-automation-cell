@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ARM-004_Removable_yaw_servo_mount",
+    "solid_count": 1,
+    "volume_mm3": 6506.530986618805,
+    "approximate_box_mm": [
+      -21.0,
+      21.4,
+      -18.0,
+      25.0,
+      33.0,
+      18.0
+    ],
+    "features": [
+      "Servo_shelf",
+      "Rear_clamping_block",
+      "Servo_body_window",
+      "Yaw_servo_M2_fasteners",
+      "Left_nut_access",
+      "Right_nut_access",
+      "Rear_clamping_M3_holes"
+    ],
+    "files": [
+      "parts\\ARM-004_Removable_yaw_servo_mount.SLDPRT",
+      "parts\\ARM-004_Removable_yaw_servo_mount.step",
+      "parts\\ARM-004_Removable_yaw_servo_mount.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]

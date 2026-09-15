@@ -1,0 +1,92 @@
+[
+  {
+    "name": "01_Home",
+    "joint_angles_deg": [
+      0,
+      45,
+      -45,
+      0
+    ],
+    "native_mate_dimensions_deg": [
+      90.0,
+      135.0,
+      45.0,
+      90.0
+    ]
+  },
+  {
+    "name": "02_Grip_open",
+    "joint_angles_deg": [
+      0,
+      45,
+      -45,
+      25
+    ],
+    "native_mate_dimensions_deg": [
+      90.0,
+      135.0,
+      45.0,
+      115.0
+    ]
+  },
+  {
+    "name": "03_Pickup_trial",
+    "joint_angles_deg": [
+      0,
+      -30,
+      -60,
+      10
+    ],
+    "native_mate_dimensions_deg": [
+      90.0,
+      59.99999999999999,
+      59.99999999999999,
+      100.0
+    ]
+  },
+  {
+    "name": "04_Transfer",
+    "joint_angles_deg": [
+      0,
+      20,
+      -20,
+      10
+    ],
+    "native_mate_dimensions_deg": [
+      90.0,
+      110.0,
+      20.0,
+      100.0
+    ]
+  },
+  {
+    "name": "05_Transfer_left",
+    "joint_angles_deg": [
+      -60,
+      20,
+      -20,
+      10
+    ],
+    "native_mate_dimensions_deg": [
+      29.999999999999996,
+      110.0,
+      20.0,
+      100.0
+    ]
+  },
+  {
+    "name": "06_Transfer_right",
+    "joint_angles_deg": [
+      60,
+      20,
+      -20,
+      10
+    ],
+    "native_mate_dimensions_deg": [
+      150.0,
+      110.0,
+      20.0,
+      100.0
+    ]
+  }
+]

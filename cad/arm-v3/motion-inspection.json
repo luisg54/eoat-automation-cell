@@ -1,0 +1,104 @@
+{
+  "status": "sampled poses only; continuous swept clearance and physical travel not established",
+  "samples": [
+    {
+      "name": "home",
+      "joint_angles_deg": [
+        0,
+        45,
+        -45,
+        0
+      ],
+      "transform_residual": 2.7755575615628914e-17,
+      "interferences": []
+    },
+    {
+      "name": "grip_open",
+      "joint_angles_deg": [
+        0,
+        45,
+        -45,
+        25
+      ],
+      "transform_residual": 1.6653345369377348e-16,
+      "interferences": []
+    },
+    {
+      "name": "low_pickup",
+      "joint_angles_deg": [
+        0,
+        -30,
+        -60,
+        10
+      ],
+      "transform_residual": 1.3877787807814457e-16,
+      "interferences": []
+    },
+    {
+      "name": "transfer",
+      "joint_angles_deg": [
+        0,
+        20,
+        -20,
+        5
+      ],
+      "transform_residual": 2.220446049250313e-16,
+      "interferences": []
+    },
+    {
+      "name": "upright",
+      "joint_angles_deg": [
+        0,
+        80,
+        -90,
+        0
+      ],
+      "transform_residual": 2.498001805406602e-16,
+      "interferences": []
+    },
+    {
+      "name": "elbow_fold",
+      "joint_angles_deg": [
+        0,
+        45,
+        -100,
+        0
+      ],
+      "transform_residual": 5.551115123125783e-16,
+      "interferences": []
+    },
+    {
+      "name": "yaw_left",
+      "joint_angles_deg": [
+        -60,
+        20,
+        -20,
+        5
+      ],
+      "transform_residual": 2.220446049250313e-16,
+      "interferences": []
+    },
+    {
+      "name": "yaw_right",
+      "joint_angles_deg": [
+        60,
+        20,
+        -20,
+        5
+      ],
+      "transform_residual": 4.440892098500626e-16,
+      "interferences": []
+    },
+    {
+      "name": "extended",
+      "joint_angles_deg": [
+        0,
+        0,
+        -5,
+        5
+      ],
+      "transform_residual": 2.220446049250313e-16,
+      "interferences": []
+    }
+  ]
+}

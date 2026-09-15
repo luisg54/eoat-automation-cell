@@ -1,0 +1,73 @@
+[
+  {
+    "name": "ARM-202_Yaw_platform",
+    "solid_count": 1,
+    "volume_mm3": 31467.78735545616,
+    "approximate_box_mm": [
+      -44.0,
+      43.0,
+      -44.0,
+      44.0,
+      77.0,
+      44.0
+    ],
+    "features": [
+      "Remove_integral_upright_from_platform",
+      "Four_M3_upright_attachment_holes"
+    ],
+    "files": [
+      "parts\\ARM-202_Yaw_platform.SLDPRT",
+      "parts\\ARM-202_Yaw_platform.step",
+      "parts\\ARM-202_Yaw_platform.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-203_Bolted_shoulder_upright",
+    "solid_count": 1,
+    "volume_mm3": 30095.674130575215,
+    "approximate_box_mm": [
+      -44.06401607010846,
+      76.99999999999999,
+      -12.0,
+      44.051686615864114,
+      144.0,
+      12.0
+    ],
+    "features": [
+      "Remove_platform_and_spindle_from_upright",
+      "Broad_bolted_foot",
+      "Four_M3_platform_attachment_holes"
+    ],
+    "files": [
+      "parts\\ARM-203_Bolted_shoulder_upright.SLDPRT",
+      "parts\\ARM-203_Bolted_shoulder_upright.step",
+      "parts\\ARM-203_Bolted_shoulder_upright.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  {
+    "name": "ARM-201_Upper_link_dual_MG996R",
+    "solid_count": 1,
+    "volume_mm3": 8734.723879557603,
+    "approximate_box_mm": [
+      -16.0,
+      -16.0,
+      0.0,
+      100.0,
+      16.0,
+      8.0
+    ],
+    "features": [
+      "Larger_elbow_servo_mount_replaces_SG90_opening",
+      "MG996R_elbow_body_clearance",
+      "MG996R_elbow_tab_fasteners"
+    ],
+    "files": [
+      "parts\\ARM-201_Upper_link_dual_MG996R.SLDPRT",
+      "parts\\ARM-201_Upper_link_dual_MG996R.step",
+      "parts\\ARM-201_Upper_link_dual_MG996R.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+]
