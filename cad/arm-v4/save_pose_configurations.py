@@ -3,7 +3,7 @@ import json
 from check_motion import doc,sw,ROOT,call,integer_ref,pose
 cm=call(doc,'ConfigurationManager')
 positions=[('01_Home',(0,45,-45,32)),('02_Grip_22mm',(0,45,-45,22)),
- ('03_Pickup_trial',(0,-15,-80,22)),('04_Transfer',(0,20,-20,22)),
+ ('03_Pickup_trial',(0,-15,-75,22)),('04_Transfer',(0,20,-20,22)),
  ('05_Transfer_left',(-60,20,-20,22)),('06_Transfer_right',(60,20,-20,22))]
 report=[]
 for name,values in positions:

@@ -1,0 +1,3037 @@
+{
+  "status": "sampled poses only; continuous swept clearance and physical travel not established",
+  "samples": [
+    {
+      "name": "pickup_vertical_m15_m75",
+      "joint_angles_deg": [
+        0,
+        -15,
+        -75,
+        22
+      ],
+      "transform_residual": 7.771561172376096e-16,
+      "interferences": [],
+      "expected_designed_engagements": [
+        {
+          "volume_mm3": 11.773353945346367,
+          "components": [
+            "MG996R_servo-2",
+            "HW-S_M3x8_LOW_HEAD_D5p5_H2_ENVELOPE-2"
+          ],
+          "note": "M3 centre screw in modeled MG996R spline thread"
+        },
+        {
+          "volume_mm3": 11.77335394534365,
+          "components": [
+            "MG996R_servo-1",
+            "HW-S_M3x8_LOW_HEAD_D5p5_H2_ENVELOPE-1"
+          ],
+          "note": "M3 centre screw in modeled MG996R spline thread"
+        },
+        {
+          "volume_mm3": 6.5973445725385425,
+          "components": [
+            "SERVO_SG90-1",
+            "HW-S_M2x4_PAN_HEAD_D4_H1p6_ENVELOPE-1"
+          ],
+          "note": "M2 horn screw in the 1.0 mm plain SG90 file hole"
+        },
+        {
+          "volume_mm3": 0.11387969859242073,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859242038,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859241656,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.1138796985924149,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859240689,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859240459,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859239935,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.1138796985923975,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859239234,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859239175,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859239162,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.1138796985923911,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859239108,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859238611,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859238571,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859238208,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859238063,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859237897,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859237802,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859237733,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859237673,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859236924,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859236678,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859236623,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859236256,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859236176,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859235969,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.1138796985923546,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859235335,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859235174,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.113879698592348,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859234628,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859234515,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859234251,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.1138796985923396,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233683,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233434,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233388,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233284,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233248,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233109,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.1138796985923283,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859232082,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859231968,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859231654,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859230852,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859230607,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859230211,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859230125,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859230007,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719175,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719132,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719119,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719091,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.0391592511371908,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137190675,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719039,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719037,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137190335,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719031,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719013,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719005,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719002,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189974,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189904,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189884,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718988,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718985,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718972,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189606,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718959,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189585,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718958,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718939,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189335,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718931,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189266,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718917,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718913,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718903,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137188926,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718873,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137188586,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137188524,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718848,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718841,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718829,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718815,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718814,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.0391592511371879,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        }
+      ],
+      "known_supplier_overlaps": []
+    },
+    {
+      "name": "pickup_vertical_m10_m80",
+      "joint_angles_deg": [
+        0,
+        -10,
+        -80,
+        22
+      ],
+      "transform_residual": 9.43689570931383e-16,
+      "interferences": [],
+      "expected_designed_engagements": [
+        {
+          "volume_mm3": 11.773353945344118,
+          "components": [
+            "MG996R_servo-2",
+            "HW-S_M3x8_LOW_HEAD_D5p5_H2_ENVELOPE-2"
+          ],
+          "note": "M3 centre screw in modeled MG996R spline thread"
+        },
+        {
+          "volume_mm3": 11.773353945343475,
+          "components": [
+            "MG996R_servo-1",
+            "HW-S_M3x8_LOW_HEAD_D5p5_H2_ENVELOPE-1"
+          ],
+          "note": "M3 centre screw in modeled MG996R spline thread"
+        },
+        {
+          "volume_mm3": 6.5973445725385425,
+          "components": [
+            "SERVO_SG90-1",
+            "HW-S_M2x4_PAN_HEAD_D4_H1p6_ENVELOPE-1"
+          ],
+          "note": "M2 horn screw in the 1.0 mm plain SG90 file hole"
+        },
+        {
+          "volume_mm3": 0.11387969859241553,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859241294,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.1138796985924101,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.1138796985924097,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859240497,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859240289,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859240109,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859240042,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859240005,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859239895,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.1138796985923977,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859239616,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859239332,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859238763,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859238666,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859238664,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859238375,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859238296,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859237822,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859237473,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859237287,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859237279,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859236952,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859236463,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859236433,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859236025,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859235839,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859235651,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859235032,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859234616,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.1138796985923461,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859234268,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233932,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233665,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233538,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233278,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233206,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.1138796985923311,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233005,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859232952,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859232537,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859232354,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859232203,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859232086,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859231778,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859231453,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859231382,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859231278,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.1138796985923059,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.1138796985923047,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719175,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719132,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719119,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719091,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.0391592511371908,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137190675,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719039,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719037,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137190335,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719031,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719013,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719005,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719002,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189974,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189904,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189884,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718988,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718985,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718972,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189606,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718959,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189585,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718958,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718939,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189335,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718931,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189266,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718917,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718913,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718903,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137188926,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718873,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137188586,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137188524,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718848,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718841,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718829,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718815,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718814,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.0391592511371879,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        }
+      ],
+      "known_supplier_overlaps": []
+    },
+    {
+      "name": "pickup_vertical_m15_m75_yaw60",
+      "joint_angles_deg": [
+        60,
+        -15,
+        -75,
+        22
+      ],
+      "transform_residual": 1.1102230246251565e-15,
+      "interferences": [],
+      "expected_designed_engagements": [
+        {
+          "volume_mm3": 11.773374153936649,
+          "components": [
+            "MG996R_servo-1",
+            "HW-S_M3x8_LOW_HEAD_D5p5_H2_ENVELOPE-1"
+          ],
+          "note": "M3 centre screw in modeled MG996R spline thread"
+        },
+        {
+          "volume_mm3": 11.773355497071558,
+          "components": [
+            "MG996R_servo-2",
+            "HW-S_M3x8_LOW_HEAD_D5p5_H2_ENVELOPE-2"
+          ],
+          "note": "M3 centre screw in modeled MG996R spline thread"
+        },
+        {
+          "volume_mm3": 6.5973445725385425,
+          "components": [
+            "SERVO_SG90-1",
+            "HW-S_M2x4_PAN_HEAD_D4_H1p6_ENVELOPE-1"
+          ],
+          "note": "M2 horn screw in the 1.0 mm plain SG90 file hole"
+        },
+        {
+          "volume_mm3": 0.11387969859244884,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859244505,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859244404,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859243344,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859242993,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859242765,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859241458,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859241323,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859240396,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859239931,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859239927,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859239615,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859239352,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859239269,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859239216,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859239082,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859238818,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859238165,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859238034,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859237854,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859237591,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859237408,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859237007,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859236964,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859236614,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859236187,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859235737,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859235499,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859235343,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859234909,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859234365,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859234078,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233651,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233499,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233353,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233268,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859232765,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859232351,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859232248,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859232239,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859232194,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859231424,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859230554,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859230124,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859229823,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859229184,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859228693,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859228274,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859227978,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859227651,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719206,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719176,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137191285,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719089,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137190786,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137190446,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719029,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.0391592511371902,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719019,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137190175,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719016,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137190154,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719009,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719008,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719006,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137190015,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718997,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718996,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189856,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718978,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718964,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718958,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718947,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189315,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189245,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718924,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718922,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.0391592511371892,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718903,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718869,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137188676,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137188655,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718855,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137188524,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718845,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718821,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137188204,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718813,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718779,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        }
+      ],
+      "known_supplier_overlaps": []
+    },
+    {
+      "name": "pickup_vertical_m15_m75_yawm60",
+      "joint_angles_deg": [
+        -60,
+        -15,
+        -75,
+        22
+      ],
+      "transform_residual": 1.0547118733938987e-15,
+      "interferences": [],
+      "expected_designed_engagements": [
+        {
+          "volume_mm3": 11.77335826727104,
+          "components": [
+            "MG996R_servo-1",
+            "HW-S_M3x8_LOW_HEAD_D5p5_H2_ENVELOPE-1"
+          ],
+          "note": "M3 centre screw in modeled MG996R spline thread"
+        },
+        {
+          "volume_mm3": 11.773356575875935,
+          "components": [
+            "MG996R_servo-2",
+            "HW-S_M3x8_LOW_HEAD_D5p5_H2_ENVELOPE-2"
+          ],
+          "note": "M3 centre screw in modeled MG996R spline thread"
+        },
+        {
+          "volume_mm3": 6.597344572538542,
+          "components": [
+            "SERVO_SG90-1",
+            "HW-S_M2x4_PAN_HEAD_D4_H1p6_ENVELOPE-1"
+          ],
+          "note": "M2 horn screw in the 1.0 mm plain SG90 file hole"
+        },
+        {
+          "volume_mm3": 0.11387969859246118,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859246039,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859245624,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859244972,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859244515,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859244186,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859243885,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859243778,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859243549,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859242959,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859242758,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859242514,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859242035,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859241256,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859240869,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859240803,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859240035,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859240016,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859239387,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859238944,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859238925,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859238647,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859237018,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859236599,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.1138796985923655,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859236274,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859236058,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.1138796985923454,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859234273,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233579,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859233424,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859232915,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.1138796985923228,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859231958,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859231352,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859230888,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859230493,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.113879698592302,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859229961,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859229781,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859229757,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859229168,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859229137,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859229023,
+          "components": [
+            "MG996R_servo-2",
+            "ARM-207_MG996R_printed_spline_hub-2"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859228568,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859227684,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859227297,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859227219,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.1138796985922668,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.11387969859225994,
+          "components": [
+            "MG996R_servo-1",
+            "ARM-207_MG996R_printed_spline_hub-1"
+          ],
+          "note": "ARM-207 5.80 mm press socket on 5.997 mm MG996R spline"
+        },
+        {
+          "volume_mm3": 0.039159251137191424,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719117,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137191084,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137190765,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719069,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719061,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719056,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137190355,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113719023,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137190106,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137190106,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137190085,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718998,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718997,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718991,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718991,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718989,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718983,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718981,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.0391592511371898,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718959,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718958,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718935,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189315,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.0391592511371893,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137189266,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718926,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718923,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718913,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718907,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718897,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137188815,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137188815,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137188746,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137188746,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718865,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137188426,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718839,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.039159251137188246,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        },
+        {
+          "volume_mm3": 0.03915925113718809,
+          "components": [
+            "ARM-003_Yaw_D_drive_collar-1",
+            "SERVO_SG90-1"
+          ],
+          "note": "ARM-003 4.85 mm press socket on 5.0 mm SG90 spline"
+        }
+      ],
+      "known_supplier_overlaps": []
+    }
+  ]
+}

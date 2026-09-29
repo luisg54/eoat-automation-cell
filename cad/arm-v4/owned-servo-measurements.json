@@ -1,0 +1,400 @@
+{
+  "status": "Native measurements of the user-inserted owned-servo files; physical units not calipered by the agent",
+  "interface_frame": "origin on the output axis in the plane of the ear underside; +Z output; +X toward the far end of the case",
+  "MG996R": {
+    "file": "parts\\MG996R_servo.SLDPRT",
+    "features": [
+      "Front Plane",
+      "Top Plane",
+      "Right Plane",
+      "Origin",
+      "Sketch1",
+      "Body 1",
+      "Sketch2",
+      "Boss-Extrude3",
+      "Sketch3",
+      "Boss-Extrude5",
+      "Sketch8",
+      "Boss-Extrude6",
+      "Sketch11",
+      "Boss-Extrude7",
+      "Sketch12",
+      "Boss-Extrude8",
+      "Sketch13",
+      "Boss-Extrude9",
+      "Sketch14",
+      "Boss-Extrude10",
+      "Sketch17",
+      "Cut-Extrude1",
+      "Chamfer2",
+      "CBORE for M2 Pan Head Machine Screw1",
+      "Sketch21",
+      "Boss-Extrude11",
+      "Sketch22",
+      "Boss-Extrude16",
+      "Sketch23",
+      "Boss-Extrude17",
+      "Fillet1",
+      "Sketch25",
+      "Cut-Extrude2",
+      "Sketch26",
+      "Boss-Extrude18",
+      "Sketch28",
+      "Cut-Extrude3",
+      "Sketch29",
+      "Boss-Extrude19",
+      "Sketch30",
+      "Cut-Extrude4",
+      "Sketch31",
+      "Cut-Extrude6",
+      "Fillet2",
+      "Sketch34",
+      "Cut-Extrude7",
+      "Thread1"
+    ],
+    "part_box_file_mm": [
+      -6.300898701435735,
+      -4.87890977618477e-16,
+      -10.0,
+      46.99910129856428,
+      43.49404112294607,
+      10.0
+    ],
+    "volume_mm3": 30582.091583101792,
+    "material": "not specified in file (mass properties use SolidWorks default density)",
+    "file_frame_to_interface": {
+      "origin_file_mm": [
+        10.34910129856427,
+        27.994041122946065,
+        -5.423418723394456e-31
+      ],
+      "interface_X_in_file": [
+        1,
+        0,
+        0
+      ],
+      "interface_Y_in_file": [
+        0,
+        0,
+        -1
+      ],
+      "interface_Z_in_file": [
+        0,
+        1,
+        0
+      ]
+    },
+    "bodies": [
+      "Thread1",
+      "Fillet2"
+    ],
+    "output_spline": {
+      "type": "straight-sided V serration modeled with flat flanks",
+      "teeth": 25,
+      "tip_diameter_mm": 5.9968765686439625,
+      "root_diameter_estimate_mm": 5.415280450975983,
+      "tooth_land_mm": 0.32916373573949703,
+      "groove_depth_mm": 0.2907980588339899,
+      "top_above_ear_underside_mm": 15.500000000000007,
+      "teeth_start_above_ear_underside_mm": 10.499958877053935,
+      "exposed_above_output_ring_mm": 3.500000000000007
+    },
+    "centre_screw_hole": {
+      "bore_diameter_mm": 2.500000000000002,
+      "depth_from_spline_top_mm": 8.187499999317204,
+      "modeled_thread": true,
+      "thread_envelope_diameter_mm": 3.1992513445825406,
+      "interpretation": "M3 internal thread (2.5 mm tap bore with modeled helical thread)"
+    },
+    "ears": {
+      "underside_above_case_bottom_mm": 27.994041122946065,
+      "thickness_output_end_mm": 2.4000000000000057,
+      "thickness_far_end_mm": 1.75396383788188,
+      "hole_diameter_mm": 4.0,
+      "hole_x_from_axis_mm": [
+        -14.15,
+        34.15
+      ],
+      "hole_y_mm": [
+        -5.0,
+        5.0
+      ],
+      "hole_slot_width_mm": 4.0,
+      "hole_slot": "open to the ear end",
+      "x_extent_from_axis_mm": [
+        -16.65,
+        36.65
+      ],
+      "width_mm": 19.0
+    },
+    "case": {
+      "x_from_axis_at_ears_mm": [
+        -10.0,
+        30.0
+      ],
+      "x_from_axis_at_bottom_mm": [
+        -10.349,
+        30.349
+      ],
+      "width_mm": 20.0,
+      "depth_below_ear_underside_mm": 27.994041122946065,
+      "draft": "about 1 degree on the long walls between the bottom step and the ears"
+    },
+    "top_plane_levels_above_ear_underside_mm": {
+      "7.5": [
+        [
+          -10.0,
+          -0.0,
+          -0.0,
+          10.0
+        ],
+        [
+          -10.0,
+          -0.0,
+          -10.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          30.0,
+          -10.0,
+          10.0
+        ]
+      ],
+      "8.0": [
+        [
+          -9.5,
+          -3.122,
+          3.122,
+          9.5
+        ],
+        [
+          -9.5,
+          -3.122,
+          -9.5,
+          -3.122
+        ],
+        [
+          3.122,
+          29.5,
+          -9.5,
+          9.5
+        ]
+      ],
+      "10.0": [
+        [
+          -10.0,
+          11.0,
+          -10.0,
+          10.0
+        ],
+        [
+          24.0,
+          26.5,
+          -4.873,
+          4.873
+        ]
+      ],
+      "10.8": [
+        [
+          8.6,
+          11.0,
+          -2.0,
+          2.0
+        ]
+      ],
+      "11.0": [
+        [
+          11.0,
+          24.0,
+          -9.0,
+          9.0
+        ]
+      ],
+      "11.5": [
+        [
+          -6.6,
+          6.6,
+          -6.6,
+          6.6
+        ]
+      ],
+      "12.0": [
+        [
+          -5.4,
+          5.4,
+          -5.4,
+          5.4
+        ]
+      ]
+    },
+    "top_cylinders_radius_xoffset_topheight_mm": [
+      [
+        2.0,
+        10.6,
+        10.8
+      ],
+      [
+        5.4,
+        -0.0,
+        12.0
+      ],
+      [
+        6.0,
+        20.5,
+        10.0
+      ],
+      [
+        6.6,
+        -0.0,
+        11.5
+      ],
+      [
+        10.0,
+        -0.0,
+        10.0
+      ]
+    ],
+    "output_ring": {
+      "diameter_mm": 10.8,
+      "top_above_ear_underside_mm": 12.0
+    },
+    "horn_geometry_in_file": null,
+    "cable_geometry_in_file": null,
+    "other_features": "four bottom-cover counterbored M2 screw holes; raised gear-train cover block; no horn; no cable"
+  },
+  "SG90": {
+    "file": "parts\\SERVO_SG90.SLDPRT",
+    "features": [
+      "Front Plane",
+      "Top Plane",
+      "Right Plane",
+      "Origin",
+      "SERVO_SG90.stp<1>"
+    ],
+    "part_box_file_mm": [
+      -6.000000000000001,
+      0.0,
+      -16.3,
+      6.000000000000001,
+      31.5,
+      16.3
+    ],
+    "volume_mm3": 7443.550492991944,
+    "material": "not specified in file (mass properties use SolidWorks default density)",
+    "file_frame_to_interface": {
+      "origin_file_mm": [
+        0.0,
+        17.1,
+        -5.5
+      ],
+      "interface_X_in_file": [
+        0,
+        0,
+        1
+      ],
+      "interface_Y_in_file": [
+        1,
+        0,
+        0
+      ],
+      "interface_Z_in_file": [
+        0,
+        1,
+        0
+      ]
+    },
+    "bodies": [
+      "S\u00f3lido3[1]",
+      "S\u00f3lido5[1]",
+      "S\u00f3lido1[1]",
+      "S\u00f3lido6[1]",
+      "S\u00f3lido7[1]"
+    ],
+    "import": "STEP import (single MBimport feature)",
+    "output_spline": {
+      "type": "plain cylinder with shallow surface grooves; no tooth profile modeled",
+      "diameter_mm": 5.0,
+      "groove_count": 40,
+      "groove_radius_mm": 0.1,
+      "top_above_ear_underside_mm": 14.399999999999999,
+      "base_above_ear_underside_mm": 11.399999999999999,
+      "exposed_length_mm": 3.0
+    },
+    "centre_screw_hole": {
+      "diameter_mm": 1.0,
+      "depth_mm": 3.0,
+      "modeled_thread": false,
+      "interpretation": "plain 1.0 mm hole through the spline only; the real SG90 horn screw is a small M2 self-tapper"
+    },
+    "ears": {
+      "thickness_mm": 2.3999999999999986,
+      "underside_above_case_bottom_mm": 17.1,
+      "hole_diameter_mm": 2.5,
+      "hole_x_from_axis_mm": [
+        -8.4,
+        19.4
+      ],
+      "hole_slot_width_mm": 1.5,
+      "hole_slot": "open to the ear end",
+      "x_extent_from_axis_mm": [
+        -10.8,
+        21.8
+      ],
+      "hole_centre_to_case_wall_mm": 2.4,
+      "width_mm": 12.0
+    },
+    "case": {
+      "x_from_axis_mm": [
+        -6.0,
+        17.0
+      ],
+      "width_mm": 12.0,
+      "top_above_ear_underside_mm": 6.899999999999999,
+      "depth_below_ear_underside_mm": 17.1
+    },
+    "gear_cover": {
+      "top_above_ear_underside_mm": 11.399999999999999,
+      "cylinders_radius_xoffset_mm": [
+        [
+          2.5,
+          6.0
+        ],
+        [
+          6.0,
+          0.0
+        ]
+      ]
+    },
+    "cables": [
+      {
+        "diameter_mm": 1.2,
+        "y_mm": 1.2,
+        "below_ear_underside_mm": 12.7,
+        "x_from_axis_mm": [
+          -9.5,
+          -4.5
+        ]
+      },
+      {
+        "diameter_mm": 1.2,
+        "y_mm": 0.0,
+        "below_ear_underside_mm": 12.7,
+        "x_from_axis_mm": [
+          -9.5,
+          -4.5
+        ]
+      },
+      {
+        "diameter_mm": 1.2,
+        "y_mm": -1.2,
+        "below_ear_underside_mm": 12.7,
+        "x_from_axis_mm": [
+          -9.5,
+          -4.5
+        ]
+      }
+    ],
+    "horn_geometry_in_file": null
+  }
+}

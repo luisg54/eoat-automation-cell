@@ -1,0 +1,244 @@
+{
+  "HW-S_M3x8_LOW_HEAD_D5p5_H2_ENVELOPE": {
+    "name": "HW-S_M3x8_LOW_HEAD_D5p5_H2_ENVELOPE",
+    "solid_count": 1,
+    "volume_mm3": 104.06525665016188,
+    "approximate_box_mm": [
+      -2.75,
+      -2.75,
+      -8.0,
+      2.75,
+      2.75,
+      2.0
+    ],
+    "features": [
+      "Shank_nominal_thread_envelope",
+      "Head_envelope_D5p5_H2p0"
+    ],
+    "files": [
+      "hardware-reference\\HW-S_M3x8_LOW_HEAD_D5p5_H2_ENVELOPE.SLDPRT",
+      "hardware-reference\\HW-S_M3x8_LOW_HEAD_D5p5_H2_ENVELOPE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  "HW-S_M2x4_PAN_HEAD_D4_H1p6_ENVELOPE": {
+    "name": "HW-S_M2x4_PAN_HEAD_D4_H1p6_ENVELOPE",
+    "solid_count": 1,
+    "volume_mm3": 32.67256359733385,
+    "approximate_box_mm": [
+      -2.0,
+      -2.0,
+      -4.0,
+      2.0,
+      2.0,
+      1.6000000000000003
+    ],
+    "features": [
+      "Shank_nominal_thread_envelope",
+      "Head_envelope_D4p0_H1p6"
+    ],
+    "files": [
+      "hardware-reference\\HW-S_M2x4_PAN_HEAD_D4_H1p6_ENVELOPE.SLDPRT",
+      "hardware-reference\\HW-S_M2x4_PAN_HEAD_D4_H1p6_ENVELOPE.step"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  "ARM-207_MG996R_printed_spline_hub": {
+    "name": "ARM-207_MG996R_printed_spline_hub",
+    "solid_count": 1,
+    "volume_mm3": 2008.3274445325146,
+    "approximate_box_mm": [
+      -14.0,
+      -14.0,
+      0.0,
+      14.0,
+      14.0,
+      4.000000000000007
+    ],
+    "features": [
+      "Hub_disc_OD28_thickness4",
+      "MG996R_spline_press_socket_D5p80_depth3",
+      "M3_centre_screw_clearance_through_floor",
+      "Link_M3_clearance_PCD18",
+      "Captured_M3_nut_pockets_depth2p9"
+    ],
+    "files": [
+      "parts\\ARM-207_MG996R_printed_spline_hub.SLDPRT",
+      "parts\\ARM-207_MG996R_printed_spline_hub.step",
+      "parts\\ARM-207_MG996R_printed_spline_hub.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  "FIT-003_MG996R_spline_socket_trial": {
+    "name": "FIT-003_MG996R_spline_socket_trial",
+    "solid_count": 1,
+    "volume_mm3": 3217.957331966991,
+    "approximate_box_mm": [
+      -32.0,
+      -7.0,
+      0.0,
+      32.0,
+      7.0,
+      4.000000000000007
+    ],
+    "features": [
+      "Coupon_bar_64x14x4",
+      "Press_sockets_5p70_5p80_5p90_6p00_depth3",
+      "M3_centre_screw_clearance",
+      "Orientation_mark_at_smallest_socket"
+    ],
+    "files": [
+      "parts\\FIT-003_MG996R_spline_socket_trial.SLDPRT",
+      "parts\\FIT-003_MG996R_spline_socket_trial.step",
+      "parts\\FIT-003_MG996R_spline_socket_trial.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  "FIT-004_SG90_spline_socket_trial": {
+    "name": "FIT-004_SG90_spline_socket_trial",
+    "solid_count": 1,
+    "volume_mm3": 2188.2929602509075,
+    "approximate_box_mm": [
+      -27.0,
+      -6.0,
+      0.0,
+      27.0,
+      6.0,
+      3.700000000000003
+    ],
+    "features": [
+      "Coupon_bar_54x12x3p7",
+      "Press_sockets_4p65_4p75_4p85_4p95_depth2p5",
+      "M2_centre_screw_clearance",
+      "Orientation_mark_at_smallest_socket"
+    ],
+    "files": [
+      "parts\\FIT-004_SG90_spline_socket_trial.SLDPRT",
+      "parts\\FIT-004_SG90_spline_socket_trial.step",
+      "parts\\FIT-004_SG90_spline_socket_trial.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  "ARM-203_Bolted_shoulder_upright": {
+    "name": "ARM-203_Bolted_shoulder_upright",
+    "solid_count": 1,
+    "volume_mm3": 30081.993277944577,
+    "approximate_box_mm": [
+      -44.06401607010846,
+      76.99999999999999,
+      -12.0,
+      44.051686615864114,
+      144.0,
+      12.0
+    ],
+    "features": [
+      "MG996_body_window_SUPERSEDED_owned_servo",
+      "MG996_tab_mounts_SUPERSEDED_owned_servo",
+      "Owned_MG996R_body_window",
+      "Owned_MG996R_M3_ear_holes"
+    ],
+    "files": [
+      "parts\\ARM-203_Bolted_shoulder_upright.SLDPRT",
+      "parts\\ARM-203_Bolted_shoulder_upright.step",
+      "parts\\ARM-203_Bolted_shoulder_upright.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  "ARM-201_Upper_link_dual_MG996R": {
+    "name": "ARM-201_Upper_link_dual_MG996R",
+    "solid_count": 1,
+    "volume_mm3": 8511.061529444085,
+    "approximate_box_mm": [
+      -16.0,
+      -16.0,
+      0.0,
+      100.0,
+      16.0,
+      8.0
+    ],
+    "features": [
+      "MG996R_elbow_body_clearance_SUPERSEDED_owned_servo",
+      "MG996R_elbow_tab_fasteners_SUPERSEDED_owned_servo",
+      "Metal_horn_M3_clearance_PCD14_SUPERSEDED_owned_servo",
+      "Owned_MG996R_elbow_body_window",
+      "Owned_MG996R_elbow_M3_ear_holes",
+      "Printed_hub_M3_washer_seats_PCD18",
+      "Printed_hub_M3_clearance_PCD18"
+    ],
+    "files": [
+      "parts\\ARM-201_Upper_link_dual_MG996R.SLDPRT",
+      "parts\\ARM-201_Upper_link_dual_MG996R.step",
+      "parts\\ARM-201_Upper_link_dual_MG996R.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  "ARM-204_Modular_forearm_MG996R": {
+    "name": "ARM-204_Modular_forearm_MG996R",
+    "solid_count": 1,
+    "volume_mm3": 8657.94847164512,
+    "approximate_box_mm": [
+      -16.0,
+      -16.0,
+      0.0,
+      62.0,
+      16.0,
+      8.0
+    ],
+    "features": [
+      "Metal_horn_M3_pattern_SUPERSEDED_owned_servo",
+      "Printed_hub_M3_washer_seats_PCD18",
+      "Printed_hub_M3_clearance_PCD18"
+    ],
+    "files": [
+      "parts\\ARM-204_Modular_forearm_MG996R.SLDPRT",
+      "parts\\ARM-204_Modular_forearm_MG996R.step",
+      "parts\\ARM-204_Modular_forearm_MG996R.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  "ARM-003_Yaw_D_drive_collar": {
+    "name": "ARM-003_Yaw_D_drive_collar",
+    "solid_count": 1,
+    "volume_mm3": 2116.374583874397,
+    "approximate_box_mm": [
+      -13.0,
+      37.3,
+      -13.0,
+      13.0,
+      48.0,
+      13.0
+    ],
+    "features": [
+      "Crossbolt_axial_float_clearance_D2p8"
+    ],
+    "files": [
+      "parts\\ARM-003_Yaw_D_drive_collar.SLDPRT",
+      "parts\\ARM-003_Yaw_D_drive_collar.step",
+      "parts\\ARM-003_Yaw_D_drive_collar.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  },
+  "ARM-004_Removable_yaw_servo_mount": {
+    "name": "ARM-004_Removable_yaw_servo_mount",
+    "solid_count": 1,
+    "volume_mm3": 7332.919029838742,
+    "approximate_box_mm": [
+      -21.0,
+      15.0,
+      -18.0,
+      25.0,
+      33.0,
+      18.0
+    ],
+    "features": [
+      "Yaw_servo_M2_fasteners_SUPERSEDED_owned_servo",
+      "Owned_SG90_M2_ear_holes"
+    ],
+    "files": [
+      "parts\\ARM-004_Removable_yaw_servo_mount.SLDPRT",
+      "parts\\ARM-004_Removable_yaw_servo_mount.step",
+      "parts\\ARM-004_Removable_yaw_servo_mount.stl"
+    ],
+    "status": "native geometry saved; fits and physical function not yet validated"
+  }
+}

@@ -22,7 +22,9 @@ for row in build['components']:
         mp=call(model.Extension,'CreateMassProperty')
         volume=call(mp,'Volume')*1e9
         center=[v*1000 for v in call(mp,'CenterOfMass')]
-        if name.startswith('HW-001'): mass,source=12.,'assumed bearing mass; weigh actual 608ZZ'
+        if name.startswith('MG996R_servo'): mass,source=55.,'TowerPro MG996R reference mass; owned-servo file has no material; weigh the owned units'
+        elif name.startswith('SERVO_SG90'): mass,source=9.,'TowerPro SG90 reference mass; owned-servo file has no material; weigh the owned unit'
+        elif name.startswith('HW-001'): mass,source=12.,'assumed bearing mass; weigh actual 608ZZ'
         elif name.startswith('HW-003'): mass,source=9.,'TowerPro SG90 reference mass; confirm actual unit'
         elif name.startswith('HW-004'): mass,source=55.,'TowerPro MG996R reference mass'
         elif name.startswith('HW-005'): mass,source=1.,'assumed stock SG90 horn mass'

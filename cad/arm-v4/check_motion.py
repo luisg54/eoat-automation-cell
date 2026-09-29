@@ -82,10 +82,31 @@ def interference():
         if count!=len(result): raise RuntimeError('Interference count mismatch')
         return result
     finally: call(mgr,'Done')
+# Designed engagements with the owned-servo files: plain press-fit sockets over the modeled
+# splines and centre screws in the modeled M3 thread / 1.0 mm SG90 pilot. Anything else is unexpected.
+EXPECTED={frozenset(p):note for p,note in [
+    (('shoulder_spline_hub','shoulder_servo_owned'),'ARM-207 5.80 mm press socket on 5.997 mm MG996R spline'),
+    (('elbow_spline_hub','elbow_servo_owned'),'ARM-207 5.80 mm press socket on 5.997 mm MG996R spline'),
+    (('shoulder_spline_screw','shoulder_servo_owned'),'M3 centre screw in modeled MG996R spline thread'),
+    (('elbow_spline_screw','elbow_servo_owned'),'M3 centre screw in modeled MG996R spline thread'),
+    (('collar','yaw_servo_owned'),'ARM-003 4.85 mm press socket on 5.0 mm SG90 spline'),
+    (('yaw_spline_screw','yaw_servo_owned'),'M2 horn screw in the 1.0 mm plain SG90 file hole')] if all(k in rows for k in p)}
+EXPECTED_MAX_MM3=15.
+instance_key={r['instance']:k for k,r in rows.items()}
+def classify(collisions,grip):
+    expected,known,unexpected=[],[],[]
+    for item in collisions:
+        keys=frozenset(instance_key.get(n,n) for n in item['components'])
+        if keys in EXPECTED and item['volume_mm3']<=EXPECTED_MAX_MM3:
+            expected.append(dict(item,note=EXPECTED[keys]))
+        elif grip<2 and keys<={'gripper_body','jaw_right','jaw_left'}:
+            known.append(dict(item,note='supplier gripper model at full closure, outside the 2-32 mm working range'))
+        else: unexpected.append(item)
+    return expected,known,unexpected
 samples=[('home',0,45,-45,32),('grip_22mm',0,45,-45,22),('grip_2mm',0,45,-45,2),
-         ('low_pickup',0,-15,-80,22),('transfer',0,20,-20,22),('upright',0,80,-90,32),
+         ('low_pickup',0,-15,-75,22),('previous_tilted_pickup',0,-15,-80,22),('transfer',0,20,-20,22),('upright',0,80,-90,32),
          ('elbow_fold',0,45,-100,32),('yaw_left',-60,20,-20,22),('yaw_right',60,20,-20,22),('extended',0,0,-5,32)]
-report={'status':'sampled poses only; continuous swept clearance and physical travel not established','samples':[]}
+report={'status':'sampled poses only; continuous swept clearance and physical travel not established. Designed press-fit/thread engagements with the owned-servo files are listed separately and are not collisions','samples':[]}
 import sys
 if len(sys.argv)>1: samples=[s for s in samples if s[0] in sys.argv[1:]]
 def run(selected=samples,filename='motion-inspection.json'):
@@ -94,11 +115,13 @@ def run(selected=samples,filename='motion-inspection.json'):
         for name,*angles in selected:
             residual=pose(*angles)
             collisions=interference()
+            expected,known,unexpected=classify(collisions,angles[3])
             report['samples'].append({'name':name,'joint_angles_deg':angles,
-                'transform_residual':residual,'interferences':collisions})
+                'transform_residual':residual,'interferences':unexpected,
+                'expected_designed_engagements':expected,'known_supplier_overlaps':known})
             (ROOT/filename).write_text(json.dumps(report,indent=2))
-            print(name,'collisions',len(collisions),flush=True)
-            for item in collisions: print(item,flush=True)
+            print(name,'unexpected',len(unexpected),'expected',len(expected),'known',len(known),flush=True)
+            for item in unexpected: print('  UNEXPECTED',item,flush=True)
     finally:
         pose(0,45,-45,32)
         if not call(doc,'Save3',1,integer_ref(),integer_ref()): raise RuntimeError('Failed to save restored assembly')

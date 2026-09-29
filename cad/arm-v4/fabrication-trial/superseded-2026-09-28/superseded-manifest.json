@@ -1,0 +1,74 @@
+[
+  {
+    "part": "ARM-112_SG90_horn_capture_cap",
+    "quantity": 1,
+    "material": "PETG",
+    "status": "SUPERSEDED 2026-09-28: not used by the owned-servo revision D; do not print",
+    "units": "mm",
+    "native_volume_mm3": 906.750033623988,
+    "file": "superseded-2026-09-28/ARM-112_SG90_horn_capture_cap.STL",
+    "triangles": 1580,
+    "dimensions_in_file_units": [
+      26.0,
+      25.9666,
+      2.0
+    ],
+    "signed_volume_in_file_units_cubed": 905.7907899087585,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "FIT-002_SG90_horn_pocket_clearance_0p05",
+    "quantity": 1,
+    "material": "PETG",
+    "status": "SUPERSEDED 2026-09-28: not used by the owned-servo revision D; do not print",
+    "units": "mm",
+    "native_volume_mm3": 2461.0397313422395,
+    "file": "superseded-2026-09-28/FIT-002_SG90_horn_pocket_clearance_0p05.STL",
+    "triangles": 1334,
+    "dimensions_in_file_units": [
+      26.0,
+      26.0,
+      5.65
+    ],
+    "signed_volume_in_file_units_cubed": 2457.918825140522,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "FIT-002_SG90_horn_pocket_clearance_0p10",
+    "quantity": 1,
+    "material": "PETG",
+    "status": "SUPERSEDED 2026-09-28: not used by the owned-servo revision D; do not print",
+    "units": "mm",
+    "native_volume_mm3": 2455.766502862889,
+    "file": "superseded-2026-09-28/FIT-002_SG90_horn_pocket_clearance_0p10.STL",
+    "triangles": 1334,
+    "dimensions_in_file_units": [
+      26.0,
+      26.0,
+      5.65
+    ],
+    "signed_volume_in_file_units_cubed": 2452.6172388847126,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "part": "FIT-002_SG90_horn_pocket_clearance_0p15",
+    "quantity": 1,
+    "material": "PETG",
+    "status": "SUPERSEDED 2026-09-28: not used by the owned-servo revision D; do not print",
+    "units": "mm",
+    "native_volume_mm3": 2450.4210806324395,
+    "file": "superseded-2026-09-28/FIT-002_SG90_horn_pocket_clearance_0p15.STL",
+    "triangles": 1334,
+    "dimensions_in_file_units": [
+      26.0,
+      26.0,
+      5.65
+    ],
+    "signed_volume_in_file_units_cubed": 2447.2513955868803,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  }
+]

@@ -1,6 +1,80 @@
 # EOAT Automation Cell — Handoff
 
-## Active revision D - 2026-09-12
+## Active revision D — owned-servo update, 2026-09-28
+
+**Model:** `cad/arm-v4/ARM-D_Modular_parallel_gripper_DEVELOPMENT.SLDASM`. Development only, not a print release.
+
+- 191 active components, 44 fastener stacks, 24 printed pieces across 15 types.
+- The 75 nominal-servo components (HW-003/004/005/006, ARM-112 and their fasteners) are suppressed in all 8 configurations. Their 77 mates are suppressed and renamed `*_superseded_nominal_servo`. Nothing was deleted.
+- Pre-edit backup: `cad/arm-v4/development-debug/before-owned-servo-geometry-20260928-180253/` (assembly, changed parts, reports, docs, SHA-256 manifest).
+- Revision C and `cad/arm-v3` are untouched; all 38 hashes re-checked.
+
+**Measured on the two servo files.** Native B-rep via `measure_owned_servos.py`, written to `owned-servo-measurements.json`. Datum: ear underside on the output axis.
+
+- **`MG996R_servo.SLDPRT`** — native part, 2 bodies (case; spline with modeled M3 thread). No material, **no horn, no cable**.
+  - Ears: Ø4.0 open-slot holes at −14.15 / +34.15 × ±5.00 mm (a 48.30 × 10.00 pattern), 19 mm wide. Thickness 2.40 mm at the output end but 1.754 mm at the far end (asymmetric in the file).
+  - Case: 40.0 mm at the ears, 40.7 at the bottom (1° draft), × 20.0; 27.99 below the ears.
+  - Heights above the ear underside: case 7.5, cover 10.0, raised block 11.0, Ø13.2 boss 11.5, Ø10.8 output ring 12.0, spline top 15.5.
+  - Spline: 25 V-teeth, tip Ø5.997, root ≈Ø5.42, 3.5 mm exposed. M3 centre thread 8.19 mm deep.
+- **`SERVO_SG90.SLDPRT`** — STEP import, 5 bodies (case, spline, 3 cable stubs). No material, **no horn, no tooth form, no thread**.
+  - Ears: 2.4 mm thick, Ø2.5 open-slot holes at −8.4 / +19.4 mm (27.8 pitch). Hole centres are only 2.4 mm from the case walls.
+  - Case: 12.0 × 23.0.
+  - Gear cover (Ø12 plus a Ø5 lobe at +6.0): top 11.4 above the ear underside, 9.0 above the ear top (D assumed 8.8).
+  - Spline: plain Ø5.0 with 40 shallow grooves, 3.0 mm exposed, top 14.4 above the ear underside. The old 13.2 mm horn-front assumption no longer applies.
+  - Centre hole: plain Ø1.0. Cables exit the output end 12.7 mm below the ears.
+
+**Functional changes, and why:**
+
+1. **MG996R mounts (ARM-203, ARM-201).**
+   - The window is now 41.7 × 21.0 mm: the file's widest case section plus 0.5 mm per side. The old window left 0.15 mm.
+   - Ø3.4 holes sit on the measured pattern; the old holes were 1.15 mm off.
+   - M3 × 14 with two washers and a nyloc replaces M2.5, because the Ø4 slotted ears need M3. M2.5 hardware is gone from the BOM.
+2. **ARM-207 printed spline hub (×2, new)** replaces the unowned OD20/PCD14 metal-horn stack.
+   - Ø5.80 press socket over 3.0 mm of the 25-tooth spline; underside 0.5 mm above the output ring.
+   - 1.0 mm floor seated on the spline top, clamped by an M3 × 8 low-head centre screw with 7.0 mm engaged.
+   - Four M3 × 12 on an 18 mm bolt circle into captured M3 nuts.
+   - The hub is sized so the link rear faces stay 16.5 mm above the ears, so world Z is unchanged. Dowels, sleeves, cheeks, 32 mm standoffs and M3 × 50 stacks are all unchanged.
+   - The centre-screw head sits inside the link-side sleeve, 1.0 mm below the dowel.
+   - A separate hub keeps each link's print face flat and makes a stripped socket a small reprint.
+3. **ARM-201 / ARM-204:** the PCD14 metal-horn holes are suppressed; PCD18 holes and washer seats are added.
+4. **ARM-004:** SG90 ear holes move to −8.4 / +19.4 mm; each was 0.6 mm off. M2 × 10 with no washers, because a Ø5 washer would overlap the case wall by 0.1 mm. Nut flats face the case.
+5. **ARM-003:**
+   - The horn pocket is suppressed and replaced by a Ø12 boss with a Ø4.85 × 2.5 mm press socket, 0.5 mm above the gear cover.
+   - A 1.2 mm floor seats on the spline top, with the SG90 horn screw; its head clears the spindle end by 0.4 mm.
+   - The crossbolt hole is opened to Ø2.8 (±0.4 mm axial float). The servo now locates the collar and the platform weight stays on the 608s. The old round hole over-constrained the yaw stack.
+6. **ARM-112 cap, its four low-profile M2 × 10 (Ø4 × 1.1) screws, washers, nuts, and FIT-002 are superseded.** There is no horn left to capture, and it removes a hard-to-source screw.
+7. **`03_Pickup_trial` moved from −15/−80 to −15/−75.** The forearm is now vertical, so the jaws are coaxial with the pin. The jaw tips sit 16.5 mm above the bench at z ≈ 75.
+8. **Pin-safe lift defined:** a Cartesian vertical lift for the first 10 mm (IK at the 90 mm grip point), during which the forearm rotates 1.14°. This replaces the joint-interpolated lift check.
+9. **FIT-003 (Ø5.70–6.00) and FIT-004 (Ø4.65–4.95) coupons** will select the real press-fit bores.
+10. **The three spare SG90s stay unused.** A wrist-pitch SG90 (about 17 g at about 150 mm) would take the governing shoulder margin from 1.14 to about 1.0, and the vertical lift doesn't need a wrist. Keep them as yaw spares and fit-test units.
+
+**Verified in SolidWorks on the reopened assembly:**
+
+- All 191 active references resolve inside `arm-v4` (38 unique parts).
+- Zero mate errors and zero part feature errors (the servo files are allowed to be multibody).
+- The 6 saved pose configurations match the kinematic model to ≤1.1×10⁻¹⁵, and the free-motion limits are valid.
+- Interference in the 6 saved configurations, 11 review poses and 19 transfer/lift samples: **0 unexpected overlaps**.
+  - Every state shows the same 93 designed engagements, reported separately: hub and collar press fits on the modeled splines, and centre screws in the modeled M3 thread and the SG90's Ø1.0 hole.
+  - 0 mm closure keeps its 2 known supplier-model overlaps.
+- All new sketches are fully defined and the unchanged-solid checks pass.
+- Loads (solid density, 20 g payload): shoulder 0.243 N·m, margin 1.14, still governing; elbow 0.077 N·m, margin 3.58; total 639.3 g.
+- Curated exports are refreshed for the 8 changed or new parts. The ARM-112 and FIT-002 exports moved to `fabrication-trial/superseded-2026-09-28`.
+- Everything is saved and all CAD documents are closed; SolidWorks is left running with no documents.
+- Resources: the SolidWorks session I started from already held about 3 GB of private memory. Its working set jumped to 3.47 GB after two small part builds, so I stopped, confirmed nothing was open or unsaved, and restarted it. After that, restarts between heavy runs kept the working set under 2 GB (peak 1.92 GB), well below the earlier 6.6 GB failure.
+- `cad/sw_probe.py` now uses the installed pywin32 with late binding, because the `%TEMP%` bridge is gone.
+
+**Still unproven on hardware:**
+
+- The owned servos have not been calipered. The files were trusted as instructed, including the thin 1.754 mm far ear.
+- Spline press fits and hub/collar torque and creep: run FIT-003 and FIT-004 first.
+- Whether the original MG996R centre screw fits, or the M3 × 8 low head is needed. Whether the SG90 horn screw bites (the file shows only a Ø1.0 hole).
+- The 0.5 mm running gaps under the hubs and collar at printed tolerance.
+- Bearing and dowel fits (FIT-001) and crossbolt alignment.
+- Cable routing across yaw and screwdriver access.
+- Shoulder torque, current and temperature; the 1.14 margin is an estimate.
+- Grip retention, repeatability, the 50-cycle test, and the pickup fixture itself.
+
+## Previous D checkpoint - 2026-09-12 (superseded by the owned-servo update above)
 
 **Latest saved model: `cad/arm-v4/ARM-D_Modular_parallel_gripper_DEVELOPMENT.SLDASM`.** 198 components, 45 fastener stacks. Verification in progress; no print or production release. Latest motion report: home: 5 overlaps.
 

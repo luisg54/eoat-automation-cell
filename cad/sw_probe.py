@@ -4,14 +4,20 @@ import sys
 from pathlib import Path
 
 bridge = Path(os.environ['TEMP']) / 'eoat-cad-python'
-sys.path[:0] = [str(bridge), str(bridge / 'win32'), str(bridge / 'win32/lib')]
-dll_directory = os.add_dll_directory(str(bridge / 'pywin32_system32'))
+if bridge.is_dir():
+    # Temporary pywin32 bridge used by earlier sessions; an installed pywin32 also works.
+    sys.path[:0] = [str(bridge), str(bridge / 'win32'), str(bridge / 'win32/lib')]
+    dll_directory = os.add_dll_directory(str(bridge / 'pywin32_system32'))
 import pythoncom
 import win32com.client
+import win32com.client.dynamic
 
 def connect():
     pythoncom.CoInitialize()
-    return win32com.client.GetActiveObject('SldWorks.Application')
+    # Late binding keeps VARIANT by-reference arguments working even when a
+    # generated SolidWorks type-library cache exists for this Python install.
+    active = pythoncom.GetActiveObject('SldWorks.Application')
+    return win32com.client.dynamic.Dispatch(active.QueryInterface(pythoncom.IID_IDispatch))
 
 def call(obj, name, *args):
     if args:

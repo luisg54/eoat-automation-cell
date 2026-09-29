@@ -21,17 +21,18 @@
     "part": "ARM-003_Yaw_D_drive_collar",
     "quantity": 1,
     "material": "PETG",
-    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "status": "Candidate geometry for fit trials; servo spline press fits (FIT-003/FIT-004), bearing/dowel fits and assembly access must be proven before a structural set is printed",
     "units": "mm",
-    "native_volume_mm3": 2310.9147547435973,
+    "native_volume_mm3": 2116.3745838743976,
+    "refreshed": "2026-09-28",
     "file": "fabrication-trial\\candidate-parts\\ARM-003_Yaw_D_drive_collar.stl",
-    "triangles": 2264,
+    "triangles": 1724,
     "dimensions_in_file_units": [
-      26.0,
-      8.65,
+      25.9914,
+      10.7,
       26.0
     ],
-    "signed_volume_in_file_units_cubed": 2307.9980165863785,
+    "signed_volume_in_file_units_cubed": 2112.9473265724023,
     "boundary_edges": 0,
     "nonmanifold_edges": 0
   },
@@ -39,9 +40,10 @@
     "part": "ARM-004_Removable_yaw_servo_mount",
     "quantity": 1,
     "material": "PETG",
-    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "status": "Candidate geometry for fit trials; servo spline press fits (FIT-003/FIT-004), bearing/dowel fits and assembly access must be proven before a structural set is printed",
     "units": "mm",
-    "native_volume_mm3": 7326.635844531562,
+    "native_volume_mm3": 7332.91902983874,
+    "refreshed": "2026-09-28",
     "file": "fabrication-trial\\candidate-parts\\ARM-004_Removable_yaw_servo_mount.stl",
     "triangles": 1376,
     "dimensions_in_file_units": [
@@ -49,7 +51,7 @@
       18.0,
       36.0
     ],
-    "signed_volume_in_file_units_cubed": 7327.671563868225,
+    "signed_volume_in_file_units_cubed": 7333.922891510219,
     "boundary_edges": 0,
     "nonmanifold_edges": 0
   },
@@ -144,38 +146,21 @@
     "nonmanifold_edges": 0
   },
   {
-    "part": "ARM-112_SG90_horn_capture_cap",
-    "quantity": 1,
-    "material": "PETG",
-    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
-    "units": "mm",
-    "native_volume_mm3": 906.750033623988,
-    "file": "fabrication-trial\\candidate-parts\\ARM-112_SG90_horn_capture_cap.stl",
-    "triangles": 1580,
-    "dimensions_in_file_units": [
-      26.0,
-      25.9666,
-      2.0
-    ],
-    "signed_volume_in_file_units_cubed": 905.7907899087585,
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0
-  },
-  {
     "part": "ARM-201_Upper_link_dual_MG996R",
     "quantity": 1,
     "material": "PETG",
-    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "status": "Candidate geometry for fit trials; servo spline press fits (FIT-003/FIT-004), bearing/dowel fits and assembly access must be proven before a structural set is printed",
     "units": "mm",
-    "native_volume_mm3": 8734.723879557601,
+    "native_volume_mm3": 8511.061529444089,
+    "refreshed": "2026-09-28",
     "file": "fabrication-trial\\candidate-parts\\ARM-201_Upper_link_dual_MG996R.stl",
-    "triangles": 3032,
+    "triangles": 3248,
     "dimensions_in_file_units": [
       115.9469,
       31.9917,
       8.0
     ],
-    "signed_volume_in_file_units_cubed": 8722.758910536115,
+    "signed_volume_in_file_units_cubed": 8493.23848448403,
     "boundary_edges": 0,
     "nonmanifold_edges": 0
   },
@@ -201,9 +186,10 @@
     "part": "ARM-203_Bolted_shoulder_upright",
     "quantity": 1,
     "material": "PETG",
-    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "status": "Candidate geometry for fit trials; servo spline press fits (FIT-003/FIT-004), bearing/dowel fits and assembly access must be proven before a structural set is printed",
     "units": "mm",
-    "native_volume_mm3": 30095.674130575208,
+    "native_volume_mm3": 30081.993277944555,
+    "refreshed": "2026-09-28",
     "file": "fabrication-trial\\candidate-parts\\ARM-203_Bolted_shoulder_upright.stl",
     "triangles": 2110,
     "dimensions_in_file_units": [
@@ -211,7 +197,7 @@
       67.0,
       24.0
     ],
-    "signed_volume_in_file_units_cubed": 30098.454229977397,
+    "signed_volume_in_file_units_cubed": 30084.59071262462,
     "boundary_edges": 0,
     "nonmanifold_edges": 0
   },
@@ -219,17 +205,18 @@
     "part": "ARM-204_Modular_forearm_MG996R",
     "quantity": 1,
     "material": "PETG",
-    "status": "Candidate geometry; horn and purchased-hardware fits must be resolved before fabrication",
+    "status": "Candidate geometry for fit trials; servo spline press fits (FIT-003/FIT-004), bearing/dowel fits and assembly access must be proven before a structural set is printed",
     "units": "mm",
-    "native_volume_mm3": 8470.209760184112,
+    "native_volume_mm3": 8657.948471645124,
+    "refreshed": "2026-09-28",
     "file": "fabrication-trial\\candidate-parts\\ARM-204_Modular_forearm_MG996R.stl",
-    "triangles": 2016,
+    "triangles": 2160,
     "dimensions_in_file_units": [
       78.0,
       31.9964,
       8.0
     ],
-    "signed_volume_in_file_units_cubed": 8463.106821495883,
+    "signed_volume_in_file_units_cubed": 8650.74575719584,
     "boundary_edges": 0,
     "nonmanifold_edges": 0
   },
@@ -270,6 +257,25 @@
     "nonmanifold_edges": 0
   },
   {
+    "part": "ARM-207_MG996R_printed_spline_hub",
+    "quantity": 2,
+    "material": "PETG",
+    "status": "Candidate geometry for fit trials; servo spline press fits (FIT-003/FIT-004), bearing/dowel fits and assembly access must be proven before a structural set is printed",
+    "units": "mm",
+    "native_volume_mm3": 2008.3274445325146,
+    "refreshed": "2026-09-28",
+    "file": "fabrication-trial\\candidate-parts\\ARM-207_MG996R_printed_spline_hub.stl",
+    "triangles": 1238,
+    "dimensions_in_file_units": [
+      28.0,
+      27.9641,
+      4.0
+    ],
+    "signed_volume_in_file_units_cubed": 2004.836637910284,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
     "part": "FIT-001_Dowel_and_bearing_trial",
     "quantity": 1,
     "material": "PETG",
@@ -288,56 +294,40 @@
     "nonmanifold_edges": 0
   },
   {
-    "part": "FIT-002_SG90_horn_pocket_clearance_0p05",
+    "part": "FIT-003_MG996R_spline_socket_trial",
     "quantity": 1,
     "material": "PETG",
     "status": "Print and measure coupon first",
     "units": "mm",
-    "native_volume_mm3": 2461.0397313422395,
-    "file": "fabrication-trial\\fit-coupon\\FIT-002_SG90_horn_pocket_clearance_0p05.stl",
-    "triangles": 1334,
+    "native_volume_mm3": 3217.957331966991,
+    "refreshed": "2026-09-28",
+    "file": "fabrication-trial\\fit-coupon\\FIT-003_MG996R_spline_socket_trial.stl",
+    "triangles": 1348,
     "dimensions_in_file_units": [
-      26.0,
-      26.0,
-      5.65
+      64.0,
+      14.0,
+      4.0
     ],
-    "signed_volume_in_file_units_cubed": 2457.918825140522,
+    "signed_volume_in_file_units_cubed": 3219.813078472401,
     "boundary_edges": 0,
     "nonmanifold_edges": 0
   },
   {
-    "part": "FIT-002_SG90_horn_pocket_clearance_0p10",
+    "part": "FIT-004_SG90_spline_socket_trial",
     "quantity": 1,
     "material": "PETG",
     "status": "Print and measure coupon first",
     "units": "mm",
-    "native_volume_mm3": 2455.766502862889,
-    "file": "fabrication-trial\\fit-coupon\\FIT-002_SG90_horn_pocket_clearance_0p10.stl",
-    "triangles": 1334,
+    "native_volume_mm3": 2188.2929602509075,
+    "refreshed": "2026-09-28",
+    "file": "fabrication-trial\\fit-coupon\\FIT-004_SG90_spline_socket_trial.stl",
+    "triangles": 1348,
     "dimensions_in_file_units": [
-      26.0,
-      26.0,
-      5.65
+      54.0,
+      12.0,
+      3.7
     ],
-    "signed_volume_in_file_units_cubed": 2452.6172388847126,
-    "boundary_edges": 0,
-    "nonmanifold_edges": 0
-  },
-  {
-    "part": "FIT-002_SG90_horn_pocket_clearance_0p15",
-    "quantity": 1,
-    "material": "PETG",
-    "status": "Print and measure coupon first",
-    "units": "mm",
-    "native_volume_mm3": 2450.4210806324395,
-    "file": "fabrication-trial\\fit-coupon\\FIT-002_SG90_horn_pocket_clearance_0p15.stl",
-    "triangles": 1334,
-    "dimensions_in_file_units": [
-      26.0,
-      26.0,
-      5.65
-    ],
-    "signed_volume_in_file_units_cubed": 2447.2513955868803,
+    "signed_volume_in_file_units_cubed": 2189.3539147036417,
     "boundary_edges": 0,
     "nonmanifold_edges": 0
   }

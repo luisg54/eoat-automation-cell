@@ -1,0 +1,40 @@
+{
+  "status": "Native CAD verification; physical fit and performance tests remain",
+  "configurations": [
+    {
+      "name": "01_Home",
+      "transform_residual": 6.106226635438361e-16,
+      "mate_errors": []
+    },
+    {
+      "name": "02_Grip_22mm",
+      "transform_residual": 6.106226635438361e-16,
+      "mate_errors": []
+    },
+    {
+      "name": "03_Pickup_trial",
+      "transform_residual": 6.106226635438361e-16,
+      "mate_errors": []
+    },
+    {
+      "name": "04_Transfer",
+      "transform_residual": 5.902783111346197e-16,
+      "mate_errors": []
+    },
+    {
+      "name": "05_Transfer_left",
+      "transform_residual": 6.106226635438361e-16,
+      "mate_errors": []
+    },
+    {
+      "name": "06_Transfer_right",
+      "transform_residual": 7.216449660063518e-16,
+      "mate_errors": []
+    }
+  ],
+  "free_arm_motion_limits_verified": true,
+  "referenced_components_verified": 198,
+  "unique_parts_verified": 41,
+  "part_feature_errors": [],
+  "original_C_files_unchanged": 38
+}

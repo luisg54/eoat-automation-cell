@@ -1,49 +1,147 @@
 {
-  "revision": "D-development",
-  "status": "See saved native QA and fabrication manifest; physical fit and performance qualification remain",
-  "scope": "Articulated tabletop robot arm, supersedes the previous X-slide concept for this CAD task",
+  "revision": "D-development (owned-servo update 2026-09-28)",
+  "status": "Native CAD verified on the reopened assembly; physical fit and performance qualification remain",
+  "scope": "Articulated tabletop robot arm picking a 608ZZ bearing",
   "payload_target_g": 20,
+  "pick_object": "608ZZ 8 x 22 x 7 mm",
   "upper_link_centres_mm": 60,
   "forearm_link_centres_mm": 90,
-  "servo_count": 4,
-  "servo_roles": [
-    "SG90 yaw (owned)",
-    "MG996R shoulder (owned)",
-    "MG996R elbow (owned)",
-    "FS90-FB included in Pololu3551"
-  ],
-  "shoulder_servo_stall_reference_Nm": 0.9218251,
-  "servo_stall_reference_Nm": 0.17652,
-  "servo_design_fraction_of_reference_stall": 0.3333333333,
-  "servo_rating_status": "Manufacturer reference only; purchased units must be measured and load-tested",
-  "shoulder_reduction_ratio": 1,
-  "shoulder_transmission_efficiency_assumed": 0.9,
+  "grip_point_radius_mm": 90,
+  "owned_motors": {
+    "MG996R": 2,
+    "SG90": 4
+  },
+  "motor_use": {
+    "MG996R": [
+      "shoulder",
+      "elbow"
+    ],
+    "SG90": [
+      "yaw"
+    ],
+    "SG90_spares": 3,
+    "gripper": "FS90-FB included with Pololu 3551 (purchase pending)"
+  },
+  "servo_geometry_source": {
+    "MG996R": "cad/arm-v4/parts/MG996R_servo.SLDPRT",
+    "SG90": "cad/arm-v4/parts/SERVO_SG90.SLDPRT",
+    "measurements": "cad/arm-v4/owned-servo-measurements.json",
+    "scope": "Native file measurement in SolidWorks; owned units not calipered by the agent"
+  },
+  "mg996r": {
+    "ear_hole_x_from_axis_mm": [
+      -14.15,
+      34.15
+    ],
+    "ear_hole_y_mm": [
+      -5.0,
+      5.0
+    ],
+    "ear_hole_diameter_mm": 4.0,
+    "ear_thickness_output_end_mm": 2.4000000000000057,
+    "ear_thickness_far_end_mm": 1.754,
+    "case_bottom_x_from_axis_mm": [
+      -10.349,
+      30.349
+    ],
+    "case_width_mm": 20.0,
+    "output_ring_top_above_ears_mm": 12.0,
+    "spline_top_above_ears_mm": 15.500000000000007,
+    "spline_teeth": 25,
+    "spline_tip_diameter_mm": 5.997,
+    "centre_thread": "M3",
+    "centre_thread_depth_mm": 8.19,
+    "mount_window_mm": [
+      -10.849,
+      -10.5,
+      30.849,
+      10.5
+    ],
+    "ear_screws": "M3 x 14, 2 washers, nyloc"
+  },
+  "sg90": {
+    "ear_hole_x_from_axis_mm": [
+      -8.4,
+      19.4
+    ],
+    "ear_hole_diameter_mm": 2.5,
+    "ear_thickness_mm": 2.3999999999999986,
+    "case_x_from_axis_mm": [
+      -6.0,
+      17.0
+    ],
+    "case_width_mm": 12.0,
+    "gear_cover_top_above_ears_mm": 11.4,
+    "spline_top_above_ears_mm": 14.4,
+    "spline_diameter_mm": 5.0,
+    "centre_hole_in_file_mm": 1.0,
+    "ear_screws": "M2 x 10, hex nut, no washers"
+  },
+  "mg996r_hub_ARM_207": {
+    "socket_diameter_mm": 5.8,
+    "socket_depth_mm": 3.000000000000007,
+    "thickness_mm": 4.000000000000007,
+    "gap_above_output_ring_mm": 0.5,
+    "floor_mm": 1.0,
+    "outer_diameter_mm": 28.0,
+    "link_bolt_circle_mm": 18.0,
+    "link_screws": "M3 x 12 into captured M3 hex nuts",
+    "centre_screw": "M3 x 8 low head DIN 7984",
+    "fit_trial": "FIT-003 5.70/5.80/5.90/6.00"
+  },
+  "sg90_collar_ARM_003": {
+    "socket_diameter_mm": 4.85,
+    "socket_depth_mm": 2.5,
+    "gap_above_gear_cover_mm": 0.5,
+    "floor_mm": 1.2,
+    "crossbolt_float_hole_diameter_mm": 2.8,
+    "fit_trial": "FIT-004 4.65/4.75/4.85/4.95"
+  },
+  "link_rear_above_mg996r_ears_mm": 16.500000000000007,
+  "elbow_axial_offset_mm": 20.5,
+  "elbow_standoff_mm": 32,
   "bearing_OD_mm": 22,
   "bearing_ID_mm": 8,
   "bearing_width_mm": 7,
   "dowel_diameter_mm": 6.35,
   "dowel_length_mm": 25.4,
-  "servo_body_length_nominal_mm": 23,
-  "servo_body_width_nominal_mm": 12.2,
-  "servo_body_height_envelope_mm": 29,
-  "servo_fit_clearance_per_side_mm": 0.4,
-  "fit_status": "Nominal bought hardware from BOM; caliper confirmation outstanding",
-  "shoulder_link_rear_z_mm": 20.5,
-  "sg90_ear_thickness_mm": 2.4,
-  "sg90_gear_cover_height_above_ear_top_mm": 8.8,
-  "sg90_seated_horn_front_above_ear_top_assumed_mm": 13.2,
-  "sg90_horn_blade_mm": 1.5,
-  "sg90_horn_hub_projection_mm": 2.5,
-  "elbow_axial_offset_mm": 20.5,
-  "elbow_standoff_mm": 32,
-  "sg90_reference_source": "https://www.auselectronicsdirect.com.au/assets/brochures/TA0132.pdf",
-  "reference_scope": "Supplier drawing plus conservative envelopes; not measurement of owned motors. Generator constants currently drive geometry.",
+  "shoulder_servo_stall_reference_Nm": 0.9218251,
+  "servo_design_fraction_of_reference_stall": 0.3333333333333333,
+  "servo_rating_status": "Manufacturer reference only; owned units must be measured and load-tested",
+  "design_torque_Nm": {
+    "elbow": 0.0772,
+    "shoulder": 0.2435
+  },
+  "margin_ratio": {
+    "elbow": 3.584,
+    "shoulder": 1.136
+  },
+  "total_modeled_mass_g": 639.3,
   "gripper_working_opening_mm": [
     2,
     32
   ],
+  "yaw_travel_deg": [
+    -60,
+    60
+  ],
   "shoulder_travel_deg": [
     -15,
     80
-  ]
+  ],
+  "elbow_travel_deg": [
+    -100,
+    -5
+  ],
+  "pickup_trial_pose": {
+    "yaw_deg": 0,
+    "shoulder_deg": -15,
+    "elbow_deg": -75,
+    "grip_mm": 22,
+    "forearm_deg": -90
+  },
+  "pin_safe_lift": {
+    "method": "Cartesian vertical lift for the first 10 mm",
+    "forearm_rotation_over_10mm_deg": -1.138
+  }
 }

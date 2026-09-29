@@ -1,0 +1,12 @@
+{
+  "index_policy": "Find by left-hand-side name; SolidWorks may reorder equations",
+  "equations": [
+    "\"D1@jaw_left_half_opening\" = \"Gripper_opening\" / 2",
+    "\"D1@jaw_right_half_opening\" = \"Gripper_opening\" / 2",
+    "\"Gripper_opening\" = 32mm"
+  ],
+  "range_mm": [
+    0,
+    32
+  ]
+}

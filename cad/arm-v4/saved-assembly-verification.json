@@ -1,40 +1,305 @@
 {
-  "status": "Native CAD verification; physical fit and performance tests remain",
+  "status": "Native CAD verification of the reopened assembly; physical fit and performance tests remain",
+  "opened_fresh": true,
   "configurations": [
     {
       "name": "01_Home",
-      "transform_residual": 6.106226635438361e-16,
-      "mate_errors": []
+      "pose_values": [
+        0,
+        45,
+        -45,
+        32
+      ],
+      "transform_residual": 1.1102230246251565e-15,
+      "mate_errors": [],
+      "superseded_components_suppressed": 75,
+      "superseded_unsuppressed": [],
+      "active_components_resolved": 191,
+      "active_suppressed": [],
+      "superseded_mates_suppressed": 77,
+      "superseded_mates_active": [],
+      "unexpected_interferences": [],
+      "expected_designed_engagements": 93,
+      "expected_engagement_volume_mm3": 37.40440743833441,
+      "known_supplier_overlaps": []
     },
     {
       "name": "02_Grip_22mm",
-      "transform_residual": 6.106226635438361e-16,
-      "mate_errors": []
+      "pose_values": [
+        0,
+        45,
+        -45,
+        22
+      ],
+      "transform_residual": 1.1102230246251565e-15,
+      "mate_errors": [],
+      "superseded_components_suppressed": 75,
+      "superseded_unsuppressed": [],
+      "active_components_resolved": 191,
+      "active_suppressed": [],
+      "superseded_mates_suppressed": 77,
+      "superseded_mates_active": [],
+      "unexpected_interferences": [],
+      "expected_designed_engagements": 93,
+      "expected_engagement_volume_mm3": 37.40440743833441,
+      "known_supplier_overlaps": []
     },
     {
       "name": "03_Pickup_trial",
-      "transform_residual": 6.106226635438361e-16,
-      "mate_errors": []
+      "pose_values": [
+        0,
+        -15,
+        -75,
+        22
+      ],
+      "transform_residual": 1.0547118733938987e-15,
+      "mate_errors": [],
+      "superseded_components_suppressed": 75,
+      "superseded_unsuppressed": [],
+      "active_components_resolved": 191,
+      "active_suppressed": [],
+      "superseded_mates_suppressed": 77,
+      "superseded_mates_active": [],
+      "unexpected_interferences": [],
+      "expected_designed_engagements": 93,
+      "expected_engagement_volume_mm3": 37.40440743833506,
+      "known_supplier_overlaps": []
     },
     {
       "name": "04_Transfer",
-      "transform_residual": 5.902783111346197e-16,
-      "mate_errors": []
+      "pose_values": [
+        0,
+        20,
+        -20,
+        22
+      ],
+      "transform_residual": 1.0547118733938987e-15,
+      "mate_errors": [],
+      "superseded_components_suppressed": 75,
+      "superseded_unsuppressed": [],
+      "active_components_resolved": 191,
+      "active_suppressed": [],
+      "superseded_mates_suppressed": 77,
+      "superseded_mates_active": [],
+      "unexpected_interferences": [],
+      "expected_designed_engagements": 93,
+      "expected_engagement_volume_mm3": 37.40440743833416,
+      "known_supplier_overlaps": []
     },
     {
       "name": "05_Transfer_left",
-      "transform_residual": 6.106226635438361e-16,
-      "mate_errors": []
+      "pose_values": [
+        -60,
+        20,
+        -20,
+        22
+      ],
+      "transform_residual": 1.0547118733938987e-15,
+      "mate_errors": [],
+      "superseded_components_suppressed": 75,
+      "superseded_unsuppressed": [],
+      "active_components_resolved": 191,
+      "active_suppressed": [],
+      "superseded_mates_suppressed": 77,
+      "superseded_mates_active": [],
+      "unexpected_interferences": [],
+      "expected_designed_engagements": 93,
+      "expected_engagement_volume_mm3": 37.404618657827186,
+      "known_supplier_overlaps": []
     },
     {
       "name": "06_Transfer_right",
-      "transform_residual": 7.216449660063518e-16,
-      "mate_errors": []
+      "pose_values": [
+        60,
+        20,
+        -20,
+        22
+      ],
+      "transform_residual": 1.0547118733938987e-15,
+      "mate_errors": [],
+      "superseded_components_suppressed": 75,
+      "superseded_unsuppressed": [],
+      "active_components_resolved": 191,
+      "active_suppressed": [],
+      "superseded_mates_suppressed": 77,
+      "superseded_mates_active": [],
+      "unexpected_interferences": [],
+      "expected_designed_engagements": 93,
+      "expected_engagement_volume_mm3": 37.40447080985427,
+      "known_supplier_overlaps": []
     }
   ],
   "free_arm_motion_limits_verified": true,
-  "referenced_components_verified": 198,
-  "unique_parts_verified": 41,
+  "free_motion_configuration": {
+    "name": "07_Free_motion_CHECK_COLLISIONS",
+    "superseded_components_suppressed": 75,
+    "superseded_unsuppressed": [],
+    "active_components_resolved": 191,
+    "active_suppressed": [],
+    "superseded_mates_suppressed": 77,
+    "superseded_mates_active": []
+  },
+  "active_components_verified": 191,
+  "superseded_components_suppressed": 75,
+  "unique_active_parts_verified": 38,
+  "unique_parts": {
+    "parts\\ARM-001_Base_pedestal.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 140707.91146325204
+    },
+    "parts\\ARM-202_Yaw_platform.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 31230.849369832813
+    },
+    "parts\\ARM-003_Yaw_D_drive_collar.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 2116.374583874398
+    },
+    "hardware-reference\\HW-001_608ZZ_22x8x7_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 2309.0706003884975
+    },
+    "parts\\ARM-201_Upper_link_dual_MG996R.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 8511.06152944408
+    },
+    "parts\\ARM-204_Modular_forearm_MG996R.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 8657.94847164512
+    },
+    "parts\\ARM-004_Removable_yaw_servo_mount.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 7332.919029838743
+    },
+    "parts\\ARM-203_Bolted_shoulder_upright.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 30081.993277944588
+    },
+    "parts\\ARM-105_Shoulder_bearing_cheek.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 9634.11083759555
+    },
+    "parts\\ARM-109_Bearing_and_dowel_keeper.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 3052.767262902195
+    },
+    "hardware-reference\\HW-002_Dowel_6p35x25p4.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 804.3981230672777
+    },
+    "parts\\ARM-107_Dowel_to_608_adapter.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 121.37959478170772
+    },
+    "parts\\ARM-108_M3_standoff_32mm.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 1351.1361684558983
+    },
+    "parts\\ARM-104_Elbow_bearing_cheek.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 5829.745062270361
+    },
+    "parts\\ARM-205_Parallel_gripper_fork_adapter.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 6326.925040800817
+    },
+    "hardware-reference\\HW-203_Pololu3551_jaw.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 1945.0857244601668
+    },
+    "hardware-reference\\HW-202_Pololu3551_body.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 19120.555514575986
+    },
+    "parts\\ARM-206_Gripper_lug_crush_spacer_13mm.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 464.6651154108322
+    },
+    "hardware-reference\\HW-S_M3x14_socket_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 170.2350519163969
+    },
+    "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 10.115928344559133
+    },
+    "hardware-reference\\HW-N_M3_nyloc_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 76.51473997560896
+    },
+    "hardware-reference\\HW-S_M4x35_socket_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 593.7610115284709
+    },
+    "hardware-reference\\HW-W_M4_washer_0p5_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 18.20552942755285
+    },
+    "hardware-reference\\HW-N_M4_nyloc_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 149.3443708553916
+    },
+    "hardware-reference\\HW-S_M3x50_socket_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 424.70405685717014
+    },
+    "hardware-reference\\HW-S_M2x14_socket_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 66.66459610917539
+    },
+    "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 7.916813487046279
+    },
+    "hardware-reference\\HW-N_M2_hex_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 17.143702091137968
+    },
+    "hardware-reference\\HW-S_M2x20_socket_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 85.51415203071417
+    },
+    "hardware-reference\\HW-S_M3x30_socket_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 283.3323874456294
+    },
+    "parts\\MG996R_servo.SLDPRT": {
+      "solid_bodies": 2,
+      "volume_mm3": 30582.091583101785
+    },
+    "parts\\SERVO_SG90.SLDPRT": {
+      "solid_bodies": 5,
+      "volume_mm3": 7443.550492991944
+    },
+    "parts\\ARM-207_MG996R_printed_spline_hub.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 2008.327444532515
+    },
+    "hardware-reference\\HW-S_M3x8_LOW_HEAD_D5p5_H2_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 104.06525665016188
+    },
+    "hardware-reference\\HW-S_M2x4_PAN_HEAD_D4_H1p6_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 32.67256359733385
+    },
+    "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 156.09788497524283
+    },
+    "hardware-reference\\HW-N_M3_hex_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 45.908843985365365
+    },
+    "hardware-reference\\HW-S_M2x10_socket_ENVELOPE.SLDPRT": {
+      "solid_bodies": 1,
+      "volume_mm3": 54.09822549481624
+    }
+  },
   "part_feature_errors": [],
+  "reference_multibody_allowed": [
+    "MG996R_servo.SLDPRT",
+    "SERVO_SG90.SLDPRT"
+  ],
   "original_C_files_unchanged": 38
 }

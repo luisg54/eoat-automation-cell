@@ -1,96 +1,5 @@
 [
   {
-    "file": "ARM-201_Upper_link_dual_MG996R.SLDPRT",
-    "sketches": [
-      {
-        "name": "Main_web_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Shoulder_horn_flange_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Elbow_servo_mount_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "SG90_body_clearance_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Elbow_tab_fasteners_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Shoulder_center_screw_access_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Cable_tie_holes_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Passive_lower_mount_boss_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Passive_upper_mount_boss_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Passive_cheek_standoffs_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Shoulder_dowel_support_hub_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Raised_M3_washer_seats_PCD14_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Metal_horn_M3_clearance_PCD14_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Restore_shoulder_sleeve_bore_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Larger_elbow_servo_mount_replaces_SG90_opening_profile",
-        "before": 2,
-        "after": 3
-      },
-      {
-        "name": "MG996R_elbow_body_clearance_profile",
-        "before": 2,
-        "after": 3
-      },
-      {
-        "name": "MG996R_elbow_tab_fasteners_profile",
-        "before": 2,
-        "after": 3
-      }
-    ],
-    "solid_geometry_unchanged": true
-  },
-  {
     "file": "ARM-202_Yaw_platform.SLDPRT",
     "sketches": [
       {
@@ -167,123 +76,6 @@
     "solid_geometry_unchanged": true
   },
   {
-    "file": "ARM-203_Bolted_shoulder_upright.SLDPRT",
-    "sketches": [
-      {
-        "name": "Yaw_platform_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Printed_hollow_yaw_spindle_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Inner_race_load_shoulder_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "D_flat_drive_key_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Shoulder_mount_plate_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "MG996_body_window_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "MG996_tab_mounts_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Passive_shoulder_standoffs_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Upright_rib_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Yaw_positive_retention_crossbolt_profile",
-        "before": 3,
-        "after": 3
-      },
-      {
-        "name": "Separate_platform_below_upright",
-        "before": 2,
-        "after": 3
-      },
-      {
-        "name": "Broad_bolted_foot_profile",
-        "before": 2,
-        "after": 3
-      },
-      {
-        "name": "Four_M3_platform_attachment_holes_profile",
-        "before": 2,
-        "after": 3
-      }
-    ],
-    "solid_geometry_unchanged": true
-  },
-  {
-    "file": "ARM-204_Modular_forearm_MG996R.SLDPRT",
-    "sketches": [
-      {
-        "name": "Metal_horn_flange_profile",
-        "before": 2,
-        "after": 3
-      },
-      {
-        "name": "Straight_forearm_web_profile",
-        "before": 2,
-        "after": 3
-      },
-      {
-        "name": "Replaceable_tool_mounting_deck_profile",
-        "before": 2,
-        "after": 3
-      },
-      {
-        "name": "Dowel_support_hub_profile",
-        "before": 2,
-        "after": 3
-      },
-      {
-        "name": "Raised_washer_seats_PCD14",
-        "before": 2,
-        "after": 3
-      },
-      {
-        "name": "Metal_horn_M3_pattern_profile",
-        "before": 2,
-        "after": 3
-      },
-      {
-        "name": "Elbow_sleeve_bore_profile",
-        "before": 2,
-        "after": 3
-      },
-      {
-        "name": "Modular_tool_four_M3_pattern_profile",
-        "before": 2,
-        "after": 3
-      }
-    ],
-    "solid_geometry_unchanged": true
-  },
-  {
     "file": "ARM-205_Parallel_gripper_fork_adapter.SLDPRT",
     "sketches": [
       {
@@ -349,6 +141,479 @@
     "sketches": [
       {
         "name": "Spacer_between_POM_mounting_ears_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-201_Upper_link_dual_MG996R.SLDPRT",
+    "sketches": [
+      {
+        "name": "Main_web_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Shoulder_horn_flange_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Elbow_servo_mount_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "SG90_body_clearance_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Elbow_tab_fasteners_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Shoulder_center_screw_access_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Cable_tie_holes_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Passive_lower_mount_boss_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Passive_upper_mount_boss_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Passive_cheek_standoffs_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Shoulder_dowel_support_hub_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Raised_M3_washer_seats_PCD14_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Metal_horn_M3_clearance_PCD14_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Restore_shoulder_sleeve_bore_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Larger_elbow_servo_mount_replaces_SG90_opening_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "MG996R_elbow_body_clearance_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "MG996R_elbow_tab_fasteners_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Owned_MG996R_elbow_body_window_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Owned_MG996R_elbow_M3_ear_holes_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Printed_hub_washer_seats_PCD18_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Printed_hub_M3_clearance_PCD18_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-203_Bolted_shoulder_upright.SLDPRT",
+    "sketches": [
+      {
+        "name": "Yaw_platform_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Printed_hollow_yaw_spindle_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Inner_race_load_shoulder_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "D_flat_drive_key_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Shoulder_mount_plate_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "MG996_body_window_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "MG996_tab_mounts_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Passive_shoulder_standoffs_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Upright_rib_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Yaw_positive_retention_crossbolt_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Separate_platform_below_upright",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Broad_bolted_foot_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Four_M3_platform_attachment_holes_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Owned_MG996R_body_window_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Owned_MG996R_M3_ear_holes_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-204_Modular_forearm_MG996R.SLDPRT",
+    "sketches": [
+      {
+        "name": "Metal_horn_flange_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Straight_forearm_web_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Replaceable_tool_mounting_deck_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Dowel_support_hub_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Raised_washer_seats_PCD14",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Metal_horn_M3_pattern_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Elbow_sleeve_bore_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Modular_tool_four_M3_pattern_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Printed_hub_washer_seats_PCD18_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Printed_hub_M3_clearance_PCD18_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-207_MG996R_printed_spline_hub.SLDPRT",
+    "sketches": [
+      {
+        "name": "Hub_disc_OD28_thickness4_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "MG996R_spline_press_socket_D5p80_depth3_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "M3_centre_screw_clearance_through_floor_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Link_M3_clearance_PCD18_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Captured_M3_nut_pockets_AF5p7_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-004_Removable_yaw_servo_mount.SLDPRT",
+    "sketches": [
+      {
+        "name": "Servo_shelf_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Rear_clamping_block_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Servo_body_window_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Yaw_servo_M2_fasteners_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Left_nut_access_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Right_nut_access_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Rear_clamping_M3_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Sketch1",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Owned_SG90_M2_ear_holes_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "FIT-003_MG996R_spline_socket_trial.SLDPRT",
+    "sketches": [
+      {
+        "name": "Coupon_bar_64x14x4_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Press_sockets_5p70_5p80_5p90_6p00_depth3_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "M3_centre_screw_clearance_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Orientation_mark_at_smallest_socket_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "FIT-004_SG90_spline_socket_trial.SLDPRT",
+    "sketches": [
+      {
+        "name": "Coupon_bar_54x12x3p7_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Press_sockets_4p65_4p75_4p85_4p95_depth2p5_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "M2_centre_screw_clearance_profile",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "name": "Orientation_mark_at_smallest_socket_profile",
+        "before": 2,
+        "after": 3
+      }
+    ],
+    "solid_geometry_unchanged": true
+  },
+  {
+    "file": "ARM-003_Yaw_D_drive_collar.SLDPRT",
+    "sketches": [
+      {
+        "name": "Stock_horn_drive_flange_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "D_coupling_ring_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "D_key_land_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Captured_horn_key_boss_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Stock_horn_pocket_Hub",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Stock_horn_pocket_Horizontal",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Stock_horn_pocket_Vertical",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Stock_horn_pocket_Rounded_tips",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Unmodified_horn_capture_M2_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Horn_center_hub_clearance",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Yaw_positive_retention_crossbolt_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Crossbolt_flat_seat_-12",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Crossbolt_flat_seat_6",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "SG90_spline_socket_boss_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "SG90_spline_press_socket_D4p85_depth2p5_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "SG90_centre_screw_clearance_D2p4_profile",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "name": "Crossbolt_axial_float_clearance_D2p8_profile",
         "before": 2,
         "after": 3
       }

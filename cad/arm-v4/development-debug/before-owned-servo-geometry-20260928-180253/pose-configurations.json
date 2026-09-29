@@ -1,0 +1,98 @@
+[
+  {
+    "name": "01_Home",
+    "pose_values": [
+      0,
+      45,
+      -45,
+      32
+    ],
+    "units": [
+      "deg",
+      "deg",
+      "deg",
+      "mm"
+    ],
+    "transform_residual": 6.106226635438361e-16
+  },
+  {
+    "name": "02_Grip_22mm",
+    "pose_values": [
+      0,
+      45,
+      -45,
+      22
+    ],
+    "units": [
+      "deg",
+      "deg",
+      "deg",
+      "mm"
+    ],
+    "transform_residual": 6.106226635438361e-16
+  },
+  {
+    "name": "03_Pickup_trial",
+    "pose_values": [
+      0,
+      -15,
+      -80,
+      22
+    ],
+    "units": [
+      "deg",
+      "deg",
+      "deg",
+      "mm"
+    ],
+    "transform_residual": 4.996003610813204e-16
+  },
+  {
+    "name": "04_Transfer",
+    "pose_values": [
+      0,
+      20,
+      -20,
+      22
+    ],
+    "units": [
+      "deg",
+      "deg",
+      "deg",
+      "mm"
+    ],
+    "transform_residual": 5.902783111346197e-16
+  },
+  {
+    "name": "05_Transfer_left",
+    "pose_values": [
+      -60,
+      20,
+      -20,
+      22
+    ],
+    "units": [
+      "deg",
+      "deg",
+      "deg",
+      "mm"
+    ],
+    "transform_residual": 6.106226635438361e-16
+  },
+  {
+    "name": "06_Transfer_right",
+    "pose_values": [
+      60,
+      20,
+      -20,
+      22
+    ],
+    "units": [
+      "deg",
+      "deg",
+      "deg",
+      "mm"
+    ],
+    "transform_residual": 5.551115123125783e-16
+  }
+]

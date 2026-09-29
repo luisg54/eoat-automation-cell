@@ -1,0 +1,21 @@
+{
+  "configuration": "07_Free_motion_CHECK_COLLISIONS",
+  "status": "Native bounds verified; not a certification of all combined poses or actual servo travel",
+  "limits": [
+    {
+      "name": "J1_Yaw_travel_limit",
+      "minimum_mate_angle_deg": 29.999999999999993,
+      "maximum_mate_angle_deg": 150.0
+    },
+    {
+      "name": "J2_Shoulder_travel_limit",
+      "minimum_mate_angle_deg": 75.0,
+      "maximum_mate_angle_deg": 170.0
+    },
+    {
+      "name": "J3_Elbow_travel_limit",
+      "minimum_mate_angle_deg": 5.000000000000001,
+      "maximum_mate_angle_deg": 100.0
+    }
+  ]
+}

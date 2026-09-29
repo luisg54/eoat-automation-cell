@@ -1,5 +1,5 @@
 {
-  "status": "DEVELOPMENT: motion and interference verification outstanding",
+  "status": "DEVELOPMENT: owned-servo geometry; physical fit and performance tests remain",
   "components": [
     {
       "key": "base",
@@ -83,33 +83,6 @@
       ]
     },
     {
-      "key": "yaw_servo",
-      "instance": "HW-003_SG90_NOMINAL_VERIFY-1",
-      "file": "hardware-reference\\HW-003_SG90_NOMINAL_VERIFY.SLDPRT",
-      "position_mm": [
-        0,
-        27.8,
-        0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
       "key": "yaw_bearing_low",
       "instance": "HW-001_608ZZ_22x8x7_ENVELOPE-1",
       "file": "hardware-reference\\HW-001_608ZZ_22x8x7_ENVELOPE.SLDPRT",
@@ -164,33 +137,6 @@
       ]
     },
     {
-      "key": "shoulder_servo",
-      "instance": "HW-004_MG996R_NOMINAL_VERIFY-1",
-      "file": "hardware-reference\\HW-004_MG996R_NOMINAL_VERIFY.SLDPRT",
-      "position_mm": [
-        0,
-        122,
-        7
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
       "key": "upper",
       "instance": "ARM-201_Upper_link_dual_MG996R-1",
       "file": "parts\\ARM-201_Upper_link_dual_MG996R.SLDPRT",
@@ -198,33 +144,6 @@
         0,
         122,
         20.5
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_servo",
-      "instance": "HW-004_MG996R_NOMINAL_VERIFY-2",
-      "file": "hardware-reference\\HW-004_MG996R_NOMINAL_VERIFY.SLDPRT",
-      "position_mm": [
-        42.42640687119285,
-        164.42640687119285,
-        27.5
       ],
       "rotation": [
         [
@@ -322,114 +241,6 @@
           0,
           0,
           1
-        ]
-      ]
-    },
-    {
-      "key": "yaw_horn",
-      "instance": "HW-005_SG90_COMPACT_CROSS_REFERENCE-1",
-      "file": "hardware-reference\\HW-005_SG90_COMPACT_CROSS_REFERENCE.SLDPRT",
-      "position_mm": [
-        0,
-        39.5,
-        0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_horn",
-      "instance": "HW-006_MG996_25T_D20_PCD14_HORN-1",
-      "file": "hardware-reference\\HW-006_MG996_25T_D20_PCD14_HORN.SLDPRT",
-      "position_mm": [
-        0,
-        122,
-        18.5
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_horn",
-      "instance": "HW-006_MG996_25T_D20_PCD14_HORN-2",
-      "file": "hardware-reference\\HW-006_MG996_25T_D20_PCD14_HORN.SLDPRT",
-      "position_mm": [
-        42.42640687119285,
-        164.42640687119285,
-        39.0
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "yaw_horn_cap",
-      "instance": "ARM-112_SG90_horn_capture_cap-1",
-      "file": "parts\\ARM-112_SG90_horn_capture_cap.SLDPRT",
-      "position_mm": [
-        0,
-        37.35,
-        0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
         ]
       ]
     },
@@ -1024,1086 +835,6 @@
           0,
           -1,
           0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_servo_mount_0_screw",
-      "instance": "HW-S_M2x10_socket_ENVELOPE-1",
-      "file": "hardware-reference\\HW-S_M2x10_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -9.0,
-        28.3,
-        0.0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_servo_mount_0_head_washer",
-      "instance": "HW-W_M2_washer_0p5_ENVELOPE-1",
-      "file": "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -9,
-        27.8,
-        0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_servo_mount_0_nut_washer",
-      "instance": "HW-W_M2_washer_0p5_ENVELOPE-2",
-      "file": "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -9.0,
-        20.9,
-        0.0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_servo_mount_0_nut",
-      "instance": "HW-N_M2_hex_ENVELOPE-1",
-      "file": "hardware-reference\\HW-N_M2_hex_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -9.0,
-        19.3,
-        0.0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_servo_mount_1_screw",
-      "instance": "HW-S_M2x10_socket_ENVELOPE-2",
-      "file": "hardware-reference\\HW-S_M2x10_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        20.0,
-        28.3,
-        0.0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_servo_mount_1_head_washer",
-      "instance": "HW-W_M2_washer_0p5_ENVELOPE-3",
-      "file": "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        20,
-        27.8,
-        0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_servo_mount_1_nut_washer",
-      "instance": "HW-W_M2_washer_0p5_ENVELOPE-4",
-      "file": "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        20.0,
-        20.9,
-        0.0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_servo_mount_1_nut",
-      "instance": "HW-N_M2_hex_ENVELOPE-2",
-      "file": "hardware-reference\\HW-N_M2_hex_ENVELOPE.SLDPRT",
-      "position_mm": [
-        20.0,
-        19.3,
-        0.0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_servo_mount_0_screw",
-      "instance": "HW-S_M2.5x14_socket_ENVELOPE-1",
-      "file": "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -13.0,
-        117.0,
-        7.5
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_servo_mount_0_head_washer",
-      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-1",
-      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -13.0,
-        117.0,
-        7
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_servo_mount_0_nut_washer",
-      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-2",
-      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -13.0,
-        117.0,
-        -0.5
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_servo_mount_0_nut",
-      "instance": "HW-N_M2.5_nyloc_ENVELOPE-1",
-      "file": "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -13.0,
-        117.0,
-        -4.0
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_servo_mount_1_screw",
-      "instance": "HW-S_M2.5x14_socket_ENVELOPE-2",
-      "file": "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -13.0,
-        127.0,
-        7.5
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_servo_mount_1_head_washer",
-      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-3",
-      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -13.0,
-        127.0,
-        7
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_servo_mount_1_nut_washer",
-      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-4",
-      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -13.0,
-        127.0,
-        -0.5
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_servo_mount_1_nut",
-      "instance": "HW-N_M2.5_nyloc_ENVELOPE-2",
-      "file": "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -13.0,
-        127.0,
-        -4.0
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_servo_mount_2_screw",
-      "instance": "HW-S_M2.5x14_socket_ENVELOPE-3",
-      "file": "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        34.0,
-        117.0,
-        7.5
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_servo_mount_2_head_washer",
-      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-5",
-      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        34.0,
-        117.0,
-        7
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_servo_mount_2_nut_washer",
-      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-6",
-      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        34.0,
-        117.0,
-        -0.5
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_servo_mount_2_nut",
-      "instance": "HW-N_M2.5_nyloc_ENVELOPE-3",
-      "file": "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
-      "position_mm": [
-        34.0,
-        117.0,
-        -4.0
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_servo_mount_3_screw",
-      "instance": "HW-S_M2.5x14_socket_ENVELOPE-4",
-      "file": "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        34.0,
-        127.0,
-        7.5
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_servo_mount_3_head_washer",
-      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-7",
-      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        34.0,
-        127.0,
-        7
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_servo_mount_3_nut_washer",
-      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-8",
-      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        34.0,
-        127.0,
-        -0.5
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_servo_mount_3_nut",
-      "instance": "HW-N_M2.5_nyloc_ENVELOPE-4",
-      "file": "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
-      "position_mm": [
-        34.0,
-        127.0,
-        -4.0
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_servo_mount_0_screw",
-      "instance": "HW-S_M2.5x14_socket_ENVELOPE-5",
-      "file": "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        36.76955262170047,
-        151.698484809835,
-        28.0
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_servo_mount_0_head_washer",
-      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-9",
-      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        36.76955262170047,
-        151.698484809835,
-        27.5
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_servo_mount_0_nut_washer",
-      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-10",
-      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        36.76955262170047,
-        151.698484809835,
-        20.0
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_servo_mount_0_nut",
-      "instance": "HW-N_M2.5_nyloc_ENVELOPE-5",
-      "file": "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
-      "position_mm": [
-        36.76955262170047,
-        151.698484809835,
-        16.5
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_servo_mount_1_screw",
-      "instance": "HW-S_M2.5x14_socket_ENVELOPE-6",
-      "file": "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        29.698484809834994,
-        158.76955262170048,
-        28.0
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_servo_mount_1_head_washer",
-      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-11",
-      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        29.698484809834994,
-        158.76955262170048,
-        27.5
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_servo_mount_1_nut_washer",
-      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-12",
-      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        29.698484809834994,
-        158.76955262170048,
-        20.0
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_servo_mount_1_nut",
-      "instance": "HW-N_M2.5_nyloc_ENVELOPE-6",
-      "file": "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
-      "position_mm": [
-        29.698484809834994,
-        158.76955262170048,
-        16.5
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_servo_mount_2_screw",
-      "instance": "HW-S_M2.5x14_socket_ENVELOPE-7",
-      "file": "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        70.0035713374682,
-        184.93250352560273,
-        28.0
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_servo_mount_2_head_washer",
-      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-13",
-      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        70.0035713374682,
-        184.93250352560273,
-        27.5
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_servo_mount_2_nut_washer",
-      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-14",
-      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        70.0035713374682,
-        184.93250352560273,
-        20.0
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_servo_mount_2_nut",
-      "instance": "HW-N_M2.5_nyloc_ENVELOPE-7",
-      "file": "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
-      "position_mm": [
-        70.0035713374682,
-        184.93250352560273,
-        16.5
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_servo_mount_3_screw",
-      "instance": "HW-S_M2.5x14_socket_ENVELOPE-8",
-      "file": "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        62.93250352560273,
-        192.0035713374682,
-        28.0
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_servo_mount_3_head_washer",
-      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-15",
-      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        62.93250352560273,
-        192.0035713374682,
-        27.5
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_servo_mount_3_nut_washer",
-      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-16",
-      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        62.93250352560273,
-        192.0035713374682,
-        20.0
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_servo_mount_3_nut",
-      "instance": "HW-N_M2.5_nyloc_ENVELOPE-8",
-      "file": "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
-      "position_mm": [
-        62.93250352560273,
-        192.0035713374682,
-        16.5
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
         ]
       ]
     },
@@ -4268,762 +2999,6 @@
       ]
     },
     {
-      "key": "shoulder_horn_0_screw",
-      "instance": "HW-S_M3x12_socket_ENVELOPE-1",
-      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        4.949747468305833,
-        126.94974746830583,
-        29.0
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_horn_0_head_washer",
-      "instance": "HW-W_M3_washer_0p5_ENVELOPE-25",
-      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        4.949747468305833,
-        126.94974746830583,
-        28.5
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_horn_1_screw",
-      "instance": "HW-S_M3x12_socket_ENVELOPE-2",
-      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -4.949747468305833,
-        117.05025253169417,
-        29.0
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_horn_1_head_washer",
-      "instance": "HW-W_M3_washer_0p5_ENVELOPE-26",
-      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -4.949747468305833,
-        117.05025253169417,
-        28.5
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_horn_2_screw",
-      "instance": "HW-S_M3x12_socket_ENVELOPE-3",
-      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -4.949747468305833,
-        126.94974746830583,
-        29.0
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_horn_2_head_washer",
-      "instance": "HW-W_M3_washer_0p5_ENVELOPE-27",
-      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -4.949747468305833,
-        126.94974746830583,
-        28.5
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_horn_3_screw",
-      "instance": "HW-S_M3x12_socket_ENVELOPE-4",
-      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        4.949747468305833,
-        117.05025253169417,
-        29.0
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "shoulder_horn_3_head_washer",
-      "instance": "HW-W_M3_washer_0p5_ENVELOPE-28",
-      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        4.949747468305833,
-        117.05025253169417,
-        28.5
-      ],
-      "rotation": [
-        [
-          0.7071067811865476,
-          -0.7071067811865476,
-          0
-        ],
-        [
-          0.7071067811865476,
-          0.7071067811865476,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_horn_0_screw",
-      "instance": "HW-S_M3x12_socket_ENVELOPE-5",
-      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        49.42640687119285,
-        164.42640687119285,
-        49.5
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_horn_0_head_washer",
-      "instance": "HW-W_M3_washer_0p5_ENVELOPE-29",
-      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        49.42640687119285,
-        164.42640687119285,
-        49.0
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_horn_1_screw",
-      "instance": "HW-S_M3x12_socket_ENVELOPE-6",
-      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        35.42640687119285,
-        164.42640687119285,
-        49.5
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_horn_1_head_washer",
-      "instance": "HW-W_M3_washer_0p5_ENVELOPE-30",
-      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        35.42640687119285,
-        164.42640687119285,
-        49.0
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_horn_2_screw",
-      "instance": "HW-S_M3x12_socket_ENVELOPE-7",
-      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        42.42640687119285,
-        171.42640687119285,
-        49.5
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_horn_2_head_washer",
-      "instance": "HW-W_M3_washer_0p5_ENVELOPE-31",
-      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        42.42640687119285,
-        171.42640687119285,
-        49.0
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_horn_3_screw",
-      "instance": "HW-S_M3x12_socket_ENVELOPE-8",
-      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
-      "position_mm": [
-        42.42640687119285,
-        157.42640687119285,
-        49.5
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "elbow_horn_3_head_washer",
-      "instance": "HW-W_M3_washer_0p5_ENVELOPE-32",
-      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        42.42640687119285,
-        157.42640687119285,
-        49.0
-      ],
-      "rotation": [
-        [
-          1.0,
-          -0.0,
-          0
-        ],
-        [
-          0.0,
-          1.0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ]
-      ]
-    },
-    {
-      "key": "yaw_horn_capture_0_screw",
-      "instance": "HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE-1",
-      "file": "hardware-reference\\HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE.SLDPRT",
-      "position_mm": [
-        7.0,
-        37.9,
-        -7.0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          -1
-        ],
-        [
-          0,
-          1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_horn_capture_0_washer",
-      "instance": "HW-W_M2_washer_0p5_ENVELOPE-17",
-      "file": "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        7,
-        44,
-        -7
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_horn_capture_0_nut",
-      "instance": "HW-N_M2_hex_ENVELOPE-9",
-      "file": "hardware-reference\\HW-N_M2_hex_ENVELOPE.SLDPRT",
-      "position_mm": [
-        7.0,
-        44.5,
-        -7.0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_horn_capture_1_screw",
-      "instance": "HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE-2",
-      "file": "hardware-reference\\HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -7.0,
-        37.9,
-        -7.0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          -1
-        ],
-        [
-          0,
-          1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_horn_capture_1_washer",
-      "instance": "HW-W_M2_washer_0p5_ENVELOPE-18",
-      "file": "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -7,
-        44,
-        -7
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_horn_capture_1_nut",
-      "instance": "HW-N_M2_hex_ENVELOPE-10",
-      "file": "hardware-reference\\HW-N_M2_hex_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -7.0,
-        44.5,
-        -7.0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_horn_capture_2_screw",
-      "instance": "HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE-3",
-      "file": "hardware-reference\\HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -7.0,
-        37.9,
-        7.0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          -1
-        ],
-        [
-          0,
-          1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_horn_capture_2_washer",
-      "instance": "HW-W_M2_washer_0p5_ENVELOPE-19",
-      "file": "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -7,
-        44,
-        7
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_horn_capture_2_nut",
-      "instance": "HW-N_M2_hex_ENVELOPE-11",
-      "file": "hardware-reference\\HW-N_M2_hex_ENVELOPE.SLDPRT",
-      "position_mm": [
-        -7.0,
-        44.5,
-        7.0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_horn_capture_3_screw",
-      "instance": "HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE-4",
-      "file": "hardware-reference\\HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE.SLDPRT",
-      "position_mm": [
-        7.0,
-        37.9,
-        7.0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          -1
-        ],
-        [
-          0,
-          1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_horn_capture_3_washer",
-      "instance": "HW-W_M2_washer_0p5_ENVELOPE-20",
-      "file": "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
-      "position_mm": [
-        7,
-        44,
-        7
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
-      "key": "yaw_horn_capture_3_nut",
-      "instance": "HW-N_M2_hex_ENVELOPE-12",
-      "file": "hardware-reference\\HW-N_M2_hex_ENVELOPE.SLDPRT",
-      "position_mm": [
-        7.0,
-        44.5,
-        7.0
-      ],
-      "rotation": [
-        [
-          1,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
-          1
-        ],
-        [
-          0,
-          -1,
-          0
-        ]
-      ]
-    },
-    {
       "key": "yaw_retention_crossbolt_screw",
       "instance": "HW-S_M2x20_socket_ENVELOPE-1",
       "file": "hardware-reference\\HW-S_M2x20_socket_ENVELOPE.SLDPRT",
@@ -5346,6 +3321,1842 @@
           0
         ]
       ]
+    },
+    {
+      "key": "shoulder_servo_owned",
+      "instance": "MG996R_servo-1",
+      "file": "parts\\MG996R_servo.SLDPRT",
+      "position_mm": [
+        -10.34910129856427,
+        122.0,
+        -23.994041122946065
+      ],
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_owned",
+      "instance": "MG996R_servo-2",
+      "file": "parts\\MG996R_servo.SLDPRT",
+      "position_mm": [
+        35.10848716379155,
+        157.10848716379155,
+        -3.494041122946065
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          0.0,
+          0.7071067811865476
+        ],
+        [
+          0.7071067811865476,
+          0.0,
+          -0.7071067811865476
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_servo_owned",
+      "instance": "SERVO_SG90-1",
+      "file": "parts\\SERVO_SG90.SLDPRT",
+      "position_mm": [
+        5.5,
+        8.299999999999997,
+        0.0
+      ],
+      "rotation": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_spline_hub",
+      "instance": "ARM-207_MG996R_printed_spline_hub-1",
+      "file": "parts\\ARM-207_MG996R_printed_spline_hub.SLDPRT",
+      "position_mm": [
+        0.0,
+        122.0,
+        16.499999999999993
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_spline_hub",
+      "instance": "ARM-207_MG996R_printed_spline_hub-2",
+      "file": "parts\\ARM-207_MG996R_printed_spline_hub.SLDPRT",
+      "position_mm": [
+        42.42640687119285,
+        164.42640687119285,
+        36.99999999999999
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_spline_screw",
+      "instance": "HW-S_M3x8_LOW_HEAD_D5p5_H2_ENVELOPE-1",
+      "file": "hardware-reference\\HW-S_M3x8_LOW_HEAD_D5p5_H2_ENVELOPE.SLDPRT",
+      "position_mm": [
+        0.0,
+        122.0,
+        20.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_spline_screw",
+      "instance": "HW-S_M3x8_LOW_HEAD_D5p5_H2_ENVELOPE-2",
+      "file": "hardware-reference\\HW-S_M3x8_LOW_HEAD_D5p5_H2_ENVELOPE.SLDPRT",
+      "position_mm": [
+        42.42640687119285,
+        164.42640687119285,
+        41.0
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "yaw_spline_screw",
+      "instance": "HW-S_M2x4_PAN_HEAD_D4_H1p6_ENVELOPE-1",
+      "file": "hardware-reference\\HW-S_M2x4_PAN_HEAD_D4_H1p6_ENVELOPE.SLDPRT",
+      "position_mm": [
+        0,
+        41.0,
+        0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_hub_0_screw",
+      "instance": "HW-S_M3x12_socket_ENVELOPE-9",
+      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        6.3639610306789285,
+        128.36396103067892,
+        29.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_hub_0_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-37",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        6.3639610306789285,
+        128.36396103067892,
+        28.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_hub_0_nut",
+      "instance": "HW-N_M3_hex_ENVELOPE-1",
+      "file": "hardware-reference\\HW-N_M3_hex_ENVELOPE.SLDPRT",
+      "position_mm": [
+        6.3639610306789285,
+        128.36396103067892,
+        16.999999999999993
+      ],
+      "rotation": [
+        [
+          0.25881904510252085,
+          -0.9659258262890683,
+          0.0
+        ],
+        [
+          0.9659258262890683,
+          0.25881904510252085,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_hub_1_screw",
+      "instance": "HW-S_M3x12_socket_ENVELOPE-10",
+      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -6.3639610306789285,
+        128.36396103067892,
+        29.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_hub_1_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-38",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -6.3639610306789285,
+        128.36396103067892,
+        28.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_hub_1_nut",
+      "instance": "HW-N_M3_hex_ENVELOPE-2",
+      "file": "hardware-reference\\HW-N_M3_hex_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -6.3639610306789285,
+        128.36396103067892,
+        16.999999999999993
+      ],
+      "rotation": [
+        [
+          -0.9659258262890682,
+          -0.25881904510252096,
+          0.0
+        ],
+        [
+          0.25881904510252096,
+          -0.9659258262890682,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_hub_2_screw",
+      "instance": "HW-S_M3x12_socket_ENVELOPE-11",
+      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -6.3639610306789285,
+        115.63603896932108,
+        29.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_hub_2_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-39",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -6.3639610306789285,
+        115.63603896932108,
+        28.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_hub_2_nut",
+      "instance": "HW-N_M3_hex_ENVELOPE-3",
+      "file": "hardware-reference\\HW-N_M3_hex_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -6.3639610306789285,
+        115.63603896932108,
+        16.999999999999993
+      ],
+      "rotation": [
+        [
+          -0.25881904510252074,
+          0.9659258262890684,
+          0.0
+        ],
+        [
+          -0.9659258262890684,
+          -0.25881904510252074,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_hub_3_screw",
+      "instance": "HW-S_M3x12_socket_ENVELOPE-12",
+      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        6.3639610306789285,
+        115.63603896932108,
+        29.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_hub_3_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-40",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        6.3639610306789285,
+        115.63603896932108,
+        28.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_hub_3_nut",
+      "instance": "HW-N_M3_hex_ENVELOPE-4",
+      "file": "hardware-reference\\HW-N_M3_hex_ENVELOPE.SLDPRT",
+      "position_mm": [
+        6.3639610306789285,
+        115.63603896932108,
+        16.999999999999993
+      ],
+      "rotation": [
+        [
+          0.9659258262890684,
+          0.25881904510252074,
+          0.0
+        ],
+        [
+          -0.25881904510252074,
+          0.9659258262890684,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_hub_0_screw",
+      "instance": "HW-S_M3x12_socket_ENVELOPE-13",
+      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        51.42640687119285,
+        164.42640687119285,
+        49.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_hub_0_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-41",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        51.42640687119285,
+        164.42640687119285,
+        49.0
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_hub_0_nut",
+      "instance": "HW-N_M3_hex_ENVELOPE-5",
+      "file": "hardware-reference\\HW-N_M3_hex_ENVELOPE.SLDPRT",
+      "position_mm": [
+        51.42640687119285,
+        164.42640687119285,
+        37.49999999999999
+      ],
+      "rotation": [
+        [
+          0.8660254037844387,
+          -0.49999999999999994,
+          0.0
+        ],
+        [
+          0.49999999999999994,
+          0.8660254037844387,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_hub_1_screw",
+      "instance": "HW-S_M3x12_socket_ENVELOPE-14",
+      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        42.42640687119285,
+        173.42640687119285,
+        49.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_hub_1_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-42",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        42.42640687119285,
+        173.42640687119285,
+        49.0
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_hub_1_nut",
+      "instance": "HW-N_M3_hex_ENVELOPE-6",
+      "file": "hardware-reference\\HW-N_M3_hex_ENVELOPE.SLDPRT",
+      "position_mm": [
+        42.42640687119285,
+        173.42640687119285,
+        37.49999999999999
+      ],
+      "rotation": [
+        [
+          -0.4999999999999998,
+          -0.8660254037844387,
+          0.0
+        ],
+        [
+          0.8660254037844387,
+          -0.4999999999999998,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_hub_2_screw",
+      "instance": "HW-S_M3x12_socket_ENVELOPE-15",
+      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        33.42640687119285,
+        164.42640687119285,
+        49.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_hub_2_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-43",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        33.42640687119285,
+        164.42640687119285,
+        49.0
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_hub_2_nut",
+      "instance": "HW-N_M3_hex_ENVELOPE-7",
+      "file": "hardware-reference\\HW-N_M3_hex_ENVELOPE.SLDPRT",
+      "position_mm": [
+        33.42640687119285,
+        164.42640687119285,
+        37.49999999999999
+      ],
+      "rotation": [
+        [
+          -0.8660254037844386,
+          0.5000000000000001,
+          0.0
+        ],
+        [
+          -0.5000000000000001,
+          -0.8660254037844386,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_hub_3_screw",
+      "instance": "HW-S_M3x12_socket_ENVELOPE-16",
+      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        42.42640687119285,
+        155.42640687119285,
+        49.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_hub_3_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-44",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        42.42640687119285,
+        155.42640687119285,
+        49.0
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_hub_3_nut",
+      "instance": "HW-N_M3_hex_ENVELOPE-8",
+      "file": "hardware-reference\\HW-N_M3_hex_ENVELOPE.SLDPRT",
+      "position_mm": [
+        42.42640687119285,
+        155.42640687119285,
+        37.49999999999999
+      ],
+      "rotation": [
+        [
+          0.5000000000000001,
+          0.8660254037844386,
+          0.0
+        ],
+        [
+          -0.8660254037844386,
+          0.5000000000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_ear_0_screw",
+      "instance": "HW-S_M3x14_socket_ENVELOPE-9",
+      "file": "hardware-reference\\HW-S_M3x14_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -14.15,
+        117.0,
+        6.900000000000006
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_ear_0_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-45",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -14.15,
+        117.0,
+        6.400000000000006
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_ear_0_nut_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-46",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -14.15,
+        117.0,
+        -0.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_ear_0_nut",
+      "instance": "HW-N_M3_nyloc_ENVELOPE-15",
+      "file": "hardware-reference\\HW-N_M3_nyloc_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -14.15,
+        117.0,
+        -4.5
+      ],
+      "rotation": [
+        [
+          0.8660254037844387,
+          -0.49999999999999994,
+          0.0
+        ],
+        [
+          0.49999999999999994,
+          0.8660254037844387,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_ear_1_screw",
+      "instance": "HW-S_M3x14_socket_ENVELOPE-10",
+      "file": "hardware-reference\\HW-S_M3x14_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -14.15,
+        127.0,
+        6.900000000000006
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_ear_1_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-47",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -14.15,
+        127.0,
+        6.400000000000006
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_ear_1_nut_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-48",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -14.15,
+        127.0,
+        -0.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_ear_1_nut",
+      "instance": "HW-N_M3_nyloc_ENVELOPE-16",
+      "file": "hardware-reference\\HW-N_M3_nyloc_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -14.15,
+        127.0,
+        -4.5
+      ],
+      "rotation": [
+        [
+          0.8660254037844387,
+          -0.49999999999999994,
+          0.0
+        ],
+        [
+          0.49999999999999994,
+          0.8660254037844387,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_ear_2_screw",
+      "instance": "HW-S_M3x14_socket_ENVELOPE-11",
+      "file": "hardware-reference\\HW-S_M3x14_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        34.15,
+        117.0,
+        6.25396383788188
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_ear_2_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-49",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        34.15,
+        117.0,
+        5.75396383788188
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_ear_2_nut_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-50",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        34.15,
+        117.0,
+        -0.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_ear_2_nut",
+      "instance": "HW-N_M3_nyloc_ENVELOPE-17",
+      "file": "hardware-reference\\HW-N_M3_nyloc_ENVELOPE.SLDPRT",
+      "position_mm": [
+        34.15,
+        117.0,
+        -4.5
+      ],
+      "rotation": [
+        [
+          0.8660254037844387,
+          -0.49999999999999994,
+          0.0
+        ],
+        [
+          0.49999999999999994,
+          0.8660254037844387,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_ear_3_screw",
+      "instance": "HW-S_M3x14_socket_ENVELOPE-12",
+      "file": "hardware-reference\\HW-S_M3x14_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        34.15,
+        127.0,
+        6.25396383788188
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_ear_3_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-51",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        34.15,
+        127.0,
+        5.75396383788188
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_ear_3_nut_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-52",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        34.15,
+        127.0,
+        -0.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_ear_3_nut",
+      "instance": "HW-N_M3_nyloc_ENVELOPE-18",
+      "file": "hardware-reference\\HW-N_M3_nyloc_ENVELOPE.SLDPRT",
+      "position_mm": [
+        34.15,
+        127.0,
+        -4.5
+      ],
+      "rotation": [
+        [
+          0.8660254037844387,
+          -0.49999999999999994,
+          0.0
+        ],
+        [
+          0.49999999999999994,
+          0.8660254037844387,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_ear_0_screw",
+      "instance": "HW-S_M3x14_socket_ENVELOPE-13",
+      "file": "hardware-reference\\HW-S_M3x14_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        35.95637982333594,
+        150.88531201147046,
+        27.400000000000006
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_ear_0_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-53",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        35.95637982333594,
+        150.88531201147046,
+        26.900000000000006
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_ear_0_nut_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-54",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        35.95637982333594,
+        150.88531201147046,
+        20.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_ear_0_nut",
+      "instance": "HW-N_M3_nyloc_ENVELOPE-19",
+      "file": "hardware-reference\\HW-N_M3_nyloc_ENVELOPE.SLDPRT",
+      "position_mm": [
+        35.95637982333594,
+        150.88531201147046,
+        16.0
+      ],
+      "rotation": [
+        [
+          0.25881904510252085,
+          -0.9659258262890683,
+          0.0
+        ],
+        [
+          0.9659258262890683,
+          0.25881904510252085,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_ear_1_screw",
+      "instance": "HW-S_M3x14_socket_ENVELOPE-14",
+      "file": "hardware-reference\\HW-S_M3x14_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        28.885312011470468,
+        157.95637982333594,
+        27.400000000000006
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_ear_1_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-55",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        28.885312011470468,
+        157.95637982333594,
+        26.900000000000006
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_ear_1_nut_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-56",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        28.885312011470468,
+        157.95637982333594,
+        20.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_ear_1_nut",
+      "instance": "HW-N_M3_nyloc_ENVELOPE-20",
+      "file": "hardware-reference\\HW-N_M3_nyloc_ENVELOPE.SLDPRT",
+      "position_mm": [
+        28.885312011470468,
+        157.95637982333594,
+        16.0
+      ],
+      "rotation": [
+        [
+          0.25881904510252085,
+          -0.9659258262890683,
+          0.0
+        ],
+        [
+          0.9659258262890683,
+          0.25881904510252085,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_ear_2_screw",
+      "instance": "HW-S_M3x14_socket_ENVELOPE-15",
+      "file": "hardware-reference\\HW-S_M3x14_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        70.1096373546462,
+        185.03856954278072,
+        26.75396383788188
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_ear_2_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-57",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        70.1096373546462,
+        185.03856954278072,
+        26.25396383788188
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_ear_2_nut_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-58",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        70.1096373546462,
+        185.03856954278072,
+        20.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_ear_2_nut",
+      "instance": "HW-N_M3_nyloc_ENVELOPE-21",
+      "file": "hardware-reference\\HW-N_M3_nyloc_ENVELOPE.SLDPRT",
+      "position_mm": [
+        70.1096373546462,
+        185.03856954278072,
+        16.0
+      ],
+      "rotation": [
+        [
+          0.25881904510252085,
+          -0.9659258262890683,
+          0.0
+        ],
+        [
+          0.9659258262890683,
+          0.25881904510252085,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_ear_3_screw",
+      "instance": "HW-S_M3x14_socket_ENVELOPE-16",
+      "file": "hardware-reference\\HW-S_M3x14_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        63.038569542780714,
+        192.1096373546462,
+        26.75396383788188
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_ear_3_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-59",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        63.038569542780714,
+        192.1096373546462,
+        26.25396383788188
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_ear_3_nut_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-60",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        63.038569542780714,
+        192.1096373546462,
+        20.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_ear_3_nut",
+      "instance": "HW-N_M3_nyloc_ENVELOPE-22",
+      "file": "hardware-reference\\HW-N_M3_nyloc_ENVELOPE.SLDPRT",
+      "position_mm": [
+        63.038569542780714,
+        192.1096373546462,
+        16.0
+      ],
+      "rotation": [
+        [
+          0.25881904510252085,
+          -0.9659258262890683,
+          0.0
+        ],
+        [
+          0.9659258262890683,
+          0.25881904510252085,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "yaw_servo_ear_0_screw",
+      "instance": "HW-S_M2x10_socket_ENVELOPE-3",
+      "file": "hardware-reference\\HW-S_M2x10_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -8.4,
+        27.799999999999997,
+        0.0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_servo_ear_0_nut",
+      "instance": "HW-N_M2_hex_ENVELOPE-14",
+      "file": "hardware-reference\\HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -8.4,
+        19.799999999999997,
+        0.0
+      ],
+      "rotation": [
+        [
+          0.8660254037844387,
+          -0.49999999999999994,
+          0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ],
+        [
+          -0.49999999999999994,
+          -0.8660254037844387,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_servo_ear_1_screw",
+      "instance": "HW-S_M2x10_socket_ENVELOPE-4",
+      "file": "hardware-reference\\HW-S_M2x10_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        19.4,
+        27.799999999999997,
+        0.0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_servo_ear_1_nut",
+      "instance": "HW-N_M2_hex_ENVELOPE-15",
+      "file": "hardware-reference\\HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "position_mm": [
+        19.4,
+        19.799999999999997,
+        0.0
+      ],
+      "rotation": [
+        [
+          0.8660254037844387,
+          -0.49999999999999994,
+          0
+        ],
+        [
+          0.0,
+          0.0,
+          1
+        ],
+        [
+          -0.49999999999999994,
+          -0.8660254037844387,
+          0
+        ]
+      ]
     }
   ],
   "mates": [
@@ -5361,34 +5172,6 @@
       "type": "lock",
       "parent": "yaw",
       "child": "upright",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_horn",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "yaw_horn",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_horn",
-      "type": "lock",
-      "parent": "upper",
-      "child": "shoulder_horn",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_horn",
-      "type": "lock",
-      "parent": "forearm",
-      "child": "elbow_horn",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_horn_cap",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "yaw_horn_cap",
       "creation_api": "CreateMateData/CreateMate"
     },
     {
@@ -5529,286 +5312,6 @@
       "type": "lock",
       "parent": "forearm",
       "child": "gripper_crush_spacer_1",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_servo_mount_0_screw",
-      "type": "lock",
-      "parent": "base",
-      "child": "yaw_servo_mount_0_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_servo_mount_0_head_washer",
-      "type": "lock",
-      "parent": "base",
-      "child": "yaw_servo_mount_0_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_servo_mount_0_nut_washer",
-      "type": "lock",
-      "parent": "base",
-      "child": "yaw_servo_mount_0_nut_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_servo_mount_0_nut",
-      "type": "lock",
-      "parent": "base",
-      "child": "yaw_servo_mount_0_nut",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_servo_mount_1_screw",
-      "type": "lock",
-      "parent": "base",
-      "child": "yaw_servo_mount_1_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_servo_mount_1_head_washer",
-      "type": "lock",
-      "parent": "base",
-      "child": "yaw_servo_mount_1_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_servo_mount_1_nut_washer",
-      "type": "lock",
-      "parent": "base",
-      "child": "yaw_servo_mount_1_nut_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_servo_mount_1_nut",
-      "type": "lock",
-      "parent": "base",
-      "child": "yaw_servo_mount_1_nut",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_servo_mount_0_screw",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "shoulder_servo_mount_0_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_servo_mount_0_head_washer",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "shoulder_servo_mount_0_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_servo_mount_0_nut_washer",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "shoulder_servo_mount_0_nut_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_servo_mount_0_nut",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "shoulder_servo_mount_0_nut",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_servo_mount_1_screw",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "shoulder_servo_mount_1_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_servo_mount_1_head_washer",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "shoulder_servo_mount_1_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_servo_mount_1_nut_washer",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "shoulder_servo_mount_1_nut_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_servo_mount_1_nut",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "shoulder_servo_mount_1_nut",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_servo_mount_2_screw",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "shoulder_servo_mount_2_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_servo_mount_2_head_washer",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "shoulder_servo_mount_2_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_servo_mount_2_nut_washer",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "shoulder_servo_mount_2_nut_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_servo_mount_2_nut",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "shoulder_servo_mount_2_nut",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_servo_mount_3_screw",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "shoulder_servo_mount_3_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_servo_mount_3_head_washer",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "shoulder_servo_mount_3_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_servo_mount_3_nut_washer",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "shoulder_servo_mount_3_nut_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_servo_mount_3_nut",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "shoulder_servo_mount_3_nut",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_servo_mount_0_screw",
-      "type": "lock",
-      "parent": "upper",
-      "child": "elbow_servo_mount_0_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_servo_mount_0_head_washer",
-      "type": "lock",
-      "parent": "upper",
-      "child": "elbow_servo_mount_0_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_servo_mount_0_nut_washer",
-      "type": "lock",
-      "parent": "upper",
-      "child": "elbow_servo_mount_0_nut_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_servo_mount_0_nut",
-      "type": "lock",
-      "parent": "upper",
-      "child": "elbow_servo_mount_0_nut",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_servo_mount_1_screw",
-      "type": "lock",
-      "parent": "upper",
-      "child": "elbow_servo_mount_1_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_servo_mount_1_head_washer",
-      "type": "lock",
-      "parent": "upper",
-      "child": "elbow_servo_mount_1_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_servo_mount_1_nut_washer",
-      "type": "lock",
-      "parent": "upper",
-      "child": "elbow_servo_mount_1_nut_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_servo_mount_1_nut",
-      "type": "lock",
-      "parent": "upper",
-      "child": "elbow_servo_mount_1_nut",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_servo_mount_2_screw",
-      "type": "lock",
-      "parent": "upper",
-      "child": "elbow_servo_mount_2_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_servo_mount_2_head_washer",
-      "type": "lock",
-      "parent": "upper",
-      "child": "elbow_servo_mount_2_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_servo_mount_2_nut_washer",
-      "type": "lock",
-      "parent": "upper",
-      "child": "elbow_servo_mount_2_nut_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_servo_mount_2_nut",
-      "type": "lock",
-      "parent": "upper",
-      "child": "elbow_servo_mount_2_nut",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_servo_mount_3_screw",
-      "type": "lock",
-      "parent": "upper",
-      "child": "elbow_servo_mount_3_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_servo_mount_3_head_washer",
-      "type": "lock",
-      "parent": "upper",
-      "child": "elbow_servo_mount_3_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_servo_mount_3_nut_washer",
-      "type": "lock",
-      "parent": "upper",
-      "child": "elbow_servo_mount_3_nut_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_servo_mount_3_nut",
-      "type": "lock",
-      "parent": "upper",
-      "child": "elbow_servo_mount_3_nut",
       "creation_api": "CreateMateData/CreateMate"
     },
     {
@@ -6316,202 +5819,6 @@
       "creation_api": "CreateMateData/CreateMate"
     },
     {
-      "name": "Mount_shoulder_horn_0_screw",
-      "type": "lock",
-      "parent": "upper",
-      "child": "shoulder_horn_0_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_horn_0_head_washer",
-      "type": "lock",
-      "parent": "upper",
-      "child": "shoulder_horn_0_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_horn_1_screw",
-      "type": "lock",
-      "parent": "upper",
-      "child": "shoulder_horn_1_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_horn_1_head_washer",
-      "type": "lock",
-      "parent": "upper",
-      "child": "shoulder_horn_1_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_horn_2_screw",
-      "type": "lock",
-      "parent": "upper",
-      "child": "shoulder_horn_2_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_horn_2_head_washer",
-      "type": "lock",
-      "parent": "upper",
-      "child": "shoulder_horn_2_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_horn_3_screw",
-      "type": "lock",
-      "parent": "upper",
-      "child": "shoulder_horn_3_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_shoulder_horn_3_head_washer",
-      "type": "lock",
-      "parent": "upper",
-      "child": "shoulder_horn_3_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_horn_0_screw",
-      "type": "lock",
-      "parent": "forearm",
-      "child": "elbow_horn_0_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_horn_0_head_washer",
-      "type": "lock",
-      "parent": "forearm",
-      "child": "elbow_horn_0_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_horn_1_screw",
-      "type": "lock",
-      "parent": "forearm",
-      "child": "elbow_horn_1_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_horn_1_head_washer",
-      "type": "lock",
-      "parent": "forearm",
-      "child": "elbow_horn_1_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_horn_2_screw",
-      "type": "lock",
-      "parent": "forearm",
-      "child": "elbow_horn_2_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_horn_2_head_washer",
-      "type": "lock",
-      "parent": "forearm",
-      "child": "elbow_horn_2_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_horn_3_screw",
-      "type": "lock",
-      "parent": "forearm",
-      "child": "elbow_horn_3_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_horn_3_head_washer",
-      "type": "lock",
-      "parent": "forearm",
-      "child": "elbow_horn_3_head_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_horn_capture_0_screw",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "yaw_horn_capture_0_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_horn_capture_0_washer",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "yaw_horn_capture_0_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_horn_capture_0_nut",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "yaw_horn_capture_0_nut",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_horn_capture_1_screw",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "yaw_horn_capture_1_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_horn_capture_1_washer",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "yaw_horn_capture_1_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_horn_capture_1_nut",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "yaw_horn_capture_1_nut",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_horn_capture_2_screw",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "yaw_horn_capture_2_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_horn_capture_2_washer",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "yaw_horn_capture_2_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_horn_capture_2_nut",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "yaw_horn_capture_2_nut",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_horn_capture_3_screw",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "yaw_horn_capture_3_screw",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_horn_capture_3_washer",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "yaw_horn_capture_3_washer",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_yaw_horn_capture_3_nut",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "yaw_horn_capture_3_nut",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
       "name": "Mount_yaw_retention_crossbolt_screw",
       "type": "lock",
       "parent": "yaw",
@@ -6613,13 +5920,6 @@
       "creation_api": "CreateMateData/CreateMate"
     },
     {
-      "name": "Mount_yaw_servo",
-      "type": "lock",
-      "parent": "base",
-      "child": "yaw_servo",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
       "name": "Mount_yaw_bearing_low",
       "type": "lock",
       "parent": "base",
@@ -6634,32 +5934,8 @@
       "creation_api": "CreateMateData/CreateMate"
     },
     {
-      "name": "Mount_shoulder_servo",
-      "type": "lock",
-      "parent": "yaw",
-      "child": "shoulder_servo",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "Mount_elbow_servo",
-      "type": "lock",
-      "parent": "upper",
-      "child": "elbow_servo",
-      "creation_api": "CreateMateData/CreateMate"
-    },
-    {
-      "name": "J2_shoulder_axis",
-      "type": 1,
-      "error": 1
-    },
-    {
       "name": "J2_shoulder_axial",
       "type": 5,
-      "error": 1
-    },
-    {
-      "name": "J3_elbow_axis",
-      "type": 1,
       "error": 1
     },
     {
@@ -6776,99 +6052,495 @@
       "parent": "yaw",
       "child": "upright_foot_3_nut",
       "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_owned",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_owned",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_owned",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_owned",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_servo_owned",
+      "type": "lock",
+      "parent": "base",
+      "child": "yaw_servo_owned",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_spline_hub",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_spline_hub",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_spline_hub",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_spline_hub",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_spline_screw",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_spline_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_spline_screw",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_spline_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_spline_screw",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "yaw_spline_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_hub_0_screw",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_hub_0_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_hub_0_head_washer",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_hub_0_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_hub_0_nut",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_hub_0_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_hub_1_screw",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_hub_1_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_hub_1_head_washer",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_hub_1_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_hub_1_nut",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_hub_1_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_hub_2_screw",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_hub_2_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_hub_2_head_washer",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_hub_2_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_hub_2_nut",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_hub_2_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_hub_3_screw",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_hub_3_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_hub_3_head_washer",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_hub_3_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_hub_3_nut",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_hub_3_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_hub_0_screw",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_hub_0_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_hub_0_head_washer",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_hub_0_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_hub_0_nut",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_hub_0_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_hub_1_screw",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_hub_1_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_hub_1_head_washer",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_hub_1_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_hub_1_nut",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_hub_1_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_hub_2_screw",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_hub_2_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_hub_2_head_washer",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_hub_2_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_hub_2_nut",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_hub_2_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_hub_3_screw",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_hub_3_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_hub_3_head_washer",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_hub_3_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_hub_3_nut",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_hub_3_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_ear_0_screw",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_ear_0_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_ear_0_head_washer",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_ear_0_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_ear_0_nut_washer",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_ear_0_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_ear_0_nut",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_ear_0_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_ear_1_screw",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_ear_1_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_ear_1_head_washer",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_ear_1_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_ear_1_nut_washer",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_ear_1_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_ear_1_nut",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_ear_1_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_ear_2_screw",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_ear_2_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_ear_2_head_washer",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_ear_2_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_ear_2_nut_washer",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_ear_2_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_ear_2_nut",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_ear_2_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_ear_3_screw",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_ear_3_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_ear_3_head_washer",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_ear_3_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_ear_3_nut_washer",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_ear_3_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_ear_3_nut",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_ear_3_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_ear_0_screw",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_ear_0_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_ear_0_head_washer",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_ear_0_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_ear_0_nut_washer",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_ear_0_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_ear_0_nut",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_ear_0_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_ear_1_screw",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_ear_1_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_ear_1_head_washer",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_ear_1_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_ear_1_nut_washer",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_ear_1_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_ear_1_nut",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_ear_1_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_ear_2_screw",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_ear_2_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_ear_2_head_washer",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_ear_2_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_ear_2_nut_washer",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_ear_2_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_ear_2_nut",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_ear_2_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_ear_3_screw",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_ear_3_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_ear_3_head_washer",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_ear_3_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_ear_3_nut_washer",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_ear_3_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_ear_3_nut",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_ear_3_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_servo_ear_0_screw",
+      "type": "lock",
+      "parent": "base",
+      "child": "yaw_servo_ear_0_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_servo_ear_0_nut",
+      "type": "lock",
+      "parent": "base",
+      "child": "yaw_servo_ear_0_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_servo_ear_1_screw",
+      "type": "lock",
+      "parent": "base",
+      "child": "yaw_servo_ear_1_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_servo_ear_1_nut",
+      "type": "lock",
+      "parent": "base",
+      "child": "yaw_servo_ear_1_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "J2_shoulder_axis_owned_servo",
+      "type": 1,
+      "error": 1
+    },
+    {
+      "name": "J3_elbow_axis_owned_servo",
+      "type": 1,
+      "error": 1
     }
   ],
   "fastener_stacks": [
-    {
-      "label": "yaw_servo_mount_0",
-      "parent": "base",
-      "diameter_mm": 2,
-      "length_mm": 10,
-      "nut": "hex",
-      "grip_mm": 6.4,
-      "thread_protrusion_mm": 1.0
-    },
-    {
-      "label": "yaw_servo_mount_1",
-      "parent": "base",
-      "diameter_mm": 2,
-      "length_mm": 10,
-      "nut": "hex",
-      "grip_mm": 6.4,
-      "thread_protrusion_mm": 1.0
-    },
-    {
-      "label": "shoulder_servo_mount_0",
-      "parent": "yaw",
-      "diameter_mm": 2.5,
-      "length_mm": 14,
-      "nut": "nyloc",
-      "grip_mm": 7,
-      "thread_protrusion_mm": 2.5
-    },
-    {
-      "label": "shoulder_servo_mount_1",
-      "parent": "yaw",
-      "diameter_mm": 2.5,
-      "length_mm": 14,
-      "nut": "nyloc",
-      "grip_mm": 7,
-      "thread_protrusion_mm": 2.5
-    },
-    {
-      "label": "shoulder_servo_mount_2",
-      "parent": "yaw",
-      "diameter_mm": 2.5,
-      "length_mm": 14,
-      "nut": "nyloc",
-      "grip_mm": 7,
-      "thread_protrusion_mm": 2.5
-    },
-    {
-      "label": "shoulder_servo_mount_3",
-      "parent": "yaw",
-      "diameter_mm": 2.5,
-      "length_mm": 14,
-      "nut": "nyloc",
-      "grip_mm": 7,
-      "thread_protrusion_mm": 2.5
-    },
-    {
-      "label": "elbow_servo_mount_0",
-      "parent": "upper",
-      "diameter_mm": 2.5,
-      "length_mm": 14,
-      "nut": "nyloc",
-      "grip_mm": 7,
-      "thread_protrusion_mm": 2.5
-    },
-    {
-      "label": "elbow_servo_mount_1",
-      "parent": "upper",
-      "diameter_mm": 2.5,
-      "length_mm": 14,
-      "nut": "nyloc",
-      "grip_mm": 7,
-      "thread_protrusion_mm": 2.5
-    },
-    {
-      "label": "elbow_servo_mount_2",
-      "parent": "upper",
-      "diameter_mm": 2.5,
-      "length_mm": 14,
-      "nut": "nyloc",
-      "grip_mm": 7,
-      "thread_protrusion_mm": 2.5
-    },
-    {
-      "label": "elbow_servo_mount_3",
-      "parent": "upper",
-      "diameter_mm": 2.5,
-      "length_mm": 14,
-      "nut": "nyloc",
-      "grip_mm": 7,
-      "thread_protrusion_mm": 2.5
-    },
     {
       "label": "upright_foot_0",
       "parent": "yaw",
@@ -7054,142 +6726,6 @@
       "thread_protrusion_mm": 1.200000000000001
     },
     {
-      "label": "shoulder_horn_0",
-      "parent": "upper",
-      "diameter_mm": 3,
-      "length_mm": 12,
-      "nut": "none; M3 tapped metal horn",
-      "printed_grip_mm": 8,
-      "metal_thread_engagement_mm": 2,
-      "thread_protrusion_past_horn_mm": 1.5,
-      "clearance_to_servo_case_front_mm": 3
-    },
-    {
-      "label": "shoulder_horn_1",
-      "parent": "upper",
-      "diameter_mm": 3,
-      "length_mm": 12,
-      "nut": "none; M3 tapped metal horn",
-      "printed_grip_mm": 8,
-      "metal_thread_engagement_mm": 2,
-      "thread_protrusion_past_horn_mm": 1.5,
-      "clearance_to_servo_case_front_mm": 3
-    },
-    {
-      "label": "shoulder_horn_2",
-      "parent": "upper",
-      "diameter_mm": 3,
-      "length_mm": 12,
-      "nut": "none; M3 tapped metal horn",
-      "printed_grip_mm": 8,
-      "metal_thread_engagement_mm": 2,
-      "thread_protrusion_past_horn_mm": 1.5,
-      "clearance_to_servo_case_front_mm": 3
-    },
-    {
-      "label": "shoulder_horn_3",
-      "parent": "upper",
-      "diameter_mm": 3,
-      "length_mm": 12,
-      "nut": "none; M3 tapped metal horn",
-      "printed_grip_mm": 8,
-      "metal_thread_engagement_mm": 2,
-      "thread_protrusion_past_horn_mm": 1.5,
-      "clearance_to_servo_case_front_mm": 3
-    },
-    {
-      "label": "elbow_horn_0",
-      "parent": "forearm",
-      "diameter_mm": 3,
-      "length_mm": 12,
-      "nut": "none; M3 tapped metal horn",
-      "printed_grip_mm": 8,
-      "metal_thread_engagement_mm": 2,
-      "thread_protrusion_past_horn_mm": 1.5,
-      "clearance_to_servo_case_front_mm": 3
-    },
-    {
-      "label": "elbow_horn_1",
-      "parent": "forearm",
-      "diameter_mm": 3,
-      "length_mm": 12,
-      "nut": "none; M3 tapped metal horn",
-      "printed_grip_mm": 8,
-      "metal_thread_engagement_mm": 2,
-      "thread_protrusion_past_horn_mm": 1.5,
-      "clearance_to_servo_case_front_mm": 3
-    },
-    {
-      "label": "elbow_horn_2",
-      "parent": "forearm",
-      "diameter_mm": 3,
-      "length_mm": 12,
-      "nut": "none; M3 tapped metal horn",
-      "printed_grip_mm": 8,
-      "metal_thread_engagement_mm": 2,
-      "thread_protrusion_past_horn_mm": 1.5,
-      "clearance_to_servo_case_front_mm": 3
-    },
-    {
-      "label": "elbow_horn_3",
-      "parent": "forearm",
-      "diameter_mm": 3,
-      "length_mm": 12,
-      "nut": "none; M3 tapped metal horn",
-      "printed_grip_mm": 8,
-      "metal_thread_engagement_mm": 2,
-      "thread_protrusion_past_horn_mm": 1.5,
-      "clearance_to_servo_case_front_mm": 3
-    },
-    {
-      "label": "yaw_horn_capture_0",
-      "parent": "yaw",
-      "diameter_mm": 2,
-      "length_mm": 10,
-      "head": "low profile D4 x1.1; rear side",
-      "nut": "M2 plain; front side",
-      "washer_count": 1,
-      "thread_protrusion_mm": 1.7999999999999972,
-      "minimum_axial_cover_clearance_mm": 0.1999999999999993,
-      "status": "Seated-horn height is assumed; physical clearance required"
-    },
-    {
-      "label": "yaw_horn_capture_1",
-      "parent": "yaw",
-      "diameter_mm": 2,
-      "length_mm": 10,
-      "head": "low profile D4 x1.1; rear side",
-      "nut": "M2 plain; front side",
-      "washer_count": 1,
-      "thread_protrusion_mm": 1.7999999999999972,
-      "minimum_axial_cover_clearance_mm": 0.1999999999999993,
-      "status": "Seated-horn height is assumed; physical clearance required"
-    },
-    {
-      "label": "yaw_horn_capture_2",
-      "parent": "yaw",
-      "diameter_mm": 2,
-      "length_mm": 10,
-      "head": "low profile D4 x1.1; rear side",
-      "nut": "M2 plain; front side",
-      "washer_count": 1,
-      "thread_protrusion_mm": 1.7999999999999972,
-      "minimum_axial_cover_clearance_mm": 0.1999999999999993,
-      "status": "Seated-horn height is assumed; physical clearance required"
-    },
-    {
-      "label": "yaw_horn_capture_3",
-      "parent": "yaw",
-      "diameter_mm": 2,
-      "length_mm": 10,
-      "head": "low profile D4 x1.1; rear side",
-      "nut": "M2 plain; front side",
-      "washer_count": 1,
-      "thread_protrusion_mm": 1.7999999999999972,
-      "minimum_axial_cover_clearance_mm": 0.1999999999999993,
-      "status": "Seated-horn height is assumed; physical clearance required"
-    },
-    {
       "label": "yaw_retention_crossbolt",
       "parent": "yaw",
       "diameter_mm": 2,
@@ -7215,6 +6751,228 @@
       "nut": "nyloc",
       "grip_mm": 21,
       "thread_protrusion_mm": 4
+    },
+    {
+      "label": "shoulder_spline_screw",
+      "parent": "upper",
+      "diameter_mm": 3,
+      "length_mm": 8,
+      "head": "DIN 7984 low head D5.5 x 2.0 on the ARM-207 floor",
+      "nut": "none; MG996R spline M3 thread",
+      "thread_engagement_mm": 7.0,
+      "thread_depth_in_file_mm": 8.187499999317204,
+      "head_to_dowel_gap_mm": 1.0
+    },
+    {
+      "label": "elbow_spline_screw",
+      "parent": "forearm",
+      "diameter_mm": 3,
+      "length_mm": 8,
+      "head": "DIN 7984 low head D5.5 x 2.0 on the ARM-207 floor",
+      "nut": "none; MG996R spline M3 thread",
+      "thread_engagement_mm": 7.0,
+      "thread_depth_in_file_mm": 8.187499999317204,
+      "head_to_dowel_gap_mm": 1.0
+    },
+    {
+      "label": "yaw_spline_screw",
+      "parent": "yaw",
+      "diameter_mm": 2,
+      "length_mm": 4,
+      "head": "pan D4.0 x 1.6 on the ARM-003 floor",
+      "nut": "none; SG90 output (file shows a 1.0 mm plain hole)",
+      "engagement_mm": 2.799999999999997,
+      "head_to_spindle_gap_mm": 0.3999999999999999
+    },
+    {
+      "label": "shoulder_hub_0",
+      "parent": "upper",
+      "diameter_mm": 3,
+      "length_mm": 12,
+      "nut": "M3 hex captured in ARM-207 pocket, recessed 0.5 mm",
+      "washers": 1,
+      "grip_mm": 9.600000000000007,
+      "thread_protrusion_mm": 0.0
+    },
+    {
+      "label": "shoulder_hub_1",
+      "parent": "upper",
+      "diameter_mm": 3,
+      "length_mm": 12,
+      "nut": "M3 hex captured in ARM-207 pocket, recessed 0.5 mm",
+      "washers": 1,
+      "grip_mm": 9.600000000000007,
+      "thread_protrusion_mm": 0.0
+    },
+    {
+      "label": "shoulder_hub_2",
+      "parent": "upper",
+      "diameter_mm": 3,
+      "length_mm": 12,
+      "nut": "M3 hex captured in ARM-207 pocket, recessed 0.5 mm",
+      "washers": 1,
+      "grip_mm": 9.600000000000007,
+      "thread_protrusion_mm": 0.0
+    },
+    {
+      "label": "shoulder_hub_3",
+      "parent": "upper",
+      "diameter_mm": 3,
+      "length_mm": 12,
+      "nut": "M3 hex captured in ARM-207 pocket, recessed 0.5 mm",
+      "washers": 1,
+      "grip_mm": 9.600000000000007,
+      "thread_protrusion_mm": 0.0
+    },
+    {
+      "label": "elbow_hub_0",
+      "parent": "forearm",
+      "diameter_mm": 3,
+      "length_mm": 12,
+      "nut": "M3 hex captured in ARM-207 pocket, recessed 0.5 mm",
+      "washers": 1,
+      "grip_mm": 9.600000000000007,
+      "thread_protrusion_mm": 0.0
+    },
+    {
+      "label": "elbow_hub_1",
+      "parent": "forearm",
+      "diameter_mm": 3,
+      "length_mm": 12,
+      "nut": "M3 hex captured in ARM-207 pocket, recessed 0.5 mm",
+      "washers": 1,
+      "grip_mm": 9.600000000000007,
+      "thread_protrusion_mm": 0.0
+    },
+    {
+      "label": "elbow_hub_2",
+      "parent": "forearm",
+      "diameter_mm": 3,
+      "length_mm": 12,
+      "nut": "M3 hex captured in ARM-207 pocket, recessed 0.5 mm",
+      "washers": 1,
+      "grip_mm": 9.600000000000007,
+      "thread_protrusion_mm": 0.0
+    },
+    {
+      "label": "elbow_hub_3",
+      "parent": "forearm",
+      "diameter_mm": 3,
+      "length_mm": 12,
+      "nut": "M3 hex captured in ARM-207 pocket, recessed 0.5 mm",
+      "washers": 1,
+      "grip_mm": 9.600000000000007,
+      "thread_protrusion_mm": 0.0
+    },
+    {
+      "label": "shoulder_servo_ear_0",
+      "parent": "yaw",
+      "diameter_mm": 3,
+      "length_mm": 14,
+      "nut": "nyloc",
+      "washers": 2,
+      "grip_mm": 6.400000000000006,
+      "thread_protrusion_mm": 2.5999999999999943,
+      "note": "owned MG996R ear output end 2.4 mm"
+    },
+    {
+      "label": "shoulder_servo_ear_1",
+      "parent": "yaw",
+      "diameter_mm": 3,
+      "length_mm": 14,
+      "nut": "nyloc",
+      "washers": 2,
+      "grip_mm": 6.400000000000006,
+      "thread_protrusion_mm": 2.5999999999999943,
+      "note": "owned MG996R ear output end 2.4 mm"
+    },
+    {
+      "label": "shoulder_servo_ear_2",
+      "parent": "yaw",
+      "diameter_mm": 3,
+      "length_mm": 14,
+      "nut": "nyloc",
+      "washers": 2,
+      "grip_mm": 5.75396383788188,
+      "thread_protrusion_mm": 3.24603616211812,
+      "note": "owned MG996R ear far end 1.754 mm"
+    },
+    {
+      "label": "shoulder_servo_ear_3",
+      "parent": "yaw",
+      "diameter_mm": 3,
+      "length_mm": 14,
+      "nut": "nyloc",
+      "washers": 2,
+      "grip_mm": 5.75396383788188,
+      "thread_protrusion_mm": 3.24603616211812,
+      "note": "owned MG996R ear far end 1.754 mm"
+    },
+    {
+      "label": "elbow_servo_ear_0",
+      "parent": "upper",
+      "diameter_mm": 3,
+      "length_mm": 14,
+      "nut": "nyloc",
+      "washers": 2,
+      "grip_mm": 6.400000000000006,
+      "thread_protrusion_mm": 2.5999999999999943,
+      "note": "owned MG996R ear output end 2.4 mm"
+    },
+    {
+      "label": "elbow_servo_ear_1",
+      "parent": "upper",
+      "diameter_mm": 3,
+      "length_mm": 14,
+      "nut": "nyloc",
+      "washers": 2,
+      "grip_mm": 6.400000000000006,
+      "thread_protrusion_mm": 2.5999999999999943,
+      "note": "owned MG996R ear output end 2.4 mm"
+    },
+    {
+      "label": "elbow_servo_ear_2",
+      "parent": "upper",
+      "diameter_mm": 3,
+      "length_mm": 14,
+      "nut": "nyloc",
+      "washers": 2,
+      "grip_mm": 5.75396383788188,
+      "thread_protrusion_mm": 3.24603616211812,
+      "note": "owned MG996R ear far end 1.754 mm"
+    },
+    {
+      "label": "elbow_servo_ear_3",
+      "parent": "upper",
+      "diameter_mm": 3,
+      "length_mm": 14,
+      "nut": "nyloc",
+      "washers": 2,
+      "grip_mm": 5.75396383788188,
+      "thread_protrusion_mm": 3.24603616211812,
+      "note": "owned MG996R ear far end 1.754 mm"
+    },
+    {
+      "label": "yaw_servo_ear_0",
+      "parent": "base",
+      "diameter_mm": 2,
+      "length_mm": 10,
+      "nut": "hex",
+      "washers": 0,
+      "grip_mm": 6.399999999999999,
+      "thread_protrusion_mm": 2.0000000000000018,
+      "note": "owned SG90 ear; washers omitted because a 5 mm washer would overlap the case wall"
+    },
+    {
+      "label": "yaw_servo_ear_1",
+      "parent": "base",
+      "diameter_mm": 2,
+      "length_mm": 10,
+      "nut": "hex",
+      "washers": 0,
+      "grip_mm": 6.399999999999999,
+      "thread_protrusion_mm": 2.0000000000000018,
+      "note": "owned SG90 ear; washers omitted because a 5 mm washer would overlap the case wall"
     }
   ],
   "rigid_attachments": [
@@ -7224,22 +6982,6 @@
     ],
     [
       "upright",
-      "yaw"
-    ],
-    [
-      "yaw_horn",
-      "yaw"
-    ],
-    [
-      "shoulder_horn",
-      "upper"
-    ],
-    [
-      "elbow_horn",
-      "forearm"
-    ],
-    [
-      "yaw_horn_cap",
       "yaw"
     ],
     [
@@ -7321,166 +7063,6 @@
     [
       "gripper_crush_spacer_1",
       "forearm"
-    ],
-    [
-      "yaw_servo_mount_0_screw",
-      "base"
-    ],
-    [
-      "yaw_servo_mount_0_head_washer",
-      "base"
-    ],
-    [
-      "yaw_servo_mount_0_nut_washer",
-      "base"
-    ],
-    [
-      "yaw_servo_mount_0_nut",
-      "base"
-    ],
-    [
-      "yaw_servo_mount_1_screw",
-      "base"
-    ],
-    [
-      "yaw_servo_mount_1_head_washer",
-      "base"
-    ],
-    [
-      "yaw_servo_mount_1_nut_washer",
-      "base"
-    ],
-    [
-      "yaw_servo_mount_1_nut",
-      "base"
-    ],
-    [
-      "shoulder_servo_mount_0_screw",
-      "yaw"
-    ],
-    [
-      "shoulder_servo_mount_0_head_washer",
-      "yaw"
-    ],
-    [
-      "shoulder_servo_mount_0_nut_washer",
-      "yaw"
-    ],
-    [
-      "shoulder_servo_mount_0_nut",
-      "yaw"
-    ],
-    [
-      "shoulder_servo_mount_1_screw",
-      "yaw"
-    ],
-    [
-      "shoulder_servo_mount_1_head_washer",
-      "yaw"
-    ],
-    [
-      "shoulder_servo_mount_1_nut_washer",
-      "yaw"
-    ],
-    [
-      "shoulder_servo_mount_1_nut",
-      "yaw"
-    ],
-    [
-      "shoulder_servo_mount_2_screw",
-      "yaw"
-    ],
-    [
-      "shoulder_servo_mount_2_head_washer",
-      "yaw"
-    ],
-    [
-      "shoulder_servo_mount_2_nut_washer",
-      "yaw"
-    ],
-    [
-      "shoulder_servo_mount_2_nut",
-      "yaw"
-    ],
-    [
-      "shoulder_servo_mount_3_screw",
-      "yaw"
-    ],
-    [
-      "shoulder_servo_mount_3_head_washer",
-      "yaw"
-    ],
-    [
-      "shoulder_servo_mount_3_nut_washer",
-      "yaw"
-    ],
-    [
-      "shoulder_servo_mount_3_nut",
-      "yaw"
-    ],
-    [
-      "elbow_servo_mount_0_screw",
-      "upper"
-    ],
-    [
-      "elbow_servo_mount_0_head_washer",
-      "upper"
-    ],
-    [
-      "elbow_servo_mount_0_nut_washer",
-      "upper"
-    ],
-    [
-      "elbow_servo_mount_0_nut",
-      "upper"
-    ],
-    [
-      "elbow_servo_mount_1_screw",
-      "upper"
-    ],
-    [
-      "elbow_servo_mount_1_head_washer",
-      "upper"
-    ],
-    [
-      "elbow_servo_mount_1_nut_washer",
-      "upper"
-    ],
-    [
-      "elbow_servo_mount_1_nut",
-      "upper"
-    ],
-    [
-      "elbow_servo_mount_2_screw",
-      "upper"
-    ],
-    [
-      "elbow_servo_mount_2_head_washer",
-      "upper"
-    ],
-    [
-      "elbow_servo_mount_2_nut_washer",
-      "upper"
-    ],
-    [
-      "elbow_servo_mount_2_nut",
-      "upper"
-    ],
-    [
-      "elbow_servo_mount_3_screw",
-      "upper"
-    ],
-    [
-      "elbow_servo_mount_3_head_washer",
-      "upper"
-    ],
-    [
-      "elbow_servo_mount_3_nut_washer",
-      "upper"
-    ],
-    [
-      "elbow_servo_mount_3_nut",
-      "upper"
     ],
     [
       "upright_foot_0_screw",
@@ -7803,118 +7385,6 @@
       "upper"
     ],
     [
-      "shoulder_horn_0_screw",
-      "upper"
-    ],
-    [
-      "shoulder_horn_0_head_washer",
-      "upper"
-    ],
-    [
-      "shoulder_horn_1_screw",
-      "upper"
-    ],
-    [
-      "shoulder_horn_1_head_washer",
-      "upper"
-    ],
-    [
-      "shoulder_horn_2_screw",
-      "upper"
-    ],
-    [
-      "shoulder_horn_2_head_washer",
-      "upper"
-    ],
-    [
-      "shoulder_horn_3_screw",
-      "upper"
-    ],
-    [
-      "shoulder_horn_3_head_washer",
-      "upper"
-    ],
-    [
-      "elbow_horn_0_screw",
-      "forearm"
-    ],
-    [
-      "elbow_horn_0_head_washer",
-      "forearm"
-    ],
-    [
-      "elbow_horn_1_screw",
-      "forearm"
-    ],
-    [
-      "elbow_horn_1_head_washer",
-      "forearm"
-    ],
-    [
-      "elbow_horn_2_screw",
-      "forearm"
-    ],
-    [
-      "elbow_horn_2_head_washer",
-      "forearm"
-    ],
-    [
-      "elbow_horn_3_screw",
-      "forearm"
-    ],
-    [
-      "elbow_horn_3_head_washer",
-      "forearm"
-    ],
-    [
-      "yaw_horn_capture_0_screw",
-      "yaw"
-    ],
-    [
-      "yaw_horn_capture_0_washer",
-      "yaw"
-    ],
-    [
-      "yaw_horn_capture_0_nut",
-      "yaw"
-    ],
-    [
-      "yaw_horn_capture_1_screw",
-      "yaw"
-    ],
-    [
-      "yaw_horn_capture_1_washer",
-      "yaw"
-    ],
-    [
-      "yaw_horn_capture_1_nut",
-      "yaw"
-    ],
-    [
-      "yaw_horn_capture_2_screw",
-      "yaw"
-    ],
-    [
-      "yaw_horn_capture_2_washer",
-      "yaw"
-    ],
-    [
-      "yaw_horn_capture_2_nut",
-      "yaw"
-    ],
-    [
-      "yaw_horn_capture_3_screw",
-      "yaw"
-    ],
-    [
-      "yaw_horn_capture_3_washer",
-      "yaw"
-    ],
-    [
-      "yaw_horn_capture_3_nut",
-      "yaw"
-    ],
-    [
       "yaw_retention_crossbolt_screw",
       "yaw"
     ],
@@ -7961,7 +7431,3133 @@
     [
       "cassette_mount_1_nut",
       "base"
+    ],
+    [
+      "shoulder_servo_owned",
+      "yaw"
+    ],
+    [
+      "elbow_servo_owned",
+      "upper"
+    ],
+    [
+      "yaw_servo_owned",
+      "base"
+    ],
+    [
+      "shoulder_spline_hub",
+      "upper"
+    ],
+    [
+      "elbow_spline_hub",
+      "forearm"
+    ],
+    [
+      "shoulder_spline_screw",
+      "upper"
+    ],
+    [
+      "elbow_spline_screw",
+      "forearm"
+    ],
+    [
+      "yaw_spline_screw",
+      "yaw"
+    ],
+    [
+      "shoulder_hub_0_screw",
+      "upper"
+    ],
+    [
+      "shoulder_hub_0_head_washer",
+      "upper"
+    ],
+    [
+      "shoulder_hub_0_nut",
+      "upper"
+    ],
+    [
+      "shoulder_hub_1_screw",
+      "upper"
+    ],
+    [
+      "shoulder_hub_1_head_washer",
+      "upper"
+    ],
+    [
+      "shoulder_hub_1_nut",
+      "upper"
+    ],
+    [
+      "shoulder_hub_2_screw",
+      "upper"
+    ],
+    [
+      "shoulder_hub_2_head_washer",
+      "upper"
+    ],
+    [
+      "shoulder_hub_2_nut",
+      "upper"
+    ],
+    [
+      "shoulder_hub_3_screw",
+      "upper"
+    ],
+    [
+      "shoulder_hub_3_head_washer",
+      "upper"
+    ],
+    [
+      "shoulder_hub_3_nut",
+      "upper"
+    ],
+    [
+      "elbow_hub_0_screw",
+      "forearm"
+    ],
+    [
+      "elbow_hub_0_head_washer",
+      "forearm"
+    ],
+    [
+      "elbow_hub_0_nut",
+      "forearm"
+    ],
+    [
+      "elbow_hub_1_screw",
+      "forearm"
+    ],
+    [
+      "elbow_hub_1_head_washer",
+      "forearm"
+    ],
+    [
+      "elbow_hub_1_nut",
+      "forearm"
+    ],
+    [
+      "elbow_hub_2_screw",
+      "forearm"
+    ],
+    [
+      "elbow_hub_2_head_washer",
+      "forearm"
+    ],
+    [
+      "elbow_hub_2_nut",
+      "forearm"
+    ],
+    [
+      "elbow_hub_3_screw",
+      "forearm"
+    ],
+    [
+      "elbow_hub_3_head_washer",
+      "forearm"
+    ],
+    [
+      "elbow_hub_3_nut",
+      "forearm"
+    ],
+    [
+      "shoulder_servo_ear_0_screw",
+      "yaw"
+    ],
+    [
+      "shoulder_servo_ear_0_head_washer",
+      "yaw"
+    ],
+    [
+      "shoulder_servo_ear_0_nut_washer",
+      "yaw"
+    ],
+    [
+      "shoulder_servo_ear_0_nut",
+      "yaw"
+    ],
+    [
+      "shoulder_servo_ear_1_screw",
+      "yaw"
+    ],
+    [
+      "shoulder_servo_ear_1_head_washer",
+      "yaw"
+    ],
+    [
+      "shoulder_servo_ear_1_nut_washer",
+      "yaw"
+    ],
+    [
+      "shoulder_servo_ear_1_nut",
+      "yaw"
+    ],
+    [
+      "shoulder_servo_ear_2_screw",
+      "yaw"
+    ],
+    [
+      "shoulder_servo_ear_2_head_washer",
+      "yaw"
+    ],
+    [
+      "shoulder_servo_ear_2_nut_washer",
+      "yaw"
+    ],
+    [
+      "shoulder_servo_ear_2_nut",
+      "yaw"
+    ],
+    [
+      "shoulder_servo_ear_3_screw",
+      "yaw"
+    ],
+    [
+      "shoulder_servo_ear_3_head_washer",
+      "yaw"
+    ],
+    [
+      "shoulder_servo_ear_3_nut_washer",
+      "yaw"
+    ],
+    [
+      "shoulder_servo_ear_3_nut",
+      "yaw"
+    ],
+    [
+      "elbow_servo_ear_0_screw",
+      "upper"
+    ],
+    [
+      "elbow_servo_ear_0_head_washer",
+      "upper"
+    ],
+    [
+      "elbow_servo_ear_0_nut_washer",
+      "upper"
+    ],
+    [
+      "elbow_servo_ear_0_nut",
+      "upper"
+    ],
+    [
+      "elbow_servo_ear_1_screw",
+      "upper"
+    ],
+    [
+      "elbow_servo_ear_1_head_washer",
+      "upper"
+    ],
+    [
+      "elbow_servo_ear_1_nut_washer",
+      "upper"
+    ],
+    [
+      "elbow_servo_ear_1_nut",
+      "upper"
+    ],
+    [
+      "elbow_servo_ear_2_screw",
+      "upper"
+    ],
+    [
+      "elbow_servo_ear_2_head_washer",
+      "upper"
+    ],
+    [
+      "elbow_servo_ear_2_nut_washer",
+      "upper"
+    ],
+    [
+      "elbow_servo_ear_2_nut",
+      "upper"
+    ],
+    [
+      "elbow_servo_ear_3_screw",
+      "upper"
+    ],
+    [
+      "elbow_servo_ear_3_head_washer",
+      "upper"
+    ],
+    [
+      "elbow_servo_ear_3_nut_washer",
+      "upper"
+    ],
+    [
+      "elbow_servo_ear_3_nut",
+      "upper"
+    ],
+    [
+      "yaw_servo_ear_0_screw",
+      "base"
+    ],
+    [
+      "yaw_servo_ear_0_nut",
+      "base"
+    ],
+    [
+      "yaw_servo_ear_1_screw",
+      "base"
+    ],
+    [
+      "yaw_servo_ear_1_nut",
+      "base"
     ]
   ],
-  "assembly": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v4\\ARM-D_Modular_parallel_gripper_DEVELOPMENT.SLDASM"
+  "assembly": "C:\\Users\\luisg\\OneDrive - Washington University in St. Louis\\Desktop\\Luis_Dashboard\\Projects\\Robotics-Mechatronics\\eoat-automation-cell\\cad\\arm-v4\\ARM-D_Modular_parallel_gripper_DEVELOPMENT.SLDASM",
+  "superseded_components": [
+    {
+      "key": "elbow_horn",
+      "instance": "HW-006_MG996_25T_D20_PCD14_HORN-2",
+      "file": "hardware-reference\\HW-006_MG996_25T_D20_PCD14_HORN.SLDPRT",
+      "position_mm": [
+        42.42640687119285,
+        164.42640687119285,
+        39.0
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_horn_0_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-29",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        49.42640687119285,
+        164.42640687119285,
+        49.0
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_horn_0_screw",
+      "instance": "HW-S_M3x12_socket_ENVELOPE-5",
+      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        49.42640687119285,
+        164.42640687119285,
+        49.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_horn_1_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-30",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        35.42640687119285,
+        164.42640687119285,
+        49.0
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_horn_1_screw",
+      "instance": "HW-S_M3x12_socket_ENVELOPE-6",
+      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        35.42640687119285,
+        164.42640687119285,
+        49.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_horn_2_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-31",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        42.42640687119285,
+        171.42640687119285,
+        49.0
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_horn_2_screw",
+      "instance": "HW-S_M3x12_socket_ENVELOPE-7",
+      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        42.42640687119285,
+        171.42640687119285,
+        49.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_horn_3_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-32",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        42.42640687119285,
+        157.42640687119285,
+        49.0
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_horn_3_screw",
+      "instance": "HW-S_M3x12_socket_ENVELOPE-8",
+      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        42.42640687119285,
+        157.42640687119285,
+        49.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo",
+      "instance": "HW-004_MG996R_NOMINAL_VERIFY-2",
+      "file": "hardware-reference\\HW-004_MG996R_NOMINAL_VERIFY.SLDPRT",
+      "position_mm": [
+        42.42640687119285,
+        164.42640687119285,
+        27.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_mount_0_head_washer",
+      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-9",
+      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        36.76955262170047,
+        151.698484809835,
+        27.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_mount_0_nut",
+      "instance": "HW-N_M2.5_nyloc_ENVELOPE-5",
+      "file": "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
+      "position_mm": [
+        36.76955262170047,
+        151.698484809835,
+        16.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_mount_0_nut_washer",
+      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-10",
+      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        36.76955262170047,
+        151.698484809835,
+        20.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_mount_0_screw",
+      "instance": "HW-S_M2.5x14_socket_ENVELOPE-5",
+      "file": "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        36.76955262170047,
+        151.698484809835,
+        28.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_mount_1_head_washer",
+      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-11",
+      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        29.698484809834994,
+        158.76955262170048,
+        27.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_mount_1_nut",
+      "instance": "HW-N_M2.5_nyloc_ENVELOPE-6",
+      "file": "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
+      "position_mm": [
+        29.698484809834994,
+        158.76955262170048,
+        16.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_mount_1_nut_washer",
+      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-12",
+      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        29.698484809834994,
+        158.76955262170048,
+        20.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_mount_1_screw",
+      "instance": "HW-S_M2.5x14_socket_ENVELOPE-6",
+      "file": "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        29.698484809834994,
+        158.76955262170048,
+        28.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_mount_2_head_washer",
+      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-13",
+      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        70.0035713374682,
+        184.93250352560273,
+        27.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_mount_2_nut",
+      "instance": "HW-N_M2.5_nyloc_ENVELOPE-7",
+      "file": "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
+      "position_mm": [
+        70.0035713374682,
+        184.93250352560273,
+        16.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_mount_2_nut_washer",
+      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-14",
+      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        70.0035713374682,
+        184.93250352560273,
+        20.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_mount_2_screw",
+      "instance": "HW-S_M2.5x14_socket_ENVELOPE-7",
+      "file": "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        70.0035713374682,
+        184.93250352560273,
+        28.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_mount_3_head_washer",
+      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-15",
+      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        62.93250352560273,
+        192.0035713374682,
+        27.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_mount_3_nut",
+      "instance": "HW-N_M2.5_nyloc_ENVELOPE-8",
+      "file": "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
+      "position_mm": [
+        62.93250352560273,
+        192.0035713374682,
+        16.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_mount_3_nut_washer",
+      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-16",
+      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        62.93250352560273,
+        192.0035713374682,
+        20.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "elbow_servo_mount_3_screw",
+      "instance": "HW-S_M2.5x14_socket_ENVELOPE-8",
+      "file": "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        62.93250352560273,
+        192.0035713374682,
+        28.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_horn",
+      "instance": "HW-006_MG996_25T_D20_PCD14_HORN-1",
+      "file": "hardware-reference\\HW-006_MG996_25T_D20_PCD14_HORN.SLDPRT",
+      "position_mm": [
+        0,
+        122,
+        18.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_horn_0_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-25",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        4.949747468305833,
+        126.94974746830583,
+        28.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_horn_0_screw",
+      "instance": "HW-S_M3x12_socket_ENVELOPE-1",
+      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        4.949747468305833,
+        126.94974746830583,
+        29.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_horn_1_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-26",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -4.949747468305833,
+        117.05025253169417,
+        28.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_horn_1_screw",
+      "instance": "HW-S_M3x12_socket_ENVELOPE-2",
+      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -4.949747468305833,
+        117.05025253169417,
+        29.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_horn_2_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-27",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -4.949747468305833,
+        126.94974746830583,
+        28.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_horn_2_screw",
+      "instance": "HW-S_M3x12_socket_ENVELOPE-3",
+      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -4.949747468305833,
+        126.94974746830583,
+        29.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_horn_3_head_washer",
+      "instance": "HW-W_M3_washer_0p5_ENVELOPE-28",
+      "file": "hardware-reference\\HW-W_M3_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        4.949747468305833,
+        117.05025253169417,
+        28.5
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_horn_3_screw",
+      "instance": "HW-S_M3x12_socket_ENVELOPE-4",
+      "file": "hardware-reference\\HW-S_M3x12_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        4.949747468305833,
+        117.05025253169417,
+        29.0
+      ],
+      "rotation": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo",
+      "instance": "HW-004_MG996R_NOMINAL_VERIFY-1",
+      "file": "hardware-reference\\HW-004_MG996R_NOMINAL_VERIFY.SLDPRT",
+      "position_mm": [
+        0,
+        122,
+        7
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_mount_0_head_washer",
+      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-1",
+      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -13.0,
+        117.0,
+        7
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_mount_0_nut",
+      "instance": "HW-N_M2.5_nyloc_ENVELOPE-1",
+      "file": "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -13.0,
+        117.0,
+        -4.0
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_mount_0_nut_washer",
+      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-2",
+      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -13.0,
+        117.0,
+        -0.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_mount_0_screw",
+      "instance": "HW-S_M2.5x14_socket_ENVELOPE-1",
+      "file": "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -13.0,
+        117.0,
+        7.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_mount_1_head_washer",
+      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-3",
+      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -13.0,
+        127.0,
+        7
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_mount_1_nut",
+      "instance": "HW-N_M2.5_nyloc_ENVELOPE-2",
+      "file": "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -13.0,
+        127.0,
+        -4.0
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_mount_1_nut_washer",
+      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-4",
+      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -13.0,
+        127.0,
+        -0.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_mount_1_screw",
+      "instance": "HW-S_M2.5x14_socket_ENVELOPE-2",
+      "file": "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -13.0,
+        127.0,
+        7.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_mount_2_head_washer",
+      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-5",
+      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        34.0,
+        117.0,
+        7
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_mount_2_nut",
+      "instance": "HW-N_M2.5_nyloc_ENVELOPE-3",
+      "file": "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
+      "position_mm": [
+        34.0,
+        117.0,
+        -4.0
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_mount_2_nut_washer",
+      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-6",
+      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        34.0,
+        117.0,
+        -0.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_mount_2_screw",
+      "instance": "HW-S_M2.5x14_socket_ENVELOPE-3",
+      "file": "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        34.0,
+        117.0,
+        7.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_mount_3_head_washer",
+      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-7",
+      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        34.0,
+        127.0,
+        7
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_mount_3_nut",
+      "instance": "HW-N_M2.5_nyloc_ENVELOPE-4",
+      "file": "hardware-reference\\HW-N_M2.5_nyloc_ENVELOPE.SLDPRT",
+      "position_mm": [
+        34.0,
+        127.0,
+        -4.0
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_mount_3_nut_washer",
+      "instance": "HW-W_M2.5_washer_0p5_ENVELOPE-8",
+      "file": "hardware-reference\\HW-W_M2.5_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        34.0,
+        127.0,
+        -0.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "shoulder_servo_mount_3_screw",
+      "instance": "HW-S_M2.5x14_socket_ENVELOPE-4",
+      "file": "hardware-reference\\HW-S_M2.5x14_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        34.0,
+        127.0,
+        7.5
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0
+        ],
+        [
+          0.0,
+          1.0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "key": "yaw_horn",
+      "instance": "HW-005_SG90_COMPACT_CROSS_REFERENCE-1",
+      "file": "hardware-reference\\HW-005_SG90_COMPACT_CROSS_REFERENCE.SLDPRT",
+      "position_mm": [
+        0,
+        39.5,
+        0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_horn_cap",
+      "instance": "ARM-112_SG90_horn_capture_cap-1",
+      "file": "parts\\ARM-112_SG90_horn_capture_cap.SLDPRT",
+      "position_mm": [
+        0,
+        37.35,
+        0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_horn_capture_0_nut",
+      "instance": "HW-N_M2_hex_ENVELOPE-9",
+      "file": "hardware-reference\\HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "position_mm": [
+        7.0,
+        44.5,
+        -7.0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_horn_capture_0_screw",
+      "instance": "HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE-1",
+      "file": "hardware-reference\\HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE.SLDPRT",
+      "position_mm": [
+        7.0,
+        37.9,
+        -7.0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_horn_capture_0_washer",
+      "instance": "HW-W_M2_washer_0p5_ENVELOPE-17",
+      "file": "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        7,
+        44,
+        -7
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_horn_capture_1_nut",
+      "instance": "HW-N_M2_hex_ENVELOPE-10",
+      "file": "hardware-reference\\HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -7.0,
+        44.5,
+        -7.0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_horn_capture_1_screw",
+      "instance": "HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE-2",
+      "file": "hardware-reference\\HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -7.0,
+        37.9,
+        -7.0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_horn_capture_1_washer",
+      "instance": "HW-W_M2_washer_0p5_ENVELOPE-18",
+      "file": "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -7,
+        44,
+        -7
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_horn_capture_2_nut",
+      "instance": "HW-N_M2_hex_ENVELOPE-11",
+      "file": "hardware-reference\\HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -7.0,
+        44.5,
+        7.0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_horn_capture_2_screw",
+      "instance": "HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE-3",
+      "file": "hardware-reference\\HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -7.0,
+        37.9,
+        7.0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_horn_capture_2_washer",
+      "instance": "HW-W_M2_washer_0p5_ENVELOPE-19",
+      "file": "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -7,
+        44,
+        7
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_horn_capture_3_nut",
+      "instance": "HW-N_M2_hex_ENVELOPE-12",
+      "file": "hardware-reference\\HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "position_mm": [
+        7.0,
+        44.5,
+        7.0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_horn_capture_3_screw",
+      "instance": "HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE-4",
+      "file": "hardware-reference\\HW-S_M2x10_LOW_HEAD_D4_H1p1_ENVELOPE.SLDPRT",
+      "position_mm": [
+        7.0,
+        37.9,
+        7.0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_horn_capture_3_washer",
+      "instance": "HW-W_M2_washer_0p5_ENVELOPE-20",
+      "file": "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        7,
+        44,
+        7
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_servo",
+      "instance": "HW-003_SG90_NOMINAL_VERIFY-1",
+      "file": "hardware-reference\\HW-003_SG90_NOMINAL_VERIFY.SLDPRT",
+      "position_mm": [
+        0,
+        27.8,
+        0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_servo_mount_0_head_washer",
+      "instance": "HW-W_M2_washer_0p5_ENVELOPE-1",
+      "file": "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -9,
+        27.8,
+        0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_servo_mount_0_nut",
+      "instance": "HW-N_M2_hex_ENVELOPE-1",
+      "file": "hardware-reference\\HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -9.0,
+        19.3,
+        0.0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_servo_mount_0_nut_washer",
+      "instance": "HW-W_M2_washer_0p5_ENVELOPE-2",
+      "file": "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -9.0,
+        20.9,
+        0.0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_servo_mount_0_screw",
+      "instance": "HW-S_M2x10_socket_ENVELOPE-1",
+      "file": "hardware-reference\\HW-S_M2x10_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        -9.0,
+        28.3,
+        0.0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_servo_mount_1_head_washer",
+      "instance": "HW-W_M2_washer_0p5_ENVELOPE-3",
+      "file": "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        20,
+        27.8,
+        0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_servo_mount_1_nut",
+      "instance": "HW-N_M2_hex_ENVELOPE-2",
+      "file": "hardware-reference\\HW-N_M2_hex_ENVELOPE.SLDPRT",
+      "position_mm": [
+        20.0,
+        19.3,
+        0.0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_servo_mount_1_nut_washer",
+      "instance": "HW-W_M2_washer_0p5_ENVELOPE-4",
+      "file": "hardware-reference\\HW-W_M2_washer_0p5_ENVELOPE.SLDPRT",
+      "position_mm": [
+        20.0,
+        20.9,
+        0.0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "key": "yaw_servo_mount_1_screw",
+      "instance": "HW-S_M2x10_socket_ENVELOPE-2",
+      "file": "hardware-reference\\HW-S_M2x10_socket_ENVELOPE.SLDPRT",
+      "position_mm": [
+        20.0,
+        28.3,
+        0.0
+      ],
+      "rotation": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    }
+  ],
+  "superseded_mates": [
+    {
+      "name": "Mount_yaw_horn_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "yaw_horn",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_horn_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_horn",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_horn_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_horn",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_horn_cap_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "yaw_horn_cap",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_servo_mount_0_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "base",
+      "child": "yaw_servo_mount_0_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_servo_mount_0_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "base",
+      "child": "yaw_servo_mount_0_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_servo_mount_0_nut_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "base",
+      "child": "yaw_servo_mount_0_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_servo_mount_0_nut_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "base",
+      "child": "yaw_servo_mount_0_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_servo_mount_1_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "base",
+      "child": "yaw_servo_mount_1_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_servo_mount_1_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "base",
+      "child": "yaw_servo_mount_1_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_servo_mount_1_nut_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "base",
+      "child": "yaw_servo_mount_1_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_servo_mount_1_nut_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "base",
+      "child": "yaw_servo_mount_1_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_mount_0_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_mount_0_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_mount_0_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_mount_0_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_mount_0_nut_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_mount_0_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_mount_0_nut_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_mount_0_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_mount_1_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_mount_1_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_mount_1_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_mount_1_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_mount_1_nut_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_mount_1_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_mount_1_nut_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_mount_1_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_mount_2_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_mount_2_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_mount_2_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_mount_2_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_mount_2_nut_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_mount_2_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_mount_2_nut_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_mount_2_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_mount_3_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_mount_3_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_mount_3_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_mount_3_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_mount_3_nut_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_mount_3_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_mount_3_nut_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo_mount_3_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_mount_0_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_mount_0_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_mount_0_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_mount_0_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_mount_0_nut_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_mount_0_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_mount_0_nut_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_mount_0_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_mount_1_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_mount_1_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_mount_1_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_mount_1_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_mount_1_nut_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_mount_1_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_mount_1_nut_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_mount_1_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_mount_2_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_mount_2_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_mount_2_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_mount_2_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_mount_2_nut_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_mount_2_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_mount_2_nut_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_mount_2_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_mount_3_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_mount_3_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_mount_3_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_mount_3_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_mount_3_nut_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_mount_3_nut_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_mount_3_nut_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo_mount_3_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_horn_0_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_horn_0_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_horn_0_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_horn_0_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_horn_1_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_horn_1_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_horn_1_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_horn_1_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_horn_2_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_horn_2_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_horn_2_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_horn_2_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_horn_3_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_horn_3_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_horn_3_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "shoulder_horn_3_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_horn_0_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_horn_0_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_horn_0_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_horn_0_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_horn_1_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_horn_1_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_horn_1_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_horn_1_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_horn_2_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_horn_2_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_horn_2_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_horn_2_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_horn_3_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_horn_3_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_horn_3_head_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "forearm",
+      "child": "elbow_horn_3_head_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_horn_capture_0_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "yaw_horn_capture_0_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_horn_capture_0_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "yaw_horn_capture_0_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_horn_capture_0_nut_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "yaw_horn_capture_0_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_horn_capture_1_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "yaw_horn_capture_1_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_horn_capture_1_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "yaw_horn_capture_1_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_horn_capture_1_nut_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "yaw_horn_capture_1_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_horn_capture_2_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "yaw_horn_capture_2_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_horn_capture_2_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "yaw_horn_capture_2_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_horn_capture_2_nut_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "yaw_horn_capture_2_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_horn_capture_3_screw_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "yaw_horn_capture_3_screw",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_horn_capture_3_washer_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "yaw_horn_capture_3_washer",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_horn_capture_3_nut_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "yaw_horn_capture_3_nut",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_yaw_servo_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "base",
+      "child": "yaw_servo",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_shoulder_servo_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "yaw",
+      "child": "shoulder_servo",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "Mount_elbow_servo_superseded_nominal_servo",
+      "type": "lock",
+      "parent": "upper",
+      "child": "elbow_servo",
+      "creation_api": "CreateMateData/CreateMate"
+    },
+    {
+      "name": "J2_shoulder_axis_superseded_nominal_servo",
+      "type": 1,
+      "error": 1
+    },
+    {
+      "name": "J3_elbow_axis_superseded_nominal_servo",
+      "type": 1,
+      "error": 1
+    }
+  ],
+  "superseded_fastener_stacks": [
+    {
+      "label": "yaw_servo_mount_0",
+      "parent": "base",
+      "diameter_mm": 2,
+      "length_mm": 10,
+      "nut": "hex",
+      "grip_mm": 6.4,
+      "thread_protrusion_mm": 1.0
+    },
+    {
+      "label": "yaw_servo_mount_1",
+      "parent": "base",
+      "diameter_mm": 2,
+      "length_mm": 10,
+      "nut": "hex",
+      "grip_mm": 6.4,
+      "thread_protrusion_mm": 1.0
+    },
+    {
+      "label": "shoulder_servo_mount_0",
+      "parent": "yaw",
+      "diameter_mm": 2.5,
+      "length_mm": 14,
+      "nut": "nyloc",
+      "grip_mm": 7,
+      "thread_protrusion_mm": 2.5
+    },
+    {
+      "label": "shoulder_servo_mount_1",
+      "parent": "yaw",
+      "diameter_mm": 2.5,
+      "length_mm": 14,
+      "nut": "nyloc",
+      "grip_mm": 7,
+      "thread_protrusion_mm": 2.5
+    },
+    {
+      "label": "shoulder_servo_mount_2",
+      "parent": "yaw",
+      "diameter_mm": 2.5,
+      "length_mm": 14,
+      "nut": "nyloc",
+      "grip_mm": 7,
+      "thread_protrusion_mm": 2.5
+    },
+    {
+      "label": "shoulder_servo_mount_3",
+      "parent": "yaw",
+      "diameter_mm": 2.5,
+      "length_mm": 14,
+      "nut": "nyloc",
+      "grip_mm": 7,
+      "thread_protrusion_mm": 2.5
+    },
+    {
+      "label": "elbow_servo_mount_0",
+      "parent": "upper",
+      "diameter_mm": 2.5,
+      "length_mm": 14,
+      "nut": "nyloc",
+      "grip_mm": 7,
+      "thread_protrusion_mm": 2.5
+    },
+    {
+      "label": "elbow_servo_mount_1",
+      "parent": "upper",
+      "diameter_mm": 2.5,
+      "length_mm": 14,
+      "nut": "nyloc",
+      "grip_mm": 7,
+      "thread_protrusion_mm": 2.5
+    },
+    {
+      "label": "elbow_servo_mount_2",
+      "parent": "upper",
+      "diameter_mm": 2.5,
+      "length_mm": 14,
+      "nut": "nyloc",
+      "grip_mm": 7,
+      "thread_protrusion_mm": 2.5
+    },
+    {
+      "label": "elbow_servo_mount_3",
+      "parent": "upper",
+      "diameter_mm": 2.5,
+      "length_mm": 14,
+      "nut": "nyloc",
+      "grip_mm": 7,
+      "thread_protrusion_mm": 2.5
+    },
+    {
+      "label": "shoulder_horn_0",
+      "parent": "upper",
+      "diameter_mm": 3,
+      "length_mm": 12,
+      "nut": "none; M3 tapped metal horn",
+      "printed_grip_mm": 8,
+      "metal_thread_engagement_mm": 2,
+      "thread_protrusion_past_horn_mm": 1.5,
+      "clearance_to_servo_case_front_mm": 3
+    },
+    {
+      "label": "shoulder_horn_1",
+      "parent": "upper",
+      "diameter_mm": 3,
+      "length_mm": 12,
+      "nut": "none; M3 tapped metal horn",
+      "printed_grip_mm": 8,
+      "metal_thread_engagement_mm": 2,
+      "thread_protrusion_past_horn_mm": 1.5,
+      "clearance_to_servo_case_front_mm": 3
+    },
+    {
+      "label": "shoulder_horn_2",
+      "parent": "upper",
+      "diameter_mm": 3,
+      "length_mm": 12,
+      "nut": "none; M3 tapped metal horn",
+      "printed_grip_mm": 8,
+      "metal_thread_engagement_mm": 2,
+      "thread_protrusion_past_horn_mm": 1.5,
+      "clearance_to_servo_case_front_mm": 3
+    },
+    {
+      "label": "shoulder_horn_3",
+      "parent": "upper",
+      "diameter_mm": 3,
+      "length_mm": 12,
+      "nut": "none; M3 tapped metal horn",
+      "printed_grip_mm": 8,
+      "metal_thread_engagement_mm": 2,
+      "thread_protrusion_past_horn_mm": 1.5,
+      "clearance_to_servo_case_front_mm": 3
+    },
+    {
+      "label": "elbow_horn_0",
+      "parent": "forearm",
+      "diameter_mm": 3,
+      "length_mm": 12,
+      "nut": "none; M3 tapped metal horn",
+      "printed_grip_mm": 8,
+      "metal_thread_engagement_mm": 2,
+      "thread_protrusion_past_horn_mm": 1.5,
+      "clearance_to_servo_case_front_mm": 3
+    },
+    {
+      "label": "elbow_horn_1",
+      "parent": "forearm",
+      "diameter_mm": 3,
+      "length_mm": 12,
+      "nut": "none; M3 tapped metal horn",
+      "printed_grip_mm": 8,
+      "metal_thread_engagement_mm": 2,
+      "thread_protrusion_past_horn_mm": 1.5,
+      "clearance_to_servo_case_front_mm": 3
+    },
+    {
+      "label": "elbow_horn_2",
+      "parent": "forearm",
+      "diameter_mm": 3,
+      "length_mm": 12,
+      "nut": "none; M3 tapped metal horn",
+      "printed_grip_mm": 8,
+      "metal_thread_engagement_mm": 2,
+      "thread_protrusion_past_horn_mm": 1.5,
+      "clearance_to_servo_case_front_mm": 3
+    },
+    {
+      "label": "elbow_horn_3",
+      "parent": "forearm",
+      "diameter_mm": 3,
+      "length_mm": 12,
+      "nut": "none; M3 tapped metal horn",
+      "printed_grip_mm": 8,
+      "metal_thread_engagement_mm": 2,
+      "thread_protrusion_past_horn_mm": 1.5,
+      "clearance_to_servo_case_front_mm": 3
+    },
+    {
+      "label": "yaw_horn_capture_0",
+      "parent": "yaw",
+      "diameter_mm": 2,
+      "length_mm": 10,
+      "head": "low profile D4 x1.1; rear side",
+      "nut": "M2 plain; front side",
+      "washer_count": 1,
+      "thread_protrusion_mm": 1.7999999999999972,
+      "minimum_axial_cover_clearance_mm": 0.1999999999999993,
+      "status": "Seated-horn height is assumed; physical clearance required"
+    },
+    {
+      "label": "yaw_horn_capture_1",
+      "parent": "yaw",
+      "diameter_mm": 2,
+      "length_mm": 10,
+      "head": "low profile D4 x1.1; rear side",
+      "nut": "M2 plain; front side",
+      "washer_count": 1,
+      "thread_protrusion_mm": 1.7999999999999972,
+      "minimum_axial_cover_clearance_mm": 0.1999999999999993,
+      "status": "Seated-horn height is assumed; physical clearance required"
+    },
+    {
+      "label": "yaw_horn_capture_2",
+      "parent": "yaw",
+      "diameter_mm": 2,
+      "length_mm": 10,
+      "head": "low profile D4 x1.1; rear side",
+      "nut": "M2 plain; front side",
+      "washer_count": 1,
+      "thread_protrusion_mm": 1.7999999999999972,
+      "minimum_axial_cover_clearance_mm": 0.1999999999999993,
+      "status": "Seated-horn height is assumed; physical clearance required"
+    },
+    {
+      "label": "yaw_horn_capture_3",
+      "parent": "yaw",
+      "diameter_mm": 2,
+      "length_mm": 10,
+      "head": "low profile D4 x1.1; rear side",
+      "nut": "M2 plain; front side",
+      "washer_count": 1,
+      "thread_protrusion_mm": 1.7999999999999972,
+      "minimum_axial_cover_clearance_mm": 0.1999999999999993,
+      "status": "Seated-horn height is assumed; physical clearance required"
+    }
+  ],
+  "owned_servo_update": {
+    "date": "2026-09-28",
+    "measurements": "owned-servo-measurements.json",
+    "design": "owned_servo_design.py",
+    "inserted_components": 68,
+    "superseded_components": 75,
+    "superseded_mates": 77,
+    "status": "Native CAD update; physical fits and performance unproven",
+    "component_suppression": {
+      "method": "IComponent2.SetSuppression2 per configuration",
+      "configurations": [
+        {
+          "configuration": "Default",
+          "newly_suppressed": 75,
+          "superseded_suppressed": 75,
+          "active_resolved": 191
+        },
+        {
+          "configuration": "01_Home",
+          "newly_suppressed": 75,
+          "superseded_suppressed": 75,
+          "active_resolved": 191
+        },
+        {
+          "configuration": "02_Grip_22mm",
+          "newly_suppressed": 75,
+          "superseded_suppressed": 75,
+          "active_resolved": 191
+        },
+        {
+          "configuration": "03_Pickup_trial",
+          "newly_suppressed": 75,
+          "superseded_suppressed": 75,
+          "active_resolved": 191
+        },
+        {
+          "configuration": "04_Transfer",
+          "newly_suppressed": 75,
+          "superseded_suppressed": 75,
+          "active_resolved": 191
+        },
+        {
+          "configuration": "05_Transfer_left",
+          "newly_suppressed": 75,
+          "superseded_suppressed": 75,
+          "active_resolved": 191
+        },
+        {
+          "configuration": "06_Transfer_right",
+          "newly_suppressed": 75,
+          "superseded_suppressed": 75,
+          "active_resolved": 191
+        },
+        {
+          "configuration": "07_Free_motion_CHECK_COLLISIONS",
+          "newly_suppressed": 75,
+          "superseded_suppressed": 75,
+          "active_resolved": 191
+        }
+      ]
+    }
+  }
 }
